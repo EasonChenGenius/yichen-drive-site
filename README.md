@@ -56,32 +56,25 @@ AMAP_SECURITY_CODE=你的securityJsCode
 
 GSAP 与 ScrollTrigger 已在本地打包，支持减少动态效果设置。源码及许可见 [GreenSock/GSAP](https://github.com/greensock/GSAP)，动效指导来自 [GreenSock/gsap-skills](https://github.com/greensock/gsap-skills)。
 
-## 实车配置与三维制作
+## 车辆资料与实车配置
 
-网站现有十一款车型条目（含用户确认的棕色 GL8 653T，是否陆尊及具体年款仍待核实），新增黑色红旗 H7（用户提供年份 2022），帕萨特记录为用户确认的 2014 款，GL8 更新为陆尊系列。考斯特使用用户提供的浅香槟棕参考图。
+**配置必须核验，不能根据概念模型或示意图编造。** 车辆详情页只呈现已核对的字段，未核实的显示“待确认”，不会用推测值填充。价格目前为演示报价，不是实车服务报价。
 
-**配置必须核验，不能根据概念模型或示意图编造。** 所有未经确认的座位、行李容量、能源、驱动、变速箱、CarPlay 和 360° 影像改为“待确认”。评分及历史旅程次数已移除。价格与订单仍明确属于演示报价，不是实车服务报价。
+**唯一填写处：`dist/vehicle-facts.js`** —— 年款、具体版本、核定座位、行李件数、驱动形式、能源类型、变速箱、Apple CarPlay、日租价、押金，以及 `RENTAL_TERMS` 合同条款，全部集中在这个文件里。改一处，全站（车型列表、筛选、匹配推荐、详情页）同步生效，不需要再动其他代码。
 
-旧程序生成三维模型保留，但已暂停网页展示。精确模型需通过实车资料、Lux3D 与 Blender 制作及核验后接入；不会以旧概念模型充当准确车型，也不会在加载失败时回退生成虚拟几何。红旗 H7 等待实车照片。
+逐车待填清单与每个字段的证据来源见 `business/车辆资料核对表-待填写.md`。
 
-- `dist/vehicle-configs.js`：配置证据与模型核验状态。
-- `configuration-status.md`：用户已确认的车型信息、待补资料与制作前提。
-- `dist/vehicle-ui.js` / `vehicle.css`：车型图片与配置状态界面。
-- `dist/vehicle-viewer.mjs`：经核验模型的网页加载器。
-- `model-work/coaster/`：本地 Blender 材质修整脚本与执行完成后的结果；旧几何仍须核验。
+- `dist/vehicle-facts.js`：车辆真实资料的唯一数据源。
+- `dist/vehicle-configs.js`：读取资料，计算座位、行李与筛选条件。
+- `dist/vehicle-ui.js` / `vehicle.css`：车型图片与资料展示界面。
+- `configuration-status.md`：已确认的车型信息、待补资料与制作前提。
 - `assets-prompts.md`：AI 示意图与授权照片来源。考斯特已改用用户参考图。
 
-Three.js 0.180.0 与 MIT LICENSE 在 `dist/vendor/three` 本地打包。参考：[Three.js](https://threejs.org/)、[Blender 官方下载](https://www.blender.org/download/)。
+## 360° 展示与 3D 看车（已移除）
 
-## 当前 3D 展示范围
+2026-10-13 起，360° 影像、3D 看车与内饰模块已从网站彻底移除，相关代码、翻译词条与 Three.js 资源（2.2MB）都不再随版本发布。
 
-首页已恢复原有内容。3D 仅在具体车型详情中按需加载，原 `#/experience` 转到选车列表。
-
-查看器支持外观环绕、前/侧/后预设视角，以及已核验内饰模型的固定视点环视。明确启用交互后才接管触摸，退出和 Escape 恢复普通页面滚动。源模型 PBR 材质保留，使用环境反射和棚拍灯光；内饰不通过透明车壳伪装。
-
-目前没有已核验实车外观/内饰精模，因此目录中的 3D 入口仍待启用。考斯特结构原型已退出网页；原 GL8 陆上公务舱图片与陆尊不匹配，已停用。旧三维研究文件保留在工程中，但不加载。
-
-详见 `vehicle-3d-delivery.md`，接入资料与坐标规则见 `model-work/vehicle-model-contract.md`。
+旧资源仅在本机归档于 `_archive-3d-20261013/`，不进 Git 仓库、不上传服务器。日后若要重新启用，需先完成实车精模的核验。
 
 ## 2026-10-07 目的地与路线更新
 
@@ -95,3 +88,13 @@ Three.js 0.180.0 与 MIT LICENSE 在 `dist/vendor/three` 本地打包。参考�
 ## v47 管理后台
 
 管理员入口：`/operator.html`。前端 `dist/operator.html`、`dist/operator.js`、`dist/operator.css`，后端 `operator_backend.py`、邮件队列 `inquiry_mail.py`。详情见 `business/管理后台使用说明-v47.md`。真实数据和私有 `.env` 不包含在交付压缩包中。
+
+## 版本留痕（GitHub 私有仓库）
+
+仓库：https://github.com/EasonChenGenius/yichen-drive-site （私有，仅本人可见）
+
+每次改动都会存成一个版本，写清“改了什么、为什么改”，随时可查看、对比、退回。改完代码后双击根目录的 **`提交本次更新.command`**，填一句更新说明即可完成留痕与推送。
+
+完整用法（怎么看历史、怎么退回旧版本、哪些机密不进仓库）见 **`版本留痕说明.md`**，逐版本变更记录见 **`CHANGELOG.md`**。
+
+⚠️ **GitHub 不等于网站上线。** 它只负责版本留痕与备份，客户看不到、也跑不了 Flask 后端。真正上线需要域名 + 云服务器 + ICP 备案，步骤见 `business/上线计划-20261013.md`，服务器配置模板见 `deploy/`。
