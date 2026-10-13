@@ -9,8 +9,8 @@
 
 cd "$(dirname "$0")" || exit 1
 
-# 运行环境里若有代理拦截，强制直连 GitHub
-unset HTTP_PROXY HTTPS_PROXY http_proxy https_proxy
+# 远程已配置为 git@github.com 的 SSH 方式，不需要、也不走 HTTP 代理。
+# 若首次使用前还没把公钥加到 GitHub，推送会提示权限不足，按版本留痕说明.md 操作即可。
 
 say()   { osascript -e "display dialog \"$1\" buttons {\"好\"} default button \"好\" with title \"YICHEN Drive 版本留痕\" with icon note" >/dev/null 2>&1; }
 ask()   { osascript -e "text returned of (display dialog \"$1\" default answer \"$2\" buttons {\"取消\",\"继续\"} default button \"继续\" with title \"YICHEN Drive 版本留痕\")" 2>/dev/null; }
