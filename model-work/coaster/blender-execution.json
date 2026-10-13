@@ -1,0 +1,25 @@
+{
+  "blenderVersion": "4.5.9 LTS",
+  "input": "/Users/eason/Documents/Codex/2026-10-04/xia/outputs/yichen-drive-site/dist/models/coaster.glb",
+  "inputSha256": "6c17f80bd547bc416b786561e61bf0eb516e696ff9c67b842b17c0a26bc096b4",
+  "modesUsed": [
+    "OBJECT",
+    "EDIT"
+  ],
+  "editedMaterial": [
+    "body-paint"
+  ],
+  "baseColorHex": "#bdad94",
+  "removedUnverifiedSeatObjects": 76,
+  "meshCount": 87,
+  "geometryStatus": "unverified-legacy-blockout",
+  "localCorrections": [
+    "approximate windscreen surface visibility"
+  ],
+  "lux3dTasksSubmitted": 0,
+  "outputs": [
+    "coaster-material-review.blend",
+    "coaster-material-review.glb",
+    "coaster-material-review.png"
+  ]
+}

@@ -1,0 +1,1095 @@
+{
+  "schema": "yichen.asset-index/v1",
+  "project": "YICHEN Drive",
+  "framework": "Existing vanilla JavaScript SPA with local Three.js and GSAP",
+  "confirmedDesignImages": [],
+  "missingAssets": [
+    {
+      "id": "verified-exterior-and-interior-models",
+      "status": "not-available",
+      "impact": "No actual fleet 3D models enabled until reference verification."
+    }
+  ],
+  "designSpecification": {
+    "brief": "design/original-design-brief.md",
+    "tokensFrom": "dist/index.html",
+    "palette": {
+      "paper": "#fbfaf7",
+      "sand": "#efede7",
+      "ink": "#171715",
+      "muted": "#716f69",
+      "charcoal": "#252522"
+    },
+    "headingFonts": [
+      "Songti SC",
+      "Noto Serif CJK SC",
+      "Source Han Serif SC",
+      "Georgia"
+    ],
+    "uiFonts": [
+      "system-ui",
+      "PingFang SC",
+      "Microsoft YaHei",
+      "Arial"
+    ],
+    "desktopPageMarginPx": 36,
+    "mobilePageMarginPx": 22,
+    "chaptersAreConfirmedMockups": false
+  },
+  "models": [
+    {
+      "id": "coaster-source",
+      "path": "model-work/coaster/coaster-material-review.blend",
+      "status": "existing-unverified-structural-prototype",
+      "preserved": true,
+      "activeInWebsite": false
+    },
+    {
+      "id": "coaster-web-assembly",
+      "path": "model-work/coaster/coaster-web-assembly.blend",
+      "status": "editable-web-hierarchy-export",
+      "geometryRegenerated": false,
+      "activeInWebsite": false
+    },
+    {
+      "id": "coaster-scroll",
+      "path": "model-work/archived-scroll-study/models/coaster-scroll.glb",
+      "status": "archived-unverified-structural-prototype",
+      "configurationVerified": false,
+      "sha256": "5939e335f2e5bd070dc07ba6b0951f6f23304de6a03bfef9af25da48fc952937",
+      "meshCount": 87,
+      "triangles": 22350,
+      "parts": [
+        {
+          "id": "Body",
+          "node": "Part_Body",
+          "meshCount": 3,
+          "initialPosition": [
+            0,
+            1.494999885559082,
+            0.03887498378753662
+          ],
+          "explosionDirection": [
+            0,
+            0.65,
+            0
+          ],
+          "meshNames": [
+            "bus-body",
+            "entry-door",
+            "entry-door-handle"
+          ]
+        },
+        {
+          "id": "Glass",
+          "node": "Part_Glass",
+          "meshCount": 31,
+          "initialPosition": [
+            0.01399993896484375,
+            1.8680000305175781,
+            0.016125023365020752
+          ],
+          "explosionDirection": [
+            0,
+            1.7,
+            0
+          ],
+          "meshNames": [
+            "passenger-window",
+            "window-pillar",
+            "passenger-window.001",
+            "window-pillar.001",
+            "passenger-window.002",
+            "window-pillar.002",
+            "passenger-window.003",
+            "window-pillar.003",
+            "passenger-window.004",
+            "window-pillar.004",
+            "passenger-window.005",
+            "window-pillar.005",
+            "driver-window",
+            "window-sill",
+            "passenger-window.006",
+            "window-pillar.006",
+            "passenger-window.007",
+            "window-pillar.007",
+            "passenger-window.008",
+            "window-pillar.008",
+            "passenger-window.009",
+            "window-pillar.009",
+            "passenger-window.010",
+            "window-pillar.010",
+            "passenger-window.011",
+            "window-pillar.011",
+            "driver-window.001",
+            "window-sill.001",
+            "entry-door-window",
+            "rear-window",
+            "Review-windscreen-correction"
+          ]
+        },
+        {
+          "id": "Wheel_Rear_Left",
+          "node": "Part_Wheel_Rear_Left",
+          "meshCount": 9,
+          "initialPosition": [
+            -1.6299999952316284,
+            0.45500001311302185,
+            -1.0799999237060547
+          ],
+          "explosionDirection": [
+            -0.24,
+            0.04,
+            -1.4
+          ],
+          "meshNames": [
+            "bus-tire",
+            "bus-steel-rim",
+            "bus-wheel-hub",
+            "rim-vent",
+            "rim-vent.001",
+            "rim-vent.002",
+            "rim-vent.003",
+            "rim-vent.004",
+            "rim-vent.005"
+          ]
+        },
+        {
+          "id": "Wheel_Rear_Right",
+          "node": "Part_Wheel_Rear_Right",
+          "meshCount": 9,
+          "initialPosition": [
+            -1.6299999952316284,
+            0.45500001311302185,
+            1.0799999237060547
+          ],
+          "explosionDirection": [
+            -0.24,
+            0.04,
+            1.4
+          ],
+          "meshNames": [
+            "bus-tire.001",
+            "bus-steel-rim.001",
+            "bus-wheel-hub.001",
+            "rim-vent.006",
+            "rim-vent.007",
+            "rim-vent.008",
+            "rim-vent.009",
+            "rim-vent.010",
+            "rim-vent.011"
+          ]
+        },
+        {
+          "id": "Wheel_Front_Left",
+          "node": "Part_Wheel_Front_Left",
+          "meshCount": 9,
+          "initialPosition": [
+            2.309999942779541,
+            0.45500001311302185,
+            -1.0799999237060547
+          ],
+          "explosionDirection": [
+            0.24,
+            0.04,
+            -1.4
+          ],
+          "meshNames": [
+            "bus-tire.002",
+            "bus-steel-rim.002",
+            "bus-wheel-hub.002",
+            "rim-vent.012",
+            "rim-vent.013",
+            "rim-vent.014",
+            "rim-vent.015",
+            "rim-vent.016",
+            "rim-vent.017"
+          ]
+        },
+        {
+          "id": "Wheel_Front_Right",
+          "node": "Part_Wheel_Front_Right",
+          "meshCount": 9,
+          "initialPosition": [
+            2.309999942779541,
+            0.45500001311302185,
+            1.0799999237060547
+          ],
+          "explosionDirection": [
+            0.24,
+            0.04,
+            1.4
+          ],
+          "meshNames": [
+            "bus-tire.003",
+            "bus-steel-rim.003",
+            "bus-wheel-hub.003",
+            "rim-vent.018",
+            "rim-vent.019",
+            "rim-vent.020",
+            "rim-vent.021",
+            "rim-vent.022",
+            "rim-vent.023"
+          ]
+        },
+        {
+          "id": "Lights_Front",
+          "node": "Part_Lights_Front",
+          "meshCount": 2,
+          "initialPosition": [
+            3.4670000076293945,
+            1.100000023841858,
+            0
+          ],
+          "explosionDirection": [
+            1.35,
+            0.2,
+            0
+          ],
+          "meshNames": [
+            "bus-headlight",
+            "bus-headlight.001"
+          ]
+        },
+        {
+          "id": "Lights_Rear",
+          "node": "Part_Lights_Rear",
+          "meshCount": 2,
+          "initialPosition": [
+            -3.509999990463257,
+            0.9100000262260437,
+            0
+          ],
+          "explosionDirection": [
+            -1.35,
+            0.2,
+            0
+          ],
+          "meshNames": [
+            "bus-tail-light",
+            "bus-tail-light.001"
+          ]
+        },
+        {
+          "id": "Exterior_Details",
+          "node": "Part_Exterior_Details",
+          "meshCount": 13,
+          "initialPosition": [
+            0.18599998950958252,
+            1.1137499809265137,
+            0
+          ],
+          "explosionDirection": [
+            0,
+            -0.45,
+            0.2
+          ],
+          "meshNames": [
+            "bus-rub-strip",
+            "bus-mirror",
+            "bus-rub-strip.001",
+            "bus-mirror.001",
+            "entry-step",
+            "bus-grille",
+            "grille-slat",
+            "grille-slat.001",
+            "grille-slat.002",
+            "front-bumper",
+            "bus-plate",
+            "bus-dashboard",
+            "bus-steering"
+          ]
+        }
+      ],
+      "initialNodeTransforms": [
+        {
+          "id": "Body",
+          "node": "Part_Body",
+          "parent": "YICHEN_Coaster_Prototype",
+          "position": [
+            0,
+            1.494999885559082,
+            0.03887498378753662
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1.494999885559082,
+            0.03887498378753662,
+            1
+          ],
+          "meshCount": 3
+        },
+        {
+          "id": "Glass",
+          "node": "Part_Glass",
+          "parent": "YICHEN_Coaster_Prototype",
+          "position": [
+            0.01399993896484375,
+            1.8680000305175781,
+            0.016125023365020752
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.01399993896484375,
+            1.8680000305175781,
+            0.016125023365020752,
+            1
+          ],
+          "meshCount": 31
+        },
+        {
+          "id": "Wheel_Rear_Left",
+          "node": "Part_Wheel_Rear_Left",
+          "parent": "YICHEN_Coaster_Prototype",
+          "position": [
+            -1.6299999952316284,
+            0.45500001311302185,
+            -1.0799999237060547
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1.6299999952316284,
+            0.45500001311302185,
+            -1.0799999237060547,
+            1
+          ],
+          "meshCount": 9
+        },
+        {
+          "id": "Wheel_Rear_Right",
+          "node": "Part_Wheel_Rear_Right",
+          "parent": "YICHEN_Coaster_Prototype",
+          "position": [
+            -1.6299999952316284,
+            0.45500001311302185,
+            1.0799999237060547
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1.6299999952316284,
+            0.45500001311302185,
+            1.0799999237060547,
+            1
+          ],
+          "meshCount": 9
+        },
+        {
+          "id": "Wheel_Front_Left",
+          "node": "Part_Wheel_Front_Left",
+          "parent": "YICHEN_Coaster_Prototype",
+          "position": [
+            2.309999942779541,
+            0.45500001311302185,
+            -1.0799999237060547
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2.309999942779541,
+            0.45500001311302185,
+            -1.0799999237060547,
+            1
+          ],
+          "meshCount": 9
+        },
+        {
+          "id": "Wheel_Front_Right",
+          "node": "Part_Wheel_Front_Right",
+          "parent": "YICHEN_Coaster_Prototype",
+          "position": [
+            2.309999942779541,
+            0.45500001311302185,
+            1.0799999237060547
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2.309999942779541,
+            0.45500001311302185,
+            1.0799999237060547,
+            1
+          ],
+          "meshCount": 9
+        },
+        {
+          "id": "Lights_Front",
+          "node": "Part_Lights_Front",
+          "parent": "YICHEN_Coaster_Prototype",
+          "position": [
+            3.4670000076293945,
+            1.100000023841858,
+            0
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            3.4670000076293945,
+            1.100000023841858,
+            0,
+            1
+          ],
+          "meshCount": 2
+        },
+        {
+          "id": "Lights_Rear",
+          "node": "Part_Lights_Rear",
+          "parent": "YICHEN_Coaster_Prototype",
+          "position": [
+            -3.509999990463257,
+            0.9100000262260437,
+            0
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -3.509999990463257,
+            0.9100000262260437,
+            0,
+            1
+          ],
+          "meshCount": 2
+        },
+        {
+          "id": "Exterior_Details",
+          "node": "Part_Exterior_Details",
+          "parent": "YICHEN_Coaster_Prototype",
+          "position": [
+            0.18599998950958252,
+            1.1137499809265137,
+            0
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.18599998950958252,
+            1.1137499809265137,
+            0,
+            1
+          ],
+          "meshCount": 13
+        }
+      ],
+      "textureCount": 0,
+      "resourcesEmbedded": true,
+      "sourceWorldTransformsPreserved": true,
+      "activeInWebsite": false
+    },
+    {
+      "id": "gl8-reference-workspace",
+      "path": "model-work/gl8-653-2022/production-workspace.blend",
+      "status": "reference-guides-only",
+      "vehicleMeshCount": 0,
+      "activeInWebsite": false
+    }
+  ],
+  "modelReferences": [
+    {
+      "id": "coaster-paint",
+      "path": "dist/coaster-reference-v2.png",
+      "source": "User supplied photo",
+      "configurationEvidence": false
+    }
+  ],
+  "scrollImplementation": {
+    "route": null,
+    "embeddedOnHome": false,
+    "timeline": "model-work/archived-scroll-study/scroll-timeline.mjs",
+    "viewer": "model-work/archived-scroll-study/scroll-journey.mjs",
+    "chapterCount": 6,
+    "singleModel": true,
+    "partsManifest": "model-work/archived-scroll-study/scroll-assets.mjs",
+    "verification": "model-work/coaster/scroll-verification.json",
+    "active": false,
+    "formerRouteRedirect": "#/search",
+    "removedFromPublicResources": true
+  },
+  "lux3d": {
+    "region": "cn",
+    "apiKeyIncluded": false,
+    "apiKeyCreationCompleted": false,
+    "submittedTaskIds": [],
+    "generationQuoteStatus": "not-obtained",
+    "statusRecord": "model-work/gl8-653-2022/production-status.json"
+  },
+  "currentScope": {
+    "homeRestored": true,
+    "threeDPlacement": "vehicle-detail-only",
+    "exterior": "verified mesh required",
+    "interior": "verified geometry and real camera anchors required",
+    "activeVehicleModels": []
+  },
+  "archivedScrollVerification": {
+    "meshes": 87,
+    "triangles": 22350,
+    "independentRoots": 9,
+    "reverseTransformTolerance": 1e-10,
+    "randomSeekChecks": 200,
+    "framingAspectRatios": [
+      0.55,
+      1,
+      2.16
+    ],
+    "framingSamplesPerAspect": 31,
+    "reducedMotionChecked": true,
+    "browserVisualQA": false,
+    "sourceWorldTransformsPreserved": true,
+    "nativeBlenderRenderInspection": true,
+    "assembledAndRestoredRenderPixelIdentical": true,
+    "renderStates": [
+      "assembled",
+      "exploded",
+      "restored"
+    ]
+  },
+  "viewerImplementation": {
+    "viewer": "dist/vehicle-viewer.mjs",
+    "cameraMath": "dist/vehicle-camera.mjs",
+    "loadPolicy": "lazy only when verified vehicle model is present",
+    "interiorUsesTransparencyTrick": false,
+    "browserVisualQA": false
+  },
+  "currentVerification": {
+    "homepageSectionsRestored": true,
+    "globalThreeDRemoved": true,
+    "templatesChecked": 40,
+    "englishUntranslatedPhrases": 0,
+    "vehicleModelGatesChecked": true,
+    "exteriorCameraAspectRatios": [
+      0.45,
+      0.6,
+      1,
+      2
+    ],
+    "interiorDirection360MathChecked": true,
+    "localHTTPFilesMatch": true,
+    "browserVisualQA": false,
+    "preciseVehicleModelsVerified": 0
+  },
+  "visualUpdate": {
+    "destinations": 13,
+    "routes": 12,
+    "vehicleReferenceSources": 39,
+    "referenceGallery": "dist/vehicle-detail-references.html",
+    "photoSources": "visual-assets/destination-photo-sources.json",
+    "imageGenerationStatus": "visual-assets/image-generation-status.json",
+    "deliveryStatus": "visual-update-status.md",
+    "preciseModelsCompleted": 0
+  },
+  "catalogueUpdate": {
+    "vehicleEntries": 12,
+    "brandFilters": 9,
+    "familyReference": "denza-d9",
+    "businessReference": "gl8",
+    "sourceRecord": "visual-assets/vehicle-references/selected-photo-sources.json",
+    "allVehicleImagesPresent": true,
+    "referenceOnlyNewEntry": "denza-d9",
+    "preciseModelsCompleted": 0
+  },
+  "brandIdentity": {
+    "status": "user-confirmed",
+    "original": "visual-assets/brand/yichen-logo-original.png",
+    "webAsset": "dist/images/brand/yichen-logo.svg",
+    "stylesheet": "dist/brand.css",
+    "placements": [
+      "navigation",
+      "footer",
+      "favicon"
+    ],
+    "processing": "Original raster embedded unchanged in an SVG viewport; CSS blends the white background on light and dark surfaces. This is not a traced vector logo."
+  },
+  "destinationRefresh": {
+    "date": "2026-10-08",
+    "destinationCount": 13,
+    "updatedPhotos": [
+      "twins",
+      "wenshu",
+      "dongjiao"
+    ],
+    "addedDestinations": [
+      "tianfu",
+      "luhu-cpi"
+    ],
+    "referenceOnlyPhotos": [
+      "twins",
+      "dongjiao",
+      "luhu-cpi"
+    ],
+    "licensedPhotos": [
+      "wenshu",
+      "tianfu"
+    ],
+    "sourceRecord": "visual-assets/destination-photo-sources.json",
+    "verifiedBy": "Downloaded images inspected individually; live webpage rendering not performed."
+  },
+  "destinationPhotoReview": {
+    "date": "2026-10-09",
+    "status": "partially-confirmed",
+    "page": "dist/destination-photo-selection.html",
+    "manifest": "visual-assets/destination-review-20261009.json",
+    "places": [
+      "kuanzhai",
+      "chunxi",
+      "twins",
+      "dongjiao",
+      "jinli"
+    ],
+    "candidatesPerPlace": 3,
+    "classificationProposals": 3,
+    "liveDestinationsChanged": false,
+    "confirmedChoices": {
+      "twins": "B",
+      "dongjiao": "A",
+      "jinli": "A"
+    },
+    "researchAgain": [
+      "kuanzhai",
+      "chunxi"
+    ],
+    "classification": "experience-6",
+    "nextPage": "dist/destination-photo-selection-round4.html",
+    "nextManifest": "visual-assets/destination-review-round4-20261009.json",
+    "kuanzhaiCurrent": "round3-A",
+    "additionalChoicesRequested": [
+      "chunxi"
+    ],
+    "chunxiDirection": "IFS panda and Chunxi landmark",
+    "chunxiCurrent": "round3-B"
+  },
+  "destinationCategories": [
+    {
+      "id": "heritage",
+      "name": "古街人文",
+      "nameEn": "Heritage lanes"
+    },
+    {
+      "id": "landmarks",
+      "name": "城市地标",
+      "nameEn": "City landmarks"
+    },
+    {
+      "id": "arts",
+      "name": "艺术街区",
+      "nameEn": "Art districts"
+    },
+    {
+      "id": "gardens",
+      "name": "湖畔花园",
+      "nameEn": "Lakeside gardens"
+    },
+    {
+      "id": "pandas",
+      "name": "熊猫亲子",
+      "nameEn": "Pandas and family"
+    },
+    {
+      "id": "landscapes",
+      "name": "山水自驾",
+      "nameEn": "Scenic drives"
+    }
+  ],
+  "serviceAreas": {
+    "cityCount": 12,
+    "cities": [
+      "成都",
+      "绵阳",
+      "德阳",
+      "乐山",
+      "宜宾",
+      "泸州",
+      "雅安",
+      "西昌",
+      "康定",
+      "南充",
+      "达州",
+      "自贡"
+    ],
+    "confirmedByUser": "2026-10-09",
+    "phone": "",
+    "email": "2712723487@qq.com",
+    "officeAddress": "成都市高新区天府大道",
+    "pageRoute": "#/services",
+    "contentFile": "dist/service-content.js",
+    "mapSources": "visual-assets/service-regions/sources.json",
+    "referenceScreenshots": "design/reference-service-layout",
+    "mapPresentation": "Matplotlib geography plot from DataV GeoJSON; not a navigation map or exact branch coordinates",
+    "visualQA": "blocked by earlier browser access restriction; no live screenshot comparison",
+    "functionalVerification": "41 template and functional checks passed; 24 bilingual map images present",
+    "qaReport": "design-qa-service-update.md",
+    "updatedDescriptionsByUser": {
+      "成都": "双流/天府机场 · 市区全覆盖",
+      "乐山": "大佛景区 · 峨眉山专线",
+      "宜宾": "蜀南竹海 · 五粮液产区",
+      "绵阳": "科技城 · 高铁站取车"
+    }
+  },
+  "destinationExpansion": {
+    "status": "awaiting-research-report",
+    "researchProvider": "Manus",
+    "taskId": "Gk85EFZQ9bWSuxuQqpF6fy",
+    "taskUrl": "https://manus.im/app/Gk85EFZQ9bWSuxuQqpF6fy",
+    "photosPerDestinationRequested": [
+      5,
+      10
+    ],
+    "bridgeConfirmed": "交子之桥（锦江人行桥）",
+    "imageAlignment": "center center",
+    "confirmedExtraCandidate": "交子之环（交子大道环形天桥）",
+    "bridgeAndRingSeparate": true,
+    "plan": "visual-assets/destination-expansion-plan.json",
+    "ringAdditionConfirmedByUser": true
+  },
+  "browserQA": {
+    "date": "2026-10-09",
+    "localAccess": "verified",
+    "desktopScreenshots": "design/browser-qa-20261009/",
+    "checks": [
+      "12 vehicle photos loaded",
+      "Buick brand returns 2 models",
+      "service city selection changes URL and map",
+      "bilingual service map",
+      "centered landmark photos",
+      "desktop no horizontal overflow"
+    ],
+    "mobileViewport": "pending; viewport set calls timed out",
+    "report": "design-qa.md"
+  },
+  "matchPlaceSelection": {
+    "status": "implemented",
+    "version": "20261010-match-priority-v23",
+    "module": "dist/match-places.js",
+    "realPlaceSources": [
+      "SERVICE_CITIES",
+      "PLACES",
+      "TOUR_DESTINATIONS"
+    ],
+    "requiresSelectedPlaceIds": true,
+    "rejectsArbitraryText": true,
+    "rejectsIdenticalEndpoints": true,
+    "ranking": "route categories, group/luggage body-type comparisons, verified capacity exclusions, scene and demo price",
+    "liveRouting": false,
+    "qa": "match-place-verification.md",
+    "preferences": "luxury/model positioning, sports-car category, MPV-SUV space categories, electric-hybrid category and price-first ordering; unverified comfort remains disclosed",
+    "positioningSource": "visual-assets/model-positioning.json",
+    "priorityQA": "design/match-place-qa/luxury-reason-fixed.jpg"
+  },
+  "photoCuration20261011": {
+    "page": "dist/destination-photo-selection-sources.html",
+    "destinations": 15,
+    "candidatePhotos": 112,
+    "multipleSelection": true,
+    "coverChoice": true,
+    "originalImagesPreserved": 13,
+    "apply": "explicit-local-browser-confirmation",
+    "newDestinations": "user-selection-awaiting-content-integration",
+    "rotationSeconds": 5,
+    "reducedMotionRespected": true,
+    "qa": "design/gallery-qa-20261011/verification.md",
+    "status": "user-confirmed-applied",
+    "confirmedPhotos": 63,
+    "confirmedGalleries": 15,
+    "totalDestinations": 22,
+    "refillPage": "dist/destination-photo-selection-refill.html",
+    "newCandidates": 50,
+    "newCandidateStatus": "awaiting-user-selection",
+    "metadata": "visual-assets/destination-photo-refill-20261011.json"
+  },
+  "homeRefinement20261010": {
+    "stepsAfterSearch": true,
+    "featuredVehicles": 6,
+    "popularDestinations": 8,
+    "seatFilter": "MPV/minibus candidates without fabricated exact capacities"
+  },
+  "photoRefillRound2_20261011": {
+    "status": "user-confirmed-applied",
+    "newPhotosAdded": 13,
+    "galleryCounts": {
+      "renmin": 6,
+      "jinli": 8,
+      "chunxi": 7,
+      "dongjiao": 6,
+      "global": 4
+    },
+    "cover": "S01 retained for all five"
+  },
+  "catalogRefineV30": {
+    "date": "2026-10-11",
+    "style": "warm ivory cards, serif titles and dark brown prices",
+    "aiEditedCatalogueImages": [
+      "718",
+      "e",
+      "gl8"
+    ],
+    "referenceOnly": true,
+    "actualVehicleConfigurationsVerified": false
+  },
+  "jiuzhaiReselectV30": {
+    "status": "user-confirmed-applied",
+    "newPhotos": 10,
+    "originalPreserved": true,
+    "selectionPage": "destination-photo-selection-jiuzhai.html",
+    "selected": [
+      "N01",
+      "N04"
+    ],
+    "cover": "N01"
+  },
+  "jiuzhaiSeasonsV31": {
+    "status": "user-confirmed-applied",
+    "newCandidates": 10,
+    "spring": 2,
+    "summer": 2,
+    "autumn": 4,
+    "winter": 2,
+    "page": "destination-photo-selection-jiuzhai-seasons.html",
+    "selected": [
+      "S01",
+      "N03",
+      "N04",
+      "N05",
+      "N06",
+      "N08",
+      "N09",
+      "N10"
+    ],
+    "cover": "S01",
+    "galleryCount": 8
+  },
+  "mountainPhotosV33": {
+    "status": "user-confirmed-applied",
+    "qingcheng": 10,
+    "siguniang": 10,
+    "page": "destination-photo-selection-mountains.html",
+    "choices": {
+      "qingcheng": [
+        "N07",
+        "N10"
+      ],
+      "siguniang": [
+        "N01",
+        "N02",
+        "N08",
+        "N07",
+        "N09",
+        "N10"
+      ]
+    }
+  },
+  "navigationV33": {
+    "font": "serif navigation",
+    "desktopSizePx": 17.92,
+    "tabletWidthChecked": 944,
+    "mobileWidthChecked": 390
+  },
+  "chunxiRemovedV33": {
+    "removed": "chunxi-C.jpg",
+    "remainingPhotos": 6
+  },
+  "qingchengHorizontalV34": {
+    "status": "user-confirmed-applied",
+    "newCandidates": 10,
+    "allLandscape": true,
+    "page": "destination-photo-selection-qingcheng-horizontal.html",
+    "selected": [
+      "S01",
+      "S02",
+      "N01",
+      "N10"
+    ],
+    "cover": "S01",
+    "galleryCount": 4
+  }
+}

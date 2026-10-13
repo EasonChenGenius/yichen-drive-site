@@ -1,0 +1,15 @@
+{
+  "path": "/Users/eason/Documents/Codex/2026-10-04/xia/outputs/yichen-drive-site/model-work/coaster/coaster-material-review.glb",
+  "format": "glb",
+  "size": 1967200,
+  "sha256": "a534e47bc09bc26cc2feb57227c1baf5893c4924ca4ea060fa7c3ea7a21d62c4",
+  "validation": {
+    "valid": true,
+    "glbVersion": 2,
+    "assetVersion": "2.0",
+    "scenes": 1,
+    "nodes": 88,
+    "meshes": 87,
+    "materials": 7
+  }
+}

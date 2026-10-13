@@ -1,0 +1,426 @@
+{
+  "fileBytes": 1969044,
+  "resourcesEmbedded": true,
+  "textureCount": 0,
+  "materialCount": 7,
+  "materials": [
+    {
+      "name": "body-paint",
+      "type": "MeshPhysicalMaterial",
+      "color": "bdad94",
+      "metalness": 0.41999998688697815,
+      "roughness": 0.2800000011920929,
+      "opacity": 1
+    },
+    {
+      "name": "Material_3",
+      "type": "MeshStandardMaterial",
+      "color": "c5cbcd",
+      "metalness": 0.9200000166893005,
+      "roughness": 0.23999999463558197,
+      "opacity": 1
+    },
+    {
+      "name": "Material_2",
+      "type": "MeshStandardMaterial",
+      "color": "252b2e",
+      "metalness": 0,
+      "roughness": 0.5299999713897705,
+      "opacity": 1
+    },
+    {
+      "name": "window-glass",
+      "type": "MeshPhysicalMaterial",
+      "color": "1c3038",
+      "metalness": 0.07999999821186066,
+      "roughness": 0.18000000715255737,
+      "opacity": 0.8199999928474426
+    },
+    {
+      "name": "Material_4",
+      "type": "MeshStandardMaterial",
+      "color": "e5eee9",
+      "metalness": 0.18000000715255737,
+      "roughness": 0.2199999988079071,
+      "opacity": 1
+    },
+    {
+      "name": "Material_5",
+      "type": "MeshStandardMaterial",
+      "color": "b42b24",
+      "metalness": 0,
+      "roughness": 0.25,
+      "opacity": 1
+    },
+    {
+      "name": "Material_6",
+      "type": "MeshStandardMaterial",
+      "color": "16191b",
+      "metalness": 0,
+      "roughness": 0.949999988079071,
+      "opacity": 1
+    }
+  ],
+  "independentNodes": [
+    {
+      "id": "Body",
+      "node": "Part_Body",
+      "parent": "YICHEN_Coaster_Prototype",
+      "position": [
+        0,
+        1.494999885559082,
+        0.03887498378753662
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1.494999885559082,
+        0.03887498378753662,
+        1
+      ],
+      "meshCount": 3
+    },
+    {
+      "id": "Glass",
+      "node": "Part_Glass",
+      "parent": "YICHEN_Coaster_Prototype",
+      "position": [
+        0.01399993896484375,
+        1.8680000305175781,
+        0.016125023365020752
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.01399993896484375,
+        1.8680000305175781,
+        0.016125023365020752,
+        1
+      ],
+      "meshCount": 31
+    },
+    {
+      "id": "Wheel_Rear_Left",
+      "node": "Part_Wheel_Rear_Left",
+      "parent": "YICHEN_Coaster_Prototype",
+      "position": [
+        -1.6299999952316284,
+        0.45500001311302185,
+        -1.0799999237060547
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1.6299999952316284,
+        0.45500001311302185,
+        -1.0799999237060547,
+        1
+      ],
+      "meshCount": 9
+    },
+    {
+      "id": "Wheel_Rear_Right",
+      "node": "Part_Wheel_Rear_Right",
+      "parent": "YICHEN_Coaster_Prototype",
+      "position": [
+        -1.6299999952316284,
+        0.45500001311302185,
+        1.0799999237060547
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1.6299999952316284,
+        0.45500001311302185,
+        1.0799999237060547,
+        1
+      ],
+      "meshCount": 9
+    },
+    {
+      "id": "Wheel_Front_Left",
+      "node": "Part_Wheel_Front_Left",
+      "parent": "YICHEN_Coaster_Prototype",
+      "position": [
+        2.309999942779541,
+        0.45500001311302185,
+        -1.0799999237060547
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.309999942779541,
+        0.45500001311302185,
+        -1.0799999237060547,
+        1
+      ],
+      "meshCount": 9
+    },
+    {
+      "id": "Wheel_Front_Right",
+      "node": "Part_Wheel_Front_Right",
+      "parent": "YICHEN_Coaster_Prototype",
+      "position": [
+        2.309999942779541,
+        0.45500001311302185,
+        1.0799999237060547
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2.309999942779541,
+        0.45500001311302185,
+        1.0799999237060547,
+        1
+      ],
+      "meshCount": 9
+    },
+    {
+      "id": "Lights_Front",
+      "node": "Part_Lights_Front",
+      "parent": "YICHEN_Coaster_Prototype",
+      "position": [
+        3.4670000076293945,
+        1.100000023841858,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3.4670000076293945,
+        1.100000023841858,
+        0,
+        1
+      ],
+      "meshCount": 2
+    },
+    {
+      "id": "Lights_Rear",
+      "node": "Part_Lights_Rear",
+      "parent": "YICHEN_Coaster_Prototype",
+      "position": [
+        -3.509999990463257,
+        0.9100000262260437,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -3.509999990463257,
+        0.9100000262260437,
+        0,
+        1
+      ],
+      "meshCount": 2
+    },
+    {
+      "id": "Exterior_Details",
+      "node": "Part_Exterior_Details",
+      "parent": "YICHEN_Coaster_Prototype",
+      "position": [
+        0.18599998950958252,
+        1.1137499809265137,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.18599998950958252,
+        1.1137499809265137,
+        0,
+        1
+      ],
+      "meshCount": 13
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "blenderVersion": "4.5.9 LTS",
+  "sourceReopened": true,
+  "unverifiedSeatingRemoved": true,
+  "referenceImagePacked": true,
+  "collections": [
+    "Body",
+    "Glass",
+    "Wheels",
+    "Lights",
+    "Details"
+  ],
+  "paintLinearRGBA": [
+    0.5088813304901123,
+    0.41788506507873535,
+    0.2961382567882538,
+    1.0
+  ],
+  "geometryStatus": "unverified-legacy-blockout",
+  "renderCamera": "Review-camera"
+}

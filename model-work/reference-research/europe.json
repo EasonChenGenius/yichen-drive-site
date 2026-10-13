@@ -1,0 +1,174 @@
+[
+  {
+    "id": "718",
+    "model": "保时捷 718 Boxster（实车年款待核）",
+    "matchStatus": "series-reference-year-trim-unconfirmed",
+    "identityNotes": "网站选择为Boxster敞篷车型，不能混用Cayman固定车顶；年款、基础/S/GTS版本与实车内饰尚未确定。",
+    "sources": [
+      {
+        "title": "Porsche官方：718 Boxster媒体资料与影像",
+        "url": "https://newsroom.porsche.com/en_US/model-range/718/718-boxster.html",
+        "kind": "combined",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "包含2016起718 Boxster媒体资料；不同版本需分别核对",
+        "detailCoverage": "外观照片、影片与官方新闻包入口",
+        "checked": true,
+        "verificationNotes": "来源页面或搜索索引已核对；未将公开参考车型配置写入用户车队，也未完成每张图片的实车比对。"
+      },
+      {
+        "title": "Porsche官方：718 Boxster设计及内饰资料",
+        "url": "https://newsroom.porsche.com/dam/jcr%3A5c458db0-fb38-4273-91c6-12da5209e4ae/PCNA18_0112_us.pdf",
+        "kind": "combined",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "718 Boxster设计说明；美国媒体资料范围",
+        "detailCoverage": "前后部、侧面进气、车顶与驾驶舱设计核对",
+        "checked": false,
+        "verificationNotes": "搜索索引确认来源；直接页面/图片尚待进一步读取。"
+      }
+    ],
+    "modelingFocus": [
+      "保持Boxster软顶车身，排除Cayman/Spyder",
+      "核对灯组、侧进气口、轮毂、后部饰条和尾灯",
+      "仪表、PCM屏幕、方向盘、座椅及内饰色以同版本照片为准"
+    ],
+    "pendingActualVehicle": [
+      "实车年款和完整版本",
+      "是否改装轮毂、包围或车顶",
+      "驾驶舱和座椅照片"
+    ]
+  },
+  {
+    "id": "x5",
+    "model": "宝马 X5（年款、轴距和版本待核）",
+    "matchStatus": "generation-reference-not-fleet-confirmation",
+    "identityNotes": "保留2018 G05原版媒体资料作候选；不能混合F15、G05改款或中国G18长轴距车身与座舱。",
+    "sources": [
+      {
+        "title": "BMW官方：2018 G05 X5完整外观与内饰图库",
+        "url": "https://www.press.bmwgroup.com/canada/photo/compilation/T0286017EN/the-new-bmw-x5-additional-pictures-and-footage?language=en",
+        "kind": "combined",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "2018 G05，图库包含xLine、M Sport和不同动力版本",
+        "detailCoverage": "整车各角度、灯组、车轮、仪表台与座舱多角度官方照片",
+        "checked": true,
+        "verificationNotes": "来源页面或搜索索引已核对；未将公开参考车型配置写入用户车队，也未完成每张图片的实车比对。"
+      },
+      {
+        "title": "BMW官方：2018全新X5设计与座舱说明",
+        "url": "https://www.press.bmwgroup.com/middle-east/article/detail/T0281840EN/the-all-new-bmw-x5%3A-the-prestige-sav-with-the-most-innovative-technologies?language=en",
+        "kind": "combined",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "2018 G05，地区配置和选装不能推广到中国实车",
+        "detailCoverage": "外观及内饰不同设计版本的官方信息",
+        "checked": true,
+        "verificationNotes": "来源页面或搜索索引已核对；未将公开参考车型配置写入用户车队，也未完成每张图片的实车比对。"
+      }
+    ],
+    "modelingFocus": [
+      "先核对代际、是否中国长轴距和xLine/M Sport外观",
+      "核对格栅、灯组、轮毂、车尾与侧面比例",
+      "保留仪表屏幕、控制台、内饰材质的同代一致性"
+    ],
+    "pendingActualVehicle": [
+      "年款/进口或国产/轴距",
+      "外观套件与轮毂",
+      "仪表台、方向盘及后排照片"
+    ]
+  },
+  {
+    "id": "my",
+    "model": "特斯拉 Model Y（改款和实车年份待核）",
+    "matchStatus": "legacy-refresh-separated",
+    "identityNotes": "当前图像为旧款轮廓；2020–2024与2025+改款手册分开保留，不能将新款贯穿灯或内饰用于旧车。",
+    "sources": [
+      {
+        "title": "Tesla官方：2020–2024 Model Y使用手册",
+        "url": "https://www.tesla.com/ownersmanual/2020_2024_modely/en_mo/",
+        "kind": "combined",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "2020–2024澳门英文手册，地区差异须核实",
+        "detailCoverage": "Exterior、Interior、座舱储物、座椅及控制部件图示",
+        "checked": true,
+        "verificationNotes": "来源页面或搜索索引已核对；未将公开参考车型配置写入用户车队，也未完成每张图片的实车比对。"
+      },
+      {
+        "title": "Tesla官方：2020–2024 Model Y维修手册",
+        "url": "https://service.tesla.com/docs/ModelY/ServiceManual/en-us/index.html",
+        "kind": "combined",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "2020–2024，维修资料不证明某辆车配备全部选项",
+        "detailCoverage": "内饰饰板、座椅、门板、车身零件及维修图示",
+        "checked": true,
+        "verificationNotes": "来源页面或搜索索引已核对；未将公开参考车型配置写入用户车队，也未完成每张图片的实车比对。"
+      },
+      {
+        "title": "Tesla官方：2025+ Model Y使用手册",
+        "url": "https://www.tesla.com/ownersmanual/modely/en_us/",
+        "kind": "identity-exclusion",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "2025+北美手册；仅用来区别新旧改款",
+        "detailCoverage": "新款外观和内饰目录，避免混用",
+        "checked": true,
+        "verificationNotes": "来源页面或搜索索引已核对；未将公开参考车型配置写入用户车队，也未完成每张图片的实车比对。"
+      }
+    ],
+    "modelingFocus": [
+      "先判断旧款或改款，分开灯组与保险杠",
+      "核对轮毂、车顶玻璃、门把手与车尾",
+      "核对前后屏幕、座椅布局与方向盘版本"
+    ],
+    "pendingActualVehicle": [
+      "生产年份/是否改款",
+      "轮毂和座椅布局",
+      "仪表台及前后排实拍"
+    ]
+  },
+  {
+    "id": "e",
+    "model": "奔驰 E级（年款、长短轴及外观版本待核）",
+    "matchStatus": "generation-and-market-unconfirmed",
+    "identityNotes": "目前外观参考为W214立标版；中国长轴、标准轴及运动/立标前脸不能互相替换。2022/2023宣传册与2025 W214手册分开标注。",
+    "sources": [
+      {
+        "title": "奔驰官方：2025 W214中文使用手册",
+        "url": "https://static.oneweb.mercedes-benz.com/css-oom-assets/zh-cn/pdf/mercedes-e%E7%BA%A7-%E8%BD%BF%E8%BD%A6-2025-%E4%B8%80%E6%9C%88-w214-mbux-%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C-1.pdf",
+        "kind": "interior",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "2025 W214资料，不代表用户实车年份或中国长轴版本",
+        "detailCoverage": "车门、座椅、MBUX操作与内饰控制部件图示",
+        "checked": false,
+        "verificationNotes": "搜索索引确认来源；直接页面/图片尚待进一步读取。"
+      },
+      {
+        "title": "奔驰中国官方：2022长轴距E级宣传册",
+        "url": "https://www.mercedes-benz.com.cn/content/dam/mb-vehicles-data-cn/2022brochure/09/Mercedes-Benz-E-Class-L.pdf",
+        "kind": "combined",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "2022长轴距E级；不得与W214新代内饰混用",
+        "detailCoverage": "外观、内饰色、饰件与不同前脸版本",
+        "checked": false,
+        "verificationNotes": "搜索索引确认来源；直接页面/图片尚待进一步读取。"
+      },
+      {
+        "title": "奔驰中国官方：车型目录与E级入口",
+        "url": "https://www.mercedes-benz.com.cn/model-filter.html?type=all",
+        "kind": "combined",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "官网现款，旧实车不能按现款匹配",
+        "detailCoverage": "长轴/标准轴和轿车/运动轿车识别入口",
+        "checked": true,
+        "verificationNotes": "来源页面或搜索索引已核对；未将公开参考车型配置写入用户车队，也未完成每张图片的实车比对。"
+      }
+    ],
+    "modelingFocus": [
+      "确认年款、W213/W214及长短轴",
+      "立标经典版与运动大标版格栅、保险杠分别核对",
+      "内饰屏幕、仪表、门饰板和座椅材质保持同版本"
+    ],
+    "pendingActualVehicle": [
+      "实车年款、轴距和具体版本",
+      "前脸和尾灯近照",
+      "内饰屏幕、方向盘、门板及座椅照片"
+    ]
+  }
+]

@@ -1,0 +1,3307 @@
+{
+  "date": "2026-10-10",
+  "status": "awaiting-user-selection",
+  "sources": [
+    "https://philippelejeanvre.com/tag/chengdu/",
+    "https://www.archdaily.com/zh/1018901/lu-hu-cpidao-ji-li-jian-zhu"
+  ],
+  "originalImagesPreserved": [
+    {
+      "id": "kuanzhai",
+      "name": "宽窄巷子",
+      "image": "./images/destinations/kuanzhai.jpg?v=chosen-v17",
+      "sha256": "29c452fb4f4a5afc2d96504876a2ec24c93cb11c788188bd7559ce83ac3f57a5"
+    },
+    {
+      "id": "chunxi",
+      "name": "春熙路 · 太古里",
+      "image": "./images/destinations/chunxi.jpg?v=chosen-v17",
+      "sha256": "9fed939a2b3ef1b7b3b3ff1af6838f6afe1c277a417affdbeedc8fa972098746"
+    },
+    {
+      "id": "twins",
+      "name": "金融城双子塔",
+      "image": "./images/destinations/twins.jpg?v=chosen-v15",
+      "sha256": "35688993772dc96ada44659a2089ad49de304f84e7a1549a130f8858a873dd21"
+    },
+    {
+      "id": "tianfu",
+      "name": "天府广场",
+      "image": "./images/destinations/tianfu.jpg?v=destinations-v12",
+      "sha256": "23c7dc9881abb72f48c85a00414f77240633c311cf86b4b29addbfabfbf7dae8"
+    },
+    {
+      "id": "luhu-cpi",
+      "name": "麓湖 · CPI",
+      "image": "./images/destinations/luhu-cpi.jpg?v=destinations-v12",
+      "sha256": "77f7e75583270e0f5f536706a748979760fce6069f5b956d90356d2ce7461de6"
+    },
+    {
+      "id": "dujiangyan",
+      "name": "都江堰",
+      "image": "./images/destinations/dujiangyan.jpg",
+      "sha256": "8639580aa696d8eab808f350e09b93a2160547c53788aa11b07b5aa1952fcec4"
+    },
+    {
+      "id": "siguniang",
+      "name": "四姑娘山",
+      "image": "./images/destinations/siguniang.jpg",
+      "sha256": "6b429081cfe65a6a1046819dad07853b172ffdf9c09c6cf8bf0efee03a4e0e6e"
+    },
+    {
+      "id": "jiuzhai",
+      "name": "九寨沟",
+      "image": "./images/destinations/jiuzhai.jpg",
+      "sha256": "2ecfd45e88488ca37f620f80e9388d800997c4ac22c7b58956bc0918e730c055"
+    },
+    {
+      "id": "qingcheng",
+      "name": "青城山",
+      "image": "./images/destinations/qingcheng.jpg",
+      "sha256": "595d9a2931b2a32bcd857c34d48a1329f25e810a33b414cdc74380c4a375896b"
+    },
+    {
+      "id": "panda",
+      "name": "大熊猫繁育研究基地",
+      "image": "./images/destinations/panda.jpg",
+      "sha256": "93f3ddd26df08bc2e1b109861cfaf5543c34b7bc17251b2c6595f9bb07976ee0"
+    },
+    {
+      "id": "jinli",
+      "name": "锦里 · 武侯祠",
+      "image": "./images/destinations/jinli.jpg?v=chosen-v15",
+      "sha256": "93b9c5186d6deab1e2a2cd9055fe9e4be387c44deef5bbaf35d8d6e15f3f59f2"
+    },
+    {
+      "id": "wenshu",
+      "name": "文殊院 · 文殊坊",
+      "image": "./images/destinations/wenshu.jpg?v=destinations-v12",
+      "sha256": "e64d3e094c41ec2706cb3b8cc13234a540136666c2f76ac004b09f2936086af4"
+    },
+    {
+      "id": "dongjiao",
+      "name": "东郊记忆",
+      "image": "./images/destinations/dongjiao.jpg?v=chosen-v15",
+      "sha256": "992a1bc28d669564f588b67a047c856939e38a376e700eade2bd5f2441f332dc"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "luhu-cpi",
+      "name": "麓湖 · CPI",
+      "note": "从 ArchDaily 项目图库选出 8 张实景，覆盖湖岛、园路、庭院与夜景；排除设计图和分析图。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "cpi",
+          6,
+          "湖岛与水岸全景 · 航拍"
+        ],
+        [
+          "cpi",
+          0,
+          "白色建筑与晴日花园"
+        ],
+        [
+          "cpi",
+          10,
+          "树影里的步行花园"
+        ],
+        [
+          "cpi",
+          19,
+          "林荫庭院与休闲空间"
+        ],
+        [
+          "cpi",
+          31,
+          "绿坡与白色小屋"
+        ],
+        [
+          "cpi",
+          18,
+          "水面倒影与静谧庭院"
+        ],
+        [
+          "cpi",
+          36,
+          "蓝调傍晚的园路"
+        ],
+        [
+          "cpi",
+          39,
+          "暮色中的水岸光影"
+        ]
+      ],
+      "current": {
+        "id": "luhu-cpi",
+        "name": "麓湖 · CPI",
+        "image": "./images/destinations/luhu-cpi.jpg?v=destinations-v12",
+        "sha256": "77f7e75583270e0f5f536706a748979760fce6069f5b956d90356d2ce7461de6"
+      },
+      "candidates": [
+        {
+          "id": "A",
+          "url": "https://images.adsttc.com/media/images/6696/149b/7d3e/0801/7c8f/e63b/medium_jpg/luxe-lakes-cpi-island-vari-architects_1.jpg?1721111718",
+          "page": "https://www.archdaily.com/zh/1018901/lu-hu-cpidao-ji-li-jian-zhu/6696149b7d3e08017c8fe63b-lu-hu-cpidao-ji-li-jian-zhu-zhao-pian",
+          "imageName": "luxe-lakes-cpi-island-vari-architects_1.jpg",
+          "alt": "麓湖CPI岛 / 几里建筑 - 7 的图像 53",
+          "credit": "Arch-Exist / 青橙摄影（项目页署名，单张待核对）",
+          "publicationDate": "2024-07-16",
+          "album": "麓湖 CPI 岛 / 几里建筑",
+          "collection": "cpi",
+          "number": 6,
+          "dimensions": [
+            528,
+            352
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/cpi-06.jpg",
+          "sha256": "a19ef25091751c59a60ceaa904f10fbfd07bea2b9652c5747044f35c873ddb95",
+          "label": "湖岛与水岸全景 · 航拍",
+          "preview": "./images/destination-options/20261010-specified-sources/luhu-cpi-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "id": "B",
+          "url": "https://images.adsttc.com/media/images/6696/14f3/c8b7/c801/7cdd/becb/medium_jpg/luxe-lakes-cpi-island-vari-architects_8.jpg?1721111805",
+          "page": "https://www.archdaily.com/zh/1018901/lu-hu-cpidao-ji-li-jian-zhu/669614f3c8b7c8017cddbecb-lu-hu-cpidao-ji-li-jian-zhu-zhao-pian",
+          "imageName": "luxe-lakes-cpi-island-vari-architects_8.jpg",
+          "alt": "麓湖CPI岛 / 几里建筑 - 1 的图像 53",
+          "credit": "Arch-Exist / 青橙摄影（项目页署名，单张待核对）",
+          "publicationDate": "2024-07-16",
+          "album": "麓湖 CPI 岛 / 几里建筑",
+          "collection": "cpi",
+          "number": 0,
+          "dimensions": [
+            528,
+            352
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/cpi-00.jpg",
+          "sha256": "d7ed1496d070206af063ebfd46bef766538abdb361de972416218a915de34145",
+          "label": "白色建筑与晴日花园",
+          "preview": "./images/destination-options/20261010-specified-sources/luhu-cpi-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "id": "C",
+          "url": "https://images.adsttc.com/media/images/6696/149c/c8b7/c801/7cdd/bebd/medium_jpg/luxe-lakes-cpi-island-vari-architects_5.jpg?1721111718",
+          "page": "https://www.archdaily.com/zh/1018901/lu-hu-cpidao-ji-li-jian-zhu/6696149cc8b7c8017cddbebd-lu-hu-cpidao-ji-li-jian-zhu-zhao-pian",
+          "imageName": "luxe-lakes-cpi-island-vari-architects_5.jpg",
+          "alt": "麓湖CPI岛 / 几里建筑 - 建筑图",
+          "credit": "Arch-Exist / 青橙摄影（项目页署名，单张待核对）",
+          "publicationDate": "2024-07-16",
+          "album": "麓湖 CPI 岛 / 几里建筑",
+          "collection": "cpi",
+          "number": 10,
+          "dimensions": [
+            528,
+            352
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/cpi-10.jpg",
+          "sha256": "10e37825df434dc08403da7d2d47b115cdfd12eff2724fb66f26268c4b119218",
+          "label": "树影里的步行花园",
+          "preview": "./images/destination-options/20261010-specified-sources/luhu-cpi-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "id": "D",
+          "url": "https://images.adsttc.com/media/images/6696/14da/c8b7/c801/7cdd/bec8/medium_jpg/luxe-lakes-cpi-island-vari-architects_9.jpg?1721111781",
+          "page": "https://www.archdaily.com/zh/1018901/lu-hu-cpidao-ji-li-jian-zhu/669614dac8b7c8017cddbec8-lu-hu-cpidao-ji-li-jian-zhu-zhao-pian",
+          "imageName": "luxe-lakes-cpi-island-vari-architects_9.jpg",
+          "alt": "麓湖CPI岛 / 几里建筑 - 建筑图, 花园",
+          "credit": "Arch-Exist / 青橙摄影（项目页署名，单张待核对）",
+          "publicationDate": "2024-07-16",
+          "album": "麓湖 CPI 岛 / 几里建筑",
+          "collection": "cpi",
+          "number": 19,
+          "dimensions": [
+            528,
+            352
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/cpi-19.jpg",
+          "sha256": "6107244ba7e4e6e5f9e0c23f2a9148576ef631e724a100d022b5c9cc5954d7e9",
+          "label": "林荫庭院与休闲空间",
+          "preview": "./images/destination-options/20261010-specified-sources/luhu-cpi-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "id": "E",
+          "url": "https://images.adsttc.com/media/images/6696/149f/c8b7/c801/7cdd/bec1/medium_jpg/luxe-lakes-cpi-island-vari-architects_8.jpg?1721111722",
+          "page": "https://www.archdaily.com/zh/1018901/lu-hu-cpidao-ji-li-jian-zhu/6696149fc8b7c8017cddbec1-lu-hu-cpidao-ji-li-jian-zhu-zhao-pian",
+          "imageName": "luxe-lakes-cpi-island-vari-architects_8.jpg",
+          "alt": "麓湖CPI岛 / 几里建筑 - 建筑图",
+          "credit": "Arch-Exist / 青橙摄影（项目页署名，单张待核对）",
+          "publicationDate": "2024-07-16",
+          "album": "麓湖 CPI 岛 / 几里建筑",
+          "collection": "cpi",
+          "number": 31,
+          "dimensions": [
+            528,
+            352
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/cpi-31.jpg",
+          "sha256": "7d182c3364555164fce4b6c501c2e90cbc1d030c652ff1c5958bfae6e8f00f10",
+          "label": "绿坡与白色小屋",
+          "preview": "./images/destination-options/20261010-specified-sources/luhu-cpi-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "id": "F",
+          "url": "https://images.adsttc.com/media/images/6696/14f6/c8b7/c801/7cdd/becc/medium_jpg/luxe-lakes-cpi-island-vari-architects_5.jpg?1721111817",
+          "page": "https://www.archdaily.com/zh/1018901/lu-hu-cpidao-ji-li-jian-zhu/669614f6c8b7c8017cddbecc-lu-hu-cpidao-ji-li-jian-zhu-zhao-pian",
+          "imageName": "luxe-lakes-cpi-island-vari-architects_5.jpg",
+          "alt": "麓湖CPI岛 / 几里建筑 - 建筑图, 视窗, 滨水",
+          "credit": "Arch-Exist / 青橙摄影（项目页署名，单张待核对）",
+          "publicationDate": "2024-07-16",
+          "album": "麓湖 CPI 岛 / 几里建筑",
+          "collection": "cpi",
+          "number": 18,
+          "dimensions": [
+            528,
+            792
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/cpi-18.jpg",
+          "sha256": "63327cfbf24aec3efbc89a24ae538abc1176a2fa80ed9285e409eb4774fea954",
+          "label": "水面倒影与静谧庭院",
+          "preview": "./images/destination-options/20261010-specified-sources/luhu-cpi-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "id": "G",
+          "url": "https://images.adsttc.com/media/images/6696/14b8/c8b7/c801/7cdd/bec2/medium_jpg/luxe-lakes-cpi-island-vari-architects_5.jpg?1721111747",
+          "page": "https://www.archdaily.com/zh/1018901/lu-hu-cpidao-ji-li-jian-zhu/669614b8c8b7c8017cddbec2-lu-hu-cpidao-ji-li-jian-zhu-zhao-pian",
+          "imageName": "luxe-lakes-cpi-island-vari-architects_5.jpg",
+          "alt": "麓湖CPI岛 / 几里建筑 - 建筑图",
+          "credit": "Arch-Exist / 青橙摄影（项目页署名，单张待核对）",
+          "publicationDate": "2024-07-16",
+          "album": "麓湖 CPI 岛 / 几里建筑",
+          "collection": "cpi",
+          "number": 36,
+          "dimensions": [
+            528,
+            352
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/cpi-36.jpg",
+          "sha256": "c71c0a940aa414f85e2686c4e28618da862153ec16ce63543b69201c240127d9",
+          "label": "蓝调傍晚的园路",
+          "preview": "./images/destination-options/20261010-specified-sources/luhu-cpi-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "id": "H",
+          "url": "https://images.adsttc.com/media/images/6696/150d/c8b7/c801/7cdd/bed3/medium_jpg/luxe-lakes-cpi-island-vari-architects_1.jpg?1721111832",
+          "page": "https://www.archdaily.com/zh/1018901/lu-hu-cpidao-ji-li-jian-zhu/6696150dc8b7c8017cddbed3-lu-hu-cpidao-ji-li-jian-zhu-zhao-pian",
+          "imageName": "luxe-lakes-cpi-island-vari-architects_1.jpg",
+          "alt": "麓湖CPI岛 / 几里建筑 - 建筑图, 表皮",
+          "credit": "Arch-Exist / 青橙摄影（项目页署名，单张待核对）",
+          "publicationDate": "2024-07-16",
+          "album": "麓湖 CPI 岛 / 几里建筑",
+          "collection": "cpi",
+          "number": 39,
+          "dimensions": [
+            528,
+            352
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/cpi-39.jpg",
+          "sha256": "aec2cc5ee6dc307b1d74711731232798d7984443d57afa49ea12cab9bb5ecbe5",
+          "label": "暮色中的水岸光影",
+          "preview": "./images/destination-options/20261010-specified-sources/luhu-cpi-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "jiaozi-ring",
+      "name": "交子之环",
+      "note": "你已确认增加这个地点。这组对应交子大道的环形天桥，不是锦江上的交子之桥。",
+      "additionConfirmed": true,
+      "picks": [
+        [
+          "jiaozi-ring-modern-bridge-in-chengdu",
+          3,
+          "环形天桥与城市夜色 · 俯瞰"
+        ],
+        [
+          "jiaozi-ring-modern-bridge-in-chengdu",
+          1,
+          "双塔背景下的交子之环"
+        ],
+        [
+          "jiaozi-ring-modern-bridge-in-chengdu",
+          6,
+          "曲线天桥与光轨"
+        ],
+        [
+          "jiaozi-ring-modern-bridge-in-chengdu",
+          5,
+          "夜色中的桥面与阶梯"
+        ],
+        [
+          "jiaozi-ring-modern-bridge-in-chengdu",
+          7,
+          "晴日交子大道正面"
+        ],
+        [
+          "jiaozi-ring-modern-bridge-in-chengdu",
+          8,
+          "环形天桥日间广角"
+        ],
+        [
+          "jiaozi-ring-modern-bridge-in-chengdu",
+          9,
+          "橙色桥面与现代建筑"
+        ],
+        [
+          "jiaozi-ring-modern-bridge-in-chengdu",
+          0,
+          "夜间车流与桥体轮廓"
+        ]
+      ],
+      "current": null,
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Jiaozi-ring-aerial-view-at-night-in-Chengdu-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Jiaozi-ring-aerial-view-at-night-in-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/jiaozi-ring-modern-bridge-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-20",
+          "alt": "Jiaozi ring bridge and skyscrapers aerial viewat night in Chengdu, Sichuan province, China",
+          "imageName": "Jiaozi-ring-aerial-view-at-night-in-Chengdu-705x470.jpg",
+          "collection": "jiaozi-ring-modern-bridge-in-chengdu",
+          "number": 3,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/jiaozi-ring-modern-bridge-in-chengdu-03.jpg",
+          "sha256": "8f3c6d9ef9e318074dcea819ae6c76f59982383f8ad1b87aefa4d5203c25271f",
+          "id": "A",
+          "label": "环形天桥与城市夜色 · 俯瞰",
+          "preview": "./images/destination-options/20261010-specified-sources/jiaozi-ring-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-2-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-2.jpg",
+          "page": "https://philippelejeanvre.com/jiaozi-ring-modern-bridge-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-20",
+          "alt": "Car traffic light trails at night at Jiaozi ring bridge in Chengdu, Sichuan province, China",
+          "imageName": "Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-2-705x471.jpg",
+          "collection": "jiaozi-ring-modern-bridge-in-chengdu",
+          "number": 1,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/jiaozi-ring-modern-bridge-in-chengdu-01.jpg",
+          "sha256": "ba3e94e1c35760ab0e5ef24e10f9a0f2f20e77c92b46350afaef75b89d808071",
+          "id": "B",
+          "label": "双塔背景下的交子之环",
+          "preview": "./images/destination-options/20261010-specified-sources/jiaozi-ring-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-8-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-8.jpg",
+          "page": "https://philippelejeanvre.com/jiaozi-ring-modern-bridge-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-20",
+          "alt": "Car traffic light trails at night at Jiaozi ring bridge in Chengdu, Sichuan province, China",
+          "imageName": "Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-8-705x471.jpg",
+          "collection": "jiaozi-ring-modern-bridge-in-chengdu",
+          "number": 6,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/jiaozi-ring-modern-bridge-in-chengdu-06.jpg",
+          "sha256": "bf5e25ee8325496369a5cb642efdeec0eb5425f5b654577de2fd6c7c839148b5",
+          "id": "C",
+          "label": "曲线天桥与光轨",
+          "preview": "./images/destination-options/20261010-specified-sources/jiaozi-ring-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-6-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-6.jpg",
+          "page": "https://philippelejeanvre.com/jiaozi-ring-modern-bridge-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-20",
+          "alt": "Car traffic light trails at night at Jiaozi ring bridge in Chengdu, Sichuan province, China",
+          "imageName": "Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-6-705x471.jpg",
+          "collection": "jiaozi-ring-modern-bridge-in-chengdu",
+          "number": 5,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/jiaozi-ring-modern-bridge-in-chengdu-05.jpg",
+          "sha256": "ecc7008f9d642675860e8da5f955aa391bee6b92ff411da2f18583ade5569aab",
+          "id": "D",
+          "label": "夜色中的桥面与阶梯",
+          "preview": "./images/destination-options/20261010-specified-sources/jiaozi-ring-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Jiaozi-ring-pedestrian-bridge-in-Chengdu-3-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Jiaozi-ring-pedestrian-bridge-in-Chengdu-3.jpg",
+          "page": "https://philippelejeanvre.com/jiaozi-ring-modern-bridge-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-20",
+          "alt": "New pedestrian circular bridge - Jiaozi ring - in Jiaozi avenue in the south business district of the city, Chengdu, Sichuan province, China",
+          "imageName": "Jiaozi-ring-pedestrian-bridge-in-Chengdu-3-705x471.jpg",
+          "collection": "jiaozi-ring-modern-bridge-in-chengdu",
+          "number": 7,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/jiaozi-ring-modern-bridge-in-chengdu-07.jpg",
+          "sha256": "85bc436aff025788a05353c7b55326482e90b4ca6751abd98cc0fd2d6405209b",
+          "id": "E",
+          "label": "晴日交子大道正面",
+          "preview": "./images/destination-options/20261010-specified-sources/jiaozi-ring-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Jiaozi-ring-pedestrian-bridge-in-Chengdu-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Jiaozi-ring-pedestrian-bridge-in-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/jiaozi-ring-modern-bridge-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-20",
+          "alt": "New pedestrian circular bridge - Jiaozi ring - in Jiaozi avenue in the south business district of the city, Chengdu, Sichuan province, China",
+          "imageName": "Jiaozi-ring-pedestrian-bridge-in-Chengdu-705x471.jpg",
+          "collection": "jiaozi-ring-modern-bridge-in-chengdu",
+          "number": 8,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/jiaozi-ring-modern-bridge-in-chengdu-08.jpg",
+          "sha256": "3a2ef229618d017905da5b16f400112f8323d1880ad4f58df3cb84f9c0d69347",
+          "id": "F",
+          "label": "环形天桥日间广角",
+          "preview": "./images/destination-options/20261010-specified-sources/jiaozi-ring-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Jiaozi-ring-pedestrian-bridge-in-Chengdu-2-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Jiaozi-ring-pedestrian-bridge-in-Chengdu-2.jpg",
+          "page": "https://philippelejeanvre.com/jiaozi-ring-modern-bridge-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-20",
+          "alt": "New pedestrian circular bridge - Jiaozi ring - in Jiaozi avenue in the south business district of the city, Chengdu, Sichuan province, China",
+          "imageName": "Jiaozi-ring-pedestrian-bridge-in-Chengdu-2-705x471.jpg",
+          "collection": "jiaozi-ring-modern-bridge-in-chengdu",
+          "number": 9,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/jiaozi-ring-modern-bridge-in-chengdu-09.jpg",
+          "sha256": "2514c762a60251a16d4831461e3c0fce95eeb462f0ba73cb32212c008a0467a6",
+          "id": "G",
+          "label": "橙色桥面与现代建筑",
+          "preview": "./images/destination-options/20261010-specified-sources/jiaozi-ring-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-7-1-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-7-1.jpg",
+          "page": "https://philippelejeanvre.com/jiaozi-ring-modern-bridge-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-20",
+          "alt": "Car traffic light trails at night at Jiaozi ring bridge in Chengdu, Sichuan province, China",
+          "imageName": "Car-traffic-light-trails-at-night-at-Jiaozi-ring-in-Chengdu-7-1-705x471.jpg",
+          "collection": "jiaozi-ring-modern-bridge-in-chengdu",
+          "number": 0,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/jiaozi-ring-modern-bridge-in-chengdu-00.jpg",
+          "sha256": "612f045bb59b04ae3addcc50ab38d158b2349b733ba43e2184d3164d8a3f9be3",
+          "id": "H",
+          "label": "夜间车流与桥体轮廓",
+          "preview": "./images/destination-options/20261010-specified-sources/jiaozi-ring-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "twins",
+      "name": "金融城双子塔",
+      "note": "这个相册有 4 张独立灯光秀照片，加上保留原图，共 5 个选择；没有用重复裁图凑数量。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "tianfu-financial-center-twin-towers-night-lightshow-in-chengdu",
+          0,
+          "蓝色光束与双塔全景"
+        ],
+        [
+          "tianfu-financial-center-twin-towers-night-lightshow-in-chengdu",
+          1,
+          "近景双塔与蓝色灯光"
+        ],
+        [
+          "tianfu-financial-center-twin-towers-night-lightshow-in-chengdu",
+          2,
+          "金色光束与双塔"
+        ],
+        [
+          "tianfu-financial-center-twin-towers-night-lightshow-in-chengdu",
+          3,
+          "金色灯光与湖面倒影"
+        ]
+      ],
+      "current": {
+        "id": "twins",
+        "name": "金融城双子塔",
+        "image": "./images/destinations/twins.jpg?v=chosen-v15",
+        "sha256": "35688993772dc96ada44659a2089ad49de304f84e7a1549a130f8858a873dd21"
+      },
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-6-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-6.jpg",
+          "page": "https://philippelejeanvre.com/tianfu-financial-center-twin-towers-night-lightshow-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-02-18",
+          "alt": "Chengdu, Sichuan province, China : Jiaozi Financial street twin towers lightshow at night in the business district of the city.",
+          "imageName": "Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-6-705x471.jpg",
+          "collection": "tianfu-financial-center-twin-towers-night-lightshow-in-chengdu",
+          "number": 0,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/tianfu-financial-center-twin-towers-night-lightshow-in-chengdu-00.jpg",
+          "sha256": "f4d043fbd6aa9a485882bc18f65cda74e3641237054799aeb6aa68fb9d5063e6",
+          "id": "A",
+          "label": "蓝色光束与双塔全景",
+          "preview": "./images/destination-options/20261010-specified-sources/twins-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-5-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-5.jpg",
+          "page": "https://philippelejeanvre.com/tianfu-financial-center-twin-towers-night-lightshow-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-02-18",
+          "alt": "Chengdu, Sichuan province, China : Jiaozi Financial street twin towers lightshow at night in the business district of the city.",
+          "imageName": "Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-5-705x471.jpg",
+          "collection": "tianfu-financial-center-twin-towers-night-lightshow-in-chengdu",
+          "number": 1,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/tianfu-financial-center-twin-towers-night-lightshow-in-chengdu-01.jpg",
+          "sha256": "06bdf3b2643e863563176f1e6000cb2abdb05bceea8213f261630543af969e10",
+          "id": "B",
+          "label": "近景双塔与蓝色灯光",
+          "preview": "./images/destination-options/20261010-specified-sources/twins-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China.jpg",
+          "page": "https://philippelejeanvre.com/tianfu-financial-center-twin-towers-night-lightshow-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-02-18",
+          "alt": "Chengdu, Sichuan province, China : Jiaozi Financial street twin towers lightshow at night in the business district of the city.",
+          "imageName": "Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-705x471.jpg",
+          "collection": "tianfu-financial-center-twin-towers-night-lightshow-in-chengdu",
+          "number": 2,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/tianfu-financial-center-twin-towers-night-lightshow-in-chengdu-02.jpg",
+          "sha256": "ac596b4e3767eae2dca027a0b700ee77cceb26df7a6cb4d52205260d2b1981c8",
+          "id": "C",
+          "label": "金色光束与双塔",
+          "preview": "./images/destination-options/20261010-specified-sources/twins-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-4-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-4.jpg",
+          "page": "https://philippelejeanvre.com/tianfu-financial-center-twin-towers-night-lightshow-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-02-18",
+          "alt": "Chengdu, Sichuan province, China : Jiaozi Financial street twin towers lightshow at night in the business district of the city.",
+          "imageName": "Tianfu-Financial-center-twin-towers-night-lightshow-in-Chengdu-China-4-705x471.jpg",
+          "collection": "tianfu-financial-center-twin-towers-night-lightshow-in-chengdu",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/tianfu-financial-center-twin-towers-night-lightshow-in-chengdu-03.jpg",
+          "sha256": "e3d8a51c57830e6e455ed5ff10672ea072b4b0df6bce76924a4bfb298e30acec",
+          "id": "D",
+          "label": "金色灯光与湖面倒影",
+          "preview": "./images/destination-options/20261010-specified-sources/twins-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "global",
+      "name": "环球中心",
+      "note": "日景、晚霞、建筑倒影与夜间车流，8 个不同视角。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "chengdu-new-century-global-center",
+          0,
+          "蓝调暮色 · 全景航拍"
+        ],
+        [
+          "chengdu-new-century-global-center",
+          1,
+          "车流光轨与夜色"
+        ],
+        [
+          "chengdu-new-century-global-center",
+          2,
+          "夜间建筑正面广角"
+        ],
+        [
+          "chengdu-new-century-global-center",
+          3,
+          "夕阳倒影与建筑全貌"
+        ],
+        [
+          "chengdu-new-century-global-center",
+          4,
+          "晴日水面与玻璃立面"
+        ],
+        [
+          "chengdu-new-century-global-center",
+          5,
+          "静谧水岸与建筑倒影"
+        ],
+        [
+          "chengdu-new-century-global-center",
+          6,
+          "湖岸与城市全景"
+        ],
+        [
+          "chengdu-new-century-global-center",
+          7,
+          "城市背景下的环球中心"
+        ]
+      ],
+      "current": null,
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-center-aerial-view-panorama-at-blue-hour-2-705x255.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-center-aerial-view-panorama-at-blue-hour-2.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-04",
+          "alt": "New Century Global Center aerial view panorama at blue hour, Chengdu, Sichuan province, China",
+          "imageName": "Chengdu-New-Century-Global-center-aerial-view-panorama-at-blue-hour-2-705x255.jpg",
+          "collection": "chengdu-new-century-global-center",
+          "number": 0,
+          "dimensions": [
+            705,
+            255
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-new-century-global-center-00.jpg",
+          "sha256": "1c1c8048af5ae2ad6fef51f5db2c5a31ae7a9dd77e0be889cb597a80b08a4699",
+          "id": "A",
+          "label": "蓝调暮色 · 全景航拍",
+          "preview": "./images/destination-options/20261010-specified-sources/global-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Center-and-car-traffic-light-trails-at-night-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Center-and-car-traffic-light-trails-at-night.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-04",
+          "alt": "Chengdu New Century Global Center building at night with car light trails in the foreground, Sichuan province, China",
+          "imageName": "Chengdu-New-Century-Global-Center-and-car-traffic-light-trails-at-night-705x470.jpg",
+          "collection": "chengdu-new-century-global-center",
+          "number": 1,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-new-century-global-center-01.jpg",
+          "sha256": "56ac70a7fb15a7e00b3cb473d23d206d73b94e8a7ace77eb0a93734d37f6e900",
+          "id": "B",
+          "label": "车流光轨与夜色",
+          "preview": "./images/destination-options/20261010-specified-sources/global-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Centerilluminated-at-night-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Centerilluminated-at-night.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-04",
+          "alt": "New Century Global Center at night colored in blue with a clear sky, Chengdu, Sichuan Province, China",
+          "imageName": "Chengdu-New-Century-Global-Centerilluminated-at-night-705x471.jpg",
+          "collection": "chengdu-new-century-global-center",
+          "number": 2,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-new-century-global-center-02.jpg",
+          "sha256": "95e54b700ef34fa999866eb719ccbecdef081bdf648a78450933f90838a4d439",
+          "id": "C",
+          "label": "夜间建筑正面广角",
+          "preview": "./images/destination-options/20261010-specified-sources/global-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-Global-Center-reflection-in-a-pond-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-Global-Center-reflection-in-a-pond.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-04",
+          "alt": "Chengdu Global Center reflecting in the water on a clear day, Sichuan Province, China",
+          "imageName": "Chengdu-Global-Center-reflection-in-a-pond-705x470.jpg",
+          "collection": "chengdu-new-century-global-center",
+          "number": 3,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-new-century-global-center-03.jpg",
+          "sha256": "353118bde165197cad34132283a747d38a71eebe5b9ad3b04abf84016fd77105",
+          "id": "D",
+          "label": "夕阳倒影与建筑全貌",
+          "preview": "./images/destination-options/20261010-specified-sources/global-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Center-reflecting-in-a-basin-with-fountains-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Center-reflecting-in-a-basin-with-fountains.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-04",
+          "alt": "New Century Global Center reflecting in a basin with fountains at sunset, Chengdu, Sichuan Province, China",
+          "imageName": "Chengdu-New-Century-Global-Center-reflecting-in-a-basin-with-fountains-705x470.jpg",
+          "collection": "chengdu-new-century-global-center",
+          "number": 4,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-new-century-global-center-04.jpg",
+          "sha256": "030e6531bdafb8ef16775dbddb68fcb257df3702a469d5698cf1085331242ff3",
+          "id": "E",
+          "label": "晴日水面与玻璃立面",
+          "preview": "./images/destination-options/20261010-specified-sources/global-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Center-reflecting-in-a-pond-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Center-reflecting-in-a-pond.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-04",
+          "alt": "New Century Global Center reflecting in a pond, Chengdu, Sichuan Province, China",
+          "imageName": "Chengdu-New-Century-Global-Center-reflecting-in-a-pond-705x471.jpg",
+          "collection": "chengdu-new-century-global-center",
+          "number": 5,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-new-century-global-center-05.jpg",
+          "sha256": "b34618efe64c5648d7b60baf0457f316c0473009e911f67bcccf2bb778b00fb0",
+          "id": "F",
+          "label": "静谧水岸与建筑倒影",
+          "preview": "./images/destination-options/20261010-specified-sources/global-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-new-Century-Global-Center-reflecting-in-a-lake-panorama-705x193.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-new-Century-Global-Center-reflecting-in-a-lake-panorama.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-04",
+          "alt": "New Century Global Center reflecting in a lake panorama, Chengdu, Sichuan Province, China",
+          "imageName": "Chengdu-new-Century-Global-Center-reflecting-in-a-lake-panorama-705x193.jpg",
+          "collection": "chengdu-new-century-global-center",
+          "number": 6,
+          "dimensions": [
+            705,
+            193
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-new-century-global-center-06.jpg",
+          "sha256": "4393ecd97786fdc6c55720d07f6fa534e61d08551becf223ef5feca2332dc710",
+          "id": "G",
+          "label": "湖岸与城市全景",
+          "preview": "./images/destination-options/20261010-specified-sources/global-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Center-aerial-view-and-skyline-in-daylight-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Chengdu-New-Century-Global-Center-aerial-view-and-skyline-in-daylight.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-04",
+          "alt": "New Century Global Center aerial view and skyline in daylight, Chengdu, Sichuan Province, China",
+          "imageName": "Chengdu-New-Century-Global-Center-aerial-view-and-skyline-in-daylight-705x470.jpg",
+          "collection": "chengdu-new-century-global-center",
+          "number": 7,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-new-century-global-center-07.jpg",
+          "sha256": "ec5db4809dd311236754566d68afaf7dce51c74d1898dfc387f2fee108f9d1da",
+          "id": "H",
+          "label": "城市背景下的环球中心",
+          "preview": "./images/destination-options/20261010-specified-sources/global-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "tower339",
+      "name": "339 电视塔",
+      "note": "以电视塔作为可辨认的主体，兼顾晚霞、城市夜色与锦江水岸。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "chengdu-skyline-with-west-pearl-339-tv-tower",
+          0,
+          "蓝调城市全景"
+        ],
+        [
+          "chengdu-skyline-with-west-pearl-339-tv-tower",
+          2,
+          "夜幕中的电视塔"
+        ],
+        [
+          "chengdu-skyline-with-west-pearl-339-tv-tower",
+          4,
+          "灯光亮起的城市地标"
+        ],
+        [
+          "chengdu-skyline-with-west-pearl-339-tv-tower",
+          5,
+          "塔下建筑与蓝色夜景"
+        ],
+        [
+          "chengdu-skyline-with-west-pearl-339-tv-tower",
+          9,
+          "金色晚霞与电视塔"
+        ],
+        [
+          "chengdu-skyline-with-west-pearl-339-tv-tower",
+          10,
+          "晴日锦江与城市景观"
+        ],
+        [
+          "chengdu-skyline-with-west-pearl-339-tv-tower",
+          1,
+          "城市纵深与电视塔"
+        ],
+        [
+          "chengdu-skyline-with-west-pearl-339-tv-tower",
+          7,
+          "云层下的城市天际线"
+        ]
+      ],
+      "current": null,
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-skyline-panorama-Sichuan-tower-2-705x237.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-skyline-panorama-Sichuan-tower-2.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-skyline-with-west-pearl-339-tv-tower/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-08-15",
+          "alt": "Chengdu skyline panorama at blue hour with the West pearl 339 TV tower, Sichuan Province, China",
+          "imageName": "Chengdu-skyline-panorama-Sichuan-tower-2-705x237.jpg",
+          "collection": "chengdu-skyline-with-west-pearl-339-tv-tower",
+          "number": 0,
+          "dimensions": [
+            705,
+            237
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-skyline-with-west-pearl-339-tv-tower-00.jpg",
+          "sha256": "a3435d65d758dc595e0fb9f1f8e67fd74e9bda0744528f6675f1ec820f6bd692",
+          "id": "A",
+          "label": "蓝调城市全景",
+          "preview": "./images/destination-options/20261010-specified-sources/tower339-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-TV-tower-339-aerial-view-at-blue-hour2-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-TV-tower-339-aerial-view-at-blue-hour2.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-skyline-with-west-pearl-339-tv-tower/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-08-15",
+          "alt": "Chengdu skyline with West Pearl 339 TV tower at blue hour",
+          "imageName": "Chengdu-TV-tower-339-aerial-view-at-blue-hour2-705x470.jpg",
+          "collection": "chengdu-skyline-with-west-pearl-339-tv-tower",
+          "number": 2,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-skyline-with-west-pearl-339-tv-tower-02.jpg",
+          "sha256": "3a4b831503c779adb46384697761140f0e54ecc224562e9b941f13f88741540d",
+          "id": "B",
+          "label": "夜幕中的电视塔",
+          "preview": "./images/destination-options/20261010-specified-sources/tower339-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-TV-Tower-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-TV-Tower.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-skyline-with-west-pearl-339-tv-tower/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-08-15",
+          "alt": "Chengdu skyline at night with the West Pearl 339 TV tower in blue, Sichuan province, China",
+          "imageName": "Chengdu-TV-Tower-705x471.jpg",
+          "collection": "chengdu-skyline-with-west-pearl-339-tv-tower",
+          "number": 4,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-skyline-with-west-pearl-339-tv-tower-04.jpg",
+          "sha256": "ae279eccb0b4a91312131c680378a0ecdab2c7e2da39fb80c3f322685b18a8e5",
+          "id": "C",
+          "label": "灯光亮起的城市地标",
+          "preview": "./images/destination-options/20261010-specified-sources/tower339-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Sichuan-TV-tower-339-suburb-illuminated-at-night-aerial-view-in-Chengdu-2-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Sichuan-TV-tower-339-suburb-illuminated-at-night-aerial-view-in-Chengdu-2.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-skyline-with-west-pearl-339-tv-tower/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-08-15",
+          "alt": "Chengdu West Pearl 339 TV tower illuminated at night aerial view, Sichuan province, China",
+          "imageName": "Sichuan-TV-tower-339-suburb-illuminated-at-night-aerial-view-in-Chengdu-2-705x471.jpg",
+          "collection": "chengdu-skyline-with-west-pearl-339-tv-tower",
+          "number": 5,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-skyline-with-west-pearl-339-tv-tower-05.jpg",
+          "sha256": "01ed902ebaedb27e6e3aa0446f4f098ee74567ffbb7113c680514e93ae5221ff",
+          "id": "D",
+          "label": "塔下建筑与蓝色夜景",
+          "preview": "./images/destination-options/20261010-specified-sources/tower339-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-skyline-with-Sichuan-TV-tower-at-sunset-2-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-skyline-with-Sichuan-TV-tower-at-sunset-2.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-skyline-with-west-pearl-339-tv-tower/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-08-15",
+          "alt": "Chengdu skyline with West Pearl 339 TV tower at sunset, Sichuan province, China",
+          "imageName": "Chengdu-skyline-with-Sichuan-TV-tower-at-sunset-2-705x470.jpg",
+          "collection": "chengdu-skyline-with-west-pearl-339-tv-tower",
+          "number": 9,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-skyline-with-west-pearl-339-tv-tower-09.jpg",
+          "sha256": "eb776a104d62a4c4d28829ac021eb07003de8a7f5800877d17dc21afa1f263dc",
+          "id": "E",
+          "label": "金色晚霞与电视塔",
+          "preview": "./images/destination-options/20261010-specified-sources/tower339-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-skyline-aerial-view-in-daylight-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-skyline-aerial-view-in-daylight.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-skyline-with-west-pearl-339-tv-tower/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-08-15",
+          "alt": "Chengdu skyline aerial view in daylight with West Pearl 339 TV tower, Sichuan province, China",
+          "imageName": "Chengdu-skyline-aerial-view-in-daylight-705x471.jpg",
+          "collection": "chengdu-skyline-with-west-pearl-339-tv-tower",
+          "number": 10,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-skyline-with-west-pearl-339-tv-tower-10.jpg",
+          "sha256": "6cafc69e00341193e6d92f0a63882d0e41f7064fafc6eb75da059f0ff5beff7e",
+          "id": "F",
+          "label": "晴日锦江与城市景观",
+          "preview": "./images/destination-options/20261010-specified-sources/tower339-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-TV-tower-339-aerial-view-at-blue-hour-2.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-TV-tower-339-aerial-view-at-blue-hour-2.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-skyline-with-west-pearl-339-tv-tower/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-08-15",
+          "alt": "Chengdu skyline with West Pearl 339 TV tower at blue hour, Sichuan province, China",
+          "imageName": "Chengdu-TV-tower-339-aerial-view-at-blue-hour-2.jpg",
+          "collection": "chengdu-skyline-with-west-pearl-339-tv-tower",
+          "number": 1,
+          "dimensions": [
+            683,
+            1024
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-skyline-with-west-pearl-339-tv-tower-01.jpg",
+          "sha256": "b9828a7b08e5ca0645c7cb21568c7adb53fc794ed3a1cb1535aed727c1914524",
+          "id": "G",
+          "label": "城市纵深与电视塔",
+          "preview": "./images/destination-options/20261010-specified-sources/tower339-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-city-skyline-aerial-view-at-dusk-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/08/Chengdu-city-skyline-aerial-view-at-dusk.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-skyline-with-west-pearl-339-tv-tower/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-08-15",
+          "alt": "Chengdu city skyline aerial view at dusk, Sichuan province, China",
+          "imageName": "Chengdu-city-skyline-aerial-view-at-dusk-705x471.jpg",
+          "collection": "chengdu-skyline-with-west-pearl-339-tv-tower",
+          "number": 7,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-skyline-with-west-pearl-339-tv-tower-07.jpg",
+          "sha256": "1db5d56d2472409265d0fcc9187eb3241407535a058ee1191a7342aa727bdf03",
+          "id": "H",
+          "label": "云层下的城市天际线",
+          "preview": "./images/destination-options/20261010-specified-sources/tower339-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "dongjiao",
+      "name": "东郊记忆",
+      "note": "专题记录园区内大戏台茶馆的室内空间；作为新视角候选，原本的成都墙照片继续保留。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          9,
+          "旧厂房里的红色舞台"
+        ],
+        [
+          "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          4,
+          "挑高厂房与竹椅茶席"
+        ],
+        [
+          "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          1,
+          "从楼层俯瞰戏台"
+        ],
+        [
+          "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          3,
+          "绿意与茶馆生活"
+        ],
+        [
+          "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          6,
+          "自然光下的茶馆全景"
+        ],
+        [
+          "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          0,
+          "红色舞台与窗格"
+        ],
+        [
+          "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          8,
+          "穿过木格窗看茶馆"
+        ],
+        [
+          "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          7,
+          "阶梯与舞台的几何构图"
+        ]
+      ],
+      "current": {
+        "id": "dongjiao",
+        "name": "东郊记忆",
+        "image": "./images/destinations/dongjiao.jpg?v=chosen-v15",
+        "sha256": "992a1bc28d669564f588b67a047c856939e38a376e700eade2bd5f2441f332dc"
+      },
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Multi-Level-Indoor-Teahouse-And-Cafe-With-Red-Stage-And-Casual-Diners-1-705x467.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Multi-Level-Indoor-Teahouse-And-Cafe-With-Red-Stage-And-Casual-Diners-1.jpg",
+          "page": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-06-10",
+          "alt": "",
+          "imageName": "Busy-Multi-Level-Indoor-Teahouse-And-Cafe-With-Red-Stage-And-Casual-Diners-1-705x467.jpg",
+          "collection": "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          "number": 9,
+          "dimensions": [
+            705,
+            467
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu-09.jpg",
+          "sha256": "602d9b6e1c6722e3b05ff2fe02edb3dd938c8664d065167e931466e1b1d5be78",
+          "id": "A",
+          "label": "旧厂房里的红色舞台",
+          "preview": "./images/destination-options/20261010-specified-sources/dongjiao-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Teahouse-Interior-With-Families-and-Friends-Dining-in-Large-Industrial-Style-Food-Hall-705x456.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Teahouse-Interior-With-Families-and-Friends-Dining-in-Large-Industrial-Style-Food-Hall.jpg",
+          "page": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-06-10",
+          "alt": "",
+          "imageName": "Busy-Teahouse-Interior-With-Families-and-Friends-Dining-in-Large-Industrial-Style-Food-Hall-705x456.jpg",
+          "collection": "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          "number": 4,
+          "dimensions": [
+            705,
+            456
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu-04.jpg",
+          "sha256": "cb909a62c28ef1bb9b76b075bb119ead725c802fe519032465d3892a8adff119",
+          "id": "B",
+          "label": "挑高厂房与竹椅茶席",
+          "preview": "./images/destination-options/20261010-specified-sources/dongjiao-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Crowded-Multi-Level-Teahouise-With-Red-Stage-and-Wooden-Staircase-Indoor-Dining-and-Social-Gathering-1-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Crowded-Multi-Level-Teahouise-With-Red-Stage-and-Wooden-Staircase-Indoor-Dining-and-Social-Gathering-1.jpg",
+          "page": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-06-10",
+          "alt": "",
+          "imageName": "Crowded-Multi-Level-Teahouise-With-Red-Stage-and-Wooden-Staircase-Indoor-Dining-and-Social-Gathering-1-705x471.jpg",
+          "collection": "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          "number": 1,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu-01.jpg",
+          "sha256": "bbaf2445c10664a88755a6a14cdf276855662db3cddbd7f89daa8a421037a62e",
+          "id": "C",
+          "label": "从楼层俯瞰戏台",
+          "preview": "./images/destination-options/20261010-specified-sources/dongjiao-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Crowded-Teahouse-With-Friends-and-Families-Dining-in-Industrial-Style-Multi-Level-Restaurant-1-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Crowded-Teahouse-With-Friends-and-Families-Dining-in-Industrial-Style-Multi-Level-Restaurant-1.jpg",
+          "page": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-06-10",
+          "alt": "",
+          "imageName": "Crowded-Teahouse-With-Friends-and-Families-Dining-in-Industrial-Style-Multi-Level-Restaurant-1-705x471.jpg",
+          "collection": "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu-03.jpg",
+          "sha256": "c8d08f8e1b1e2390e6ed29bafcb800ebd733648529ea4b7cf14ec57e47dae7a1",
+          "id": "D",
+          "label": "绿意与茶馆生活",
+          "preview": "./images/destination-options/20261010-specified-sources/dongjiao-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Teahouse-Hall-With-Families-and-Friends-Socializing-in-Modern-Industrial-Restaurant-Interior-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Teahouse-Hall-With-Families-and-Friends-Socializing-in-Modern-Industrial-Restaurant-Interior.jpg",
+          "page": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-06-10",
+          "alt": "",
+          "imageName": "Busy-Teahouse-Hall-With-Families-and-Friends-Socializing-in-Modern-Industrial-Restaurant-Interior-705x471.jpg",
+          "collection": "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          "number": 6,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu-06.jpg",
+          "sha256": "32ef7be9c0c34a271b3bcb6e2d74b6d95d7ce012543e9048164f63d66538d3b5",
+          "id": "E",
+          "label": "自然光下的茶馆全景",
+          "preview": "./images/destination-options/20261010-specified-sources/dongjiao-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Chinese-Teahouse-Theater-Interior-With-Red-Stage-Balcony-Dining-and-Social-Audience-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Chinese-Teahouse-Theater-Interior-With-Red-Stage-Balcony-Dining-and-Social-Audience.jpg",
+          "page": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-06-10",
+          "alt": "",
+          "imageName": "Busy-Chinese-Teahouse-Theater-Interior-With-Red-Stage-Balcony-Dining-and-Social-Audience-705x471.jpg",
+          "collection": "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          "number": 0,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu-00.jpg",
+          "sha256": "7187cf048c37e0a3db676d657189d5c8e02c5c3b80d4e7b169fdd77f4bf9ea60",
+          "id": "F",
+          "label": "红色舞台与窗格",
+          "preview": "./images/destination-options/20261010-specified-sources/dongjiao-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Traditional-Chinese-Teahouse-Interior-With-Multi-Level-Dining-Wooden-Carved-Screens-and-Busy-Restaurant-Atmosphere-705x473.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Traditional-Chinese-Teahouse-Interior-With-Multi-Level-Dining-Wooden-Carved-Screens-and-Busy-Restaurant-Atmosphere.jpg",
+          "page": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-06-10",
+          "alt": "",
+          "imageName": "Traditional-Chinese-Teahouse-Interior-With-Multi-Level-Dining-Wooden-Carved-Screens-and-Busy-Restaurant-Atmosphere-705x473.jpg",
+          "collection": "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          "number": 8,
+          "dimensions": [
+            705,
+            473
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu-08.jpg",
+          "sha256": "737ff6e8dbb81ff7e4a0c0978da5f5afdcbf2ee980bb44d8e206ea4a8b474027",
+          "id": "G",
+          "label": "穿过木格窗看茶馆",
+          "preview": "./images/destination-options/20261010-specified-sources/dongjiao-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Multi-Level-Teahouse-And-Restaurant-Dining-Area-With-Central-Staircase-and-Groups-of-People-Socializing-1-705x468.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/06/Busy-Multi-Level-Teahouse-And-Restaurant-Dining-Area-With-Central-Staircase-and-Groups-of-People-Socializing-1.jpg",
+          "page": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-06-10",
+          "alt": "",
+          "imageName": "Busy-Multi-Level-Teahouse-And-Restaurant-Dining-Area-With-Central-Staircase-and-Groups-of-People-Socializing-1-705x468.jpg",
+          "collection": "steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu",
+          "number": 7,
+          "dimensions": [
+            705,
+            468
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu-07.jpg",
+          "sha256": "6a8d2ef08a2510c100e261be72577b05409fc2a71eb40b214a7957a809724dbb",
+          "id": "H",
+          "label": "阶梯与舞台的几何构图",
+          "preview": "./images/destination-options/20261010-specified-sources/dongjiao-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "chunxi",
+      "name": "春熙路 · 太古里",
+      "note": "IFS、太古里建筑和周边街区摄影，主打不同城市氛围；原本已选的 IFS 图仍保留。",
+      "picks": [
+        [
+          "chengdu-city",
+          31,
+          "晴日 IFS 建筑地标"
+        ],
+        [
+          "chengdu-city",
+          2,
+          "太古里屋顶与夕阳"
+        ],
+        [
+          "mid-autumn-festival-night-photography-at-taikooli-chengdu",
+          6,
+          "传统屋顶与现代夜色"
+        ],
+        [
+          "mid-autumn-festival-night-photography-at-taikooli-chengdu",
+          7,
+          "玻璃建筑与都市生活"
+        ],
+        [
+          "rain-fog-and-neon-night-walks-in-central-chengdu",
+          0,
+          "雨夜街巷与霓虹"
+        ],
+        [
+          "rain-fog-and-neon-night-walks-in-central-chengdu",
+          2,
+          "湿润街道上的城市灯光"
+        ],
+        [
+          "rain-fog-and-neon-night-walks-in-central-chengdu",
+          5,
+          "暖色戏楼与城市夜游"
+        ]
+      ],
+      "current": {
+        "id": "chunxi",
+        "name": "春熙路 · 太古里",
+        "image": "./images/destinations/chunxi.jpg?v=chosen-v17",
+        "sha256": "9fed939a2b3ef1b7b3b3ff1af6838f6afe1c277a417affdbeedc8fa972098746"
+      },
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/08/Chengdu-IFS-low-angle-view-against-clear-sky-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/08/Chengdu-IFS-low-angle-view-against-clear-sky.jpg",
+          "page": "https://philippelejeanvre.com/portfolios/chengdu-city/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": null,
+          "alt": "Chengdu IFS low angle view against clear sky, Sichuan province, China",
+          "imageName": "Chengdu-IFS-low-angle-view-against-clear-sky-705x470.jpg",
+          "collection": "chengdu-city",
+          "number": 31,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-city-31.jpg",
+          "sha256": "9136de8053cfebdcfcfa7f2e7ab961e4aaff06eb872e8b85dfe95d0ccec73347",
+          "id": "A",
+          "label": "晴日 IFS 建筑地标",
+          "preview": "./images/destination-options/20261010-specified-sources/chunxi-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/08/Chengdu-Buddhist-temple-and-Taikooli-roofs-aerial-view-at-sunset-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/08/Chengdu-Buddhist-temple-and-Taikooli-roofs-aerial-view-at-sunset.jpg",
+          "page": "https://philippelejeanvre.com/portfolios/chengdu-city/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": null,
+          "alt": "Chengdu - Buddhist temple and Taikooli roofs aerial view at sunset, Sichuan Province, China",
+          "imageName": "Chengdu-Buddhist-temple-and-Taikooli-roofs-aerial-view-at-sunset-705x471.jpg",
+          "collection": "chengdu-city",
+          "number": 2,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-city-02.jpg",
+          "sha256": "2d9625db3eb822bb53b8280d7b38837e96a63751c7925024ef832af76d5d6f08",
+          "id": "B",
+          "label": "太古里屋顶与夕阳",
+          "preview": "./images/destination-options/20261010-specified-sources/chunxi-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2023/10/Buddhist-temple-buildings-and-modern-skyscraprers-at-night-in-Chengdu-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2023/10/Buddhist-temple-buildings-and-modern-skyscraprers-at-night-in-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/mid-autumn-festival-night-photography-at-taikooli-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2023-10-11",
+          "alt": "Daci buddhist temple buildings and modern skyscraprers at night in downtown Chengdu, Sichuan province, China",
+          "imageName": "Buddhist-temple-buildings-and-modern-skyscraprers-at-night-in-Chengdu-705x471.jpg",
+          "collection": "mid-autumn-festival-night-photography-at-taikooli-chengdu",
+          "number": 6,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/mid-autumn-festival-night-photography-at-taikooli-chengdu-06.jpg",
+          "sha256": "27946c424014b2e70bd546de4a698de6e7089a9f4dd42a6f3546fa475337a234",
+          "id": "C",
+          "label": "传统屋顶与现代夜色",
+          "preview": "./images/destination-options/20261010-specified-sources/chunxi-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2023/10/20231002-_PLE0388-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2023/10/20231002-_PLE0388.jpg",
+          "page": "https://philippelejeanvre.com/mid-autumn-festival-night-photography-at-taikooli-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2023-10-11",
+          "alt": "",
+          "imageName": "20231002-_PLE0388-705x471.jpg",
+          "collection": "mid-autumn-festival-night-photography-at-taikooli-chengdu",
+          "number": 7,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/mid-autumn-festival-night-photography-at-taikooli-chengdu-07.jpg",
+          "sha256": "bcf92b762629348efae2ddc58c5a0b9f2b927be0d18e1f0286d87cea2831b15a",
+          "id": "D",
+          "label": "玻璃建筑与都市生活",
+          "preview": "./images/destination-options/20261010-specified-sources/chunxi-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/01/Rainy-night-in-Chengdu-with-car-and-traditional-buildings-on-the-street-1_NoWatermark-705x1057.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/01/Rainy-night-in-Chengdu-with-car-and-traditional-buildings-on-the-street-1_NoWatermark.jpg",
+          "page": "https://philippelejeanvre.com/rain-fog-and-neon-night-walks-in-central-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-01-18",
+          "alt": "",
+          "imageName": "Rainy-night-in-Chengdu-with-car-and-traditional-buildings-on-the-street-1_NoWatermark-705x1057.jpg",
+          "collection": "rain-fog-and-neon-night-walks-in-central-chengdu",
+          "number": 0,
+          "dimensions": [
+            705,
+            1057
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/rain-fog-and-neon-night-walks-in-central-chengdu-00.jpg",
+          "sha256": "1cb611d1ff824ddc4d0a01a5d25581dccb96f83319d1951cbacd92e1ed2d8108",
+          "id": "E",
+          "label": "雨夜街巷与霓虹",
+          "preview": "./images/destination-options/20261010-specified-sources/chunxi-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/01/Busy-night-in-Chengdu-streets-with-people-and-bright-lights-in-Sichuan-1_NoWatermark-705x1057.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/01/Busy-night-in-Chengdu-streets-with-people-and-bright-lights-in-Sichuan-1_NoWatermark.jpg",
+          "page": "https://philippelejeanvre.com/rain-fog-and-neon-night-walks-in-central-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-01-18",
+          "alt": "",
+          "imageName": "Busy-night-in-Chengdu-streets-with-people-and-bright-lights-in-Sichuan-1_NoWatermark-705x1057.jpg",
+          "collection": "rain-fog-and-neon-night-walks-in-central-chengdu",
+          "number": 2,
+          "dimensions": [
+            705,
+            1057
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/rain-fog-and-neon-night-walks-in-central-chengdu-02.jpg",
+          "sha256": "d96eec0f10e3b508fef4cb859aa3357e1956d8d1ddabdbf2c2fdb08c135ee474",
+          "id": "F",
+          "label": "湿润街道上的城市灯光",
+          "preview": "./images/destination-options/20261010-specified-sources/chunxi-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2026/01/Night-maintenance-worker-in-Chengdu-bright-buildings-behind-him-1_NoWatermark-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2026/01/Night-maintenance-worker-in-Chengdu-bright-buildings-behind-him-1_NoWatermark.jpg",
+          "page": "https://philippelejeanvre.com/rain-fog-and-neon-night-walks-in-central-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2026-01-18",
+          "alt": "",
+          "imageName": "Night-maintenance-worker-in-Chengdu-bright-buildings-behind-him-1_NoWatermark-705x470.jpg",
+          "collection": "rain-fog-and-neon-night-walks-in-central-chengdu",
+          "number": 5,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/rain-fog-and-neon-night-walks-in-central-chengdu-05.jpg",
+          "sha256": "67083894498eeb6f3dcf27afa2ceef51b6e3fcaea7ed426cbeb4659196169ed4",
+          "id": "G",
+          "label": "暖色戏楼与城市夜游",
+          "preview": "./images/destination-options/20261010-specified-sources/chunxi-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "jinli",
+      "name": "锦里 · 武侯祠",
+      "note": "这组来自锦里夜游相册：挑选灯笼、传统门饰与油纸伞细节；没有把它们标作武侯祠实景。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "mid-autumn-festival-jinli-ancient-street-chengdu",
+          1,
+          "锦里灯笼长廊"
+        ],
+        [
+          "mid-autumn-festival-jinli-ancient-street-chengdu",
+          7,
+          "红灯笼与古街夜色"
+        ],
+        [
+          "mid-autumn-festival-jinli-ancient-street-chengdu",
+          0,
+          "传统门饰与暖色灯影"
+        ],
+        [
+          "mid-autumn-festival-jinli-ancient-street-chengdu",
+          2,
+          "灯笼文字与传统细节"
+        ],
+        [
+          "mid-autumn-festival-jinli-ancient-street-chengdu",
+          3,
+          "油纸伞与朦胧灯火"
+        ]
+      ],
+      "current": {
+        "id": "jinli",
+        "name": "锦里 · 武侯祠",
+        "image": "./images/destinations/jinli.jpg?v=chosen-v15",
+        "sha256": "93b9c5186d6deab1e2a2cd9055fe9e4be387c44deef5bbaf35d8d6e15f3f59f2"
+      },
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/09/Yellow-chinese-lanterns-illuminated-at-night-2-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/09/Yellow-chinese-lanterns-illuminated-at-night-2.jpg",
+          "page": "https://philippelejeanvre.com/mid-autumn-festival-jinli-ancient-street-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-09-21",
+          "alt": "",
+          "imageName": "Yellow-chinese-lanterns-illuminated-at-night-2-705x471.jpg",
+          "collection": "mid-autumn-festival-jinli-ancient-street-chengdu",
+          "number": 1,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/mid-autumn-festival-jinli-ancient-street-chengdu-01.jpg",
+          "sha256": "c5ec0f3e0087271fc88dc3e2b8c5f7572198534f83bcb9057fe05d32bd18ef13",
+          "id": "A",
+          "label": "锦里灯笼长廊",
+          "preview": "./images/destination-options/20261010-specified-sources/jinli-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/09/Red-chinese-lanterns-illuminated-at-night-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/09/Red-chinese-lanterns-illuminated-at-night.jpg",
+          "page": "https://philippelejeanvre.com/mid-autumn-festival-jinli-ancient-street-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-09-21",
+          "alt": "Red chinese lanterns illuminated at night in Jinli old street, Chengdu, Sichuan province, China",
+          "imageName": "Red-chinese-lanterns-illuminated-at-night-705x471.jpg",
+          "collection": "mid-autumn-festival-jinli-ancient-street-chengdu",
+          "number": 7,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/mid-autumn-festival-jinli-ancient-street-chengdu-07.jpg",
+          "sha256": "5a6da5c083554498b7d39b5e61c68d67dbbdb08f69e1cf33775fd7bec820f341",
+          "id": "B",
+          "label": "红灯笼与古街夜色",
+          "preview": "./images/destination-options/20261010-specified-sources/jinli-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/09/Chinese-door-knocker-with-chinese-lanterns-in-the-background-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/09/Chinese-door-knocker-with-chinese-lanterns-in-the-background.jpg",
+          "page": "https://philippelejeanvre.com/mid-autumn-festival-jinli-ancient-street-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-09-21",
+          "alt": "Chinese door knocker with chinese lanterns in the background in Jinli for the mid-autumn festival, Sichuan province, China",
+          "imageName": "Chinese-door-knocker-with-chinese-lanterns-in-the-background-705x471.jpg",
+          "collection": "mid-autumn-festival-jinli-ancient-street-chengdu",
+          "number": 0,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/mid-autumn-festival-jinli-ancient-street-chengdu-00.jpg",
+          "sha256": "4a3d34dae1f1d1082a6ed2265d5c0a8f592e89647e7698a245da2e7f51dd391b",
+          "id": "C",
+          "label": "传统门饰与暖色灯影",
+          "preview": "./images/destination-options/20261010-specified-sources/jinli-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/09/12092019-_DSC4478.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/09/12092019-_DSC4478.jpg",
+          "page": "https://philippelejeanvre.com/mid-autumn-festival-jinli-ancient-street-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-09-21",
+          "alt": "Yellow chinese lanterns illuminated at night in Jinli ancient street for the mid-autumn festival in Chengdu, Sichuan province, China",
+          "imageName": "12092019-_DSC4478.jpg",
+          "collection": "mid-autumn-festival-jinli-ancient-street-chengdu",
+          "number": 2,
+          "dimensions": [
+            684,
+            1024
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/mid-autumn-festival-jinli-ancient-street-chengdu-02.jpg",
+          "sha256": "06d5f8b644188de2c617b683dda86b42ba7149eaf88eb09c65fb0db9453da543",
+          "id": "D",
+          "label": "灯笼文字与传统细节",
+          "preview": "./images/destination-options/20261010-specified-sources/jinli-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/09/Mid-Autumn-festival-jinli-3-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/09/Mid-Autumn-festival-jinli-3.jpg",
+          "page": "https://philippelejeanvre.com/mid-autumn-festival-jinli-ancient-street-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-09-21",
+          "alt": "Chinese umbrella against chinese lanterns at night in Jinli for the mid-autumn festival, Sichuan province, China",
+          "imageName": "Mid-Autumn-festival-jinli-3-705x471.jpg",
+          "collection": "mid-autumn-festival-jinli-ancient-street-chengdu",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/mid-autumn-festival-jinli-ancient-street-chengdu-03.jpg",
+          "sha256": "3e6d3f7fd2ae19f48f6fe9b1bd9f36ad10dc426a0337050627bc7a836dd8559e",
+          "id": "E",
+          "label": "油纸伞与朦胧灯火",
+          "preview": "./images/destination-options/20261010-specified-sources/jinli-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "panda",
+      "name": "大熊猫繁育研究基地",
+      "note": "原作者在专题中明确标注成都大熊猫繁育研究基地；8 张不同熊猫场景供比较。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "giant-pandas-in-chengdu",
+          0,
+          "竹林里的熊猫"
+        ],
+        [
+          "giant-pandas-in-chengdu",
+          2,
+          "木台上的可爱熊猫"
+        ],
+        [
+          "giant-pandas-in-chengdu",
+          3,
+          "两只熊猫相伴"
+        ],
+        [
+          "giant-pandas-in-chengdu",
+          6,
+          "绿意中的熊猫"
+        ],
+        [
+          "giant-pandas-in-chengdu",
+          7,
+          "相依的小熊猫"
+        ],
+        [
+          "giant-pandas-in-chengdu",
+          8,
+          "悠闲休息的熊猫"
+        ],
+        [
+          "giant-pandas-in-chengdu",
+          10,
+          "石台上酣睡的熊猫"
+        ],
+        [
+          "giant-pandas-in-chengdu",
+          11,
+          "熊猫们的亲密时刻"
+        ]
+      ],
+      "current": {
+        "id": "panda",
+        "name": "大熊猫繁育研究基地",
+        "image": "./images/destinations/panda.jpg",
+        "sha256": "93f3ddd26df08bc2e1b109861cfaf5543c34b7bc17251b2c6595f9bb07976ee0"
+      },
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-Panda-eating-bamboo-in-Chengdu-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-Panda-eating-bamboo-in-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/giant-pandas-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-10-19",
+          "alt": "Giant Panda eating bamboo on wood in Chengdu, Sichuan Province, China",
+          "imageName": "Giant-Panda-eating-bamboo-in-Chengdu-705x471.jpg",
+          "collection": "giant-pandas-in-chengdu",
+          "number": 0,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/giant-pandas-in-chengdu-00.jpg",
+          "sha256": "089ef66387800b7048986588996ba9a124b2657061e3466fe03039b45787505f",
+          "id": "A",
+          "label": "竹林里的熊猫",
+          "preview": "./images/destination-options/20261010-specified-sources/panda-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-Panda-in-Chengdu-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-Panda-in-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/giant-pandas-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-10-19",
+          "alt": "Giant Panda on wood Chengdu, Sichuan Province, Chengdu",
+          "imageName": "Giant-Panda-in-Chengdu-705x471.jpg",
+          "collection": "giant-pandas-in-chengdu",
+          "number": 2,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/giant-pandas-in-chengdu-02.jpg",
+          "sha256": "f32e61dee250fa4b2b637dfdbefb669da2c6abbb802c809b6919627f0bb2a7a4",
+          "id": "B",
+          "label": "木台上的可爱熊猫",
+          "preview": "./images/destination-options/20261010-specified-sources/panda-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Two-young-giant-pandas-playing-together-Chengdu-China-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Two-young-giant-pandas-playing-together-Chengdu-China.jpg",
+          "page": "https://philippelejeanvre.com/giant-pandas-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-10-19",
+          "alt": "Two young giant pandas playing together, Chengdu, Sichuan Province, China",
+          "imageName": "Two-young-giant-pandas-playing-together-Chengdu-China-705x471.jpg",
+          "collection": "giant-pandas-in-chengdu",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/giant-pandas-in-chengdu-03.jpg",
+          "sha256": "dccefd247fa37189b172987bcbac1bc9cc941c5e973355adab3c891f779d96e3",
+          "id": "C",
+          "label": "两只熊猫相伴",
+          "preview": "./images/destination-options/20261010-specified-sources/panda-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-panda-walking-in-the-woods-Chengdu-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-panda-walking-in-the-woods-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/giant-pandas-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-10-19",
+          "alt": "Giant panda walking in the woods - Chengdu, Sichuan Province, China",
+          "imageName": "Giant-panda-walking-in-the-woods-Chengdu-705x471.jpg",
+          "collection": "giant-pandas-in-chengdu",
+          "number": 6,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/giant-pandas-in-chengdu-06.jpg",
+          "sha256": "bd2340babb4b990fcb867c30ec0793d0b1faceb0462218a0b8e2c2f960e3fa34",
+          "id": "D",
+          "label": "绿意中的熊猫",
+          "preview": "./images/destination-options/20261010-specified-sources/panda-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/10/2-giant-panda-babies-lying-on-a-rose-blanket-Chengdu-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/10/2-giant-panda-babies-lying-on-a-rose-blanket-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/giant-pandas-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-10-19",
+          "alt": "2 giant panda babies lying on a rose blanket - Chengdu, Sichuan Province, China",
+          "imageName": "2-giant-panda-babies-lying-on-a-rose-blanket-Chengdu-705x470.jpg",
+          "collection": "giant-pandas-in-chengdu",
+          "number": 7,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/giant-pandas-in-chengdu-07.jpg",
+          "sha256": "30664695ff1d87484919aff8ae7afb3fa53d75ba84d16d0a275b6741c3505418",
+          "id": "E",
+          "label": "相依的小熊猫",
+          "preview": "./images/destination-options/20261010-specified-sources/panda-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-panda-lying-on-rocks-in-the-forest-in-Chengdu-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-panda-lying-on-rocks-in-the-forest-in-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/giant-pandas-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-10-19",
+          "alt": "Giant panda lying on rocks in the forest, Chengdu, China",
+          "imageName": "Giant-panda-lying-on-rocks-in-the-forest-in-Chengdu-705x471.jpg",
+          "collection": "giant-pandas-in-chengdu",
+          "number": 8,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/giant-pandas-in-chengdu-08.jpg",
+          "sha256": "93018d098acfed70e2a27966bae5bda1483a0dbdfebab3c2e7ac8d2eff91d146",
+          "id": "F",
+          "label": "悠闲休息的熊猫",
+          "preview": "./images/destination-options/20261010-specified-sources/panda-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-panda-sleeping-on-a-rock-in-Chengdu-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/10/Giant-panda-sleeping-on-a-rock-in-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/giant-pandas-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-10-19",
+          "alt": "Giant panda sleeping on a rock, Chengdu, China",
+          "imageName": "Giant-panda-sleeping-on-a-rock-in-Chengdu-705x471.jpg",
+          "collection": "giant-pandas-in-chengdu",
+          "number": 10,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/giant-pandas-in-chengdu-10.jpg",
+          "sha256": "744f3d4e69d64690bf1387e35071400723c13a80f93c33e8ed83645e1e49cb0a",
+          "id": "G",
+          "label": "石台上酣睡的熊猫",
+          "preview": "./images/destination-options/20261010-specified-sources/panda-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/10/3-giant-panda-cubs-playing-in-Chengdu-705x469.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/10/3-giant-panda-cubs-playing-in-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/giant-pandas-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-10-19",
+          "alt": "3 giant panda cubs playing in Chengdu, Sichuan province, China",
+          "imageName": "3-giant-panda-cubs-playing-in-Chengdu-705x469.jpg",
+          "collection": "giant-pandas-in-chengdu",
+          "number": 11,
+          "dimensions": [
+            705,
+            469
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/giant-pandas-in-chengdu-11.jpg",
+          "sha256": "474c865dbc5793bf79a6e74bcbd231b1f6ecc24877b7f468a5cb4de5681f15ea",
+          "id": "H",
+          "label": "熊猫们的亲密时刻",
+          "preview": "./images/destination-options/20261010-specified-sources/panda-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "tianfu-art",
+      "name": "天府艺术公园 · 美术馆",
+      "note": "建筑、水面与光影为主，兼顾外观与艺术空间；先作为新增景点候选。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "chengdu-tianfu-art-museum",
+          0,
+          "蓝调时刻的美术馆与倒影"
+        ],
+        [
+          "chengdu-tianfu-art-museum",
+          1,
+          "夕阳水岸与流线建筑"
+        ],
+        [
+          "chengdu-tianfu-art-museum",
+          2,
+          "拱形空间与水面倒影"
+        ],
+        [
+          "chengdu-tianfu-art-museum",
+          3,
+          "城市夜色与美术馆"
+        ],
+        [
+          "chengdu-tianfu-art-museum",
+          4,
+          "晴日湖岸全景"
+        ],
+        [
+          "chengdu-tianfu-art-museum",
+          7,
+          "落日与艺术空间"
+        ],
+        [
+          "chengdu-tianfu-art-museum",
+          9,
+          "螺旋楼梯的几何美学"
+        ],
+        [
+          "chengdu-tianfu-art-museum",
+          6,
+          "曲线立面与天空"
+        ]
+      ],
+      "current": null,
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-at-blue-hour-705x416.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-at-blue-hour.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-tianfu-art-museum/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-12",
+          "alt": "Chengdu Tianfu Art Museum reflecting in a lake at blue hour, Chengdu, Sichuan province, China",
+          "imageName": "Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-at-blue-hour-705x416.jpg",
+          "collection": "chengdu-tianfu-art-museum",
+          "number": 0,
+          "dimensions": [
+            705,
+            416
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-tianfu-art-museum-00.jpg",
+          "sha256": "ce3a488825127026b693e89c63d795772e8d41d09433e9e34358ef297a2c8617",
+          "id": "A",
+          "label": "蓝调时刻的美术馆与倒影",
+          "preview": "./images/destination-options/20261010-specified-sources/tianfu-art-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-at-sunset-panorama-705x243.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-at-sunset-panorama.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-tianfu-art-museum/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-12",
+          "alt": "Chengdu Tianfu Art Museum reflecting in a lake at sunset, panorama, Chengdu, Sichuan province, China",
+          "imageName": "Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-at-sunset-panorama-705x243.jpg",
+          "collection": "chengdu-tianfu-art-museum",
+          "number": 1,
+          "dimensions": [
+            705,
+            243
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-tianfu-art-museum-01.jpg",
+          "sha256": "55a504b579f7d41b6bd55d50bbac9e7e3fc9039e89203a5ed0b2e95484f572b0",
+          "id": "B",
+          "label": "夕阳水岸与流线建筑",
+          "preview": "./images/destination-options/20261010-specified-sources/tianfu-art-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-facade-close-up-view-at-sunset-panorama-705x259.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-facade-close-up-view-at-sunset-panorama.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-tianfu-art-museum/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-12",
+          "alt": "Chengdu Tianfu Art Museum facade close-up view at sunset, panorama, Chengdu, Sichuan province, China",
+          "imageName": "Chengdu-Tianfu-Art-Museum-facade-close-up-view-at-sunset-panorama-705x259.jpg",
+          "collection": "chengdu-tianfu-art-museum",
+          "number": 2,
+          "dimensions": [
+            705,
+            259
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-tianfu-art-museum-02.jpg",
+          "sha256": "f6b945637b12089acf8f2761508591fb9d7873621c3f6893e102ea9209edd1e9",
+          "id": "C",
+          "label": "拱形空间与水面倒影",
+          "preview": "./images/destination-options/20261010-specified-sources/tianfu-art-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-at-night-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-at-night.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-tianfu-art-museum/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-12",
+          "alt": "Chengdu Tianfu Art Museum reflecting in a lake at night, Chengdu, Sichuan province, China",
+          "imageName": "Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-at-night-705x471.jpg",
+          "collection": "chengdu-tianfu-art-museum",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-tianfu-art-museum-03.jpg",
+          "sha256": "582b3d1e807a03d604b781cb3ee2dd48a3283f17dc51e4f0f79a4cae4f712822",
+          "id": "D",
+          "label": "城市夜色与美术馆",
+          "preview": "./images/destination-options/20261010-specified-sources/tianfu-art-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-in-day-panorama-705x192.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-in-day-panorama.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-tianfu-art-museum/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-12",
+          "alt": "Chengdu Tianfu Art Museum reflecting in a lake in day panorama, Chengdu, Sichuan province, China",
+          "imageName": "Chengdu-Tianfu-Art-Museum-reflecting-in-a-lake-in-day-panorama-705x192.jpg",
+          "collection": "chengdu-tianfu-art-museum",
+          "number": 4,
+          "dimensions": [
+            705,
+            192
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-tianfu-art-museum-04.jpg",
+          "sha256": "ac2bbfded2b081b34267e6a9f30f6cbfd566417265cfd438f19390506a6a4727",
+          "id": "E",
+          "label": "晴日湖岸全景",
+          "preview": "./images/destination-options/20261010-specified-sources/tianfu-art-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2023/05/Chengdu-Tianfu-art-museum-reflecting-in-a-lake-at-sunset-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2023/05/Chengdu-Tianfu-art-museum-reflecting-in-a-lake-at-sunset.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-tianfu-art-museum/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-12",
+          "alt": "Chengdu Tianfu Art Museum reflecting in a lake at sunset, Chengdu, Sichuan province, China",
+          "imageName": "Chengdu-Tianfu-art-museum-reflecting-in-a-lake-at-sunset-705x471.jpg",
+          "collection": "chengdu-tianfu-art-museum",
+          "number": 7,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-tianfu-art-museum-07.jpg",
+          "sha256": "792fcdac1048bc21c1cf0201ea97ea3279043810a05686765c8f0f38f454d4b8",
+          "id": "F",
+          "label": "落日与艺术空间",
+          "preview": "./images/destination-options/20261010-specified-sources/tianfu-art-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Spiral-wooden-staircase-low-angle-view2-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Spiral-wooden-staircase-low-angle-view2.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-tianfu-art-museum/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-12",
+          "alt": "Spiral wooden staircase low angle view in natural light",
+          "imageName": "Spiral-wooden-staircase-low-angle-view2-705x471.jpg",
+          "collection": "chengdu-tianfu-art-museum",
+          "number": 9,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-tianfu-art-museum-09.jpg",
+          "sha256": "994a80ece803c0bcda15eea4a63709123ac4f68a9ce8ac6458b247f50c6e3b7b",
+          "id": "G",
+          "label": "螺旋楼梯的几何美学",
+          "preview": "./images/destination-options/20261010-specified-sources/tianfu-art-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2023/05/Chengdu-tianfu-art-museum-roof-architecture-detail-against-sky-at-dusk-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2023/05/Chengdu-tianfu-art-museum-roof-architecture-detail-against-sky-at-dusk.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-tianfu-art-museum/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-12",
+          "alt": "Chengdu Tianfu art museum roof architecture detail against sky at dusk, Chengdu, Sichuan province, China",
+          "imageName": "Chengdu-tianfu-art-museum-roof-architecture-detail-against-sky-at-dusk-705x471.jpg",
+          "collection": "chengdu-tianfu-art-museum",
+          "number": 6,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-tianfu-art-museum-06.jpg",
+          "sha256": "4e840706209252c696c116fcdfb6658883c4bc13f798db7eff7136bc7b8b424d",
+          "id": "H",
+          "label": "曲线立面与天空",
+          "preview": "./images/destination-options/20261010-specified-sources/tianfu-art-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "renmin",
+      "name": "人民公园",
+      "note": "结合原作者公园日景和鹤鸣茶社夜景相册，呈现湖岸、园林与成都茶生活。",
+      "picks": [
+        [
+          "peoples-park-in-chengdu",
+          3,
+          "彩色游船与晴日湖岸"
+        ],
+        [
+          "peoples-park-in-chengdu",
+          4,
+          "绿意中的静谧水面"
+        ],
+        [
+          "peoples-park-in-chengdu",
+          11,
+          "树影、水面与园林牌坊"
+        ],
+        [
+          "peoples-park-in-chengdu",
+          8,
+          "绿植熊猫与花园"
+        ],
+        [
+          "peoples-park-in-chengdu",
+          9,
+          "鹤鸣茶社的日间入口"
+        ],
+        [
+          "peoples-park-in-chengdu",
+          0,
+          "公园与城市全景"
+        ],
+        [
+          "heming-teahouse-at-night-in-peoples-park-chengdu",
+          0,
+          "鹤鸣茶社灯火"
+        ],
+        [
+          "heming-teahouse-at-night-in-peoples-park-chengdu",
+          1,
+          "竹椅茶席与暖色灯光"
+        ]
+      ],
+      "current": null,
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Boats-in-peoples-park-lake-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Boats-in-peoples-park-lake.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-13",
+          "alt": "Boats in peoples park lake on a foggy day, Chengdu, China",
+          "imageName": "Boats-in-peoples-park-lake-705x470.jpg",
+          "collection": "peoples-park-in-chengdu",
+          "number": 3,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/peoples-park-in-chengdu-03.jpg",
+          "sha256": "f74bcacd14d37c03b632e30f95c91933a865b35c66b5624c05eb538e07091b2a",
+          "id": "A",
+          "label": "彩色游船与晴日湖岸",
+          "preview": "./images/destination-options/20261010-specified-sources/renmin-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Boats-in-peoples-park-lake2-705x470.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Boats-in-peoples-park-lake2.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-13",
+          "alt": "Boats in peoples park lake on a foggy day, Chengdu, China",
+          "imageName": "Boats-in-peoples-park-lake2-705x470.jpg",
+          "collection": "peoples-park-in-chengdu",
+          "number": 4,
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/peoples-park-in-chengdu-04.jpg",
+          "sha256": "c5f1aa81f39e047e1f39392b20946bcd889c63bb8a18b7c9f9beee5c4e687ae2",
+          "id": "B",
+          "label": "绿意中的静谧水面",
+          "preview": "./images/destination-options/20261010-specified-sources/renmin-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Peoples-park-famous-HeMing-teahouse-main-gate-and-bridge-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Peoples-park-famous-HeMing-teahouse-main-gate-and-bridge.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-13",
+          "alt": "Chendu, China : People's park famous HeMing teahouse main gate and bridge with sunrays passing thought trees on a hazy day.",
+          "imageName": "Peoples-park-famous-HeMing-teahouse-main-gate-and-bridge-705x471.jpg",
+          "collection": "peoples-park-in-chengdu",
+          "number": 11,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/peoples-park-in-chengdu-11.jpg",
+          "sha256": "813f656f2b1a3535176355bc5118432edb460c1387a30c6c3424fdadfcfd1f3a",
+          "id": "C",
+          "label": "树影、水面与园林牌坊",
+          "preview": "./images/destination-options/20261010-specified-sources/renmin-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Chengdu-peoples-park-panda-green-decoration-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Chengdu-peoples-park-panda-green-decoration.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-13",
+          "alt": "Peoples park panda green decoration, Chengdu, China",
+          "imageName": "Chengdu-peoples-park-panda-green-decoration-705x471.jpg",
+          "collection": "peoples-park-in-chengdu",
+          "number": 8,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/peoples-park-in-chengdu-08.jpg",
+          "sha256": "1bff95e55e671074fd7c76ae324a1123101c20eb616fbb6d7f4ed8b20c382996",
+          "id": "D",
+          "label": "绿植熊猫与花园",
+          "preview": "./images/destination-options/20261010-specified-sources/renmin-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Chengdu-peoples-park-main-gate-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Chengdu-peoples-park-main-gate.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-13",
+          "alt": "Chengdu, China : People's park famous HeMing teahouse main gate with sunrays passing thought trees on a hazy day.",
+          "imageName": "Chengdu-peoples-park-main-gate-705x471.jpg",
+          "collection": "peoples-park-in-chengdu",
+          "number": 9,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/peoples-park-in-chengdu-09.jpg",
+          "sha256": "7c2662a70a7160d1d43cc048078e566befca470dfa52d3765c903ebd7afc3164",
+          "id": "E",
+          "label": "鹤鸣茶社的日间入口",
+          "preview": "./images/destination-options/20261010-specified-sources/renmin-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Chengdu-city-downtown-skyline-aerial-view-with-peoples-park-in-the-foreground-705x235.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Chengdu-city-downtown-skyline-aerial-view-with-peoples-park-in-the-foreground.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-13",
+          "alt": "Chengdu, Sichuan province, China : City downtown skyline aerial view with people's park in the foreground",
+          "imageName": "Chengdu-city-downtown-skyline-aerial-view-with-peoples-park-in-the-foreground-705x235.jpg",
+          "collection": "peoples-park-in-chengdu",
+          "number": 0,
+          "dimensions": [
+            705,
+            235
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/peoples-park-in-chengdu-00.jpg",
+          "sha256": "bad54b35c091d250a9f6e74c8324110f905e5de85d6bb46c30007800aafb3beb",
+          "id": "F",
+          "label": "公园与城市全景",
+          "preview": "./images/destination-options/20261010-specified-sources/renmin-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Chengdu-Peoples-park-HeMing-teahouse-main-gate-illuminated-at-night-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Chengdu-Peoples-park-HeMing-teahouse-main-gate-illuminated-at-night.jpg",
+          "page": "https://philippelejeanvre.com/heming-teahouse-at-night-in-peoples-park-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-30",
+          "alt": "People's park famous HeMing teahouse main gate illuminated at night, Chengdu, Sichuan province, China",
+          "imageName": "Chengdu-Peoples-park-HeMing-teahouse-main-gate-illuminated-at-night-705x471.jpg",
+          "collection": "heming-teahouse-at-night-in-peoples-park-chengdu",
+          "number": 0,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/heming-teahouse-at-night-in-peoples-park-chengdu-00.jpg",
+          "sha256": "68ed6bf857f44c4e876d9aa6c74b23a76a9260beb81545cc873b33a5d7dc2433",
+          "id": "G",
+          "label": "鹤鸣茶社灯火",
+          "preview": "./images/destination-options/20261010-specified-sources/renmin-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Heming-ancient-teahouse-at-night-in-Chengdu-1-705x1057.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Heming-ancient-teahouse-at-night-in-Chengdu-1.jpg",
+          "page": "https://philippelejeanvre.com/heming-teahouse-at-night-in-peoples-park-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2021-09-30",
+          "alt": "Heming ancient teahouse illuminated at night in People' s park with empty bamboo chairs in the foreground, Chengdu, Sichuan province, China",
+          "imageName": "Heming-ancient-teahouse-at-night-in-Chengdu-1-705x1057.jpg",
+          "collection": "heming-teahouse-at-night-in-peoples-park-chengdu",
+          "number": 1,
+          "dimensions": [
+            705,
+            1057
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/heming-teahouse-at-night-in-peoples-park-chengdu-01.jpg",
+          "sha256": "58fca3980120572b5aa56840d605979f54ac25867f96414a52fc2e1693389839",
+          "id": "H",
+          "label": "竹椅茶席与暖色灯光",
+          "preview": "./images/destination-options/20261010-specified-sources/renmin-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "wangjiang",
+      "name": "望江楼公园",
+      "note": "春花、古楼、锦江与夜间灯影，提供不同季节和时段的风景。",
+      "picks": [
+        [
+          "springtime-in-chengdu-wangjianlou-park",
+          0,
+          "春花古楼与水面倒影"
+        ],
+        [
+          "springtime-in-chengdu-wangjianlou-park",
+          2,
+          "晴日古楼与湖岸"
+        ],
+        [
+          "springtime-in-chengdu-wangjianlou-park",
+          3,
+          "花枝掩映的古建"
+        ],
+        [
+          "springtime-in-chengdu-wangjianlou-park",
+          5,
+          "粉色花树与园路"
+        ],
+        [
+          "springtime-in-chengdu-wangjianlou-park",
+          1,
+          "沿水岸漫步的春景"
+        ],
+        [
+          "wangjianglou-pagoda-and-jinjiang-river-in-chengdu",
+          4,
+          "古楼与锦江夜色"
+        ],
+        [
+          "wangjianglou-pagoda-and-jinjiang-river-in-chengdu",
+          7,
+          "灯光亮起的古楼"
+        ],
+        [
+          "wangjianglou-pagoda-and-jinjiang-river-in-chengdu",
+          2,
+          "河岸灯影与城市夜景"
+        ]
+      ],
+      "current": null,
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2024/03/53532857877_6f634848b1_o_d-705x330.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2024/03/53532857877_6f634848b1_o_d.jpg",
+          "page": "https://philippelejeanvre.com/springtime-in-chengdu-wangjianlou-park/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2024-03-06",
+          "alt": "WangJiangLou pagoda with trees in bloom by the JinJiang river panorama in Chengdu, Sichuan province, China",
+          "imageName": "53532857877_6f634848b1_o_d-705x330.jpg",
+          "collection": "springtime-in-chengdu-wangjianlou-park",
+          "number": 0,
+          "dimensions": [
+            705,
+            330
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/springtime-in-chengdu-wangjianlou-park-00.jpg",
+          "sha256": "3162f4ff72a1fe82ad9f2b0e43f17d5b54351622a04341e0962c41ceee5330cd",
+          "id": "A",
+          "label": "春花古楼与水面倒影",
+          "preview": "./images/destination-options/20261010-specified-sources/wangjiang-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2024/03/Wanjianglou-in-springtime-Chengdu2-705x234.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2024/03/Wanjianglou-in-springtime-Chengdu2.jpg",
+          "page": "https://philippelejeanvre.com/springtime-in-chengdu-wangjianlou-park/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2024-03-06",
+          "alt": "WangJiangLou pagoda with trees in bloom by the JinJiang river panorama in Chengdu, Sichuan province, China",
+          "imageName": "Wanjianglou-in-springtime-Chengdu2-705x234.jpg",
+          "collection": "springtime-in-chengdu-wangjianlou-park",
+          "number": 2,
+          "dimensions": [
+            705,
+            234
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/springtime-in-chengdu-wangjianlou-park-02.jpg",
+          "sha256": "604ec0a940fb53e49decd2bd603e44914937e724bf199fa2bf62504aa3c6b663",
+          "id": "B",
+          "label": "晴日古楼与湖岸",
+          "preview": "./images/destination-options/20261010-specified-sources/wangjiang-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2024/03/53545360560_c24f73d5ef_o_d-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2024/03/53545360560_c24f73d5ef_o_d.jpg",
+          "page": "https://philippelejeanvre.com/springtime-in-chengdu-wangjianlou-park/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2024-03-06",
+          "alt": "Pink lamppost against pink blooming plum trees in springtime in Wangjianglou park, Chengdu, Sichuan province, China",
+          "imageName": "53545360560_c24f73d5ef_o_d-705x471.jpg",
+          "collection": "springtime-in-chengdu-wangjianlou-park",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/springtime-in-chengdu-wangjianlou-park-03.jpg",
+          "sha256": "eced46e04e623842d01c9ca2b9ebd3125b8060028419d6c897bd9a02024ed4e6",
+          "id": "C",
+          "label": "花枝掩映的古建",
+          "preview": "./images/destination-options/20261010-specified-sources/wangjiang-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2024/03/Pink-blooming-plum-trees-in-springtime-1-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2024/03/Pink-blooming-plum-trees-in-springtime-1.jpg",
+          "page": "https://philippelejeanvre.com/springtime-in-chengdu-wangjianlou-park/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2024-03-06",
+          "alt": "Pink blooming plum trees in springtime in Wangjianglou park, Chengdu, Sichuan province, China",
+          "imageName": "Pink-blooming-plum-trees-in-springtime-1-705x471.jpg",
+          "collection": "springtime-in-chengdu-wangjianlou-park",
+          "number": 5,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/springtime-in-chengdu-wangjianlou-park-05.jpg",
+          "sha256": "52d667a6efa09ffaef8a823d5022130040760bd6d012b05897ea98fc828884e7",
+          "id": "D",
+          "label": "粉色花树与园路",
+          "preview": "./images/destination-options/20261010-specified-sources/wangjiang-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2024/03/53539052709_5789173632_o_d-705x321.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2024/03/53539052709_5789173632_o_d.jpg",
+          "page": "https://philippelejeanvre.com/springtime-in-chengdu-wangjianlou-park/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2024-03-06",
+          "alt": "People enjoying blooming trees by the river in Wangjianglou park, Chengdu, Sichuan province, China",
+          "imageName": "53539052709_5789173632_o_d-705x321.jpg",
+          "collection": "springtime-in-chengdu-wangjianlou-park",
+          "number": 1,
+          "dimensions": [
+            705,
+            321
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/springtime-in-chengdu-wangjianlou-park-01.jpg",
+          "sha256": "e8181850758af233144f58eaf034e5e524f84143a6fd331b0026a47857c659a0",
+          "id": "E",
+          "label": "沿水岸漫步的春景",
+          "preview": "./images/destination-options/20261010-specified-sources/wangjiang-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/03/Chengdu-skyline-with-Wangjianglou-pagoda-from-jinjiang-river-at-night-705x529.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/03/Chengdu-skyline-with-Wangjianglou-pagoda-from-jinjiang-river-at-night.jpg",
+          "page": "https://philippelejeanvre.com/wangjianglou-pagoda-and-jinjiang-river-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-04-04",
+          "alt": "Chengdu city skyline at night with WangJiangLou pagoda, Sichuan province, China",
+          "imageName": "Chengdu-skyline-with-Wangjianglou-pagoda-from-jinjiang-river-at-night-705x529.jpg",
+          "collection": "wangjianglou-pagoda-and-jinjiang-river-in-chengdu",
+          "number": 4,
+          "dimensions": [
+            705,
+            529
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/wangjianglou-pagoda-and-jinjiang-river-in-chengdu-04.jpg",
+          "sha256": "22913f2a16cd816f3f7716e41fedd00db288213175c1cf931083d5c6fbc8b8fc",
+          "id": "F",
+          "label": "古楼与锦江夜色",
+          "preview": "./images/destination-options/20261010-specified-sources/wangjiang-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/03/Chengdu-skyline-with-Wangjianglou-pagoda-from-jinjiang-river-at-night-4-705x529.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/03/Chengdu-skyline-with-Wangjianglou-pagoda-from-jinjiang-river-at-night-4.jpg",
+          "page": "https://philippelejeanvre.com/wangjianglou-pagoda-and-jinjiang-river-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-04-04",
+          "alt": "Chengdu city skyline at night with WangJiangLou pagoda, Sichuan province, China",
+          "imageName": "Chengdu-skyline-with-Wangjianglou-pagoda-from-jinjiang-river-at-night-4-705x529.jpg",
+          "collection": "wangjianglou-pagoda-and-jinjiang-river-in-chengdu",
+          "number": 7,
+          "dimensions": [
+            705,
+            529
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/wangjianglou-pagoda-and-jinjiang-river-in-chengdu-07.jpg",
+          "sha256": "069e67262ec3798df8018b24a8e5e68e87f10ed205eb1ba8310107613a60515d",
+          "id": "G",
+          "label": "灯光亮起的古楼",
+          "preview": "./images/destination-options/20261010-specified-sources/wangjiang-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/03/Chengdu-skyline-from-jinjiang-river-at-night-2-705x529.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/03/Chengdu-skyline-from-jinjiang-river-at-night-2.jpg",
+          "page": "https://philippelejeanvre.com/wangjianglou-pagoda-and-jinjiang-river-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-04-04",
+          "alt": "Chengdu city center skyline at night from Jinjiang river banks, Sichuan province, China",
+          "imageName": "Chengdu-skyline-from-jinjiang-river-at-night-2-705x529.jpg",
+          "collection": "wangjianglou-pagoda-and-jinjiang-river-in-chengdu",
+          "number": 2,
+          "dimensions": [
+            705,
+            529
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/wangjianglou-pagoda-and-jinjiang-river-in-chengdu-02.jpg",
+          "sha256": "490d97d661e9e5724aa8804af1def84ac83251afb07ff8d8aad5777a27df9584",
+          "id": "H",
+          "label": "河岸灯影与城市夜景",
+          "preview": "./images/destination-options/20261010-specified-sources/wangjiang-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "luodai",
+      "name": "洛带古镇 · 客家土楼",
+      "note": "土楼中庭、传统廊道和水面倒影，先作为古街人文类新增候选。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "chengdu-luodai-hakka-round-house",
+          8,
+          "楼阁与水面倒影"
+        ],
+        [
+          "chengdu-luodai-hakka-round-house",
+          0,
+          "客家土楼中庭"
+        ],
+        [
+          "chengdu-luodai-hakka-round-house",
+          1,
+          "高处俯瞰圆形院落"
+        ],
+        [
+          "chengdu-luodai-hakka-round-house",
+          3,
+          "瓦顶与环形建筑"
+        ],
+        [
+          "chengdu-luodai-hakka-round-house",
+          2,
+          "传统木廊与屋檐"
+        ],
+        [
+          "chengdu-luodai-hakka-round-house",
+          4,
+          "古建屋顶细节"
+        ],
+        [
+          "chengdu-luodai-hakka-round-house",
+          6,
+          "阳光下的廊道与院落"
+        ],
+        [
+          "chengdu-luodai-hakka-round-house",
+          7,
+          "老树与静谧庭院"
+        ]
+      ],
+      "current": null,
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-Wufeng-tower-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-Wufeng-tower.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-luodai-hakka-round-house/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-10-12",
+          "alt": "Luodai, Sichuan Province, China : Wufeng tower reflecting in the water",
+          "imageName": "Luodai-Wufeng-tower-705x471.jpg",
+          "collection": "chengdu-luodai-hakka-round-house",
+          "number": 8,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-luodai-hakka-round-house-08.jpg",
+          "sha256": "738f1953cd60512d059169a5923c28d85495f1ab5a1b25f5448c3786aa975c0d",
+          "id": "A",
+          "label": "楼阁与水面倒影",
+          "preview": "./images/destination-options/20261010-specified-sources/luodai-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-Hakka-House-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-Hakka-House.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-luodai-hakka-round-house/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-10-12",
+          "alt": "Luodai, Sichuan Province, China : Hakka traditional round house with sunrays above the roof.",
+          "imageName": "Luodai-Hakka-House-705x471.jpg",
+          "collection": "chengdu-luodai-hakka-round-house",
+          "number": 0,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-luodai-hakka-round-house-00.jpg",
+          "sha256": "1ed594d1aa6b99b72fcd77d6784dce1cae4c1af47ec9624f1fc14229fe3acb12",
+          "id": "B",
+          "label": "客家土楼中庭",
+          "preview": "./images/destination-options/20261010-specified-sources/luodai-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-Hakka-house2-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-Hakka-house2.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-luodai-hakka-round-house/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-10-12",
+          "alt": "Luodai, Sichuan Province, China : Man standing in a Hakka traditional round house with sunlight coming from the roof.",
+          "imageName": "Luodai-Hakka-house2-705x471.jpg",
+          "collection": "chengdu-luodai-hakka-round-house",
+          "number": 1,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-luodai-hakka-round-house-01.jpg",
+          "sha256": "78d1753ed278b0a1f9247a89c5e34ef78515c0c8cfd4d0e66b5a40fac453e8b3",
+          "id": "C",
+          "label": "高处俯瞰圆形院落",
+          "preview": "./images/destination-options/20261010-specified-sources/luodai-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Chengdu-Luodai-Hakka-house-back-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Chengdu-Luodai-Hakka-house-back.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-luodai-hakka-round-house/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-10-12",
+          "alt": "Chengdu-Luodai, Sichuan Province, China : Chinese traditional architecture in a Hakka roundhouse",
+          "imageName": "Chengdu-Luodai-Hakka-house-back-705x471.jpg",
+          "collection": "chengdu-luodai-hakka-round-house",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-luodai-hakka-round-house-03.jpg",
+          "sha256": "d213f3f57d2cc8ce2308ec32db8c031a75adbcc7fc9e6d1d621cb1ea87198629",
+          "id": "D",
+          "label": "瓦顶与环形建筑",
+          "preview": "./images/destination-options/20261010-specified-sources/luodai-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Chengdu-Luodai-Hakka-house-detail-705x469.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Chengdu-Luodai-Hakka-house-detail.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-luodai-hakka-round-house/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-10-12",
+          "alt": "Chengdu-Luodai, Sichuan Province, China : Chinese traditional architecture in a Hakka roundhouse",
+          "imageName": "Chengdu-Luodai-Hakka-house-detail-705x469.jpg",
+          "collection": "chengdu-luodai-hakka-round-house",
+          "number": 2,
+          "dimensions": [
+            705,
+            469
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-luodai-hakka-round-house-02.jpg",
+          "sha256": "e731b5c203db06b1ca4b8cf87de9423fa260f02df6be99978c2e4faa62665b3a",
+          "id": "E",
+          "label": "传统木廊与屋檐",
+          "preview": "./images/destination-options/20261010-specified-sources/luodai-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Chengdu-Luodai-Hakka-house-detail2-705x469.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Chengdu-Luodai-Hakka-house-detail2.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-luodai-hakka-round-house/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-10-12",
+          "alt": "Chengdu-Luodai, Sichuan Province, China : Chinese traditional architecture in a Hakka roundhouse",
+          "imageName": "Chengdu-Luodai-Hakka-house-detail2-705x469.jpg",
+          "collection": "chengdu-luodai-hakka-round-house",
+          "number": 4,
+          "dimensions": [
+            705,
+            469
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-luodai-hakka-round-house-04.jpg",
+          "sha256": "e2ea4eb0c620df56132e2bf5749792066c57c0663c25ec86276557fbc722956c",
+          "id": "F",
+          "label": "古建屋顶细节",
+          "preview": "./images/destination-options/20261010-specified-sources/luodai-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-Hakka-roundhouse-3-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-Hakka-roundhouse-3.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-luodai-hakka-round-house/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-10-12",
+          "alt": "Luodai, Sichuan Province, China : Door in an Hakka traditional round house",
+          "imageName": "Luodai-Hakka-roundhouse-3-705x471.jpg",
+          "collection": "chengdu-luodai-hakka-round-house",
+          "number": 6,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-luodai-hakka-round-house-06.jpg",
+          "sha256": "5b2256be351a0db17603154c07b9d9cc35115e963ad4d23bb3751f1e233e2d69",
+          "id": "G",
+          "label": "阳光下的廊道与院落",
+          "preview": "./images/destination-options/20261010-specified-sources/luodai-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-temple-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2019/10/Luodai-temple.jpg",
+          "page": "https://philippelejeanvre.com/chengdu-luodai-hakka-round-house/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2017-10-12",
+          "alt": "Sunrays passsing through a wish tree in Randeng Naos buddhist Temple, Luodai in the East of Chengdu, China",
+          "imageName": "Luodai-temple-705x471.jpg",
+          "collection": "chengdu-luodai-hakka-round-house",
+          "number": 7,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/chengdu-luodai-hakka-round-house-07.jpg",
+          "sha256": "55feed715ec15858fc0276b49655d16a770949309726f176bbba37da40dded18",
+          "id": "H",
+          "label": "老树与静谧庭院",
+          "preview": "./images/destination-options/20261010-specified-sources/luodai-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "daci",
+      "name": "大慈寺",
+      "note": "传统建筑与现代街区同框，补充古街人文类景点候选。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "daci-buddhist-temple-in-chengdu",
+          0,
+          "古寺与现代城市同框"
+        ],
+        [
+          "daci-buddhist-temple-in-chengdu",
+          1,
+          "屋檐、白云与城市背景"
+        ],
+        [
+          "daci-buddhist-temple-in-chengdu",
+          3,
+          "阳光中的古寺屋顶 · 俯瞰"
+        ],
+        [
+          "daci-buddhist-temple-in-chengdu",
+          4,
+          "青瓦院落与城市建筑"
+        ],
+        [
+          "daci-buddhist-temple-in-chengdu",
+          6,
+          "红墙上的传统纹饰"
+        ],
+        [
+          "daci-buddhist-temple-in-chengdu",
+          7,
+          "窗格与水面倒影"
+        ],
+        [
+          "daci-buddhist-temple-in-chengdu",
+          10,
+          "银杏叶下的庭院"
+        ],
+        [
+          "daci-buddhist-temple-in-chengdu",
+          11,
+          "金黄银杏与古寺空间"
+        ]
+      ],
+      "current": null,
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Buddhist-temple-buildings-and-modern-skyscraprers-against-blue-sky-in-Chengdu-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Buddhist-temple-buildings-and-modern-skyscraprers-against-blue-sky-in-Chengdu.jpg",
+          "page": "https://philippelejeanvre.com/daci-buddhist-temple-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-19",
+          "alt": "Daci buddhist temple buildings and modern skyscraprers against blue sky in downtown Chengdu, Sichuan province, China",
+          "imageName": "Buddhist-temple-buildings-and-modern-skyscraprers-against-blue-sky-in-Chengdu-705x471.jpg",
+          "collection": "daci-buddhist-temple-in-chengdu",
+          "number": 0,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/daci-buddhist-temple-in-chengdu-00.jpg",
+          "sha256": "8ada6b86d41754922866f4b199753ba6b6dc0510414edbd826d158a4699e6783",
+          "id": "A",
+          "label": "古寺与现代城市同框",
+          "preview": "./images/destination-options/20261010-specified-sources/daci-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Buddhist-temple-buildings-and-modern-skyscraprers-against-blue-sky-in-Chengdu-2-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Buddhist-temple-buildings-and-modern-skyscraprers-against-blue-sky-in-Chengdu-2.jpg",
+          "page": "https://philippelejeanvre.com/daci-buddhist-temple-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-19",
+          "alt": "Daci buddhist temple buildings and modern skyscraprers against blue sky in downtown Chengdu, Sichuan province, China",
+          "imageName": "Buddhist-temple-buildings-and-modern-skyscraprers-against-blue-sky-in-Chengdu-2-705x471.jpg",
+          "collection": "daci-buddhist-temple-in-chengdu",
+          "number": 1,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/daci-buddhist-temple-in-chengdu-01.jpg",
+          "sha256": "72de9711e4e6947739152397862cffd096b7060ba58cbfce68e3b2e5bcc79043",
+          "id": "B",
+          "label": "屋檐、白云与城市背景",
+          "preview": "./images/destination-options/20261010-specified-sources/daci-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Taikooli-tilt-Shift-nologo-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Taikooli-tilt-Shift-nologo.jpg",
+          "page": "https://philippelejeanvre.com/daci-buddhist-temple-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-19",
+          "alt": "Chengdu Daci buddhist temple and Taikooli roofs with sunshine passing through skyscrapers aerial view",
+          "imageName": "Chengdu-Taikooli-tilt-Shift-nologo-705x471.jpg",
+          "collection": "daci-buddhist-temple-in-chengdu",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/daci-buddhist-temple-in-chengdu-03.jpg",
+          "sha256": "a88a90588cc7bf02e127b915d8ba8ac44ed0364cc014ea603c30ad82527af6e6",
+          "id": "C",
+          "label": "阳光中的古寺屋顶 · 俯瞰",
+          "preview": "./images/destination-options/20261010-specified-sources/daci-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Daci-Temple-with-sunshine-through-skyscrapers-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chengdu-Daci-Temple-with-sunshine-through-skyscrapers.jpg",
+          "page": "https://philippelejeanvre.com/daci-buddhist-temple-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-19",
+          "alt": "Chengdu Daci Temple with sunshine through skyscrapers, Sichuan Province, China",
+          "imageName": "Chengdu-Daci-Temple-with-sunshine-through-skyscrapers-705x471.jpg",
+          "collection": "daci-buddhist-temple-in-chengdu",
+          "number": 4,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/daci-buddhist-temple-in-chengdu-04.jpg",
+          "sha256": "e6a5af206a8168f3bef5134aa7c50ea828e01c4dc060105c15ea51e808fe3f3f",
+          "id": "D",
+          "label": "青瓦院落与城市建筑",
+          "preview": "./images/destination-options/20261010-specified-sources/daci-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chinese-dragon-bas-relief-on-a-red-wall2-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Chinese-dragon-bas-relief-on-a-red-wall2.jpg",
+          "page": "https://philippelejeanvre.com/daci-buddhist-temple-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-19",
+          "alt": "Chinese dragon bas-relief on the Daci buddhist temple red wall in downtown Chengdu, Sichuan province, China",
+          "imageName": "Chinese-dragon-bas-relief-on-a-red-wall2-705x471.jpg",
+          "collection": "daci-buddhist-temple-in-chengdu",
+          "number": 6,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/daci-buddhist-temple-in-chengdu-06.jpg",
+          "sha256": "a5f019ce3962793cc55d5e461880a0349b07cf5b29227fcd5d49f47ac4fd452a",
+          "id": "E",
+          "label": "红墙上的传统纹饰",
+          "preview": "./images/destination-options/20261010-specified-sources/daci-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Fu-Chinese-symbol-meaning-happiness-reflecting-in-water-with-lotus-lily-flower_-705x1036.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Fu-Chinese-symbol-meaning-happiness-reflecting-in-water-with-lotus-lily-flower_.jpg",
+          "page": "https://philippelejeanvre.com/daci-buddhist-temple-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-19",
+          "alt": "Fu Chinese symbol meaning happiness reflecting in water with lotus lily flower in Daci buddhist temple, downtown Chengdu, Sichuan province, China",
+          "imageName": "Fu-Chinese-symbol-meaning-happiness-reflecting-in-water-with-lotus-lily-flower_-705x1036.jpg",
+          "collection": "daci-buddhist-temple-in-chengdu",
+          "number": 7,
+          "dimensions": [
+            705,
+            1036
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/daci-buddhist-temple-in-chengdu-07.jpg",
+          "sha256": "622fe1540b368c3ffac7bacab9058d42fd5ab5fe9930458a30492eb1a26cdb7c",
+          "id": "F",
+          "label": "窗格与水面倒影",
+          "preview": "./images/destination-options/20261010-specified-sources/daci-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Manga-monk-statue-under-a-ginkgo-tree-with-yellow-leaves-in-autumn-705x1056.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Manga-monk-statue-under-a-ginkgo-tree-with-yellow-leaves-in-autumn.jpg",
+          "page": "https://philippelejeanvre.com/daci-buddhist-temple-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-19",
+          "alt": "Manga monk statue under a ginkgo tree with yellow leaves in autumn in DaCi buddhist temple, Chengdu, Sichuan province, China",
+          "imageName": "Manga-monk-statue-under-a-ginkgo-tree-with-yellow-leaves-in-autumn-705x1056.jpg",
+          "collection": "daci-buddhist-temple-in-chengdu",
+          "number": 10,
+          "dimensions": [
+            705,
+            1056
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/daci-buddhist-temple-in-chengdu-10.jpg",
+          "sha256": "d112d9f64d5a5f45a21a75aeea434db1a3d00cc911512b69122754a249f5c5aa",
+          "id": "G",
+          "label": "银杏叶下的庭院",
+          "preview": "./images/destination-options/20261010-specified-sources/daci-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Manga-monk-statue-and-monk-in-a-buddhist-temple-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2022/07/Manga-monk-statue-and-monk-in-a-buddhist-temple.jpg",
+          "page": "https://philippelejeanvre.com/daci-buddhist-temple-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2022-07-19",
+          "alt": "Manga monk statue and monk in DaCi buddhist temple with yellow leaves in Ginkgo trees in autumn., Chengdu, Sichuan province, China",
+          "imageName": "Manga-monk-statue-and-monk-in-a-buddhist-temple-705x471.jpg",
+          "collection": "daci-buddhist-temple-in-chengdu",
+          "number": 11,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/daci-buddhist-temple-in-chengdu-11.jpg",
+          "sha256": "8c23a84314e2678a5277c94dc900d89032a67f93949924eddf4418cb0f3c1462",
+          "id": "H",
+          "label": "金黄银杏与古寺空间",
+          "preview": "./images/destination-options/20261010-specified-sources/daci-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "leshan-buddha",
+      "name": "乐山大佛",
+      "note": "大佛、红岩与沿江景观，提供不同观察视角。",
+      "additionConfirmed": false,
+      "picks": [
+        [
+          "leshan-giant-buddha",
+          0,
+          "大佛与绿色山林"
+        ],
+        [
+          "leshan-giant-buddha",
+          1,
+          "阳光中的大佛侧面"
+        ],
+        [
+          "leshan-giant-buddha",
+          3,
+          "红岩与大佛全貌"
+        ],
+        [
+          "leshan-giant-buddha",
+          4,
+          "高处看大佛与江岸"
+        ],
+        [
+          "leshan-giant-buddha",
+          6,
+          "大佛侧面近景"
+        ],
+        [
+          "leshan-giant-buddha",
+          8,
+          "从江面望大佛全身"
+        ],
+        [
+          "leshan-giant-buddha",
+          9,
+          "红岩间的大佛与峡谷"
+        ],
+        [
+          "leshan-giant-buddha",
+          11,
+          "阳光中的红岩景观"
+        ]
+      ],
+      "current": null,
+      "candidates": [
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Giant-Buddha-Leshan-2-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Giant-Buddha-Leshan-2.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Giant buddha sculpture in Leshan, Chengdu, Sichuan Province, China",
+          "imageName": "Giant-Buddha-Leshan-2-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 0,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-00.jpg",
+          "sha256": "425c48fa5c18a0a76b44003adecd843136c08015308484809f8f1b475a2a79b4",
+          "id": "A",
+          "label": "大佛与绿色山林",
+          "preview": "./images/destination-options/20261010-specified-sources/leshan-buddha-A.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Chengdu-Giant-Buddha-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Chengdu-Giant-Buddha.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Giant buddha sculpture in Leshan, Chengdu, Sichuan Province, China",
+          "imageName": "Leshan-Chengdu-Giant-Buddha-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 1,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-01.jpg",
+          "sha256": "e45346223569076bcdad7794bc3845bedcc69cae76f35c9ee4d0ff22fb3b2ae3",
+          "id": "B",
+          "label": "阳光中的大佛侧面",
+          "preview": "./images/destination-options/20261010-specified-sources/leshan-buddha-B.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5479-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5479.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha - 71m - is the world's biggest stone sitting buddha statue and a touristic famous spot in Sichuan province.",
+          "imageName": "Leshan-Giant-Buddha-5479-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-03.jpg",
+          "sha256": "f59cfe79b0622eae083c92c35fd2c693d57a14756cb437aa89c51b20a50439d4",
+          "id": "C",
+          "label": "红岩与大佛全貌",
+          "preview": "./images/destination-options/20261010-specified-sources/leshan-buddha-C.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-high-angle-view-China-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-high-angle-view-China.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha high-angle view, Sichuan Province, China",
+          "imageName": "Leshan-Giant-Buddha-high-angle-view-China-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 4,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-04.jpg",
+          "sha256": "b71a9b0a7eb244b7b8ccc14394eefb5d9909111ef82cbf5df843a2ad1f07a851",
+          "id": "D",
+          "label": "高处看大佛与江岸",
+          "preview": "./images/destination-options/20261010-specified-sources/leshan-buddha-D.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Grand-Buddha-Leshan-Getty-705x939.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Grand-Buddha-Leshan-Getty.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Profile view of the head of the Giant Buddha in Leshan, Sichuan, China",
+          "imageName": "Grand-Buddha-Leshan-Getty-705x939.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 6,
+          "dimensions": [
+            705,
+            939
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-06.jpg",
+          "sha256": "235c80c86b97f1cf45853d4724052d2ba04df57fb691ded9b21b070339bf3b43",
+          "id": "E",
+          "label": "大佛侧面近景",
+          "preview": "./images/destination-options/20261010-specified-sources/leshan-buddha-E.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5494.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5494.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha - 71m - is the world's biggest stone sitting buddha statue and a touristic famous spot in Sichuan province.",
+          "imageName": "Leshan-Giant-Buddha-5494.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 8,
+          "dimensions": [
+            684,
+            1024
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-08.jpg",
+          "sha256": "676d5839da5b74fae67b91a6bff2fe1fe0c3d0fab40762c3f47f68c8ab659c5d",
+          "id": "F",
+          "label": "从江面望大佛全身",
+          "preview": "./images/destination-options/20261010-specified-sources/leshan-buddha-F.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5539-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5539.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha - 71m - is the world's biggest stone sitting buddha statue and a touristic famous spot in Sichuan province.",
+          "imageName": "Leshan-Giant-Buddha-5539-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 9,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-09.jpg",
+          "sha256": "434105f5b879c6c611b0f74307a063a4b9351c86caa334650c34979bb1c25b5a",
+          "id": "G",
+          "label": "红岩间的大佛与峡谷",
+          "preview": "./images/destination-options/20261010-specified-sources/leshan-buddha-G.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-against-blue-sky-low-angle-view-China-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-against-blue-sky-low-angle-view-China.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Giant buddha sculpture in Leshan, Chengdu, Sichuan Province, China",
+          "imageName": "Leshan-Giant-Buddha-against-blue-sky-low-angle-view-China-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 11,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-11.jpg",
+          "sha256": "7e70a74cc2306bd5360793a2f4380a3beb5fad513b435b6e0eb084b0fe3ae29a",
+          "id": "H",
+          "label": "阳光中的红岩景观",
+          "preview": "./images/destination-options/20261010-specified-sources/leshan-buddha-H.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ]
+    }
+  ],
+  "photosNotEdited": true
+}

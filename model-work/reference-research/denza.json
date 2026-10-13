@@ -1,0 +1,36 @@
+[
+  {
+    "id": "denza-d9",
+    "model": "腾势 D9（车型参考）",
+    "matchStatus": "model-family-reference-actual-trim-unconfirmed",
+    "identityNotes": "按用户指定，将腾势D9作为家庭出游MPV参考。图片对应2024款外观，不确认实际车队年款、DM-i/EV版本、座位或价格。",
+    "sources": [
+      {
+        "title": "腾势官方：2024款D9车型资料",
+        "url": "https://www.denza.com/cn/product-detail/d9",
+        "kind": "combined",
+        "sourceType": "manufacturer-primary",
+        "versionScope": "2024款D9系列，实际版本待确认",
+        "detailCoverage": "外观与座舱官方资料，DM-i/EV版本不能混用配置",
+        "checked": true
+      },
+      {
+        "title": "Wikimedia：2024 Denza D9前侧实拍",
+        "url": "https://commons.wikimedia.org/wiki/File:2024_Denza_D9_(front).jpg",
+        "kind": "exterior",
+        "sourceType": "licensed-original-photo",
+        "versionScope": "2024款参考照片，未确认为车队实车",
+        "detailCoverage": "前侧3/4外观及车身比例",
+        "checked": true
+      }
+    ],
+    "modelingFocus": [
+      "实际年份、动力与版本",
+      "同版本车头、侧面、尾部及座舱"
+    ],
+    "pendingActualVehicle": [
+      "车队是否提供D9及完整版本",
+      "实车内饰、座位和报价"
+    ]
+  }
+]

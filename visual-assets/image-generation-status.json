@@ -1,0 +1,47 @@
+{
+  "mode": "built-in-imagegen",
+  "completed": [
+    {
+      "id": "coaster",
+      "source": "visual-assets/vehicles/coaster.png",
+      "web": "dist/images/vehicles/coaster.jpg",
+      "input": "dist/coaster-reference-v2.png",
+      "prompt": "Preserve user reference older Coaster geometry and light champagne brown paint. Entire front-left 3/4 vehicle, warm ivory studio, soft upper-left softbox, full vehicle in a 3:2 composition."
+    },
+    {
+      "id": "passat",
+      "source": "visual-assets/vehicles/passat.png",
+      "web": "dist/images/vehicles/passat.jpg",
+      "prompt": "Generate a black China-market 2014 Shanghai Volkswagen Passat pre-2016 reference. Warm ivory seamless studio, front-left 3/4 view, headlamp-height camera and soft studio light. Appearance remains an AI reference, not verified fleet geometry."
+    }
+  ],
+  "failed": [
+    {
+      "id": "718",
+      "attempts": 1,
+      "error": "network error: error sending request"
+    },
+    {
+      "id": "e",
+      "attempts": 1,
+      "error": "network error: error sending request"
+    },
+    {
+      "id": "kuanzhai",
+      "attempts": 2,
+      "error": "network error: error sending request"
+    },
+    {
+      "id": "chunxi",
+      "attempts": 1,
+      "error": "network error: error sending request"
+    },
+    {
+      "id": "twins",
+      "attempts": 1,
+      "error": "network error: error sending request"
+    }
+  ],
+  "fallbackCLIApproved": false,
+  "lux3dTaskIds": []
+}

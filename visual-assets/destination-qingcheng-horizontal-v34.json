@@ -1,0 +1,217 @@
+{
+  "status": "user-confirmed-applied",
+  "groups": [
+    {
+      "id": "qingcheng",
+      "name": "青城山",
+      "existing": true,
+      "photos": [
+        {
+          "id": "S01",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N07.jpg",
+          "label": "已确认 N07 · 雪后彩林与老君阁",
+          "source": "https://lenschengdu.com/assets/6363116",
+          "credit": "韦洪涛 / 视觉成都",
+          "rightsStatus": "reference-only-permission-unverified",
+          "labelEn": "Photo N07"
+        },
+        {
+          "id": "S02",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N10.jpg",
+          "label": "已确认 N10 · 青城后山牌坊",
+          "source": "https://lenschengdu.com/assets/6347662?groupId=189695",
+          "credit": "朱建国 / 视觉成都",
+          "rightsStatus": "reference-only-permission-unverified",
+          "labelEn": "Photo N10"
+        },
+        {
+          "key": "6363540",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/editorial/vdam/800/new/200043/fb4b28a432b94633a49781449ea16f60.jpg",
+          "source": "https://lenschengdu.com/assets/6363540",
+          "credit": "静水无痕 / 视觉成都",
+          "label": "雪山衬映的金秋青城",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/qingcheng-horizontal-v34/6363540.jpg",
+          "dimensions": [
+            800,
+            386
+          ],
+          "sha256": "86960df4b1f15d3d8d644fcad4be93d1561f62851d1228de56a44239c6dd14c7",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N01",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N01.jpg",
+          "imageEdited": false
+        },
+        {
+          "key": "blog-8",
+          "url": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1306/04/c7/21650234_21650234_1370332829859.jpg",
+          "source": "https://dp.pconline.com.cn/dphoto/list_2485107.html",
+          "credit": "雅忆 / 太平洋摄影部落",
+          "label": "薄雾中的青城湖景",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/qingcheng-horizontal-v34/blog-8.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "sha256": "a016fe1a80a1e7f5060dc4d9645d699bc8c981814738c90ec807cacfce970fdf",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N02",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N02.jpg",
+          "imageEdited": false
+        },
+        {
+          "key": "blog-9",
+          "url": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1306/04/c7/21650234_21650234_1370332831281.jpg",
+          "source": "https://dp.pconline.com.cn/dphoto/list_2485107.html",
+          "credit": "雅忆 / 太平洋摄影部落",
+          "label": "林间木亭与绿意",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/qingcheng-horizontal-v34/blog-9.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "sha256": "ff59a4f7b259ed42952d9d2941f43b7c32f8b52da2768c590b82f4ffc1a163a9",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N03",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N03.jpg",
+          "imageEdited": false
+        },
+        {
+          "key": "blog-6",
+          "url": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1306/04/c7/21650234_21650234_1370332826531.jpg",
+          "source": "https://dp.pconline.com.cn/dphoto/list_2485107.html",
+          "credit": "雅忆 / 太平洋摄影部落",
+          "label": "仰望青城山林",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/qingcheng-horizontal-v34/blog-6.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "sha256": "ae3a1f54a35c50088fcf027169dd7bea17c73bb477061fe6d2e69a58fa739b94",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N04",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N04.jpg",
+          "imageEdited": false
+        },
+        {
+          "key": "blog-2",
+          "url": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1306/04/c7/21650234_21650234_1370332820859.jpg",
+          "source": "https://dp.pconline.com.cn/dphoto/list_2485107.html",
+          "credit": "雅忆 / 太平洋摄影部落",
+          "label": "古建楼阁与参天古木",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/qingcheng-horizontal-v34/blog-2.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "sha256": "88e136bb0e9cf5ddc3091cc7e457490f232951076751f71c90c5de75b593dc3d",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N05",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N05.jpg",
+          "imageEdited": false
+        },
+        {
+          "key": "blog-3",
+          "url": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1306/04/c7/21650234_21650234_1370332822281.jpg",
+          "source": "https://dp.pconline.com.cn/dphoto/list_2485107.html",
+          "credit": "雅忆 / 太平洋摄影部落",
+          "label": "绿荫中的道观入口",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/qingcheng-horizontal-v34/blog-3.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "sha256": "979e5351013b3fef6d4588638657924b1fff3d164fa9fc03f2913c4cede60e82",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N06",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N06.jpg",
+          "imageEdited": false
+        },
+        {
+          "key": "blog-4",
+          "url": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1306/04/c7/21650234_21650234_1370332823703.jpg",
+          "source": "https://dp.pconline.com.cn/dphoto/list_2485107.html",
+          "credit": "雅忆 / 太平洋摄影部落",
+          "label": "石阶与宫观正面",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/qingcheng-horizontal-v34/blog-4.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "sha256": "b471d2fe6bc97b9df79ea8bb5e251fcfcb61e120f2eab1269da61f55cff4a4cb",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N07",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N07.jpg",
+          "imageEdited": false
+        },
+        {
+          "key": "blog-5",
+          "url": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1306/04/c7/21650234_21650234_1370332825203.jpg",
+          "source": "https://dp.pconline.com.cn/dphoto/list_2485107.html",
+          "credit": "雅忆 / 太平洋摄影部落",
+          "label": "道观院落与山林",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/qingcheng-horizontal-v34/blog-5.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "sha256": "8ab2c360d7422545c87e6a02b885cea3589bf882e00d32c7b92cb24693755552",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N08",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N08.jpg",
+          "imageEdited": false
+        },
+        {
+          "key": "blog-1",
+          "url": "https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1306/04/c7/21650234_21650234_1370332819453.jpg",
+          "source": "https://dp.pconline.com.cn/dphoto/list_2485107.html",
+          "credit": "雅忆 / 太平洋摄影部落",
+          "label": "青城山门与青翠山色",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/qingcheng-horizontal-v34/blog-1.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "sha256": "96e2012f552d17a3005e0cbb00fd9b9164b00959b6c2bc589dae558499087cab",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N09",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N09.jpg",
+          "imageEdited": false
+        },
+        {
+          "place": "qingcheng",
+          "key": "6347652",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/0f1b274744f74af08918dbe31f3bf222.jpg",
+          "source": "https://lenschengdu.com/assets/6347652?groupId=189695",
+          "credit": "朱建国 / 视觉成都",
+          "label": "晴日山门横向近景",
+          "date": "2024-03-26",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6347652.jpg",
+          "dimensions": [
+            800,
+            559
+          ],
+          "sha256": "2454bc8cab60f01019ccac8cc88e9bb42dc0ba94c4c2e046a3df2c6290f8820d",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N10",
+          "src": "./images/destination-options/20261012-qingcheng-horizontal/qingcheng-N10.jpg",
+          "imageEdited": false
+        }
+      ],
+      "confirmedSelected": [
+        "S01",
+        "S02",
+        "N01",
+        "N10"
+      ]
+    }
+  ],
+  "candidateCount": 10,
+  "date": "2026-10-12",
+  "selected": [
+    "S01",
+    "S02",
+    "N01",
+    "N10"
+  ],
+  "cover": "S01"
+}

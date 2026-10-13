@@ -1,0 +1,108 @@
+/* Reference-inspired catalogue, four-column footer and Sichuan service map. */
+.ui-icon{display:inline-block;width:19px;height:19px;flex-shrink:0;background:currentColor;-webkit-mask:var(--icon) center/contain no-repeat;mask:var(--icon) center/contain no-repeat;vertical-align:middle}
+.wrap.search-layout{padding-left:36px;padding-right:36px}
+.catalog-grid,.fleet-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:23px}
+.catalog-grid>.result-card,.fleet-grid>.fleet-card{display:block;margin:0;min-height:0;min-width:0;border:1px solid #30332e;border-radius:19px;overflow:hidden;background:#191c18;box-shadow:none;color:#f5f4ee}
+.catalog-media{position:relative;aspect-ratio:3/2;background:#eeece6;overflow:hidden}
+.catalog-media>a{display:block;width:100%;height:100%}
+.catalog-media img{display:block;width:100%;height:100%;object-fit:contain;padding:11px;transition:transform .35s ease}
+.fleet-card:hover .catalog-media img,.result-card:hover .catalog-media img{transform:scale(1.025)}
+.catalog-type{position:absolute;left:15px;top:15px;background:#22271de8;color:#c1d2ab;border:1px solid #57654155;border-radius:99px;padding:6px 12px;font-size:.68rem;line-height:1.3;pointer-events:none}
+.catalog-media .heart{right:15px;top:13px;width:34px;height:34px;display:grid;place-items:center;background:#ffffffe8;color:#6a6d60;z-index:2;box-shadow:0 3px 10px #1717150c}
+.catalog-media .heart .ui-icon{width:17px;height:17px}
+.catalog-media .heart.active{color:#b95545}
+.catalog-media .vehicle-reference-badge{font-size:.52rem;bottom:10px;left:12px;max-width:calc(100% - 24px);border-radius:6px}
+.catalog-body{padding:22px 21px 18px}
+.catalog-name-price{display:flex;justify-content:space-between;align-items:start;gap:15px}
+.catalog-name-price>div:first-child{min-width:0;flex:1}
+.catalog-name-price h3{font-family:var(--sans);font-weight:550;font-size:1.04rem;line-height:1.45;margin:0 0 5px;letter-spacing:0}
+.catalog-name-price p{font-size:.76rem;line-height:1.6;margin:0;color:#a3a797}
+.catalog-price{text-align:right;flex-shrink:0;padding-top:1px}
+.catalog-price strong{display:block;color:#96c3a8;font-size:1.34rem;font-weight:650;line-height:1.35}
+.catalog-price small{display:block;margin-top:6px;letter-spacing:0;text-transform:none;color:#9a9f90;font-size:.65rem}
+.catalog-specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 11px;padding-top:16px;margin-top:19px;border-top:1px solid #343930}
+.catalog-spec{display:flex;gap:6px;align-items:center;min-width:0;color:#a2a797;font-size:.66rem;line-height:1.45}
+.catalog-spec>.ui-icon{width:15px;height:15px;color:#858d7a}
+.catalog-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:19px}
+.catalog-actions small{font-size:.59rem;letter-spacing:0;text-transform:none;color:#828b78}
+.catalog-actions>a{font-size:.7rem;color:#c4d5b4;display:flex;align-items:center;gap:4px;min-height:30px}
+.catalog-actions .ui-icon{width:14px;height:14px}
+.service-footer{background:#10120f;padding:72px 0 29px;margin-top:0;color:#f2f2ea}
+.service-footer .footer-grid{grid-template-columns:1.15fr 1fr .8fr 1.25fr;gap:45px}
+.service-footer .footer-intro p{color:#919a88;max-width:275px;font-size:.85rem;line-height:1.95;margin:23px 0 0}
+.service-footer .footer-grid h4{margin:4px 0 22px;font-size:.9rem;font-weight:550;color:#e3e7dc}
+.service-footer .footer-grid a{color:#9ba393;font-size:.82rem;margin:0;line-height:1.6;transition:color .2s}
+.service-footer .footer-grid a:hover{color:#dce5d2}
+.service-footer .footer-city-grid{display:grid;grid-template-columns:repeat(3,max-content);gap:13px 14px}
+.service-footer .footer-quick>a{display:block;margin-bottom:11px}
+.service-footer .footer-contact>a{display:flex;align-items:start;gap:11px;margin-bottom:16px;overflow-wrap:anywhere}
+.service-footer .footer-contact .ui-icon{color:#8fc7a4;width:18px;height:18px;margin-top:3px}
+.service-footer .footer-contact .footer-contact-cta{font-size:.75rem;color:#b7c9a6;align-items:center;gap:6px;margin-top:23px}
+.service-footer .footer-contact-cta .ui-icon{width:15px;height:15px;margin:0}
+.service-footer .footer-bottom{margin-top:52px;padding-top:22px;color:#78846c;font-size:.65rem;border-color:#333b2c}
+.service-footer .footer-bottom a{color:#9ba990}
+.service-page .subhero{padding-bottom:34px}
+.service-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:34px;padding:31px;background:#11150f;color:#ebeee4;border:1px solid #30392b;border-radius:26px;margin:34px 0 0;align-items:start}
+.service-map-card{border:1px solid #2a3625;border-radius:18px;background:#11150f;overflow:hidden;min-width:0;align-self:stretch}
+.service-map-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:21px 22px 0}
+.service-map-heading>span{font-size:.6rem;letter-spacing:.14em;color:#718260}
+.service-map-heading>b{font-size:.76rem;color:#a5b894;font-weight:500}
+.service-map-card>img{display:block;width:100%;height:auto;aspect-ratio:11/10;object-fit:contain;background:#11150f}
+.service-map-legend{display:grid;gap:8px;padding:4px 22px 24px;color:#a4b893}
+.service-map-legend>span{display:flex;align-items:center;gap:7px;font-size:.73rem}
+.service-map-legend .ui-icon{width:15px;height:15px}
+.service-map-legend small{color:#728266;font-size:.64rem;letter-spacing:0;text-transform:none;line-height:1.7}
+.service-city-heading{padding:5px 0 17px}
+.service-city-heading .eyebrow{font-size:.62rem;letter-spacing:.15em;color:#788b67}
+.service-city-heading h2{font-size:1.9rem;line-height:1.35;margin:10px 0 0;color:#f0f4e9}
+.service-city-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.service-city-card{display:block;text-align:left;padding:14px 15px;border:1px solid #313a2a;background:#1a2016;color:#e3ebd9;border-radius:12px;min-height:80px;transition:background .2s,border-color .2s}
+.service-city-card>strong{display:flex;align-items:center;gap:8px;font-size:.89rem;font-weight:550}
+.service-city-card .ui-icon{color:#7ca78b;width:17px;height:17px}
+.service-city-card>span{display:block;color:#86957b;font-size:.66rem;line-height:1.7;margin-top:7px}
+.service-city-card:hover,.service-city-card.active{border-color:#6d8963;background:#24311d}
+.service-city-card.active>strong{color:#cae5b8}
+.service-selected{padding:21px 0 0}
+.service-selected>span{font-size:.62rem;color:#819370}
+.service-selected h3{font-family:var(--serif);font-size:1.4rem;font-weight:500;margin:5px 0 10px;color:#e3ecd8}
+.service-selected p{font-size:.74rem;line-height:1.8;color:#91a17f;margin:0 0 15px}
+.service-selected>div{display:flex;flex-wrap:wrap;align-items:center;gap:18px}
+.service-selected .btn{background:#bbd4a3;color:#1a2713;border-color:#bbd4a3;min-height:40px;font-size:.75rem;padding:9px 18px}
+.service-selected .btn .ui-icon{width:15px;height:15px}
+.service-selected>div>a:not(.btn){font-size:.69rem;color:#9eb488;text-decoration:underline;text-underline-offset:4px}
+.rental-process{padding:70px 0 80px;scroll-margin-top:96px}
+.rental-process .section-head h2{font-size:2.55rem}
+.rental-step-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.rental-step-grid>article{padding:25px;background:#f2f0e9;border:1px solid var(--line);border-radius:16px;position:relative}
+.rental-step-grid .ui-icon{width:23px;height:23px;color:#8b9878;margin:0 0 20px}
+.rental-step-number{position:absolute;right:24px;top:20px;font:1.5rem var(--serif);color:#c1baaa}
+.rental-step-grid h3{font-family:var(--serif);font-weight:500;font-size:1.48rem;margin:0 0 10px}
+.rental-step-grid p{font-size:.8rem;line-height:1.85;color:#837c6d;margin:0}
+@media(max-width:1150px){.catalog-grid,.fleet-grid{gap:17px}.catalog-body{padding:18px 16px}.catalog-name-price h3{font-size:.94rem}.catalog-price strong{font-size:1.18rem}.service-footer .footer-grid{gap:24px;grid-template-columns:1fr 1fr .8fr 1.2fr}.service-footer .footer-grid a{font-size:.76rem}.service-footer .footer-city-grid{gap:11px 10px}.service-layout{gap:22px;padding:22px}.service-city-card{padding:12px}.service-city-card>span{font-size:.61rem}}
+@media(max-width:1000px){.catalog-grid,.fleet-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.service-footer .footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:37px 45px}.service-footer .footer-city-grid{gap:13px 20px}.service-layout{grid-template-columns:1fr}.service-map-card{max-width:660px;width:100%;margin:auto}.service-city-heading{padding-top:8px}.service-city-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.service-city-card>span{font-size:.68rem}}
+@media(max-width:750px){.catalog-grid,.fleet-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.catalog-media{aspect-ratio:3/2}.catalog-media img{padding:7px}.catalog-type{font-size:.55rem;left:9px;top:9px;padding:5px 8px}.catalog-media .heart{width:28px;height:28px;right:9px;top:9px}.catalog-media .heart .ui-icon{width:14px;height:14px}.catalog-media .vehicle-reference-badge{font-size:.47rem;left:7px;bottom:6px;max-width:calc(100% - 14px)}.catalog-body{padding:15px 12px}.catalog-name-price{display:block}.catalog-name-price h3{font-size:.93rem}.catalog-name-price p{font-size:.68rem}.catalog-price{text-align:left;margin-top:12px}.catalog-price strong{font-size:1.17rem;display:inline}.catalog-price small{font-size:.58rem;margin:4px 0 0}.catalog-specs{gap:8px 6px;margin-top:14px;padding-top:12px;grid-template-columns:1fr}.catalog-spec{font-size:.6rem}.catalog-spec>.ui-icon{width:13px;height:13px}.catalog-actions{display:block;margin-top:12px}.catalog-actions small{font-size:.52rem}.catalog-actions>a{min-height:44px;font-size:.69rem}.service-footer{padding:47px 0 27px}.service-footer .footer-grid{gap:31px 25px}.service-footer .footer-grid>div:first-child{grid-column:1/-1}.service-footer .footer-contact{grid-column:1/-1}.service-footer .footer-grid h4{margin-bottom:16px;font-size:.85rem}.service-footer .footer-grid a{font-size:.78rem}.service-footer .footer-intro p{max-width:360px;margin-top:17px;font-size:.79rem}.service-footer .footer-city-grid{gap:11px 17px}.service-footer .footer-bottom{margin-top:34px;font-size:.62rem;line-height:1.9}.service-footer .footer-bottom>span{display:block;margin-bottom:6px}.service-page .subhero h1{font-size:2.7rem}.service-layout{padding:15px;gap:19px;border-radius:20px;margin-top:24px}.service-map-heading{padding:17px 15px 0}.service-map-heading>span{font-size:.49rem}.service-map-heading>b{font-size:.66rem}.service-map-legend{padding:0 15px 20px}.service-city-heading h2{font-size:1.65rem}.service-city-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.service-city-card{min-height:82px;padding:12px 11px}.service-city-card>strong{font-size:.83rem;gap:6px}.service-city-card>span{font-size:.6rem}.service-selected p{font-size:.73rem}.rental-process{padding:47px 0 58px;scroll-margin-top:80px}.rental-process .section-head h2{font-size:2rem}.rental-step-grid{grid-template-columns:1fr;gap:12px}.rental-step-grid>article{padding:23px}.rental-step-grid .ui-icon{margin-bottom:15px}}
+@media(max-width:420px){.catalog-grid{grid-template-columns:1fr}.catalog-grid .catalog-name-price{display:flex}.catalog-grid .catalog-price{margin:0;text-align:right}.catalog-grid .catalog-specs{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-grid .catalog-actions{display:flex}.fleet-grid{grid-template-columns:1fr}.fleet-grid .catalog-name-price{display:flex}.fleet-grid .catalog-price{text-align:right;margin:0}.fleet-grid .catalog-specs{grid-template-columns:repeat(2,minmax(0,1fr))}.fleet-grid .catalog-actions{display:flex}}
+@media(prefers-reduced-motion:reduce){.catalog-media img,.service-city-card,.service-footer a{transition:none}}
+@media(max-width:750px){.wrap.search-layout{padding-left:17px;padding-right:17px}}
+
+/* Warm ivory catalogue, matching the editorial homepage. */
+.catalog-grid>.result-card,.fleet-grid>.fleet-card{background:#fff;color:#282622;border-color:#e0dcd4;border-radius:22px;box-shadow:0 6px 22px #332b1f04}
+.catalog-media{background:#f1eeE8;aspect-ratio:3/2}
+.catalog-media img{padding:0;object-fit:contain}
+.catalog-type{background:#fffffff0;color:#625b50;border-color:#e2ddd2;font-weight:500}
+.catalog-body{padding:25px 24px 22px}
+.catalog-name-price{gap:14px}
+.catalog-name-price h3{font-family:var(--serif);font-size:1.22rem;font-weight:500;line-height:1.45;color:#262420}
+.catalog-name-price p{color:#8a8175;font-family:Georgia,serif;font-size:.75rem;letter-spacing:.015em}
+.catalog-price strong{font-family:"Times New Roman",Times,serif;color:#3e352a;font-size:1.65rem;font-weight:400;font-variant-numeric:lining-nums;letter-spacing:-.03em}
+.catalog-price small{color:#938b80;font-size:.62rem}
+.catalog-specs{border-color:#eee9e0;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px;padding-top:18px}
+.catalog-spec{color:#746d62;font-size:.72rem}
+.catalog-spec>.ui-icon{color:#a69a87}
+.catalog-actions{margin-top:23px}
+.catalog-actions small{color:#a1988b}
+.catalog-actions>a{color:#4d4436;font-size:.76rem}
+@media(max-width:1150px){.catalog-name-price{display:block}.catalog-name-price h3{font-size:1.17rem}.catalog-price{text-align:left;margin-top:14px}.catalog-price strong{display:inline;font-size:1.6rem}.catalog-price small{display:inline;margin-left:8px}.catalog-body{padding:22px}}
+@media(max-width:750px){.catalog-name-price h3{font-size:1.05rem}.catalog-body{padding:18px}.catalog-specs{grid-template-columns:1fr}.catalog-price strong{font-size:1.45rem}}
+
+.catalog-media img{padding:12px}

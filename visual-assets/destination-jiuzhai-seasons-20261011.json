@@ -1,0 +1,216 @@
+{
+  "status": "user-confirmed-applied",
+  "groups": [
+    {
+      "id": "jiuzhai",
+      "name": "九寨沟",
+      "existing": true,
+      "photos": [
+        {
+          "id": "S01",
+          "src": "./images/destination-options/20261011-jiuzhai/6359599.jpg",
+          "label": "已确认 N01 · 蓝天与五花海全景",
+          "source": "https://lenschengdu.com/assets/6359599",
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "rightsStatus": "reference-only-permission-unverified",
+          "labelEn": "Photo N01"
+        },
+        {
+          "id": "S02",
+          "src": "./images/destination-options/20261011-jiuzhai/6359623.jpg",
+          "label": "已确认 N04 · 碧水彩林与山峰倒影",
+          "source": "https://lenschengdu.com/assets/6359623",
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "rightsStatus": "reference-only-permission-unverified",
+          "labelEn": "Photo N04"
+        },
+        {
+          "id": "N01",
+          "label": "春 · 满沟桃花忙",
+          "season": "春",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/360.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "5ffaf3ae8a4f9224b86969130ad561b378ed04aeda628fb5b6dd686e3b040aa8",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/2.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N01.jpg",
+          "imageEdited": false
+        },
+        {
+          "id": "N02",
+          "label": "春 · 绿树抽新芽",
+          "season": "春",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/354.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "8c250612306da147da07d6ed807e11766ddc0d273458e3569e206391df19234f",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/3.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N02.jpg",
+          "imageEdited": false
+        },
+        {
+          "id": "N03",
+          "label": "夏 · 翠海倒影",
+          "season": "夏",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/351.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "36f8c3d2d73087455b34a48135d30eacf65a5006200fd123d47a886c1dccf14b",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/4.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N03.jpg",
+          "imageEdited": false
+        },
+        {
+          "id": "N04",
+          "label": "夏 · 雄伟诺日朗瀑布",
+          "season": "夏",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/355.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "b092f705387935ef9190eb3d82de25bbcdd6e79247e75004b7ea2961e742b5e9",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/5.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N04.jpg",
+          "imageEdited": false
+        },
+        {
+          "id": "N05",
+          "label": "秋色 · 树正瀑布——白练穿彩过",
+          "season": "秋色",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/2026_04/微信图片_20260414115703.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "149ecf62d1edf694a3131ee797a610bb21a4e244250fcce91be13a0d880e7266",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/0.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N05.jpg",
+          "imageEdited": false
+        },
+        {
+          "id": "N06",
+          "label": "秋色 · 芦苇海——秋色星光闪",
+          "season": "秋色",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/359.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "b3e1cf0f415c2f17284301ef6a3c6fc34d598731f7c3b823a3e85d17b0cc2ef4",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/1.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N06.jpg",
+          "imageEdited": false
+        },
+        {
+          "id": "N07",
+          "label": "秋 · 秋意长海",
+          "season": "秋",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/352.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "d0388069cdbfa375b3223238fa2e099f74466e073f50400074dafb17b1e92d35",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/6.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N07.jpg",
+          "imageEdited": false
+        },
+        {
+          "id": "N08",
+          "label": "秋 · 斑斓五花海",
+          "season": "秋",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/356.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "18870f362c3322188cd48c47e992970245e0b425213f70bfee380e867a1dff18",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/7.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N08.jpg",
+          "imageEdited": false
+        },
+        {
+          "id": "N09",
+          "label": "冬 · 童话蓝冰瀑",
+          "season": "冬",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/353.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "9a7dfdf9d67f35cc1f495a2f434badc8cd75168eb4eaf422d52229f9d892a880",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/8.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N09.jpg",
+          "imageEdited": false
+        },
+        {
+          "id": "N10",
+          "label": "冬 · 冬韵五花海",
+          "season": "冬",
+          "source": "https://www.jiuzhai.com/tourism-product/photography",
+          "url": "https://www.jiuzhai.com/templates/rt_topaz/custom/images/357.jpg",
+          "credit": "九寨沟景区官网 · 摄影之旅（单图作者未标注）",
+          "dimensions": [
+            560,
+            315
+          ],
+          "sha256": "f4d686ba8069869b31ef7c195737fb4d46c1b9b0da19c8d2a6b69710a11f7c2f",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-seasons-20261011/9.jpg",
+          "rightsStatus": "reference-only-permission-unverified",
+          "src": "./images/destination-options/20261011-jiuzhai-seasons/N10.jpg",
+          "imageEdited": false
+        }
+      ],
+      "confirmedSelected": [
+        "S01",
+        "S02"
+      ]
+    }
+  ],
+  "candidateCount": 10,
+  "selected": [
+    "S01",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N08",
+    "N09",
+    "N10"
+  ],
+  "cover": "S01"
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "magotan",
+    "model": "大众迈腾（灰色，年款和版本待核）",
+    "matchStatus": "candidate-generation-not-confirmed",
+    "identityNotes": [
+      "用户确认车型与灰色，未确认年款、代际或具体配置版本。2020款图库只作候选对照，不代表车队实车。",
+      "大众中国官网同时有迈腾3000万辆甄选款与新迈腾页面；官网现款不能直接替代未知年款车辆。",
+      "部分太平洋汽车旧式图片URL可因车型参数变化显示矛盾年款；不采用同时标2015/2020或2014/2023的结果。"
+    ],
+    "sources": [
+      {
+        "title": "大众中国：迈腾3000万辆甄选款官方页面",
+        "url": "https://www.vw.com.cn/BrandCarModel.html?source=Magotan",
+        "kind": "exterior-interior",
+        "sourceType": "manufacturer-official",
+        "versionScope": "官网现列迈腾3000万辆甄选款；不是已确认的车队年款",
+        "detailCoverage": "官方设计、灯组、方向盘、仪表、座舱展示入口",
+        "checked": false,
+        "checkNotes": "2026-10-07搜索索引能读到车型介绍；web直接打开只返回导航与搜索骨架，未完成动态图库视觉验收。"
+      },
+      {
+        "title": "太平洋汽车：2020款380TSI DSG旗舰型海豚灰外观实拍",
+        "url": "https://price.pcauto.com.cn/cars/image/5951766-1-sg2824-o1-nc330881.html",
+        "kind": "exterior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "2020款380TSI DSG旗舰型；车身海豚灰；候选外形",
+        "detailCoverage": "整车外观；页面可切换外观、内饰、空间和细节类别",
+        "checked": true,
+        "checkNotes": "2026-10-07 web打开核验页面车型、年款、颜色和实拍署名；不是车队车辆照片。"
+      },
+      {
+        "title": "太平洋汽车：2020款380TSI DSG旗舰型内饰图库",
+        "url": "https://price.pcauto.com.cn/image/sg2824-m95341-ns-0-1.html",
+        "kind": "interior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "2020款380TSI DSG旗舰型；内饰颜色与实车未匹配",
+        "detailCoverage": "驾驶舱、方向盘、中控、门板与座舱图库入口",
+        "checked": false,
+        "checkNotes": "2026-10-07搜索索引核验车型和内饰分类；web打开Cache miss，待在可用浏览器中查看实图。"
+      },
+      {
+        "title": "太平洋汽车：2020款330TSI DSG豪华型中控实拍",
+        "url": "https://price.pcauto.com.cn/cars/image/6052870-1-m95335-o1.html",
+        "kind": "interior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "2020款330TSI DSG豪华型；黑色内饰；车辆外色凯撒金；与旗舰型不同版本",
+        "detailCoverage": "中控实拍与同版内饰、空间、细节分类入口",
+        "checked": true,
+        "checkNotes": "2026-10-07 web打开核验。不能将其内饰配置拼到另一版本或灰色实车。"
+      }
+    ],
+    "modelingFocus": ["先对照车头格栅、大灯、尾灯和C柱确定代际", "核对车窗镀铬、轮毂、后备厢标识", "确认仪表和中控屏版本、方向盘、门板、座椅缝线与内饰色", "灰色车漆以实车在中性光下的照片校色"],
+    "pendingActualVehicle": ["生产年或车型年", "发动机/版本尾标", "前后左右及车顶实拍", "仪表台、前后排、门板与内饰色实拍", "照片或模型二次使用授权"],
+    "rightsNotes": "资料只保存来源链接和核验记录，未下载或转载媒体图片；可查看不等于获得建模、贴图或网页发布许可。"
+  },
+  {
+    "id": "passat",
+    "model": "中国市场帕萨特（2014款，黑色）",
+    "matchStatus": "model-year-confirmed-trim-pending",
+    "identityNotes": [
+      "用户确认2014款及黑色，未确认1.4TSI/1.8TSI/2.0TSI、变速箱、尊荣/御尊/至尊等具体版本。",
+      "只采用中国市场上海大众当年车型图库；现代网页厂家分类可显示上汽大众。不得用美国2014 Passat或现款Passat Pro代替。",
+      "御尊版候选照片可用于外形对照；座椅、屏幕、轮毂、灯组等仍要与车队实车逐项核对。"
+    ],
+    "sources": [
+      {
+        "title": "太平洋汽车：2014款1.8TSI DSG御尊版外观图库",
+        "url": "https://price.pcauto.com.cn/image/sg99-m30794-wg-0-0.html/",
+        "kind": "exterior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "中国2014款1.8TSI DSG御尊版；具体车色待看原图匹配",
+        "detailCoverage": "前后侧外观图库；页面同时有内饰、空间、细节类别入口",
+        "checked": true,
+        "checkNotes": "2026-10-07 web打开核验中国厂家、年款与版本标签。"
+      },
+      {
+        "title": "汽车之家：2014款1.8TSI DSG御尊版内饰图库",
+        "url": "https://www.autohome.com.cn/cars/imgs-528-18304-10-x/2350796.html",
+        "kind": "interior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "中国2014款1.8TSI DSG御尊版；不是用户已确认的具体版本",
+        "detailCoverage": "内饰分类，可切换座椅、细节与外观",
+        "checked": false,
+        "checkNotes": "2026-10-07搜索索引核验指定年款与内饰分类；直接打开超时，未视觉核验实图。"
+      },
+      {
+        "title": "汽车之家：2014款2.0TSI DSG御尊版黑色内饰分类",
+        "url": "https://www.autohome.com.cn/cars/imgs-528-18307-10-466/2930401.html",
+        "kind": "interior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "中国2014款2.0TSI DSG御尊版；黑色是图库内饰筛选，不证明车身黑色或车队配置",
+        "detailCoverage": "黑色内饰候选图库，座椅与细节分类入口",
+        "checked": false,
+        "checkNotes": "2026-10-07搜索索引核验标题；直接打开Cache miss。不得把2.0版配置混入1.8版。"
+      }
+    ],
+    "modelingFocus": ["保持2014中国帕萨特的前脸、灯组、腰线与尾部形态", "核对黑色车漆真实色名、金属度和透明漆反射", "匹配轮毂、灯腔、格栅条数、尾标与车窗饰条", "内饰对照仪表、中控、挡把、方向盘、门板、前后排座椅和顶棚"],
+    "pendingActualVehicle": ["具体排量、变速箱与配置版", "车身黑色具体色号或中性光实拍", "多角度外观与内饰实拍", "是否改装中控、轮毂、座椅或灯组", "照片或模型二次使用授权"],
+    "rightsNotes": "媒体图片只作为原站查看链接，未转载或获取可用模型许可。"
+  },
+  {
+    "id": "jetta",
+    "model": "一汽大众捷达（白色，年款待核）",
+    "matchStatus": "generation-not-confirmed",
+    "identityNotes": [
+      "用户仅确认捷达白色，未确认是老捷达、2013新捷达、2017改款或其他年款。",
+      "2013与2017候选资料分别保留，先对照前脸和尾灯再确定；不能因名称相同把海外Jetta、速腾或捷达品牌VA3替换成车队捷达。",
+      "白色外观不能推出内饰颜色或配置等级。"
+    ],
+    "sources": [
+      {
+        "title": "太平洋汽车：2013款1.6L自动豪华型糖果白外观实拍",
+        "url": "https://price.pcauto.com.cn/cars/image/1342396-1-m24436-o1.html",
+        "kind": "exterior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "中国一汽大众2013款1.6L自动豪华型；糖果白；候选版本",
+        "detailCoverage": "整车外观及外观、内饰、空间、细节分类入口",
+        "checked": true,
+        "checkNotes": "2026-10-07 web打开核验年款、版本、白色和经销商供车标签；不是车队实车。"
+      },
+      {
+        "title": "太平洋汽车：2013款1.6L自动豪华型中控实拍",
+        "url": "https://price.pcauto.com.cn/cars/image/871747-1.html",
+        "kind": "interior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "中国一汽大众2013款1.6L自动豪华型；候选座舱",
+        "detailCoverage": "中控实拍与内饰、空间、细节分类入口",
+        "checked": true,
+        "checkNotes": "2026-10-07 web打开核验。未确认与外观链接为同一台供车，不能当作完整实车扫描资料。"
+      },
+      {
+        "title": "爱卡汽车：2017款1.5L自动豪华型全车详解",
+        "url": "https://newcar.xcar.com.cn/60/2017/detail/1.htm",
+        "kind": "exterior-interior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "中国一汽大众2017改款1.5L自动豪华型；候选代际与具体版本",
+        "detailCoverage": "整体、灯组、车门、轮毂、后视镜；方向盘、中控、挡杆、前后排座椅、储物与行李厢",
+        "checked": true,
+        "checkNotes": "2026-10-07 web打开核验年款、版本和79个细节分类；没有据此认定用户实车是2017款。"
+      }
+    ],
+    "modelingFocus": ["先确定老捷达/2013新捷达/2017改款", "对照格栅、大灯和尾灯、后备厢与轮毂", "核对是否原厂中控、仪表、方向盘和挡杆", "白漆和座椅材质、缝线、门板用实拍验证"],
+    "pendingActualVehicle": ["生产年、车尾版本标与完整车型名称", "前脸、车尾、侧面照片", "方向盘、中控、挡杆、前后排和门板实拍", "改装情况", "照片或模型二次使用授权"],
+    "rightsNotes": "原站实拍图库仍属于其权利人，未获商用贴图或模型生成授权。"
+  },
+  {
+    "id": "h7",
+    "model": "红旗H7（黑色，用户称2022）",
+    "matchStatus": "registration-year-or-model-year-pending",
+    "identityNotes": [
+      "用户称2022年版黑色，但尚未验证这是车型年还是上牌/购车年份。",
+      "本轮明确可查的候选图库是2021款；未找到足以确认2022款具体版本的厂家材料，不宣称不存在2022款。",
+      "只查H7，排除HS7 SUV、EH7电动车及H9等名称相近车型。精英版与旗舰版图库分别标注，不混用其配置。"
+    ],
+    "sources": [
+      {
+        "title": "红旗全球官网：H7车型页",
+        "url": "https://www.hongqi-auto.com/pages/cartype/cartype_h7.html",
+        "kind": "exterior-interior",
+        "sourceType": "manufacturer-official",
+        "versionScope": "全球官网H7；页面车型年和中国版对应关系未核验",
+        "detailCoverage": "H7外观、座舱和产品资料入口；仅官方辅助对照",
+        "checked": false,
+        "checkNotes": "2026-10-07搜索索引可识别H7官方页；web直接打开超时，不能据此套用出口版配置。"
+      },
+      {
+        "title": "太平洋汽车：2021款2.0T精英版外观图库",
+        "url": "https://price.pcauto.com.cn/image/sg7543-m104648-wg-0-8.html",
+        "kind": "exterior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "中国2021款2.0T精英版；候选车型",
+        "detailCoverage": "整体外观图库，可切换内饰、空间、细节",
+        "checked": true,
+        "checkNotes": "2026-10-07 web打开核验H7、年款和精英版标签。"
+      },
+      {
+        "title": "太平洋汽车：2021款2.0T精英版内饰图库",
+        "url": "https://price.pcauto.com.cn/image/sg7543-m104648-ns-0-0.html/",
+        "kind": "interior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "中国2021款2.0T精英版；候选座舱",
+        "detailCoverage": "驾驶舱、内饰图库与空间、细节分类入口",
+        "checked": true,
+        "checkNotes": "2026-10-07 web打开核验同款精英版内饰分类。"
+      },
+      {
+        "title": "太平洋汽车：2021款2.0T旗舰版幻影黑中控实拍",
+        "url": "https://price.pcauto.com.cn/cars/image/6495877-1.html",
+        "kind": "interior",
+        "sourceType": "automotive-media-photography-secondary",
+        "versionScope": "中国2021款2.0T旗舰版；车身幻影黑、黑色内饰；与精英版不同",
+        "detailCoverage": "中控及内饰、空间、细节分类入口",
+        "checked": true,
+        "checkNotes": "2026-10-07 web打开核验，实拍有摄影署名；仅黑色车候选对照。"
+      }
+    ],
+    "modelingFocus": ["核对车头红旗标、格栅、前后灯与侧面外形，确定改款年份", "按实车匹配轮毂、尾标、镀铬装饰和车身黑漆", "核对中控与仪表、方向盘、木纹饰板、门板和前后排", "精英/旗舰或公务版配置差异必须以实车证据决定"],
+    "pendingActualVehicle": ["车型年与上牌年分别核验", "发动机、精英/旗舰/公务等具体版本", "前后侧照片与完整车尾标", "驾驶舱、门板、座椅、顶棚与后排实拍", "照片或模型二次使用授权"],
+    "rightsNotes": "保存官方和媒体链接供核对，未下载图片或声称已获生成、建模及网页展示许可。"
+  }
+]

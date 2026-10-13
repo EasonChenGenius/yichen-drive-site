@@ -1,0 +1,395 @@
+[
+  {
+    "id": "city-chengdu",
+    "name": "成都",
+    "en": "Chengdu",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "detail": "双流/天府机场 · 市区全覆盖",
+    "detailEn": "Shuangliu/Tianfu airports · Citywide service"
+  },
+  {
+    "id": "city-mianyang",
+    "name": "绵阳",
+    "en": "Mianyang",
+    "cityKey": "mianyang",
+    "kind": "city",
+    "detail": "科技城 · 高铁站取车",
+    "detailEn": "Science City · High-speed rail pickup"
+  },
+  {
+    "id": "city-deyang",
+    "name": "德阳",
+    "en": "Deyang",
+    "cityKey": "deyang",
+    "kind": "city",
+    "detail": "城市出行 · 商务用车",
+    "detailEn": "City and business journeys"
+  },
+  {
+    "id": "city-leshan",
+    "name": "乐山",
+    "en": "Leshan",
+    "cityKey": "leshan",
+    "kind": "city",
+    "detail": "大佛景区 · 峨眉山专线",
+    "detailEn": "Giant Buddha · Mount Emei service"
+  },
+  {
+    "id": "city-yibin",
+    "name": "宜宾",
+    "en": "Yibin",
+    "cityKey": "yibin",
+    "kind": "city",
+    "detail": "蜀南竹海 · 五粮液产区",
+    "detailEn": "Shunan Bamboo Sea · Wuliangye district"
+  },
+  {
+    "id": "city-luzhou",
+    "name": "泸州",
+    "en": "Luzhou",
+    "cityKey": "luzhou",
+    "kind": "city",
+    "detail": "城市出行 · 商务用车",
+    "detailEn": "City and business journeys"
+  },
+  {
+    "id": "city-yaan",
+    "name": "雅安",
+    "en": "Ya'an",
+    "cityKey": "yaan",
+    "kind": "city",
+    "detail": "城市出行 · 旅行用车",
+    "detailEn": "City journeys and leisure trips"
+  },
+  {
+    "id": "city-xichang",
+    "name": "西昌",
+    "en": "Xichang",
+    "cityKey": "xichang",
+    "kind": "city",
+    "detail": "城市出行 · 旅行用车",
+    "detailEn": "City journeys and leisure trips"
+  },
+  {
+    "id": "city-kangding",
+    "name": "康定",
+    "en": "Kangding",
+    "cityKey": "kangding",
+    "kind": "city",
+    "detail": "城市出行 · 旅行用车",
+    "detailEn": "City journeys and leisure trips"
+  },
+  {
+    "id": "city-nanchong",
+    "name": "南充",
+    "en": "Nanchong",
+    "cityKey": "nanchong",
+    "kind": "city",
+    "detail": "城市出行 · 商务用车",
+    "detailEn": "City and business journeys"
+  },
+  {
+    "id": "city-dazhou",
+    "name": "达州",
+    "en": "Dazhou",
+    "cityKey": "dazhou",
+    "kind": "city",
+    "detail": "城市出行 · 商务用车",
+    "detailEn": "City and business journeys"
+  },
+  {
+    "id": "city-zigong",
+    "name": "自贡",
+    "en": "Zigong",
+    "cityKey": "zigong",
+    "kind": "city",
+    "detail": "城市出行 · 商务用车",
+    "detailEn": "City and business journeys"
+  },
+  {
+    "id": "sight-kuanzhai",
+    "name": "宽窄巷子",
+    "en": "Kuanzhai Alley",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "kuanzhai",
+    "detail": "古街人文",
+    "detailEn": "Heritage lanes"
+  },
+  {
+    "id": "sight-chunxi",
+    "name": "春熙路 · 太古里",
+    "en": "Chunxi Road · Taikoo Li",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "chunxi",
+    "detail": "城市地标",
+    "detailEn": "City landmarks"
+  },
+  {
+    "id": "sight-twins",
+    "name": "金融城双子塔",
+    "en": "Financial City Twin Towers",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "twins",
+    "detail": "城市地标",
+    "detailEn": "City landmarks"
+  },
+  {
+    "id": "sight-tianfu",
+    "name": "天府广场",
+    "en": "Tianfu Square",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "tianfu",
+    "detail": "城市地标",
+    "detailEn": "City landmarks"
+  },
+  {
+    "id": "sight-luhu-cpi",
+    "name": "麓湖 · CPI",
+    "en": "Luxe Lakes · CPI",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "luhu-cpi",
+    "detail": "湖畔花园",
+    "detailEn": "Lakeside gardens"
+  },
+  {
+    "id": "sight-dujiangyan",
+    "name": "都江堰",
+    "en": "Dujiangyan",
+    "cityKey": "chengdu",
+    "kind": "nature",
+    "destinationId": "dujiangyan",
+    "detail": "山水自驾",
+    "detailEn": "Scenic drives"
+  },
+  {
+    "id": "sight-siguniang",
+    "name": "四姑娘山",
+    "en": "Mount Siguniang",
+    "cityKey": null,
+    "kind": "nature",
+    "destinationId": "siguniang",
+    "detail": "山水自驾",
+    "detailEn": "Scenic drives"
+  },
+  {
+    "id": "sight-jiuzhai",
+    "name": "九寨沟",
+    "en": "Jiuzhai Valley",
+    "cityKey": null,
+    "kind": "nature",
+    "destinationId": "jiuzhai",
+    "detail": "山水自驾",
+    "detailEn": "Scenic drives"
+  },
+  {
+    "id": "sight-qingcheng",
+    "name": "青城山",
+    "en": "Qingcheng Mountain",
+    "cityKey": "chengdu",
+    "kind": "nature",
+    "destinationId": "qingcheng",
+    "detail": "山水自驾",
+    "detailEn": "Scenic drives"
+  },
+  {
+    "id": "sight-panda",
+    "name": "大熊猫繁育研究基地",
+    "en": "Chengdu Panda Base",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "panda",
+    "detail": "熊猫亲子",
+    "detailEn": "Pandas and family"
+  },
+  {
+    "id": "sight-jinli",
+    "name": "锦里 · 武侯祠",
+    "en": "Jinli · Wuhou Shrine",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "jinli",
+    "detail": "古街人文",
+    "detailEn": "Heritage lanes"
+  },
+  {
+    "id": "sight-wenshu",
+    "name": "文殊院 · 文殊坊",
+    "en": "Wenshu Monastery · Wenshufang",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "wenshu",
+    "detail": "古街人文",
+    "detailEn": "Heritage lanes"
+  },
+  {
+    "id": "sight-dongjiao",
+    "name": "东郊记忆",
+    "en": "Dongjiao Memory",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "dongjiao",
+    "detail": "艺术街区",
+    "detailEn": "Art districts"
+  },
+  {
+    "id": "sight-jiaozi-ring",
+    "name": "交子之环",
+    "en": "Jiaozi Ring",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "jiaozi-ring",
+    "detail": "城市地标",
+    "detailEn": "City landmarks"
+  },
+  {
+    "id": "sight-global",
+    "name": "环球中心",
+    "en": "New Century Global Center",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "global",
+    "detail": "城市地标",
+    "detailEn": "City landmarks"
+  },
+  {
+    "id": "sight-tower339",
+    "name": "339 电视塔",
+    "en": "339 TV Tower",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "tower339",
+    "detail": "城市地标",
+    "detailEn": "City landmarks"
+  },
+  {
+    "id": "sight-tianfu-art",
+    "name": "天府艺术公园 · 美术馆",
+    "en": "Tianfu Art Park · Art Museum",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "tianfu-art",
+    "detail": "艺术街区",
+    "detailEn": "Art districts"
+  },
+  {
+    "id": "sight-renmin",
+    "name": "人民公园",
+    "en": "People’s Park",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "renmin",
+    "detail": "湖畔花园",
+    "detailEn": "Lakeside gardens"
+  },
+  {
+    "id": "sight-wangjiang",
+    "name": "望江楼公园",
+    "en": "Wangjianglou Park",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "wangjiang",
+    "detail": "湖畔花园",
+    "detailEn": "Lakeside gardens"
+  },
+  {
+    "id": "sight-luodai",
+    "name": "洛带古镇 · 客家土楼",
+    "en": "Luodai Old Town · Hakka Round House",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "luodai",
+    "detail": "古街人文",
+    "detailEn": "Heritage lanes"
+  },
+  {
+    "id": "sight-daci",
+    "name": "大慈寺",
+    "en": "Daci Temple",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "destinationId": "daci",
+    "detail": "古街人文",
+    "detailEn": "Heritage lanes"
+  },
+  {
+    "id": "sight-leshan-buddha",
+    "name": "乐山大佛",
+    "en": "Leshan Giant Buddha",
+    "cityKey": null,
+    "kind": "nature",
+    "destinationId": "leshan-buddha",
+    "detail": "山水自驾",
+    "detailEn": "Scenic drives"
+  },
+  {
+    "id": "place-tianfu",
+    "name": "成都天府国际机场",
+    "en": "Chengdu Tianfu International Airport",
+    "area": "机场",
+    "detail": "简阳市 · 航站楼区域（地点示意）",
+    "lat": 30.319,
+    "lon": 104.445,
+    "keywords": "成都 天府 机场 TFU tianfu airport",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "detailEn": "Chengdu Tianfu International Airport"
+  },
+  {
+    "id": "place-shuangliu",
+    "name": "成都双流国际机场",
+    "en": "Chengdu Shuangliu International Airport",
+    "area": "机场",
+    "detail": "双流区 · 航站楼区域（地点示意）",
+    "lat": 30.5785,
+    "lon": 103.9471,
+    "keywords": "成都 双流 机场 CTU shuangliu airport",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "detailEn": "Chengdu Shuangliu International Airport"
+  },
+  {
+    "id": "place-east-station",
+    "name": "成都东站",
+    "en": "Chengdu East Railway Station",
+    "area": "交通枢纽",
+    "detail": "成华区 · 成都东站周边（地点示意）",
+    "lat": 30.6291,
+    "lon": 104.1404,
+    "keywords": "成都 东站 火车 高铁 railway station",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "detailEn": "Chengdu East Railway Station"
+  },
+  {
+    "id": "place-south-station",
+    "name": "成都南站",
+    "en": "Chengdu South Railway Station",
+    "area": "交通枢纽",
+    "detail": "武侯区 · 成都南站周边（地点示意）",
+    "lat": 30.605,
+    "lon": 104.0742,
+    "keywords": "成都 南站 高铁 south station",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "detailEn": "Chengdu South Railway Station"
+  },
+  {
+    "id": "place-financial-city",
+    "name": "金融城 · 交子大道",
+    "en": "Financial City · Jiaozi Avenue",
+    "area": "热门地点",
+    "detail": "高新区 · 交子大道周边（地点示意）",
+    "lat": 30.5874,
+    "lon": 104.0616,
+    "keywords": "成都 金融城 交子大道 financial jiaozi",
+    "cityKey": "chengdu",
+    "kind": "city",
+    "detailEn": "Financial City · Jiaozi Avenue"
+  }
+]

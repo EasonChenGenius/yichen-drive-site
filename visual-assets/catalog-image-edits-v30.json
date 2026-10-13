@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-11",
+  "images": [
+    {
+      "id": "718",
+      "original": "./718-studio.jpg",
+      "catalog": "./images/vehicles/718-studio-refined-v30.png",
+      "aiEdited": true,
+      "scope": "catalogue illustration only, not actual vehicle evidence"
+    },
+    {
+      "id": "e",
+      "original": "./e-studio.jpg",
+      "catalog": "./images/vehicles/e-studio-refined-v30.png",
+      "aiEdited": true,
+      "scope": "catalogue illustration only, not actual vehicle evidence"
+    },
+    {
+      "id": "gl8",
+      "original": "./gl8-studio.jpg",
+      "catalog": "./images/vehicles/gl8-studio-refined-v30.png",
+      "aiEdited": true,
+      "scope": "catalogue illustration only, not actual vehicle evidence"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+# ============================================================
+# YICHEN Drive 租车网站 · Git 忽略规则
+# 原则：代码、文案、图片进仓库；机密与临时产物一律不进。
+# ============================================================
+
+# ---------- 1. 机密（绝对不能提交）----------
+# 根目录 .env：高德 JS Key / 安全密钥、SMTP 授权码、管理员邮箱、数据目录
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+secrets/
+deploy/app.env
+
+# ---------- 2. Python 运行产物 ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# ---------- 3. 业务数据（预约、评价、后台账号等，含客户手机号）----------
+# 实际数据目录在 ../work/yichen-service-data（项目外），这里只是双保险
+yichen-service-data/
+data/
+*.db
+*.sqlite
+*.sqlite3
+backups/
+*.bak
+
+# ---------- 4. 归档与大体积临时资源 ----------
+# 已删除的 360°/3D 功能归档（three.js 2.2MB），仅本地留档
+_archive-3d-20261013/
+_archive-*/
+model-work/**/*.glb
+model-work/**/*.usdz
+
+# 选图、核对用的临时页面（一次性工具，不参与版本）
+dist/destination-photo-selection*.html
+dist/*-selection*.html
+dist/catalog-reference-facts.html
+dist/vehicle-detail-references.html
+dist/service-map-sources.html
+dist/confirmed-gallery-credits.html
+
+# ---------- 5. 系统与编辑器 ----------
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ---------- 6. 日志 ----------
+*.log
+nohup.out

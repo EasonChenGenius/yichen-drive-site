@@ -1,0 +1,29 @@
+{
+  "region": "cn",
+  "regionSelectionBasis": "User delegated regional account setup",
+  "targetReference": "2022 Buick GL8 ES Lu Zun 653T",
+  "actualFleetTrimVerified": false,
+  "accountVerified": false,
+  "quoteStatus": "not-obtained-api-key-required",
+  "generationSubmissionStarted": false,
+  "generationTaskIds": [],
+  "modelStatus": "reference-preparation",
+  "geometryVerified": false,
+  "referenceSources": [
+    "https://www.ciasi.org.cn/uploads/files/e6f45547c9d28d06d333719f56e5acd1.pdf",
+    "https://auto.gasgoo.com/news/202109/13I70272527C107.shtml"
+  ],
+  "plannedIndependentParts": [
+    "body",
+    "glass",
+    "wheels-and-tyres",
+    "lights",
+    "grille-and-trim"
+  ],
+  "interiorStatus": "excluded-until-actual-trim-and-seating-verified",
+  "loginStatus": "user-reported-logged-in",
+  "keyCreationRequestedByUser": true,
+  "apiKeyCreated": false,
+  "browserObservationStatus": "tab-metadata-available-content-and-screenshot-timeout",
+  "nativeCodexControlStatus": "disallowed-by-computer-tool"
+}

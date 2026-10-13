@@ -1,0 +1,264 @@
+{
+  "status": "user-confirmed-applied",
+  "date": "2026-10-12",
+  "groups": [
+    {
+      "id": "leshan-buddha",
+      "name": "乐山大佛",
+      "existing": true,
+      "photos": [
+        {
+          "id": "S01",
+          "src": "./images/destination-options/20261010-specified-sources/leshan-buddha-B.jpg",
+          "label": "阳光中的大佛侧面",
+          "labelEn": "Photo B",
+          "source": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2020-09-09"
+        },
+        {
+          "id": "S02",
+          "src": "./images/destination-options/20261010-specified-sources/leshan-buddha-A.jpg",
+          "label": "大佛与绿色山林",
+          "labelEn": "Photo A",
+          "source": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2020-09-09"
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5474-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5474.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha - 71m - is the world's biggest stone sitting buddha statue and a touristic famous spot in Sichuan province.",
+          "imageName": "Leshan-Giant-Buddha-5474-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 2,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-02.jpg",
+          "sha256": "96b265f67d93419c73e0e5e1e403cb2d38d1958d3819c87a22affcd30cefb4c2",
+          "label": "山林与石壁环抱的大佛",
+          "source": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N01",
+          "src": "./images/destination-options/20261012-leshan/N01.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5479-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5479.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha - 71m - is the world's biggest stone sitting buddha statue and a touristic famous spot in Sichuan province.",
+          "imageName": "Leshan-Giant-Buddha-5479-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 3,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-03.jpg",
+          "sha256": "f59cfe79b0622eae083c92c35fd2c693d57a14756cb437aa89c51b20a50439d4",
+          "label": "凌云山壁与大佛全身",
+          "source": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N02",
+          "src": "./images/destination-options/20261012-leshan/N02.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-high-angle-view-China-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-high-angle-view-China.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha high-angle view, Sichuan Province, China",
+          "imageName": "Leshan-Giant-Buddha-high-angle-view-China-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 4,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-04.jpg",
+          "sha256": "b71a9b0a7eb244b7b8ccc14394eefb5d9909111ef82cbf5df843a2ad1f07a851",
+          "label": "俯瞰大佛与临江崖壁",
+          "source": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N03",
+          "src": "./images/destination-options/20261012-leshan/N03.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5529-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5529.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha - 71m - is the world's biggest stone sitting buddha statue and a touristic famous spot in Sichuan province.",
+          "imageName": "Leshan-Giant-Buddha-5529-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 7,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-07.jpg",
+          "sha256": "d0785aa39bfc217f36878806fbc5d3534dff34a452f74776d9711836930686d8",
+          "label": "佛脚平台仰望",
+          "source": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N04",
+          "src": "./images/destination-options/20261012-leshan/N04.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5539-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5539.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha - 71m - is the world's biggest stone sitting buddha statue and a touristic famous spot in Sichuan province.",
+          "imageName": "Leshan-Giant-Buddha-5539-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 9,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-09.jpg",
+          "sha256": "434105f5b879c6c611b0f74307a063a4b9351c86caa334650c34979bb1c25b5a",
+          "label": "九曲栈道与大佛",
+          "source": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N05",
+          "src": "./images/destination-options/20261012-leshan/N05.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5573-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-5573.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Leshan Giant Buddha - 71m - is the world's biggest stone sitting buddha statue and a touristic famous spot in Sichuan province.",
+          "imageName": "Leshan-Giant-Buddha-5573-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 10,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-10.jpg",
+          "sha256": "b911b98feb135ae74e8beb52d2c6f845c8551d541347b0d87832acce4f4f553d",
+          "label": "红色崖壁间的大佛",
+          "source": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N06",
+          "src": "./images/destination-options/20261012-leshan/N06.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-against-blue-sky-low-angle-view-China-705x471.jpg",
+          "originalUrl": "https://philippelejeanvre.com/wp-content/uploads/2020/09/Leshan-Giant-Buddha-against-blue-sky-low-angle-view-China.jpg",
+          "page": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "credit": "Philippe Lejeanvre",
+          "publicationDate": "2020-09-09",
+          "alt": "Giant buddha sculpture in Leshan, Chengdu, Sichuan Province, China",
+          "imageName": "Leshan-Giant-Buddha-against-blue-sky-low-angle-view-China-705x471.jpg",
+          "collection": "leshan-giant-buddha",
+          "number": 11,
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/source-photo-review-20261010/photos/leshan-giant-buddha-11.jpg",
+          "sha256": "7e70a74cc2306bd5360793a2f4380a3beb5fad513b435b6e0eb084b0fe3ae29a",
+          "label": "蓝天下的凌云山与大佛",
+          "source": "https://philippelejeanvre.com/leshan-giant-buddha/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N07",
+          "src": "./images/destination-options/20261012-leshan/N07.jpg",
+          "imageEdited": false
+        },
+        {
+          "file": "work/leshan-horizontal-v37/scpo-431127.jpg",
+          "url": "https://img.scpo.cn/preview.axd/4ab66f38-3b32-42bb-808f-fa6eb160e693?width=800&height=700&mode=max",
+          "page": "https://sj.scpo.cn/detail/431127",
+          "width": 800,
+          "height": 208,
+          "credit": "四川画报 · 轩视界（原摄影者未标注）",
+          "rightsStatus": "RM-license-required",
+          "label": "三江汇流与大佛山体全景",
+          "id": "N08",
+          "src": "./images/destination-options/20261012-leshan/N08.jpg",
+          "source": "https://sj.scpo.cn/detail/431127",
+          "dimensions": [
+            800,
+            208
+          ],
+          "imageEdited": false
+        },
+        {
+          "file": "work/leshan-horizontal-v37/scpo-151492.jpg",
+          "url": "https://img.scpo.cn/preview.axd/e28d0c9e-413e-4004-a819-82ecfa8b52a7?width=800&height=700&mode=max",
+          "page": "https://sj.scpo.cn/detail/151492",
+          "width": 800,
+          "height": 437,
+          "credit": "四川画报 · 轩视界（原摄影者未标注）",
+          "rightsStatus": "RM-license-required",
+          "label": "大佛与凌云山全貌",
+          "id": "N09",
+          "src": "./images/destination-options/20261012-leshan/N09.jpg",
+          "source": "https://sj.scpo.cn/detail/151492",
+          "dimensions": [
+            800,
+            437
+          ],
+          "imageEdited": false
+        },
+        {
+          "file": "work/leshan-horizontal-v37/scpo-119153.jpg",
+          "url": "https://img.scpo.cn/preview.axd/db3377d9-ba9f-4978-8d8b-7d92bc381456?width=800&height=700&mode=max",
+          "page": "https://sj.scpo.cn/detail/119153",
+          "width": 800,
+          "height": 527,
+          "credit": "四川画报 · 轩视界（原摄影者未标注）",
+          "rightsStatus": "RM-license-required",
+          "label": "大佛侧面与石刻细节",
+          "id": "N10",
+          "src": "./images/destination-options/20261012-leshan/N10.jpg",
+          "source": "https://sj.scpo.cn/detail/119153",
+          "dimensions": [
+            800,
+            527
+          ],
+          "imageEdited": false
+        }
+      ],
+      "confirmedSelected": [
+        "S01",
+        "S02",
+        "N09",
+        "N03"
+      ],
+      "confirmedCover": "S01"
+    }
+  ],
+  "candidateCount": 10,
+  "selected": [
+    "S01",
+    "S02",
+    "N09",
+    "N03"
+  ],
+  "cover": "S01",
+  "confirmedAt": "2026-10-12"
+}

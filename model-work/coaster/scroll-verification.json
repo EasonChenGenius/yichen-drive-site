@@ -1,0 +1,23 @@
+{
+  "meshes": 87,
+  "triangles": 22350,
+  "independentRoots": 9,
+  "reverseTransformTolerance": 1e-10,
+  "randomSeekChecks": 200,
+  "framingAspectRatios": [
+    0.55,
+    1,
+    2.16
+  ],
+  "framingSamplesPerAspect": 31,
+  "reducedMotionChecked": true,
+  "browserVisualQA": false,
+  "sourceWorldTransformsPreserved": true,
+  "nativeBlenderRenderInspection": true,
+  "assembledAndRestoredRenderPixelIdentical": true,
+  "renderStates": [
+    "assembled",
+    "exploded",
+    "restored"
+  ]
+}

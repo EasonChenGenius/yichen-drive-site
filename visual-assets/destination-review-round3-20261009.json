@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-09",
+  "round": 3,
+  "status": "confirmed-with-optional-further-research",
+  "destinations": [
+    {
+      "id": "kuanzhai",
+      "name": "宽窄巷子",
+      "candidates": [
+        {
+          "url": "https://english.shanghai.gov.cn/cmsres/03/03fc3fd10f2240029343b25e537f587e/0659df267a486a494a0da381e00cf286.jpg",
+          "page": "https://english.shanghai.gov.cn/en-TravelAcrossChina/20250421/fa4666cf783d46f48fc6edd4cf9dcf95.html",
+          "artist": "VCG / 上海政府英文站资料",
+          "date": "2025-04-21 发布；拍摄日期未确认",
+          "title": "宽窄青瓦屋顶与绿意",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/kuanzhai-roof-green.jpg",
+          "id": "A",
+          "key": "kuanzhai-roof-green",
+          "label": "日光青瓦与城市天际线",
+          "note": "屋顶层次更清晰，配合树木与城市远景。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009-round3/kuanzhai-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/kuanzhai-roof-green.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/c3052f5180de47ed87ed221f228962ff~tplv-xv4ileqgde-image.image",
+          "page": "https://m.baike.com/wikiid/7223021374906187791",
+          "artist": "快懂百科宽窄巷子资料原来源",
+          "date": "拍摄日期未确认",
+          "title": "宽窄巷子白天屋顶航拍",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/kuanzhai-wide-aerial.jpg",
+          "id": "B",
+          "key": "kuanzhai-wide-aerial",
+          "label": "花树与青瓦院落俯拍",
+          "note": "青瓦、院落与花树同框，画面更明亮。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009-round3/kuanzhai-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/kuanzhai-wide-aerial.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://amazingarchitecture.com/storage/files/1742/architecture-projects/blue-architecture-studio/arabica-wide-narrow-alley/07-arabica_wide_narrow_alley_chengdu_china_blue_architecture_studio.jpg",
+          "page": "https://amazingarchitecture.com/cafe/arabica-wide-narrow-alley-in-chengdu-china-by-blue-architecture-studio",
+          "artist": "Zhi Xia / B.L.U.E. Architecture 项目摄影",
+          "date": "拍摄日期未确认",
+          "title": "宽窄巷子院落咖啡空间",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/kuanzhai-courtyard.jpg",
+          "id": "C",
+          "key": "kuanzhai-courtyard",
+          "label": "井巷子院落咖啡空间",
+          "note": "宽窄巷子内的 %Arabica 院落，木梁与自然光突出慢生活。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009-round3/kuanzhai-C.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/kuanzhai-courtyard.jpg",
+          "imageEdited": false
+        }
+      ],
+      "current": {
+        "url": "http://image.nbd.com.cn/uploads/articles/images/899650/2.jpg",
+        "alt": "",
+        "context": " 成都历来重视城市风貌的保护与传承，宽窄巷子步行街便是其中的“集大成者”。而保护和利用好历史文化遗产是改造提升宽窄巷子过程中最重要的使命和责任。 2018年，商务部确定将成都宽窄巷子步行街作为全国首批步行街改造提升试点，成都按照试点工作要求，形成了上下联动、统筹协调、共建共享的工作机制。 在两年多的改造提升过程中，成都先后共编制完成36个专项规划和专题研究报",
+        "page": "https://www.nbd.com.cn/articles/2020-08-06/1475873.html",
+        "artist": "每经网原来源",
+        "date": "2020-08-06 发布；拍摄日期未确认",
+        "license": "来源网页参考图；公开发布许可尚未确认",
+        "rightsStatus": "reference-only-permission-unverified",
+        "id": "keep",
+        "key": "kuanzhai-nbd-1",
+        "label": "保留第二轮 C · 日间院落屋顶全景",
+        "note": "近距离看屋顶与院落层次，保留自然日间色调。",
+        "focal": "50% 54%",
+        "preview": "./images/destination-options/20261009-round3/kuanzhai-current.jpg",
+        "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round2-20261009/kuanzhai-nbd-1.jpg",
+        "imageEdited": false
+      }
+    },
+    {
+      "id": "chunxi",
+      "name": "春熙路 · 太古里",
+      "candidates": [
+        {
+          "url": "https://p2.itc.cn/a_auto%2Cc_cut%2Cx_14%2Cy_0%2Cw_1171%2Ch_781/images01/20200831/21c883e7900f4696ac16ee7f3421017f.jpeg",
+          "page": "https://www.sohu.com/a/415676816_381412",
+          "artist": "原来源摄影者",
+          "date": "2020-08-31 发布；拍摄日期未确认",
+          "title": "IFS 屋顶熊猫正面",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/ifs-roof-face.jpg",
+          "id": "A",
+          "key": "ifs-roof-face",
+          "label": "蓝天屋顶熊猫正面",
+          "note": "熊猫正脸与双爪完整，蓝天背景，主体清楚。",
+          "focal": "50% 52%",
+          "preview": "./images/destination-options/20261009-round3/chunxi-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/ifs-roof-face.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://www.benoy.com/wp-content/uploads/2026/07/L2813_N38_hd.jpg",
+          "page": "https://www.benoy.com/projects/chengdu-ifs",
+          "artist": "Benoy IFS 项目原摄影来源",
+          "date": "拍摄日期未确认",
+          "title": "IFS 正面地标夜景",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/ifs-benoy-front.jpg",
+          "id": "B",
+          "key": "ifs-benoy-front",
+          "label": "蓝调 IFS 熊猫建筑全景",
+          "note": "设计方项目摄影；熊猫、IFS 标识与店面灯光同框。",
+          "focal": "38% 50%",
+          "preview": "./images/destination-options/20261009-round3/chunxi-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/ifs-benoy-front.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://ak-d.tripcdn.com/images/1mi13224x98m06204DCD2.jpg?proc=source%2Ftrip",
+          "page": "https://hk.trip.com/moments/theme/destination-chunxi-road-commercial-area-2040018-attraction-993137/",
+          "artist": "原旅行分享摄影者",
+          "date": "拍摄日期未确认",
+          "title": "IFS 熊猫与红星路夜色",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/ifs-night-street.jpg",
+          "id": "C",
+          "key": "ifs-night-street",
+          "label": "爬墙熊猫与 IFS 夜色",
+          "note": "近一些的街头视角，熊猫与 IFS 标识辨识度较高。",
+          "focal": "50% 46%",
+          "preview": "./images/destination-options/20261009-round3/chunxi-C.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/ifs-night-street.jpg",
+          "imageEdited": false
+        }
+      ]
+    }
+  ],
+  "chunxiDirection": "IFS panda and Chunxi landmark",
+  "kuanzhaiCurrent": "round2-C",
+  "confirmedClassification": "experience-6",
+  "selectedInRound3": {
+    "kuanzhai": "A",
+    "chunxi": "B"
+  },
+  "moreChoicesRequested": [
+    "chunxi"
+  ]
+}

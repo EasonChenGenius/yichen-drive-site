@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "round": 4,
+  "status": "awaiting-optional-user-selection",
+  "destinations": [
+    {
+      "id": "chunxi",
+      "name": "春熙路 · 太古里",
+      "current": {
+        "url": "https://www.benoy.com/wp-content/uploads/2026/07/L2813_N38_hd.jpg",
+        "page": "https://www.benoy.com/projects/chengdu-ifs",
+        "artist": "Benoy IFS 项目原摄影来源",
+        "date": "拍摄日期未确认",
+        "title": "IFS 正面地标夜景",
+        "license": "来源网页参考图；公开发布许可尚未确认",
+        "rightsStatus": "reference-only-permission-unverified",
+        "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/ifs-benoy-front.jpg",
+        "id": "keep",
+        "key": "ifs-benoy-front",
+        "label": "保留第三轮 B · 蓝调 IFS 熊猫建筑全景",
+        "note": "设计方项目摄影；熊猫、IFS 标识与店面灯光同框。",
+        "focal": "38% 50%",
+        "preview": "./images/destination-options/20261009-round4/chunxi-current.jpg",
+        "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round3-20261009/ifs-benoy-front.jpg",
+        "imageEdited": false
+      },
+      "candidates": [
+        {
+          "url": "https://assets.st-note.com/img/1780650532-qNkvwnXiWSZUg1oG35sb8MdV.jpg?width=1200",
+          "page": "https://note.com/iwa440/n/nd1523da52b6c",
+          "artist": "いわよし / note 旅行记录",
+          "date": "2026-06-05 发布；旅行记录日期为 2026-05-21，照片拍摄日期未单独确认",
+          "title": "IFS 熊猫与开阔夜景",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round4-20261009/ifs-2026-night.jpg",
+          "id": "A",
+          "key": "ifs-2026-night",
+          "label": "熊猫与开阔广场夜色",
+          "note": "地面视角更开阔，IFS 标识、爬墙熊猫与行人同框。",
+          "focal": "50% 48%",
+          "preview": "./images/destination-options/20261009-round4/chunxi-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round4-20261009/ifs-2026-night.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/editorial/vdam/800/new/200043/962e29179c924734b0b2ebbb54822414.jpg",
+          "page": "https://lenschengdu.com/assets/6376866",
+          "artist": "钟宇飞 / 视觉成都",
+          "date": "2025-10-07 拍摄（来源页标注）",
+          "title": "IFS 城市地标夜景",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round4-20261009/ifs-2025-lens.jpg",
+          "id": "B",
+          "key": "ifs-2025-lens",
+          "label": "红星路车流与 IFS 城市夜景",
+          "note": "从较高视角看红星路，建筑灯光与车流形成城市夜景；IFS 在画面上部。",
+          "focal": "50% 8%",
+          "preview": "./images/destination-options/20261009-round4/chunxi-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round4-20261009/ifs-2025-lens.jpg",
+          "imageEdited": false
+        }
+      ]
+    }
+  ],
+  "confirmedChoices": {
+    "kuanzhai": "round3-A",
+    "chunxi": "round3-B",
+    "twins": "round1-B",
+    "dongjiao": "round1-A",
+    "jinli": "round1-A"
+  },
+  "confirmedClassification": "experience-6"
+}

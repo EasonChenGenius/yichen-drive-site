@@ -1,0 +1,49 @@
+/* More open space below the copy, with a larger trip selector. */
+.hero-copy{position:relative;top:-48px}
+.search-wrap{max-width:1440px;padding-left:28px;padding-right:28px;margin-top:-100px}
+.search-box{padding:32px;border-radius:30px;min-height:164px;grid-template-columns:1.35fr 1fr 1fr auto}
+.search-box .field{padding:16px 28px}
+.search-box .field label{font-size:.82rem;margin-bottom:13px}
+.search-box .field input{font-size:1.04rem;min-height:44px}
+.search-box .field:nth-child(3){border-right:0}
+.search-box .search-cta{align-self:center;height:64px;min-height:64px;min-width:190px;margin-left:22px;border-radius:16px;font-size:.98rem;line-height:1.4;padding:14px 25px;gap:15px;box-shadow:none}
+.search-box .search-cta:hover{box-shadow:0 5px 14px #17171514}
+[lang=en] .search-box .field input{font-size:.94rem}
+@media(max-width:1050px) and (min-width:751px){.search-box{grid-template-columns:repeat(3,minmax(0,1fr));padding:26px;min-height:0}.search-box .field{padding:10px 16px}.search-box .search-cta{grid-column:1/-1;height:58px;min-height:58px;width:100%;margin:16px 0 0;border-radius:14px}}
+@media(max-width:750px){.hero-copy{top:-22px}.search-wrap{margin-top:-82px;padding-left:17px;padding-right:17px}.search-box{grid-template-columns:1fr;padding:20px;border-radius:24px;min-height:0}.search-box .field{padding:15px 14px}.search-box .field:nth-child(3){border-bottom:0}.search-box .field label{font-size:.77rem;margin-bottom:8px}.search-box .field input{min-height:44px;font-size:1rem}.search-box .search-cta{grid-column:auto;height:58px;min-height:58px;min-width:0;width:100%;padding:12px 20px;margin:14px 0 0;border-radius:14px;font-size:.94rem}}
+
+.home-rental-process{padding-top:65px;padding-bottom:64px}
+.home-rental-process .rental-step-grid{gap:23px}
+.home-rental-process .rental-step-grid>article{min-height:200px;padding:28px}
+.home-destinations{padding-top:36px;padding-bottom:65px;background:#f1efe7;border-radius:28px;margin-bottom:24px}
+.home-destinations .section-head{margin-bottom:30px}
+.home-destinations .section-head h2{font-size:clamp(2.7rem,5vw,4.5rem)}
+.home-destinations .home-dest-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.home-destinations .destination-card{aspect-ratio:4/5;min-height:280px}
+.home-destinations .destination-card:nth-child(-n+2){grid-column:span 2;aspect-ratio:16/9;min-height:300px}
+.home-destinations .destination-card h3{font-size:clamp(1.35rem,2.4vw,2.3rem)}
+@media(max-width:1050px){.home-destinations .home-dest-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-destinations .destination-card{aspect-ratio:4/3}.home-destinations .destination-card:nth-child(-n+2){grid-column:auto;aspect-ratio:4/3;min-height:0}}
+@media(max-width:750px){.home-rental-process{padding-top:45px;padding-bottom:42px}.home-rental-process .rental-step-grid>article{min-height:0;padding:23px}.home-destinations{padding-top:29px;padding-bottom:35px;border-radius:20px}.home-destinations .section-head>a{display:inline-flex;font-size:.72rem;padding:8px 13px;min-height:42px}.home-destinations .section-head{display:block}.home-destinations .section-head>a{margin-top:15px}.home-destinations .home-dest-grid{grid-template-columns:1fr}.home-destinations .destination-card,.home-destinations .destination-card:nth-child(-n+2){min-height:0;aspect-ratio:4/3}}
+
+.section.wrap,.rental-process.home-rental-process{padding-left:36px;padding-right:36px}
+.rental-process.home-rental-process{padding-top:65px;padding-bottom:64px}
+@media(max-width:750px){.section.wrap,.rental-process.home-rental-process{padding-left:17px;padding-right:17px}.rental-process.home-rental-process{padding-top:45px;padding-bottom:42px}}
+
+@media(max-width:750px){.home-rental-process .section-head{display:block}.home-rental-process .section-head>a{display:inline-flex;margin-top:16px}}
+
+.home-destinations .home-dest-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+.home-destinations .destination-card{grid-column:span 2;aspect-ratio:4/3}
+.home-destinations .destination-card:nth-child(-n+2){grid-column:span 3;aspect-ratio:16/9}
+@media(max-width:1050px){.home-destinations .home-dest-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-destinations .destination-card,.home-destinations .destination-card:nth-child(-n+2){grid-column:auto;aspect-ratio:4/3}}
+@media(max-width:750px){.home-destinations .home-dest-grid{grid-template-columns:1fr}}
+
+.search-box .field input{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;font-size:1rem;font-weight:400;letter-spacing:.015em;color:#38352f}.search-box .field label{font-weight:500;color:#8a8174;letter-spacing:.08em}.search-box .search-cta{font-weight:500}
+
+/* Cards now include a separate caption: never constrain the entire card to an image ratio. */
+.home-destinations .home-dest-grid{gap:24px;align-items:stretch}
+.home-destinations .destination-card,.home-destinations .destination-card:nth-child(-n+2){aspect-ratio:auto;height:auto;min-height:0;min-width:0;align-self:stretch}
+.home-destinations .destination-card-media{width:100%;aspect-ratio:3/2}
+.home-destinations .destination-card:nth-child(-n+2) .destination-card-media{aspect-ratio:16/9}
+.home-destinations .destination-card-copy{min-height:145px;padding:23px 24px 25px}
+@media(max-width:1050px){.home-destinations .destination-card:nth-child(-n+2) .destination-card-media{aspect-ratio:3/2}}
+@media(max-width:750px){.home-destinations .home-dest-grid{gap:18px}.home-destinations .destination-card-copy{min-height:0;padding:19px 20px 23px}}

@@ -1,0 +1,260 @@
+{
+  "status": "awaiting-research-report",
+  "photoCountPerPlace": [
+    5,
+    10
+  ],
+  "imagePosition": "center center",
+  "taskId": "Gk85EFZQ9bWSuxuQqpF6fy",
+  "taskUrl": "https://manus.im/app/Gk85EFZQ9bWSuxuQqpF6fy",
+  "categories": {
+    "heritage": "古街人文",
+    "landmarks": "城市地标",
+    "arts": "艺术街区",
+    "gardens": "湖畔花园",
+    "pandas": "熊猫亲子",
+    "landscapes": "山水自驾"
+  },
+  "destinations": [
+    {
+      "id": "kuanzhai",
+      "name": "宽窄巷子",
+      "category": "heritage",
+      "existing": true,
+      "currentImage": "./images/destinations/kuanzhai.jpg?v=chosen-v17",
+      "photoBrief": "体现美景和当地特色，主体适合居中展示"
+    },
+    {
+      "id": "chunxi",
+      "name": "春熙路 · 太古里",
+      "category": "landmarks",
+      "existing": true,
+      "currentImage": "./images/destinations/chunxi.jpg?v=chosen-v17",
+      "photoBrief": "体现美景和当地特色，主体适合居中展示"
+    },
+    {
+      "id": "twins",
+      "name": "金融城双子塔",
+      "category": "landmarks",
+      "existing": true,
+      "currentImage": "./images/destinations/twins.jpg?v=chosen-v15",
+      "photoBrief": "体现美景和当地特色，主体适合居中展示"
+    },
+    {
+      "id": "tianfu",
+      "name": "天府广场",
+      "category": "landmarks",
+      "existing": true,
+      "currentImage": "./images/destinations/tianfu.jpg?v=destinations-v12",
+      "photoBrief": "天府广场正面、轴线和地标清楚"
+    },
+    {
+      "id": "luhu-cpi",
+      "name": "麓湖 · CPI",
+      "category": "gardens",
+      "existing": true,
+      "currentImage": "./images/destinations/luhu-cpi.jpg?v=destinations-v12",
+      "photoBrief": "体现美景和当地特色，主体适合居中展示"
+    },
+    {
+      "id": "dujiangyan",
+      "name": "都江堰",
+      "category": "landscapes",
+      "existing": true,
+      "currentImage": "./images/destinations/dujiangyan.jpg",
+      "photoBrief": "体现美景和当地特色，主体适合居中展示"
+    },
+    {
+      "id": "siguniang",
+      "name": "四姑娘山",
+      "category": "landscapes",
+      "existing": true,
+      "currentImage": "./images/destinations/siguniang.jpg",
+      "photoBrief": "真实四姑娘山日照金山，雪峰染金，地点可核对"
+    },
+    {
+      "id": "jiuzhai",
+      "name": "九寨沟",
+      "category": "landscapes",
+      "existing": true,
+      "currentImage": "./images/destinations/jiuzhai.jpg",
+      "photoBrief": "晴天阳光、清澈海子和彩林"
+    },
+    {
+      "id": "qingcheng",
+      "name": "青城山",
+      "category": "landscapes",
+      "existing": true,
+      "currentImage": "./images/destinations/qingcheng.jpg",
+      "photoBrief": "重新选图，突出山林与道观"
+    },
+    {
+      "id": "panda",
+      "name": "大熊猫繁育研究基地",
+      "category": "pandas",
+      "existing": true,
+      "currentImage": "./images/destinations/panda.jpg",
+      "photoBrief": "体现美景和当地特色，主体适合居中展示"
+    },
+    {
+      "id": "jinli",
+      "name": "锦里 · 武侯祠",
+      "category": "heritage",
+      "existing": true,
+      "currentImage": "./images/destinations/jinli.jpg?v=chosen-v15",
+      "photoBrief": "体现美景和当地特色，主体适合居中展示"
+    },
+    {
+      "id": "wenshu",
+      "name": "文殊院 · 文殊坊",
+      "category": "heritage",
+      "existing": true,
+      "currentImage": "./images/destinations/wenshu.jpg?v=destinations-v12",
+      "photoBrief": "体现美景和当地特色，主体适合居中展示"
+    },
+    {
+      "id": "dongjiao",
+      "name": "东郊记忆",
+      "category": "arts",
+      "existing": true,
+      "currentImage": "./images/destinations/dongjiao.jpg?v=chosen-v15",
+      "photoBrief": "体现美景和当地特色，主体适合居中展示"
+    },
+    {
+      "id": "dufu",
+      "name": "杜甫草堂",
+      "category": "heritage",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "yulin",
+      "name": "玉林路",
+      "category": "arts",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "fangcao",
+      "name": "芳草街",
+      "category": "arts",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "jiaozi-park",
+      "name": "交子公园",
+      "category": "gardens",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "jiaozi-bridge",
+      "name": "交子之桥",
+      "category": "gardens",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "锦江上的交子之桥；不得用交子之环替代"
+    },
+    {
+      "id": "jiaozi-ring",
+      "name": "交子之环",
+      "category": "landmarks",
+      "existing": false,
+      "additionConfirmed": true,
+      "photoBrief": "环形步行天桥与城市景观；不得用锦江交子之桥替代"
+    },
+    {
+      "id": "global",
+      "name": "环球中心",
+      "category": "landmarks",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "tower339",
+      "name": "339 电视塔",
+      "category": "landmarks",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "renmin",
+      "name": "人民公园",
+      "category": "heritage",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "wangping",
+      "name": "望平街 · 香香巷",
+      "category": "arts",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "tiexiang",
+      "name": "铁像寺水街",
+      "category": "heritage",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "donghu",
+      "name": "东湖公园",
+      "category": "gardens",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "jincheng",
+      "name": "锦城湖",
+      "category": "gardens",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "xinglong",
+      "name": "兴隆湖",
+      "category": "gardens",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "anren",
+      "name": "安仁古镇",
+      "category": "heritage",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "luodai",
+      "name": "洛带古镇",
+      "category": "heritage",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    },
+    {
+      "id": "tianfu-art",
+      "name": "天府艺术公园",
+      "category": "arts",
+      "existing": false,
+      "additionConfirmed": false,
+      "photoBrief": "实景照片，体现美景和当地特色"
+    }
+  ]
+}

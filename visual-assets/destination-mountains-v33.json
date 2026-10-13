@@ -1,0 +1,412 @@
+{
+  "status": "user-confirmed-applied",
+  "groups": [
+    {
+      "id": "qingcheng",
+      "name": "青城山",
+      "existing": true,
+      "photos": [
+        {
+          "id": "S01",
+          "src": "./images/destinations/qingcheng.jpg",
+          "label": "当前原图",
+          "source": "https://www.djy517.com/",
+          "credit": "原图摄影来源见主站说明",
+          "rightsStatus": "see-original-photo-credits"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6372766",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/editorial/vdam/800/new/200043/871aed1f8e714cf88c951168ef020c99.jpg",
+          "source": "https://lenschengdu.com/assets/6372766",
+          "credit": "蒋光丛 / 视觉成都",
+          "label": "俯瞰青城群山",
+          "date": "2025-06-16",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6372766.jpg",
+          "dimensions": [
+            800,
+            522
+          ],
+          "sha256": "6e7e4ebac3adda16e2e491d867c201e9dbe6dbc3eddb5ee8488fff01f3c18446",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N01",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N01.jpg"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6347654",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/c87bd161ea104fd5942a596ae646c722.jpg",
+          "source": "https://lenschengdu.com/assets/6347654?groupId=189695",
+          "credit": "朱建国 / 视觉成都",
+          "label": "林间山门",
+          "date": "2024-03-26",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6347654.jpg",
+          "dimensions": [
+            610,
+            800
+          ],
+          "sha256": "9806c1da275dfba1c41ce90665af92cb22bb9793251e21e8aff433d9ad8e5368",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N02",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N02.jpg"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6347655",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/0bfffd54c78b49cba5be19bae384f1fe.jpg",
+          "source": "https://lenschengdu.com/assets/6347655?groupId=189695",
+          "credit": "朱建国 / 视觉成都",
+          "label": "花树与山门",
+          "date": "2024-03-26",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6347655.jpg",
+          "dimensions": [
+            800,
+            517
+          ],
+          "sha256": "977e285ddfb87073d0e367c3ed4acdfa970fb66768fee08c5376863081c668ce",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N03",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N03.jpg"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6347658",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/87389c83868843efb77e95f48f73a21a.jpg",
+          "source": "https://lenschengdu.com/assets/6347658?groupId=189695",
+          "credit": "朱建国 / 视觉成都",
+          "label": "雨后的青城山",
+          "date": "2024-03-26",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6347658.jpg",
+          "dimensions": [
+            800,
+            553
+          ],
+          "sha256": "2b46c6792164d11e964bc9935f99fc0942d39a1a9adaa45b8112ec5ae500448f",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N04",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N04.jpg"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6347664",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/bee92db993d442b9a8996a88e2bd771b.jpg",
+          "source": "https://lenschengdu.com/assets/6347664?groupId=189695",
+          "credit": "朱建国 / 视觉成都",
+          "label": "林荫小道",
+          "date": "2024-03-26",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6347664.jpg",
+          "dimensions": [
+            800,
+            532
+          ],
+          "sha256": "5a404ba4f3af82b4e4049eaeea65bb0f4f61c2935c4d7d1a08459d080743c0be",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N05",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N05.jpg"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6382842",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/editorial/vdam/800/new/200043/bc717532fc6e416bbd7b79a4f77b209b.jpg",
+          "source": "https://lenschengdu.com/assets/6382842",
+          "credit": "罗进 / 视觉成都",
+          "label": "晚霞与老君阁",
+          "date": "2025-11-22",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6382842.jpg",
+          "dimensions": [
+            711,
+            800
+          ],
+          "sha256": "4e3ec6e1f6ffb9c25e220491a3860726e2dd9e85fc357842a2276dc18e3612f6",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N06",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N06.jpg"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6363116",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/editorial/vdam/800/new/200043/9ad320320f0f496092239c00688319a7.jpg",
+          "source": "https://lenschengdu.com/assets/6363116",
+          "credit": "韦洪涛 / 视觉成都",
+          "label": "雪后彩林与老君阁",
+          "date": "2024-12-14",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6363116.jpg",
+          "dimensions": [
+            800,
+            449
+          ],
+          "sha256": "ce319a1e256ca54288328c6ee3af802f75dc431407dce75af57fc968c2804749",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N07",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N07.jpg"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6378553",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/editorial/vdam/800/new/200043/44e5031b0ec348d3a59284b1a1081300.jpg",
+          "source": "https://lenschengdu.com/assets/6378553",
+          "credit": "陈和勇 / 视觉成都",
+          "label": "老君阁与远山",
+          "date": "2025-09-23",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6378553.jpg",
+          "dimensions": [
+            629,
+            800
+          ],
+          "sha256": "690e3a48c4ed2e813bc519469a2353e9cb3f13484b312c688e9759a7c3cefb3f",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N08",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N08.jpg"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6347659",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/24d6511feda740bfbcbc2ef9984fedfb.jpg",
+          "source": "https://lenschengdu.com/assets/6347659?groupId=189695",
+          "credit": "朱建国 / 视觉成都",
+          "label": "蓝天与青城路标",
+          "date": "2024-03-26",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6347659.jpg",
+          "dimensions": [
+            800,
+            515
+          ],
+          "sha256": "a8f33efa30ec1a6700fc7675cfde8f58bc2e9209a8738fbc03c08018bd7b56db",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N09",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N09.jpg"
+        },
+        {
+          "place": "qingcheng",
+          "key": "6347662",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/eeadf3bafa9d425f9a9918b577ed6b68.jpg",
+          "source": "https://lenschengdu.com/assets/6347662?groupId=189695",
+          "credit": "朱建国 / 视觉成都",
+          "label": "青城后山牌坊",
+          "date": "2024-03-26",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/qingcheng-6347662.jpg",
+          "dimensions": [
+            800,
+            571
+          ],
+          "sha256": "3086903152e1632deb49bc3772792cc26dc50249416b230fb763006bb861b404",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N10",
+          "src": "./images/destination-options/20261011-mountains/qingcheng-N10.jpg"
+        }
+      ],
+      "confirmedSelected": [
+        "N07",
+        "N10"
+      ]
+    },
+    {
+      "id": "siguniang",
+      "name": "四姑娘山",
+      "existing": true,
+      "photos": [
+        {
+          "id": "S01",
+          "src": "./images/destinations/siguniang.jpg",
+          "label": "当前原图",
+          "source": "https://www.sgns.cn/understand/sqg",
+          "credit": "原图摄影来源见主站说明",
+          "rightsStatus": "see-original-photo-credits"
+        },
+        {
+          "place": "siguniang",
+          "key": "official-19",
+          "url": "https://www.sgns.cn/templates/rt_clarity/custom/images/2021_101/首页banner原图尺寸.jpg",
+          "source": "https://www.sgns.cn/?presets=preset1",
+          "label": "日照金山 · 雪峰特写",
+          "credit": "四姑娘山景区官网 · 单图作者未标注",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/siguniang-official-19.jpg",
+          "dimensions": [
+            525,
+            440
+          ],
+          "sha256": "a6914f8c9aded8cc236c1f1a4a44e562794f2b1f564233da8411d9c86854df1c",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N01",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N01.jpg"
+        },
+        {
+          "place": "siguniang",
+          "key": "sg-more-0",
+          "url": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91/images/50d327a2cc5d4b6db0ae3f93d659eb9c.png",
+          "source": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91.shtml",
+          "credit": "小金县人民政府 · 四姑娘山四季图集",
+          "label": "蓝天白云与雪山全景",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/sg-more-0.jpg",
+          "dimensions": [
+            1080,
+            694
+          ],
+          "sha256": "59640281a631eac57a5a9473fad73d37857219c4b42a0fd1733c6dbdfc8492cd",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N02",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N02.jpg"
+        },
+        {
+          "place": "siguniang",
+          "key": "sg-more-7",
+          "url": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91/images/8fba9179d21e481c8376704745a2706a.png",
+          "source": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91.shtml",
+          "credit": "小金县人民政府 · 四姑娘山四季图集",
+          "label": "金色雪峰与山谷溪流",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/sg-more-7.jpg",
+          "dimensions": [
+            1080,
+            1618
+          ],
+          "sha256": "e553e11f2d7ce09c82cbcf61f07edd94a5eb681feeb2551b1ac25715693ea84c",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N03",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N03.jpg"
+        },
+        {
+          "place": "siguniang",
+          "key": "shuangqiao-26",
+          "url": "https://www.xiaojin.gov.cn/xjxrmzf/c100134/202407/4f6ffa29bb1d4da5855762a9f4088197/images/4537223308c147f1a76fd761ae766f3f.jpg",
+          "source": "https://www.xiaojin.gov.cn/xjxrmzf/c100134/202407/4f6ffa29bb1d4da5855762a9f4088197.shtml",
+          "label": "双桥沟 · 湖面倒影",
+          "credit": "小金县人民政府 · 页面摄影署名喻林斌",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/siguniang-shuangqiao-26.jpg",
+          "dimensions": [
+            2000,
+            1335
+          ],
+          "sha256": "099e4c90cb93536bf6aef18ad57a76d229f44397e537b41bf2e0bf1b441df61b",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N04",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N04.jpg"
+        },
+        {
+          "place": "siguniang",
+          "key": "sg-more-6",
+          "url": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91/images/556aaa5499f947cd8781dbea825f60d0.png",
+          "source": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91.shtml",
+          "credit": "小金县人民政府 · 四姑娘山四季图集",
+          "label": "花海草甸与群山",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/sg-more-6.jpg",
+          "dimensions": [
+            1080,
+            732
+          ],
+          "sha256": "15f57389c3e794fb8fb243c2349f4cf626a7d7ab5a5924d68c6f5e463dc3ceb9",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N05",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N05.jpg"
+        },
+        {
+          "place": "siguniang",
+          "key": "sg-more-8",
+          "url": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91/images/d024b3a42c1c4acda2110b16cc65bed7.png",
+          "source": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91.shtml",
+          "credit": "小金县人民政府 · 四姑娘山四季图集",
+          "label": "秋色草甸与雪峰",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/sg-more-8.jpg",
+          "dimensions": [
+            1080,
+            719
+          ],
+          "sha256": "777ef92c5b46ed51883dce6aa530a817b90828f00bdc5b65462f9a9554024355",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N06",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N06.jpg"
+        },
+        {
+          "place": "siguniang",
+          "key": "sg-more-9",
+          "url": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91/images/a6b3872db560438ba5fda4a1d57a25cf.jpg",
+          "source": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91.shtml",
+          "credit": "小金县人民政府 · 四姑娘山四季图集",
+          "label": "云绕雪峰",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/sg-more-9.jpg",
+          "dimensions": [
+            1080,
+            658
+          ],
+          "sha256": "173b2196929929d2a4e654e52dc6405da73b5d097c4d67bdab5b1933e31f4c9b",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N07",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N07.jpg"
+        },
+        {
+          "place": "siguniang",
+          "key": "sg-more-10",
+          "url": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91/images/a0de80a4cb01453fbf06a3ab96de3fb0.jpg",
+          "source": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91.shtml",
+          "credit": "小金县人民政府 · 四姑娘山四季图集",
+          "label": "晴日冰雪群峰",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/sg-more-10.jpg",
+          "dimensions": [
+            762,
+            569
+          ],
+          "sha256": "4ccaa13349464359b71ace478cc7fd20b8dc85cf49242a32d5d05576d82574de",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N08",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N08.jpg"
+        },
+        {
+          "place": "siguniang",
+          "key": "sg-more-12",
+          "url": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91/images/82170f06747149d39d99a89fb87c4c79.png",
+          "source": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91.shtml",
+          "credit": "小金县人民政府 · 四姑娘山四季图集",
+          "label": "雪中溪流与山林",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/sg-more-12.jpg",
+          "dimensions": [
+            1080,
+            684
+          ],
+          "sha256": "58af2311a7a757d34e44fab471d886ccf8ef2bde95b72ee3711449a2ecc1e49f",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N09",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N09.jpg"
+        },
+        {
+          "place": "siguniang",
+          "key": "sg-more-13",
+          "url": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91/images/6afd654e43834de8ab4511981534cd0d.png",
+          "source": "https://www.xiaojin.gov.cn/xjxrmzf/c101368/202303/acd64e0401d44e008ecbde98289b3d91.shtml",
+          "credit": "小金县人民政府 · 四姑娘山四季图集",
+          "label": "冰雪湖岸与群山",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/mountain-photos-v33/sg-more-13.jpg",
+          "dimensions": [
+            1080,
+            719
+          ],
+          "sha256": "477f7614e243236cc886cd56eff52edd53dbb048fc724237b7b3d861394f3fb7",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "N10",
+          "src": "./images/destination-options/20261011-mountains/siguniang-N10.jpg"
+        }
+      ],
+      "confirmedSelected": [
+        "N01",
+        "N02",
+        "N08",
+        "N07",
+        "N09",
+        "N10"
+      ]
+    }
+  ],
+  "candidateCount": 20,
+  "choices": {
+    "qingcheng": [
+      "N07",
+      "N10"
+    ],
+    "siguniang": [
+      "N01",
+      "N02",
+      "N08",
+      "N07",
+      "N09",
+      "N10"
+    ]
+  }
+}

@@ -1,0 +1,1369 @@
+{
+  "status": "user-confirmed-applied",
+  "date": "2026-10-11",
+  "destinations": [
+    {
+      "id": "renmin",
+      "name": "人民公园",
+      "confirmed": [
+        {
+          "id": "S01",
+          "src": "./images/destination-options/20261010-specified-sources/renmin-E.jpg",
+          "label": "已确认 E · 鹤鸣茶社的日间入口",
+          "labelEn": "Photo E",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2021-09-13"
+        },
+        {
+          "id": "S02",
+          "src": "./images/destination-options/20261010-specified-sources/renmin-C.jpg",
+          "label": "已确认 C · 树影、水面与园林牌坊",
+          "labelEn": "Photo C",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2021-09-13"
+        },
+        {
+          "id": "S03",
+          "src": "./images/destination-options/20261010-specified-sources/renmin-A.jpg",
+          "label": "已确认 A · 彩色游船与晴日湖岸",
+          "labelEn": "Photo A",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2021-09-13"
+        },
+        {
+          "id": "S04",
+          "src": "./images/destination-options/20261010-specified-sources/renmin-G.jpg",
+          "label": "已确认 G · 鹤鸣茶社灯火",
+          "labelEn": "Photo G",
+          "source": "https://philippelejeanvre.com/heming-teahouse-at-night-in-peoples-park-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2021-09-30"
+        }
+      ],
+      "candidates": [
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Chengdu-peoples-park-XinHaiBaoLuJiNianBei-tower-aerial-view.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "保路纪念碑与秋色",
+          "date": "2021-09-13",
+          "key": "peoples-park-in-chengdu-1",
+          "dimensions": [
+            684,
+            1024
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-peoples-park-in-chengdu-1.jpg",
+          "sha256": "206bc715049d57faec02216fecc84da26089dd30020bfec2a166b3cdd696ee2a",
+          "id": "N01",
+          "src": "./images/destination-options/20261011-refill/renmin-N01.jpg",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Old-woman-practicing-dance-with-a-fan-in-people-park-Chengdu-705x471.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "晨光中的公园小径",
+          "date": "2021-09-13",
+          "key": "peoples-park-in-chengdu-2",
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-peoples-park-in-chengdu-2.jpg",
+          "sha256": "058c0cbd97b7f37b9541aa1d77e6ff6107ca23a599615948ffd8f6d42740e00f",
+          "id": "N02",
+          "src": "./images/destination-options/20261011-refill/renmin-N02.jpg",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Old-multicolored-boats-on-a-lake-with-people-on-the-border-in-the-background-China-705x471.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "彩色游船与湖岸",
+          "date": "2021-09-13",
+          "key": "peoples-park-in-chengdu-5",
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-peoples-park-in-chengdu-5.jpg",
+          "sha256": "6ece9465a763b328c904919e4ce50c0acd7b964e28b2b3513df12ad3859e4969",
+          "id": "N03",
+          "src": "./images/destination-options/20261011-refill/renmin-N03.jpg",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Old-multicolored-boats-on-a-lake-with-trees-and-stone-bridge-in-the-background-China-705x471.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "绿意水面与石桥",
+          "date": "2021-09-13",
+          "key": "peoples-park-in-chengdu-6",
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-peoples-park-in-chengdu-6.jpg",
+          "sha256": "122d50d9ae4f06dcb3fed0b869b31f7720fb29691c4962453cd8cd87a0b08d8a",
+          "id": "N04",
+          "src": "./images/destination-options/20261011-refill/renmin-N04.jpg",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Chengdu-peoples-park-teahouse-gate-705x401.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "鹤鸣茶社匾额与竹影",
+          "date": "2021-09-13",
+          "key": "peoples-park-in-chengdu-10",
+          "dimensions": [
+            705,
+            401
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-peoples-park-in-chengdu-10.jpg",
+          "sha256": "55522182cec6c42f555b2e284c58239c255f23759d52d2349bc1aa400a377c5d",
+          "id": "N05",
+          "src": "./images/destination-options/20261011-refill/renmin-N05.jpg",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/People-having-tea-in-Peoples-park-Chengdu-705x471.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "阳光洒进竹椅茶席",
+          "date": "2021-09-13",
+          "key": "peoples-park-in-chengdu-12",
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-peoples-park-in-chengdu-12.jpg",
+          "sha256": "e6c1c2a0ac58a7c338c1dab540573844908da98962dc377fecc7a3b4720eaf34",
+          "id": "N06",
+          "src": "./images/destination-options/20261011-refill/renmin-N06.jpg",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/27072019-_DSC2501-705x471.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "露天茶园的成都生活",
+          "date": "2021-09-13",
+          "key": "peoples-park-in-chengdu-14",
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-peoples-park-in-chengdu-14.jpg",
+          "sha256": "305e2c2259e52cf3b80b2d52efda320fcf3f2e357987f7c63b24c49a486a49c0",
+          "id": "N07",
+          "src": "./images/destination-options/20261011-refill/renmin-N07.jpg",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/02/Copper-teapots-in-a-row-705x471.jpg",
+          "page": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "铜壶与暖阳",
+          "date": "2021-09-13",
+          "key": "peoples-park-in-chengdu-15",
+          "dimensions": [
+            705,
+            471
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-peoples-park-in-chengdu-15.jpg",
+          "sha256": "82c59df08fff1d29458c56724ccb3f343b57d9b1f58bde13f46cd910290dd287",
+          "id": "N08",
+          "src": "./images/destination-options/20261011-refill/renmin-N08.jpg",
+          "source": "https://philippelejeanvre.com/peoples-park-in-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Heming-ancient-teahouse-at-night-in-Chengdu-1-2-705x1055.jpg",
+          "page": "https://philippelejeanvre.com/heming-teahouse-at-night-in-peoples-park-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "夜间茶社与红灯笼",
+          "date": "2021-09-30",
+          "key": "heming-teahouse-at-night-in-peoples-park-chengdu-2",
+          "dimensions": [
+            705,
+            1055
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-heming-teahouse-at-night-in-peoples-park-chengdu-2.jpg",
+          "sha256": "34cc8e6a47b8415d4e92ad1fcaaa80834308967ca66534c990bd7248ccdd719b",
+          "id": "N09",
+          "src": "./images/destination-options/20261011-refill/renmin-N09.jpg",
+          "source": "https://philippelejeanvre.com/heming-teahouse-at-night-in-peoples-park-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "renmin",
+          "url": "https://philippelejeanvre.com/wp-content/uploads/2021/09/Waitress-in-Heming-ancient-teahouse-in-Chengdu-705x470.jpg",
+          "page": "https://philippelejeanvre.com/heming-teahouse-at-night-in-peoples-park-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "label": "竹影里的夜间茶席",
+          "date": "2021-09-30",
+          "key": "heming-teahouse-at-night-in-peoples-park-chengdu-3",
+          "dimensions": [
+            705,
+            470
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/renmin-heming-teahouse-at-night-in-peoples-park-chengdu-3.jpg",
+          "sha256": "0e83119263ae7db6e8849513d469f4b8f084d0b3d6e6311ab4f00f503ac6ab3f",
+          "id": "N10",
+          "src": "./images/destination-options/20261011-refill/renmin-N10.jpg",
+          "source": "https://philippelejeanvre.com/heming-teahouse-at-night-in-peoples-park-chengdu/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ],
+      "selected": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "N06",
+        "N10"
+      ],
+      "cover": "S01"
+    },
+    {
+      "id": "jinli",
+      "name": "锦里 · 武侯祠",
+      "confirmed": [
+        {
+          "id": "S01",
+          "src": "./images/destinations/jinli.jpg?v=chosen-v15",
+          "label": "已确认 原图 · 原图",
+          "labelEn": "Previously selected photo",
+          "source": "https://www.wuhouci.net.cn/",
+          "credit": "See previous photo credits",
+          "rightsStatus": "see-original-photo-credits"
+        },
+        {
+          "id": "S02",
+          "src": "./images/destination-options/20261010-specified-sources/jinli-A.jpg",
+          "label": "已确认 A · 锦里灯笼长廊",
+          "labelEn": "Photo A",
+          "source": "https://philippelejeanvre.com/mid-autumn-festival-jinli-ancient-street-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2017-09-21"
+        },
+        {
+          "id": "S03",
+          "src": "./images/destination-options/20261010-specified-sources/jinli-C.jpg",
+          "label": "已确认 C · 传统门饰与暖色灯影",
+          "labelEn": "Photo C",
+          "source": "https://philippelejeanvre.com/mid-autumn-festival-jinli-ancient-street-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2017-09-21"
+        }
+      ],
+      "candidates": [
+        {
+          "place": "jinli",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/5a67bc19dddb4632afd891523da4e044.jpg",
+          "page": "https://lenschengdu.com/assets/6317826",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 资源详情 2022/07/11 02:03 收藏次数： 0 浏览次数： 4 以图搜图 › 相关推荐 查看更多 图片 500 积分 景点; ID: 6317833 2022-07-11 02:03:47 500 积分 下载 下载图文 加入购物车 收藏 分享 蒋小翼 基本信息 资源编号 ： 6317826 分辨率 ： 7952 x 5304 大小 ： 28.65 MB 摄影师 ： 蒋小翼 / 视觉成都",
+          "label": "武侯祠红墙夹道 · 横幅",
+          "key": "6317826",
+          "dimensions": [
+            800,
+            534
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/jinli-6317826.jpg",
+          "sha256": "88a62ded9be9e9a8acec59d946e8973bcdf443756ebf91961085dd34395a98b0",
+          "id": "N01",
+          "sourceDimensions": [
+            7952,
+            5304
+          ],
+          "src": "./images/destination-options/20261011-refill/jinli-N01.jpg",
+          "source": "https://lenschengdu.com/assets/6317826",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "jinli",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/editorial/vdam/800/new/200043/50715ee0853b4e449e8590257cfa0eeb.jpg",
+          "page": "https://lenschengdu.com/assets/6371598",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 资源详情 2025/05/28 07:22 收藏次数： 0 浏览次数： 15 以图搜图 资源说明 一个晴天的早晨，武侯祠无人的红墙夹道，阳光下，红墙绿竹，光影斑驳。 下载 下载图文 加入购物车 收藏 分享 未有句点 基本信息 资源编号 ： 6371598 分辨率 ： 5329 x 7994 大小 ： 8.92 MB 摄影师 ： 贾科 / 视觉成都",
+          "label": "武侯祠竹影红墙 · 竖幅",
+          "key": "6371598",
+          "dimensions": [
+            533,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/jinli-6371598.jpg",
+          "sha256": "283d9d927347905497a49dff6f0ddc94b3f31d206e28ce17bc3abb98cea06964",
+          "id": "N02",
+          "sourceDimensions": [
+            5329,
+            7994
+          ],
+          "date": "2024-03-28 拍摄",
+          "src": "./images/destination-options/20261011-refill/jinli-N02.jpg",
+          "source": "https://lenschengdu.com/assets/6371598",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "jinli",
+          "url": "https://cdjinli-com.oss-cn-chengdu.aliyuncs.com/uploads/2026/08/c87d890f5c95414780a5594b0ecbeafb.webp",
+          "page": "https://www.cdjinli.com/",
+          "credit": "成都锦里官网 · 摄影师未单独署名",
+          "label": "锦里入口与夜色",
+          "key": "jinli-official-1",
+          "dimensions": [
+            2000,
+            984
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/jinli-jinli-official-1.jpg",
+          "sha256": "4d55c959f87a2d467c029ad2003d18b6a41519b33727bd740370aa52e97ac048",
+          "id": "N03",
+          "src": "./images/destination-options/20261011-refill/jinli-N03.jpg",
+          "source": "https://www.cdjinli.com/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "jinli",
+          "url": "https://cdjinli-com.oss-cn-chengdu.aliyuncs.com/uploads/2026/08/0baf9f2961d5c8ba1b3134d1ca07ea55.webp",
+          "page": "https://www.cdjinli.com/",
+          "credit": "成都锦里官网 · 摄影师未单独署名",
+          "label": "金色灯笼与古街装饰",
+          "key": "jinli-official-3",
+          "dimensions": [
+            3000,
+            1476
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/jinli-jinli-official-3.jpg",
+          "sha256": "e48b49ec87ae45a7459343becfa0a28f06fbcbf36a3b2d7a70a91b1338726d1e",
+          "id": "N04",
+          "src": "./images/destination-options/20261011-refill/jinli-N04.jpg",
+          "source": "https://www.cdjinli.com/",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "jinli",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/99432f02bcdf42cd9e12452ab80c6360.jpg",
+          "page": "https://lenschengdu.com/assets/6331598",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 资源详情 2023/02/13 03:18 收藏次数： 2 浏览次数： 6 以图搜图 › 资源说明 成都-锦里夜景 相关推荐 查看更多 图片 500 积分 城市风光 ID: 6331599 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331600 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331601 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331602 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331603 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331604 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331605 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331606 成都-锦里夜景 2023-02-13 03:18:32 500 积分 下载 下载图文 加入购物车 收藏 分享 蒋小翼 基本信息 资源编号 ： 6331598 分辨率 ： 7952 x 5304 大小 ： 26.5 MB 摄影师 ： 蒋小翼 / 视觉成都",
+          "label": "灯笼古街 · 蓝调广角",
+          "key": "6331598",
+          "dimensions": [
+            800,
+            534
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/jinli-6331598.jpg",
+          "sha256": "0b60fd34821bfcace19a72d59fe9984d751828d7b463d2055260bc7f09aa04ba",
+          "id": "N05",
+          "sourceDimensions": [
+            7952,
+            5304
+          ],
+          "src": "./images/destination-options/20261011-refill/jinli-N05.jpg",
+          "source": "https://lenschengdu.com/assets/6331598",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "jinli",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/400/new/c9509a0fe82747529891e07b11fefae4.jpg",
+          "page": "https://lenschengdu.com/assets/6331600",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 资源详情 2023/02/13 03:18 收藏次数： 1 浏览次数： 1 以图搜图 ‹ › 资源说明 成都-锦里夜景 相关推荐 查看更多 图片 500 积分 城市风光 ID: 6331598 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331599 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331601 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331602 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331603 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331604 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331605 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331606 成都-锦里夜景 2023-02-13 03:18:32 500 积分 下载 下载图文 加入购物车 收藏 分享 蒋小翼 基本信息 资源编号 ： 6331600 分辨率 ： 5302 x 3537 大小 ： 15.14 MB 摄影师 ： 蒋小翼 / 视觉成都",
+          "label": "红灯笼与传统楼阁",
+          "key": "6331600",
+          "dimensions": [
+            400,
+            267
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/jinli-6331600.jpg",
+          "sha256": "41e15feb35aca38bc30be871ff18debf879b4ebf06fa5000b9452b95724b84ad",
+          "id": "N06",
+          "sourceDimensions": [
+            5302,
+            3537
+          ],
+          "src": "./images/destination-options/20261011-refill/jinli-N06.jpg",
+          "source": "https://lenschengdu.com/assets/6331600",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "jinli",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/400/new/41257b83bcf74ecf89485d06c909ef96.jpg",
+          "page": "https://lenschengdu.com/assets/6331602",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 资源详情 2023/02/13 03:18 收藏次数： 0 浏览次数： 1 以图搜图 ‹ › 资源说明 成都-锦里夜景 相关推荐 查看更多 图片 500 积分 城市风光 ID: 6331598 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331599 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331600 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331601 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331603 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331604 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331605 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331606 成都-锦里夜景 2023-02-13 03:18:32 500 积分 下载 下载图文 加入购物车 收藏 分享 蒋小翼 基本信息 资源编号 ： 6331602 分辨率 ： 7952 x 5304 大小 ： 25.25 MB 摄影师 ： 蒋小翼 / 视觉成都",
+          "label": "古街题字与暖色灯影",
+          "key": "6331602",
+          "dimensions": [
+            400,
+            267
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/jinli-6331602.jpg",
+          "sha256": "fb38a9424280c3655e6d15982d9aaabd8fa055e3a3d4b7b698621c9f4224c84c",
+          "id": "N07",
+          "sourceDimensions": [
+            7952,
+            5304
+          ],
+          "src": "./images/destination-options/20261011-refill/jinli-N07.jpg",
+          "source": "https://lenschengdu.com/assets/6331602",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "jinli",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/400/new/cdb694ce55184e6ba23073f159fe451a.jpg",
+          "page": "https://lenschengdu.com/assets/6331603",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 资源详情 2023/02/13 03:18 收藏次数： 0 浏览次数： 1 以图搜图 ‹ › 资源说明 成都-锦里夜景 相关推荐 查看更多 图片 500 积分 城市风光 ID: 6331598 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331599 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331600 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331601 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331602 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331604 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331605 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331606 成都-锦里夜景 2023-02-13 03:18:32 500 积分 下载 下载图文 加入购物车 收藏 分享 蒋小翼 基本信息 资源编号 ： 6331603 分辨率 ： 4062 x 2752 大小 ： 12.19 MB 摄影师 ： 蒋小翼 / 视觉成都",
+          "label": "古街楼阁 · 仰望夜景",
+          "key": "6331603",
+          "dimensions": [
+            400,
+            271
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/jinli-6331603.jpg",
+          "sha256": "409daf7a4cceaf5727c3e0c718e994bd47b34182ec5dd5ba5f911d85d58190df",
+          "id": "N08",
+          "sourceDimensions": [
+            4062,
+            2752
+          ],
+          "src": "./images/destination-options/20261011-refill/jinli-N08.jpg",
+          "source": "https://lenschengdu.com/assets/6331603",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "jinli",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/769d0560a80c419d825758fa6d8c76f8.jpg",
+          "page": "https://lenschengdu.com/assets/6331605",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 资源详情 2023/02/13 03:18 收藏次数： 1 浏览次数： 3 以图搜图 ‹ › 资源说明 成都-锦里夜景 相关推荐 查看更多 图片 500 积分 城市风光 ID: 6331598 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331599 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331600 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331601 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331602 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331603 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331604 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331606 成都-锦里夜景 2023-02-13 03:18:32 500 积分 下载 下载图文 加入购物车 收藏 分享 蒋小翼 基本信息 资源编号 ： 6331605 分辨率 ： 5304 x 7952 大小 ： 25.49 MB 摄影师 ： 蒋小翼 / 视觉成都",
+          "label": "灯笼阵列的传统细节",
+          "key": "6331605",
+          "dimensions": [
+            534,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/jinli-6331605.jpg",
+          "sha256": "91def2d49b90f96f7e40afe54da8160e15e8b35b1a75340eb1fcf89bc86cfb18",
+          "id": "N09",
+          "sourceDimensions": [
+            5304,
+            7952
+          ],
+          "src": "./images/destination-options/20261011-refill/jinli-N09.jpg",
+          "source": "https://lenschengdu.com/assets/6331605",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "jinli",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/e880f378ef0f4d3f949eeb11de74c942.jpg",
+          "page": "https://lenschengdu.com/assets/6331601",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 资源详情 2023/02/13 03:18 收藏次数： 0 浏览次数： 2 以图搜图 ‹ › 资源说明 成都-锦里夜景 相关推荐 查看更多 图片 500 积分 城市风光 ID: 6331598 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331599 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331600 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331602 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331603 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331604 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331605 成都-锦里夜景 2023-02-13 03:18:32 500 积分 图片 500 积分 城市风光 ID: 6331606 成都-锦里夜景 2023-02-13 03:18:32 500 积分 下载 下载图文 加入购物车 收藏 分享 蒋小翼 基本信息 资源编号 ： 6331601 分辨率 ： 7952 x 5304 大小 ： 39.98 MB 摄影师 ： 蒋小翼 / 视觉成都",
+          "label": "红灯笼与题字墙",
+          "key": "6331601",
+          "dimensions": [
+            800,
+            534
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/verified-jinli-6331601.jpg",
+          "sha256": "e1783c3c009960842d1b212414f7b600109e18f885fbb08c308f639b0d436d06",
+          "id": "N10",
+          "sourceDimensions": [
+            7952,
+            5304
+          ],
+          "src": "./images/destination-options/20261011-refill/jinli-N10.jpg",
+          "source": "https://lenschengdu.com/assets/6331601",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ],
+      "selected": [
+        "S01",
+        "S02",
+        "S03",
+        "N01",
+        "N03",
+        "N04",
+        "N05",
+        "N10"
+      ],
+      "cover": "S01"
+    },
+    {
+      "id": "chunxi",
+      "name": "春熙路 · 太古里",
+      "confirmed": [
+        {
+          "id": "S01",
+          "src": "./images/destinations/chunxi.jpg?v=chosen-v17",
+          "label": "已确认 原图 · 原图",
+          "labelEn": "Previously selected photo",
+          "source": "https://www.benoy.com/projects/chengdu-ifs",
+          "credit": "See previous photo credits",
+          "rightsStatus": "see-original-photo-credits"
+        },
+        {
+          "id": "S02",
+          "src": "./images/destination-options/20261010-specified-sources/chunxi-B.jpg",
+          "label": "已确认 B · 太古里屋顶与夕阳",
+          "labelEn": "Photo B",
+          "source": "https://philippelejeanvre.com/portfolios/chengdu-city/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": null
+        },
+        {
+          "id": "S03",
+          "src": "./images/destination-options/20261010-specified-sources/chunxi-C.jpg",
+          "label": "已确认 C · 传统屋顶与现代夜色",
+          "labelEn": "Photo C",
+          "source": "https://philippelejeanvre.com/mid-autumn-festival-night-photography-at-taikooli-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2023-10-11"
+        },
+        {
+          "id": "S04",
+          "src": "./images/destination-options/20261010-specified-sources/chunxi-D.jpg",
+          "label": "已确认 D · 玻璃建筑与都市生活",
+          "labelEn": "Photo D",
+          "source": "https://philippelejeanvre.com/mid-autumn-festival-night-photography-at-taikooli-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2023-10-11"
+        }
+      ],
+      "candidates": [
+        {
+          "place": "chunxi",
+          "url": "https://www.benoy.com/wp-content/uploads/2026/07/L2813_N38_hd.jpg?format=auto",
+          "page": "https://www.benoy.com/projects/chengdu-ifs",
+          "credit": "Benoy 项目作品页 · 单张摄影师未署名",
+          "label": "IFS 熊猫与建筑入口",
+          "key": "benoy-ifs-0",
+          "dimensions": [
+            1857,
+            1238
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-benoy-ifs-0.jpg",
+          "sha256": "9fed939a2b3ef1b7b3b3ff1af6838f6afe1c277a417affdbeedc8fa972098746",
+          "id": "N01",
+          "src": "./images/destination-options/20261011-refill/chunxi-N01.jpg",
+          "source": "https://www.benoy.com/projects/chengdu-ifs",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "chunxi",
+          "url": "https://www.benoy.com/wp-content/uploads/2026/07/L2813_N124_hd.jpg?format=auto",
+          "page": "https://www.benoy.com/projects/chengdu-ifs",
+          "credit": "Benoy 项目作品页 · 单张摄影师未署名",
+          "label": "IFS 城市街角与玻璃立面",
+          "key": "benoy-ifs-1",
+          "dimensions": [
+            1857,
+            1238
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-benoy-ifs-1.jpg",
+          "sha256": "022f3b8a5492d01fe68c9477905263d0b0b62d30945864bef83617dc0bbf65e3",
+          "id": "N02",
+          "src": "./images/destination-options/20261011-refill/chunxi-N02.jpg",
+          "source": "https://www.benoy.com/projects/chengdu-ifs",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "chunxi",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/b1841df2f4ba489db0051a502c33ca97.jpg",
+          "page": "https://lenschengdu.com/assets/6334148?groupId=186079",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2023/04/07 03:46 收藏次数： 0 浏览次数： 1 以图搜图 › 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6334149 2022.8.5拍摄于太古里商圈城市风光 2023-04-07 03:46:54 500 积分 下载 下载图文 加入购物车 收藏 分享 Chenbin譚 基本信息 资源编号 ： 6334148 分辨率 ： 7952 x 5304 大小 ： 43.41 MB 摄影师 ： 谭程彬 / 视觉成都",
+          "label": "IFS 与太古里蓝调航拍",
+          "key": "6334148",
+          "dimensions": [
+            800,
+            534
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-6334148.jpg",
+          "sha256": "8491ef1852064a5395c5aaa255e2070f3918ba3305ce7560bad58727c13e19df",
+          "id": "N03",
+          "sourceDimensions": [
+            7952,
+            5304
+          ],
+          "src": "./images/destination-options/20261011-refill/chunxi-N03.jpg",
+          "source": "https://lenschengdu.com/assets/6334148?groupId=186079",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "chunxi",
+          "url": "https://www.ovalpartnership.com/upload/projects/2015-07-04-06_TaiKoo_Li_Chengdu_0009_HI-RES.jpg",
+          "page": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "credit": "The Oval Partnership 项目作品页 · 单张摄影师未署名",
+          "label": "太古里屋顶与暮色街区",
+          "key": "oval-taikoo-0",
+          "dimensions": [
+            2490,
+            1837
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-oval-taikoo-0.jpg",
+          "sha256": "501bf58e0b31b4159dfad88758136efbdf3472424a9ea770ab96c20c62cf0b0c",
+          "id": "N04",
+          "src": "./images/destination-options/20261011-refill/chunxi-N04.jpg",
+          "source": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "chunxi",
+          "url": "https://www.ovalpartnership.com/upload/projects/2015-07-04-06_TaiKoo_Li_Chengdu_0043_HI-RES.jpg",
+          "page": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "credit": "The Oval Partnership 项目作品页 · 单张摄影师未署名",
+          "label": "树荫街巷与都市背景",
+          "key": "oval-taikoo-1",
+          "dimensions": [
+            1200,
+            875
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-oval-taikoo-1.jpg",
+          "sha256": "b1172a0a412e7afe118c0b54cf85b1ad07b6824f8b3c4db68a113bf5b56c3232",
+          "id": "N05",
+          "src": "./images/destination-options/20261011-refill/chunxi-N05.jpg",
+          "source": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "chunxi",
+          "url": "https://www.ovalpartnership.com/upload/projects/C002-7.jpg",
+          "page": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "credit": "The Oval Partnership 项目作品页 · 单张摄影师未署名",
+          "label": "传统屋檐与城市漫步",
+          "key": "oval-taikoo-2",
+          "dimensions": [
+            1200,
+            875
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-oval-taikoo-2.jpg",
+          "sha256": "cb674716acf083e3d7dda143bc08092d7b5b6b64f3b4501ca34ee00441edbb54",
+          "id": "N06",
+          "src": "./images/destination-options/20261011-refill/chunxi-N06.jpg",
+          "source": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "chunxi",
+          "url": "https://www.ovalpartnership.com/upload/projects/C002-12.jpg",
+          "page": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "credit": "The Oval Partnership 项目作品页 · 单张摄影师未署名",
+          "label": "低层街区与城市高楼",
+          "key": "oval-taikoo-3",
+          "dimensions": [
+            1200,
+            491
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-oval-taikoo-3.jpg",
+          "sha256": "ac85e7995a34821b30a2c589035fd9bf7a1fd89376aaf0a08f77130c4e36aa0e",
+          "id": "N07",
+          "src": "./images/destination-options/20261011-refill/chunxi-N07.jpg",
+          "source": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "chunxi",
+          "url": "https://www.ovalpartnership.com/upload/projects/2015-07-04-06_TaiKoo_Li_Chengdu_0018_HI-RES.jpg",
+          "page": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "credit": "The Oval Partnership 项目作品页 · 单张摄影师未署名",
+          "label": "青瓦屋顶与城市肌理",
+          "key": "oval-taikoo-4",
+          "dimensions": [
+            2490,
+            3324
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-oval-taikoo-4.jpg",
+          "sha256": "bd669ce84bf1686d31a615ec8a92f8a273e517dc2e405f66033a0c2249b5008e",
+          "id": "N08",
+          "src": "./images/destination-options/20261011-refill/chunxi-N08.jpg",
+          "source": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "chunxi",
+          "url": "https://www.ovalpartnership.com/upload/projects/C002-10.jpg",
+          "page": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "credit": "The Oval Partnership 项目作品页 · 单张摄影师未署名",
+          "label": "大慈寺旁的太古里街区",
+          "key": "oval-taikoo-5",
+          "dimensions": [
+            1200,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-oval-taikoo-5.jpg",
+          "sha256": "d6408261f542da36564a8c70bb13b0911681b6cc88961db373ec0abe71ab126f",
+          "id": "N09",
+          "src": "./images/destination-options/20261011-refill/chunxi-N09.jpg",
+          "source": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "chunxi",
+          "url": "https://www.ovalpartnership.com/upload/projects/C002-1.jpg",
+          "page": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "credit": "The Oval Partnership 项目作品页 · 单张摄影师未署名",
+          "label": "蓝调太古里与玻璃廊桥",
+          "key": "oval-taikoo-6",
+          "dimensions": [
+            1200,
+            573
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/chunxi-oval-taikoo-6.jpg",
+          "sha256": "f9d97817974256378c80a1451e7ef2e458048e9b37ceac69ef44f94297b23e73",
+          "id": "N10",
+          "src": "./images/destination-options/20261011-refill/chunxi-N10.jpg",
+          "source": "https://www.ovalpartnership.com/en/project/Taikoo-Li-Chengdu",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ],
+      "selected": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "N03",
+        "N04",
+        "N10"
+      ],
+      "cover": "S01"
+    },
+    {
+      "id": "dongjiao",
+      "name": "东郊记忆",
+      "confirmed": [
+        {
+          "id": "S01",
+          "src": "./images/destinations/dongjiao.jpg?v=chosen-v15",
+          "label": "已确认 原图 · 原图",
+          "labelEn": "Previously selected photo",
+          "source": "https://news.sina.cn/2026-01-14/detail-inhhhhqx7200299.d.html?vt=4",
+          "credit": "See previous photo credits",
+          "rightsStatus": "see-original-photo-credits"
+        },
+        {
+          "id": "S02",
+          "src": "./images/destination-options/20261010-specified-sources/dongjiao-A.jpg",
+          "label": "已确认 A · 旧厂房里的红色舞台",
+          "labelEn": "Photo A",
+          "source": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2026-06-10"
+        },
+        {
+          "id": "S03",
+          "src": "./images/destination-options/20261010-specified-sources/dongjiao-D.jpg",
+          "label": "已确认 D · 绿意与茶馆生活",
+          "labelEn": "Photo D",
+          "source": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2026-06-10"
+        },
+        {
+          "id": "S04",
+          "src": "./images/destination-options/20261010-specified-sources/dongjiao-G.jpg",
+          "label": "已确认 G · 穿过木格窗看茶馆",
+          "labelEn": "Photo G",
+          "source": "https://philippelejeanvre.com/steel-bamboo-and-opera-inside-daxitai-teahouse-chengdu/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2026-06-10"
+        }
+      ],
+      "candidates": [
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/42355450077c472da21d701680cc6f2d.jpg",
+          "page": "https://lenschengdu.com/assets/6354023?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 3 以图搜图 › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354024 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354025 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354027 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354028 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354029 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354031 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354023 分辨率 ： 4672 x 6229 大小 ： 16.38 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "烟囱灯光与水面倒影",
+          "date": "2023-08-13 拍摄",
+          "key": "6354023",
+          "dimensions": [
+            600,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354023.jpg",
+          "sha256": "d45dffa015e0ff7a76494d38619a3391b5ad3cf5fa759ac66e16a83194c33130",
+          "id": "N01",
+          "sourceDimensions": [
+            4672,
+            6229
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N01.jpg",
+          "source": "https://lenschengdu.com/assets/6354023?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/b81c68ef20d44b60bdb0f6c5075daf84.jpg",
+          "page": "https://lenschengdu.com/assets/6354024?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 1 以图搜图 ‹ › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354023 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354025 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354027 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354028 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354029 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354031 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354024 分辨率 ： 5397 x 4047 大小 ： 10.20 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "工业街区的都市夜色",
+          "date": "2023-08-13 拍摄",
+          "key": "6354024",
+          "dimensions": [
+            800,
+            600
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354024.jpg",
+          "sha256": "224dee4a6b9c70b2383bca633ddace088696e196433a1d893088c3e8c8bfaa04",
+          "id": "N02",
+          "sourceDimensions": [
+            5397,
+            4047
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N02.jpg",
+          "source": "https://lenschengdu.com/assets/6354024?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/850b8f504bac459da0e82cd1a7a729ec.jpg",
+          "page": "https://lenschengdu.com/assets/6354025?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 5 以图搜图 ‹ › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354023 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354024 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354027 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354028 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354029 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354031 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354025 分辨率 ： 4629 x 6172 大小 ： 13.61 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "旧厂房里的咖啡空间",
+          "date": "2023-08-13 拍摄",
+          "key": "6354025",
+          "dimensions": [
+            600,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354025.jpg",
+          "sha256": "8ad24bca92854c1abbd9808aa046622b05442badee395c30b63d0cd9f9886cf3",
+          "id": "N03",
+          "sourceDimensions": [
+            4629,
+            6172
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N03.jpg",
+          "source": "https://lenschengdu.com/assets/6354025?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/748cf888ec9746908b264ae718fdf1fd.jpg",
+          "page": "https://lenschengdu.com/assets/6354027?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 1 以图搜图 ‹ › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354023 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354024 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354025 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354028 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354029 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354031 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354027 分辨率 ： 4672 x 6229 大小 ： 13.27 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "文创空间与工业结构",
+          "date": "2023-08-13 拍摄",
+          "key": "6354027",
+          "dimensions": [
+            600,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354027.jpg",
+          "sha256": "43975cf9e35244c18f1f53ae23af1cd2034a42123e04f2e8ac648665e4f76f69",
+          "id": "N04",
+          "sourceDimensions": [
+            4672,
+            6229
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N04.jpg",
+          "source": "https://lenschengdu.com/assets/6354027?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/6a6a7bc998f0493bb671a87a5cf39c64.jpg",
+          "page": "https://lenschengdu.com/assets/6354028?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 1 以图搜图 ‹ › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354023 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354024 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354025 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354027 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354029 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354031 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354028 分辨率 ： 4627 x 6170 大小 ： 13.70 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "蓝色灯光里的红砖厂房",
+          "date": "2023-08-13 拍摄",
+          "key": "6354028",
+          "dimensions": [
+            600,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354028.jpg",
+          "sha256": "e06d941e385ee1af21af76f54c9b3f36fe0f18af9f35955f19b950ed1cc6289a",
+          "id": "N05",
+          "sourceDimensions": [
+            4627,
+            6170
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N05.jpg",
+          "source": "https://lenschengdu.com/assets/6354028?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/d22dff80e4e742a193677ccd9056f3a1.jpg",
+          "page": "https://lenschengdu.com/assets/6354029?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 0 以图搜图 ‹ › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354023 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354024 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354025 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354027 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354028 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354031 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354029 分辨率 ： 4672 x 6229 大小 ： 14.47 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "绿意与街边茶席",
+          "date": "2023-08-13 拍摄",
+          "key": "6354029",
+          "dimensions": [
+            600,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354029.jpg",
+          "sha256": "a0470d562cf67f61fabdc5686495ea49181eda9d04ad8eb09d8700eab61bb3ec",
+          "id": "N06",
+          "sourceDimensions": [
+            4672,
+            6229
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N06.jpg",
+          "source": "https://lenschengdu.com/assets/6354029?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/f1e9bdb01313471a91c71f51f0dc95bb.jpg",
+          "page": "https://lenschengdu.com/assets/6354032?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 2 以图搜图 ‹ › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354023 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354024 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354025 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354027 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354028 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354029 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354032 分辨率 ： 3983 x 5310 大小 ： 13.67 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "工业长街与现代城市",
+          "date": "2023-08-13 拍摄",
+          "key": "6354032",
+          "dimensions": [
+            600,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354032.jpg",
+          "sha256": "981765d02e462222f324634c0c13b2e60843c220a22f3460c2878cc91e115b86",
+          "id": "N07",
+          "sourceDimensions": [
+            3983,
+            5310
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N07.jpg",
+          "source": "https://lenschengdu.com/assets/6354032?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/8a0639a061ff400f80a354a0053ac3d4.jpg",
+          "page": "https://lenschengdu.com/assets/6354033?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 0 以图搜图 ‹ › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354023 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354024 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354025 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354027 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354028 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354029 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354033 分辨率 ： 4141 x 5521 大小 ： 13.4 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "成都墙 · 广角全景",
+          "date": "2023-08-13 拍摄",
+          "key": "6354033",
+          "dimensions": [
+            600,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354033.jpg",
+          "sha256": "f1b0e0b67ff1e637f6788fd5262dc983117fc7f4c8594349b89696fabce0a2e9",
+          "id": "N08",
+          "sourceDimensions": [
+            4141,
+            5521
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N08.jpg",
+          "source": "https://lenschengdu.com/assets/6354033?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/298cd8b01d7042959e54cc31915e9092.jpg",
+          "page": "https://lenschengdu.com/assets/6354034?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 3 以图搜图 ‹ › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354023 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354024 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354025 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354027 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354028 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354029 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354034 分辨率 ： 4384 x 5845 大小 ： 16.84 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "蓝调时刻的园区广场",
+          "date": "2023-08-13 拍摄",
+          "key": "6354034",
+          "dimensions": [
+            600,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354034.jpg",
+          "sha256": "f11e4651f9d883782f58ca230a2a2058c9e0d666fc48106f690ddc0ec3eb3009",
+          "id": "N09",
+          "sourceDimensions": [
+            4384,
+            5845
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N09.jpg",
+          "source": "https://lenschengdu.com/assets/6354034?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "dongjiao",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/e5ace90d893a4a4fa9241749b6493ec6.jpg",
+          "page": "https://lenschengdu.com/assets/6354036?groupId=191538",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/10/03 15:16 收藏次数： 0 浏览次数： 2 以图搜图 ‹ › 资源说明 成都东郊记忆越来越潮，人气越来越旺。 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6354023 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354024 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354025 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354026 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354027 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354028 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354029 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 图片 500 积分 城市风光 ID: 6354030 成都东郊记忆越来越潮，人气越来越旺。 2024-10-03 15:16:59 500 积分 下载 下载图文 加入购物车 收藏 分享 海海 基本信息 资源编号 ： 6354036 分辨率 ： 7008 x 4672 大小 ： 17.85 MB 摄影师 ： 李文浩 / 视觉成都",
+          "label": "红砖街巷与霓虹夜色",
+          "date": "2023-08-13 拍摄",
+          "key": "6354036",
+          "dimensions": [
+            800,
+            533
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/dongjiao-6354036.jpg",
+          "sha256": "e448669214cc1378831872714126d3a8bb68a429cc56058e9b7bbdd1df6c34dc",
+          "id": "N10",
+          "sourceDimensions": [
+            7008,
+            4672
+          ],
+          "src": "./images/destination-options/20261011-refill/dongjiao-N10.jpg",
+          "source": "https://lenschengdu.com/assets/6354036?groupId=191538",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ],
+      "selected": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "N02",
+        "N10"
+      ],
+      "cover": "S01"
+    },
+    {
+      "id": "global",
+      "name": "环球中心",
+      "confirmed": [
+        {
+          "id": "S01",
+          "src": "./images/destination-options/20261010-specified-sources/global-C.jpg",
+          "label": "已确认 C · 夜间建筑正面广角",
+          "labelEn": "Photo C",
+          "source": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2020-09-04"
+        },
+        {
+          "id": "S02",
+          "src": "./images/destination-options/20261010-specified-sources/global-B.jpg",
+          "label": "已确认 B · 车流光轨与夜色",
+          "labelEn": "Photo B",
+          "source": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2020-09-04"
+        },
+        {
+          "id": "S03",
+          "src": "./images/destination-options/20261010-specified-sources/global-D.jpg",
+          "label": "已确认 D · 夕阳倒影与建筑全貌",
+          "labelEn": "Photo D",
+          "source": "https://philippelejeanvre.com/chengdu-new-century-global-center/",
+          "credit": "Philippe Lejeanvre",
+          "rightsStatus": "reference-only-permission-unverified",
+          "publicationDate": "2020-09-04"
+        }
+      ],
+      "candidates": [
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/bd562e1d11614dd7bd7c7b8b43b3933e.jpg",
+          "page": "https://lenschengdu.com/assets/6352648?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 2 以图搜图 › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352649 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352650 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352652 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352654 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352656 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352648 分辨率 ： 5184 x 3456 大小 ： 12.70 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "蓝天白云与湖岸全貌",
+          "key": "6352648",
+          "dimensions": [
+            800,
+            533
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352648.jpg",
+          "sha256": "3c8fccec1af00e77286a847f0418b8298fb7f24a19fd88c5bdedb349186b078c",
+          "id": "N01",
+          "sourceDimensions": [
+            5184,
+            3456
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N01.jpg",
+          "source": "https://lenschengdu.com/assets/6352648?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/e4cebf0cbdc14e53a0661b00598fbb0c.jpg",
+          "page": "https://lenschengdu.com/assets/6352649?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 0 以图搜图 ‹ › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352648 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352650 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352652 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352654 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352656 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352649 分辨率 ： 5184 x 3456 大小 ： 11.40 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "湖岸绿意 · 竖幅建筑",
+          "key": "6352649",
+          "dimensions": [
+            800,
+            533
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352649.jpg",
+          "sha256": "bbb6405fcb147a4f8dddcbd5964be4bc802d2c1b3e4ce21c484ec0181c92365f",
+          "id": "N02",
+          "sourceDimensions": [
+            5184,
+            3456
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N02.jpg",
+          "source": "https://lenschengdu.com/assets/6352649?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/021ba773ef1041278fdc1051b26af86a.jpg",
+          "page": "https://lenschengdu.com/assets/6352650?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 0 以图搜图 ‹ › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352648 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352649 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352652 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352654 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352656 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352650 分辨率 ： 3456 x 5184 大小 ： 9.95 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "水面倒影与宽阔建筑",
+          "key": "6352650",
+          "dimensions": [
+            533,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352650.jpg",
+          "sha256": "b63c64248ee2f735a2e18aed05de06e5c22ac110e5df2fcbe246f932c1b727a1",
+          "id": "N03",
+          "sourceDimensions": [
+            3456,
+            5184
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N03.jpg",
+          "source": "https://lenschengdu.com/assets/6352650?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/92793360b3504d8d8722adf421f9bd2c.jpg",
+          "page": "https://lenschengdu.com/assets/6352652?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 0 以图搜图 ‹ › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352648 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352649 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352650 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352654 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352656 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352652 分辨率 ： 5184 x 3456 大小 ： 13.98 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "晴日建筑正面",
+          "key": "6352652",
+          "dimensions": [
+            800,
+            533
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352652.jpg",
+          "sha256": "155286e477bf0c9bb129a3bc40c04455e8c48f3f0edd1807faf0cd2e7b3cd101",
+          "id": "N04",
+          "sourceDimensions": [
+            5184,
+            3456
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N04.jpg",
+          "source": "https://lenschengdu.com/assets/6352652?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/902094c655194b5fa71de6cee2b705ae.jpg",
+          "page": "https://lenschengdu.com/assets/6352654?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 0 以图搜图 ‹ › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352648 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352649 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352650 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352652 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352656 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352654 分辨率 ： 5184 x 3456 大小 ： 14.92 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "建筑与绿水岸线",
+          "key": "6352654",
+          "dimensions": [
+            800,
+            533
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352654.jpg",
+          "sha256": "9cbcbc83e6fa1b0e99b9c8dfd8da58967b45a90dba6e7c0ed15008e86821670c",
+          "id": "N05",
+          "sourceDimensions": [
+            5184,
+            3456
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N05.jpg",
+          "source": "https://lenschengdu.com/assets/6352654?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/55a8e9512efd4510b228ae42bf7f8940.jpg",
+          "page": "https://lenschengdu.com/assets/6352656?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 2 以图搜图 ‹ › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352648 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352649 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352650 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352652 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352654 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352656 分辨率 ： 5184 x 3456 大小 ： 11.21 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "正面广角与生态湖岸",
+          "key": "6352656",
+          "dimensions": [
+            800,
+            533
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352656.jpg",
+          "sha256": "7940bf894e45e435f1a8c4edaf1ae5a9ab59fb064ee25add350963122ec0cf8d",
+          "id": "N06",
+          "sourceDimensions": [
+            5184,
+            3456
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N06.jpg",
+          "source": "https://lenschengdu.com/assets/6352656?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/6fa6185201fe40ad8f61ed6a08f15660.jpg",
+          "page": "https://lenschengdu.com/assets/6352657?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 1 以图搜图 ‹ › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352648 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352649 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352650 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352652 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352654 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352657 分辨率 ： 5184 x 3456 大小 ： 11.59 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "湖岸城市全景",
+          "key": "6352657",
+          "dimensions": [
+            800,
+            533
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352657.jpg",
+          "sha256": "bc5ba4b5c7ddf8bdf61921952635f6bb56d12a7ba56ed7fe4e4444593ff8b6bb",
+          "id": "N07",
+          "sourceDimensions": [
+            5184,
+            3456
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N07.jpg",
+          "source": "https://lenschengdu.com/assets/6352657?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/598b3872ce084124bbe86b2c62dd97a8.jpg",
+          "page": "https://lenschengdu.com/assets/6352658?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 1 以图搜图 ‹ › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352648 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352649 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352650 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352652 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352654 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352658 分辨率 ： 5184 x 3456 大小 ： 12.61 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "天空水岸 · 竖幅取景",
+          "key": "6352658",
+          "dimensions": [
+            800,
+            533
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352658.jpg",
+          "sha256": "8f07506ec61c557549fcddd2876f5c9a1d3d87b56f86f149fcbc062c147dd377",
+          "id": "N08",
+          "sourceDimensions": [
+            5184,
+            3456
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N08.jpg",
+          "source": "https://lenschengdu.com/assets/6352658?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/f31f3e70d7ca4534bf7f02f1e4f1c26a.jpg",
+          "page": "https://lenschengdu.com/assets/6352659?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 1 以图搜图 ‹ › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352648 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352649 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352650 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352652 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352654 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352659 分辨率 ： 5184 x 3456 大小 ： 11.42 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "夕照湖岸与建筑轮廓",
+          "key": "6352659",
+          "dimensions": [
+            800,
+            533
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352659.jpg",
+          "sha256": "e96c295c2ba6e149ec864b886422878d4eadbb5caf3fbf38a249b5b065597faa",
+          "id": "N09",
+          "sourceDimensions": [
+            5184,
+            3456
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N09.jpg",
+          "source": "https://lenschengdu.com/assets/6352659?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        },
+        {
+          "place": "global",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/nowater800/new/200043/a7b6fc2e1ae743a4a3d106cfde193547.jpg",
+          "page": "https://lenschengdu.com/assets/6352660?groupId=191255",
+          "credit": "网站资讯 ... 登录 注册 关于我们 视觉成都 上传指引 常用问题 联系我们 指导单位 成都市人民政府新闻办公室 成都市文学艺术界联合会 合作伙伴 YOU成都 视觉中国 使用协议 供稿人协议 用户协议 隐私协议 入驻邀请 资源版权Q&A 蜀ICP备19013477号-5 成都一想网络科技有限责任公司 资源详情 首页 / 组图详情 2024/07/15 09:34 收藏次数： 0 浏览次数： 1 以图搜图 ‹ › 资源说明 2024年7月12日，成都环球中心建筑风光 同组更多资源 查看更多 图片 500 积分 城市风光 ID: 6352648 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352649 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352650 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352651 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352652 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352653 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352654 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 图片 500 积分 城市风光 ID: 6352655 2024年7月12日，成都环球中心建筑风光 2024-07-15 09:34:25 500 积分 下载 下载图文 加入购物车 收藏 分享 微捕手 基本信息 资源编号 ： 6352660 分辨率 ： 3456 x 5184 大小 ： 10.88 MB 摄影师 ： 赵满恩 / 视觉成都",
+          "label": "夕阳与金色建筑立面",
+          "key": "6352660",
+          "dimensions": [
+            533,
+            800
+          ],
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/photo-refill-20261011/photos/global-6352660.jpg",
+          "sha256": "c6e97a0cc7c58607c17cf2410b80194dd0a90e2b14a85534eea246296280c9f1",
+          "id": "N10",
+          "sourceDimensions": [
+            3456,
+            5184
+          ],
+          "date": "2024-07-12 拍摄",
+          "src": "./images/destination-options/20261011-refill/global-N10.jpg",
+          "source": "https://lenschengdu.com/assets/6352660?groupId=191255",
+          "rightsStatus": "reference-only-permission-unverified",
+          "imageEdited": false
+        }
+      ],
+      "selected": [
+        "S01",
+        "S02",
+        "S03",
+        "N02"
+      ],
+      "cover": "S01"
+    }
+  ],
+  "candidateCount": 50,
+  "unmodifiedPhotos": true,
+  "confirmedDate": "2026-10-11"
+}

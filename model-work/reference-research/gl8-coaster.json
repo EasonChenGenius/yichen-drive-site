@@ -1,0 +1,162 @@
+[
+  {
+    "id": "gl8",
+    "model": "别克 GL8 陆尊 · 棕色（实车年款未知）",
+    "matchStatus": "series-reference-only",
+    "identityNotes": "用户仅确认陆尊和棕色；陆尊名称曾用于不同代际，当前资料不能将这辆车确定为2005–2010老陆尊、2011后的豪华商务车或2022 ES陆尊。旧款照片仅用于代际辨认，不用作已确认的实车外观或配置。",
+    "sources": [
+      {
+        "title": "别样年华：试别克GL8陆尊（2006年媒体试驾，外观和内饰照片）",
+        "url": "https://auto.sina.com.cn/news/2006-01-23/1346165088.shtml",
+        "kind": "combined",
+        "sourceType": "editorial-test-photos",
+        "versionScope": "2006年报道的早期GL8陆尊；用于旧代际比较，不等于用户车辆",
+        "detailCoverage": "车头格栅及前灯形态、侧面玻璃、驾驶舱和U形仪表台；媒体现场照片",
+        "checked": true,
+        "verificationNotes": "2026-10-07已读取正文及图片说明；没有下载或取得网站图片商用授权。"
+      },
+      {
+        "title": "别克GL8车舱内饰图片：旧陆尊CT舒适版图库",
+        "url": "https://www.pcauto.com.cn/cars/gl8/photo/2/",
+        "kind": "interior",
+        "sourceType": "editorial-photo-gallery",
+        "versionScope": "早期GL8陆尊CT舒适版分类；页面还混有其他GL8车型，必须逐张核对",
+        "detailCoverage": "旧陆尊驾驶舱/座椅照片入口；搜索索引显示陆尊分类117张，不能将整库都视为同一款车",
+        "checked": false,
+        "verificationNotes": "搜索索引确认分类，直接打开返回抓取错误；标为候选来源，不能视为完整图片已检查。"
+      },
+      {
+        "title": "通用汽车官方：别克GL8豪华商务车主要技术规格配备表",
+        "url": "https://media.gm.com/content/dam/Media/documents/CN/Vehicle_Spec/Buick/GL8/%E5%88%AB%E5%85%8BGL8%E8%B1%AA%E5%8D%8E%E5%95%86%E5%8A%A1%E8%BD%A6%E9%85%8D%E7%BD%AE%E8%A1%A8.pdf",
+        "kind": "identity",
+        "sourceType": "manufacturer-specification-pdf",
+        "versionScope": "包含旧2.4L/3.0L豪华商务车版本的官方表；PDF本身不能证明用户车辆年款",
+        "detailCoverage": "车型版本、尺寸与内饰配置差异；用来排除和区分版本，不提供完整三维几何或实车证据",
+        "checked": true,
+        "verificationNotes": "已打开1页官方PDF；不把该表的配置写入用户车队。"
+      }
+    ],
+    "modelingFocus": ["先辨认前灯、格栅、侧窗与尾灯代际", "棕色应由实车自然光照片和漆色信息确定", "内饰不能混用ES陆尊或艾维亚版本", "门板、仪表台、方向盘及座椅形状需同版本参考"],
+    "pendingActualVehicle": ["实车车头、侧面、车尾照片", "年份及完整版本", "驾驶舱、第二排、第三排及门板照片", "轮毂和是否有后装内饰改装"]
+  },
+  {
+    "id": "gl8-653",
+    "model": "别克 GL8 653T · 棕色（2022 ES陆尊候选）",
+    "matchStatus": "year-and-series-reference-found-trim-unconfirmed",
+    "identityNotes": "2022 ES陆尊653T已找到明确年款的碧玺棕实拍和内饰资料；用户只确认653T、好像陆尊、棕色，舒适/尊享/豪华/旗舰及是否改款仍未确认。不得使用2023陆上公务舱652T、艾维亚或2024/2025陆尊PHEV图片替代。",
+    "sources": [
+      {
+        "title": "2022款GL8 ES陆尊653T舒适型：碧玺棕外观实拍图库",
+        "url": "https://price.pcauto.com.cn/image/sg106-m108660-wg-388184-2.html",
+        "kind": "exterior",
+        "sourceType": "editorial-photo-gallery",
+        "versionScope": "2022款 ES陆尊 653T 舒适型，碧玺棕；用户实车版本待核对",
+        "detailCoverage": "该页面列外观37张、内饰79张、空间16张、细节16张及VR入口；适合核对侧面、灯组、格栅、轮毂和细节",
+        "checked": true,
+        "verificationNotes": "正文明确年款/版本/车色；正文图片原图请求失败，未声称逐张视觉检查；数字为页面显示数量。"
+      },
+      {
+        "title": "2022款GL8 ES陆尊653T舒适型：中控内饰实拍",
+        "url": "https://price.pcauto.com.cn/cars/image/7073271-1-sg106-o2-nc340801.html",
+        "kind": "interior",
+        "sourceType": "editorial-photo-gallery",
+        "versionScope": "2022款 ES陆尊 653T 舒适型，外观碧玺棕/内饰儒雅灰；不是所有配置的统一内饰",
+        "detailCoverage": "中控仪表台、方向盘、联屏与驾驶舱布局；同车款前后排照片入口",
+        "checked": true,
+        "verificationNotes": "已读取页面车型和图片说明；图库图片不作为用户实车配置确认。"
+      },
+      {
+        "title": "易车：2022款GL8 ES陆尊653T舒适型内饰全景正拍（杭州润泰现场）",
+        "url": "https://photo.yiche.com/photo/show_1825_9106000/?style=152016",
+        "kind": "combined",
+        "sourceType": "editorial-dealer-location-photo-gallery",
+        "versionScope": "2022款 ES陆尊 653T 舒适型；搜索索引标明摄于杭州润泰（临平店）",
+        "detailCoverage": "页面索引显示外观50张、前排67张、后排36张，以及内饰/外观VR入口；作为同版本多角度辅助参考",
+        "checked": false,
+        "verificationNotes": "搜索索引可读并明确地点和年款；直接打开两次均超时，故不声称该相册全部图片已检查。该源是媒体现场图库，不是厂家官图。"
+      },
+      {
+        "title": "2022款GL8 ES陆尊上市（2021-09-13，厂家供稿）",
+        "url": "https://auto.gasgoo.com/news/202109/13I70272527C107.shtml",
+        "kind": "combined",
+        "sourceType": "manufacturer-supplied-release-on-media-site",
+        "versionScope": "2022 ES陆尊车系官方上市资料；宣传照片和高配描述不能推广为每辆实车配置",
+        "detailCoverage": "2022系列外观图、座舱配色图、格栅/灯组/车顶形态和公开尺寸基准",
+        "checked": true,
+        "verificationNotes": "已读取正文及图片说明；未下载受限图片，不将宣传装备写入用户车队。"
+      },
+      {
+        "title": "C-IASI：别克GL8 2022年款试验资料",
+        "url": "https://www.ciasi.org.cn/uploads/files/e6f45547c9d28d06d333719f56e5acd1.pdf",
+        "kind": "identity",
+        "sourceType": "primary-independent-test-report",
+        "versionScope": "2022款653T舒适/豪华/旗舰三个受测版本；用户版本尚不匹配",
+        "detailCoverage": "具体版本身份及配置区别的核对基础；不是360外观或内饰模型来源",
+        "checked": true,
+        "verificationNotes": "本项目已有核对过的原始报告及版本表，沿用既有证据。"
+      }
+    ],
+    "modelingFocus": ["以2022 ES陆尊同年款照片核对前格栅和灯组", "区分碧玺棕、香槟金、大漠金，不能只由用户说棕色推定色号", "舒适型儒雅灰和高配谦和米等内饰不得混用", "保留车身、透明玻璃、灯罩、饰条、轮毂和同款内饰的独立材质"],
+    "pendingActualVehicle": ["是否2022 ES陆尊及是否改款", "舒适/尊享/豪华/旗舰等完整版本", "实车内饰颜色和前后排照片", "原厂/后装座椅、轮毂、格栅及中控改装情况"]
+  },
+  {
+    "id": "coaster",
+    "model": "丰田柯斯达/Coaster · 浅香槟棕（用户旧款照片）",
+    "matchStatus": "older-body-family-candidate-year-and-interior-unconfirmed",
+    "identityNotes": "用户照片显示圆润车头、横向矩形透明灯组、灯壳内圆形反射器、横条格栅、圆雾灯、侧面黑色饰条和浅香槟棕车漆。优先对照2013/2015中国柯斯达旧车身图库；这是形态比较候选，不是照片即可确认年款/版本/核定座位。日本2017全新车身资料只用于排除新版，不能把日本29座右舵内饰套入中国实车。",
+    "sources": [
+      {
+        "title": "柯斯达2013款4.0L汽油豪华版23座：内饰实拍图库",
+        "url": "https://price.pcauto.com.cn/image/sg2815-m26255-ns-0-1.html",
+        "kind": "interior",
+        "sourceType": "editorial-photo-gallery",
+        "versionScope": "2013款中国柯斯达4.0L汽油豪华版23座参考车；座位数不可直接套用用户车辆",
+        "detailCoverage": "页面列外观40张、内饰49张、空间7张、细节6张；驾驶舱和客舱结构的同代候选参考",
+        "checked": true,
+        "verificationNotes": "已读取图库明确车型及分类数量；原图请求失败，尚未完成该相册逐张视觉比对。"
+      },
+      {
+        "title": "易车：柯斯达2015高级车4.0L GRB53L-ZCMSK20座侧面实拍",
+        "url": "https://photo.yiche.com/picture/1869/4333541/",
+        "kind": "exterior",
+        "sourceType": "editorial-photo-gallery",
+        "versionScope": "2015款中国柯斯达高级车20座参考版本；用户实车座位/发动机/版型待核",
+        "detailCoverage": "搜索索引列外观26张、前排31张、后排12张；可继续核对旧车身、侧窗、车门和内饰",
+        "checked": false,
+        "verificationNotes": "搜索索引确认具体车款；直接页面抓取失败，只作为明确版本的待检候选图库。"
+      },
+      {
+        "title": "丰田官方：Coaster旧车身2015-01至2016-11使用手册",
+        "url": "https://manual.toyota.jp/pdf/coaster/coaster_201501.pdf",
+        "kind": "interior",
+        "sourceType": "manufacturer-owner-manual",
+        "versionScope": "日本市场2015-01至2016-11柴油/LPG车型，非中国车型确认",
+        "detailCoverage": "仪表、控制器、座椅和车门示意；日本右舵结构仅用于旧代际辅助辨认",
+        "checked": true,
+        "verificationNotes": "从丰田官方手册目录点击打开288页PDF；不得使用其中日本座位布局推定用户内饰。"
+      },
+      {
+        "title": "丰田官方75年史：1993第三代Coaster档案",
+        "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60006680/",
+        "kind": "identity",
+        "sourceType": "manufacturer-historical-archive",
+        "versionScope": "1993日本第三代系列历史基准，不代表中国同年款或用户车型",
+        "detailCoverage": "旧代际车身档案图片与代表型规格；用来理解代际范围，不能硬套年代",
+        "checked": true,
+        "verificationNotes": "已读取官方历史页面。中国版本与日本版本存在地区差异。"
+      },
+      {
+        "title": "丰田官方：Coaster于2017年在日本全新换代",
+        "url": "https://global.toyota/en/detail/14574035/",
+        "kind": "identity-exclusion",
+        "sourceType": "manufacturer-release",
+        "versionScope": "2016-12-22公布、2017日本上市的全新车身；不作为用户旧款建模目标",
+        "detailCoverage": "全新外观和内饰对照图；用来排除新版车头、方正车身与新版内饰误用",
+        "checked": true,
+        "verificationNotes": "已读取厂家发布及图片说明；中国上市时间和配置不从日本资料推断。"
+      }
+    ],
+    "modelingFocus": ["以用户照片保留浅香槟棕明度及金属漆反光", "核对矩形灯壳内圆灯、横条格栅与圆雾灯，排除2023/2017新版前脸", "侧窗数量、车门开口、侧面黑条、通风栅和轮毂需侧面实车照", "用户客舱可能改装，不能生成泛化豪华航空座椅假冒真实内饰"],
+    "pendingActualVehicle": ["实车铭牌/年份和完整型号", "车尾、另一侧、车顶以及轮毂近照", "驾驶舱和从前往后、从后往前的完整客舱照片", "核定座位与是否改装，浅香槟棕是否原厂漆"]
+  }
+]

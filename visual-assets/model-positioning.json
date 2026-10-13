@@ -1,0 +1,19 @@
+{
+  "scope": "model-family categories for preference filtering; not actual vehicle equipment",
+  "h7": {
+    "category": "高级商务轿车 / 豪华感候选",
+    "sources": [
+      {
+        "title": "中国一汽研发成果：新红旗H7东方豪华定位",
+        "url": "https://www.faw.com.cn/fawcn/373692/5133331/yfcg/index.html",
+        "verification": "primary-source search index; direct web reader unavailable"
+      },
+      {
+        "title": "国资委转载一汽集团：红旗L5/H7高级轿车",
+        "url": "https://wap.sasac.gov.cn/n2588030/n2588934/c4526617/content.html",
+        "verification": "primary manufacturer release, indexed title and content"
+      }
+    ],
+    "actualYearTrimOrEquipmentVerified": false
+  }
+}

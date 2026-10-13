@@ -1,0 +1,7 @@
+{
+  "boundary": "https://geo.datav.aliyun.com/areas_v3/bound/510000_full.json",
+  "provider": "Alibaba DataV GeoAtlas",
+  "purpose": "Province and city overview; not a navigation or full-coverage boundary",
+  "icons": "Feather Icons, MIT License",
+  "citiesConfirmedByUser": "2026-10-09"
+}

@@ -1,0 +1,328 @@
+{
+  "date": "2026-10-09",
+  "status": "partially-confirmed",
+  "destinations": [
+    {
+      "id": "kuanzhai",
+      "name": "宽窄巷子",
+      "candidates": [
+        {
+          "url": "https://dimg04.c-ctrip.com/images/1mh6k12000iyuyiou5E26_W_640_10000.jpg?proc=autoorient",
+          "page": "https://you.ctrip.com/sight/chengdu104/63456.html",
+          "title": "暖黄灯笼长廊",
+          "artist": "原来源摄影者",
+          "license": "仅供选图参考；公开发布许可尚未确认",
+          "date": "",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "A",
+          "key": "kuanzhai-corridor",
+          "label": "暖黄灯笼长廊",
+          "note": "灯笼密集、纵深感强，色彩鲜明。",
+          "focal": "50% 35%",
+          "preview": "./images/destination-options/20261009/kuanzhai-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/kuanzhai-corridor.jpg"
+        },
+        {
+          "url": "https://a.zdmimg.com/202503/22/67de0d46eacb44820.jpg_e1080.jpg",
+          "page": "https://post.smzdm.com/talk/p/aoq7203n/",
+          "title": "灯笼树与巷口夜色",
+          "artist": "原来源摄影者",
+          "license": "仅供选图参考；公开发布许可尚未确认",
+          "date": "2025-03-22 发布；拍摄日期未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "B",
+          "key": "kuanzhai-night",
+          "label": "灯笼树与巷口夜色",
+          "note": "红灯笼与暖金灯光，巷口标识清晰。",
+          "focal": "50% 62%",
+          "preview": "./images/destination-options/20261009/kuanzhai-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/kuanzhai-night.jpg"
+        },
+        {
+          "url": "https://n.sinaimg.cn/sinacn10115/592/w870h522/20190801/75b5-iaqfzyv8081529.jpg",
+          "page": "https://k.sina.com.cn/article_6447152527_p18047bd8f00100i01z.html",
+          "title": "青砖院落与木格窗",
+          "date": "2019-08-01 发布；拍摄日期未确认",
+          "artist": "原来源摄影者",
+          "license": "仅供选图参考；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "C",
+          "key": "kuanzhai-day",
+          "label": "青砖院落日景",
+          "note": "青砖、木格窗与绿藤，安静的建筑细节。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009/kuanzhai-C.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/kuanzhai-day.jpg"
+        }
+      ]
+    },
+    {
+      "id": "chunxi",
+      "name": "春熙路 · 太古里",
+      "candidates": [
+        {
+          "url": "https://m.cnhubei.com/a/10001/202408/f952b9ff7868683e39598963ee1ecbd1.jpeg",
+          "page": "https://m.cnhubei.com/content/2024-08/24/content_18324013.html",
+          "title": "太古里夜景全貌",
+          "artist": "原来源摄影者",
+          "license": "仅供选图参考；公开发布许可尚未确认",
+          "date": "2024-08-24 发布；拍摄日期未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "A",
+          "key": "chunxi-aerial",
+          "label": "太古里蓝调夜景全貌",
+          "note": "低层屋顶、街区灯光与城市天际线同框。",
+          "focal": "50% 54%",
+          "preview": "./images/destination-options/20261009/chunxi-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/chunxi-aerial.jpg"
+        },
+        {
+          "title": "File:Sino-Ocean Taikoo Li Chengdu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Sino-Ocean_Taikoo_Li_Chengdu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "page": "https://commons.wikimedia.org/wiki/File:Sino-Ocean_Taikoo_Li_Chengdu.jpg",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+          "artist": "Baycrest",
+          "description": "Night scene of East Square, Sino-Ocean Taikoo Li Chengdu",
+          "date": "2016",
+          "rightsStatus": "licensed",
+          "id": "B",
+          "key": "chunxi-commons-0",
+          "label": "太古里喷泉夜景",
+          "note": "开阔广场与玻璃店面，突出夜间街区氛围。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009/chunxi-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/chunxi-commons-0.jpg"
+        },
+        {
+          "title": "File:Sino-Ocean Taikoo Li Chengdu 10.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Sino-Ocean_Taikoo_Li_Chengdu_10.jpg/1280px-Sino-Ocean_Taikoo_Li_Chengdu_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "page": "https://commons.wikimedia.org/wiki/File:Sino-Ocean_Taikoo_Li_Chengdu_10.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "EditQ",
+          "description": "Sino-Ocean Taikoo Li Chengdu",
+          "date": "2023-09-15",
+          "rightsStatus": "licensed",
+          "id": "C",
+          "key": "chunxi-commons-2",
+          "label": "太古里日间街巷",
+          "note": "灰瓦屋顶与现代店面，呈现逛街的真实视角。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009/chunxi-C.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/chunxi-commons-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "twins",
+      "name": "金融城双子塔",
+      "candidates": [
+        {
+          "title": "天府双塔国庆灯光秀",
+          "page": "https://bbs.zol.com.cn/dcbbs/d34050_15189.html",
+          "artist": "中关村摄影论坛原作者",
+          "license": "仅供选图参考；公开发布许可尚未确认",
+          "date": "2022-10-04 拍摄",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "A",
+          "key": "twins-blue",
+          "label": "蓝色双塔与湖面倒影",
+          "note": "灯光辨识度强；横向卡片优先保留塔楼上半部。",
+          "focal": "50% 12%",
+          "preview": "./images/destination-options/20261009/twins-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-refresh/twins-night.jpg"
+        },
+        {
+          "title": "蓉城暮色，秋染双塔",
+          "page": "https://lenschengdu.com/assets/6382152",
+          "artist": "杨浩 / 视觉成都",
+          "license": "带原来源水印的选图参考；公开发布许可尚未确认",
+          "date": "2025-11-19 拍摄",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "B",
+          "key": "twins-sunset",
+          "label": "晚霞与金融城航拍",
+          "note": "暖色夕阳、城市全景；原图保留视觉成都水印。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009/twins-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-refresh/twins-dusk.jpg"
+        },
+        {
+          "title": "File:Tianfu Financial Center 2.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Tianfu_Financial_Center_2.jpg/1280px-Tianfu_Financial_Center_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "page": "https://commons.wikimedia.org/wiki/File:Tianfu_Financial_Center_2.jpg",
+          "license": "CC BY-SA 4.0",
+          "artist": "Kkkev999",
+          "description": "Tianfu Financial Center, Chengdu",
+          "date": "2020-06-27 12:08:28",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "rightsStatus": "licensed",
+          "id": "C",
+          "key": "twins-day",
+          "label": "晴日双塔与公园全景",
+          "note": "两座塔楼、周边建筑和绿地轮廓清楚。",
+          "focal": "50% 45%",
+          "preview": "./images/destination-options/20261009/twins-C.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-refresh/twins-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "dongjiao",
+      "name": "东郊记忆",
+      "candidates": [
+        {
+          "url": "https://k.sinaimg.cn/n/spider20260114/513/w1266h847/20260114/a912-b99112475ae83e74ba0e89aa30c12c7c.png/w700d1q75cms.jpg?by=cms_fixed_width",
+          "page": "https://news.sina.cn/2026-01-14/detail-inhhhhqx7200299.d.html?vt=4",
+          "title": "成都墙与红砖街景",
+          "artist": "原来源摄影者",
+          "license": "仅供选图参考；公开发布许可尚未确认",
+          "date": "2026-01-14 发布；拍摄日期未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "A",
+          "key": "dongjiao-wall",
+          "label": "成都墙正面街景",
+          "note": "“成都 CHENGDU”字样完整，红砖地标辨识度高。",
+          "focal": "50% 48%",
+          "preview": "./images/destination-options/20261009/dongjiao-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/dongjiao-wall.jpg"
+        },
+        {
+          "url": "https://k.sinaimg.cn/n/spider20260114/504/w1267h837/20260114/681a-9ab883adefc811c5a33b76c5bbc6f54b.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+          "page": "https://news.sina.cn/2026-01-14/detail-inhhhhqx7200299.d.html?vt=4",
+          "title": "绿藤厂房与工业庭院",
+          "date": "2026-01-14 发布；拍摄日期未确认",
+          "artist": "原来源摄影者",
+          "license": "仅供选图参考；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "B",
+          "key": "dongjiao-green",
+          "label": "绿藤旧厂房",
+          "note": "绿藤与工业窗格，突出自然与老建筑共生。",
+          "focal": "50% 45%",
+          "preview": "./images/destination-options/20261009/dongjiao-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/dongjiao-green.jpg"
+        },
+        {
+          "title": "红仓·东郊记忆时尚产业园（南门）",
+          "url": "https://static.scjjrb.cn/files/Resource/dy/images/2602/05/698457bb3b1d9.jpg",
+          "page": "https://www.scjjrb.cn/2026/02/05/99456435.html",
+          "artist": "东郊记忆艺术区提供 / 四川经济网",
+          "license": "摄影版权归原作者；本地设计参考，尚未取得公开发布授权。",
+          "licenseUrl": "",
+          "publicationDate": "2026-02-05",
+          "captureDate": null,
+          "rightsStatus": "reference-only-permission-unverified",
+          "webAsset": "dist/images/destinations/dongjiao.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/outputs/yichen-drive-site/visual-assets/destinations/dongjiao-source.jpg",
+          "imageEdited": false,
+          "id": "C",
+          "key": "dongjiao-night",
+          "label": "南门红砖夜景",
+          "note": "红砖拱廊与工业烟囱，保留当前南门照片。",
+          "focal": "50% 40%",
+          "preview": "./images/destination-options/20261009/dongjiao-C.jpg"
+        }
+      ]
+    },
+    {
+      "id": "jinli",
+      "name": "锦里 · 武侯祠",
+      "candidates": [
+        {
+          "title": "武侯祠红墙竹影",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/%E6%88%90%E9%83%BD%E6%AD%A6%E4%BE%AF%E7%A5%A0_%E7%BA%A2%E5%A2%99%E7%AB%B9%E5%BD%B1.jpg/1280px-%E6%88%90%E9%83%BD%E6%AD%A6%E4%BE%AF%E7%A5%A0_%E7%BA%A2%E5%A2%99%E7%AB%B9%E5%BD%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "page": "https://commons.wikimedia.org/wiki/File:%E6%88%90%E9%83%BD%E6%AD%A6%E4%BE%AF%E7%A5%A0_%E7%BA%A2%E5%A2%99%E7%AB%B9%E5%BD%B1.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "artist": "JianEn Yu",
+          "date": "2017-07-13 16:40:47",
+          "rightsStatus": "licensed",
+          "id": "A",
+          "key": "jinli-redwall",
+          "label": "武侯祠红墙竹影",
+          "note": "红墙、翠竹与日光，画面清爽、有地域特色。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009/jinli-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/jinli-redwall.jpg"
+        },
+        {
+          "url": "https://ak-d.tripcdn.com/images/1mi0f224x8y143h0bC6AA.jpg?proc=source%2Ftrip",
+          "page": "https://my.trip.com/moments/detail/chengdu-104-127346683?locale=en-MY",
+          "title": "锦里红灯笼窄巷",
+          "date": "拍摄日期未确认",
+          "artist": "原来源摄影者",
+          "license": "仅供选图参考；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "B",
+          "key": "jinli-lantern-alley",
+          "label": "锦里红灯笼窄巷",
+          "note": "石砖夹道、灯笼与夜色，纵深感明显。",
+          "focal": "50% 47%",
+          "preview": "./images/destination-options/20261009/jinli-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/jinli-lantern-alley.jpg"
+        },
+        {
+          "url": "https://youimg1.c-ctrip.com/target/10060k000000blm7758DC.jpg",
+          "page": "https://you.ctrip.com/sight/chengdu104/48862.html",
+          "title": "锦里长街灯火",
+          "date": "拍摄日期未确认",
+          "artist": "原来源摄影者",
+          "license": "仅供选图参考；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "C",
+          "key": "jinli-street",
+          "label": "锦里长街灯火",
+          "note": "木窗、红灯笼与街巷，突出夜游烟火气。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009/jinli-C.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-20261009/jinli-street.jpg"
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "id": "experience",
+      "name": "体验分类 · 6 类",
+      "recommended": true,
+      "categories": [
+        "古街人文",
+        "城市地标",
+        "艺术街区",
+        "湖畔花园",
+        "熊猫亲子",
+        "山水自驾"
+      ]
+    },
+    {
+      "id": "region",
+      "name": "地域分类 · 4 类",
+      "categories": [
+        "成都城区",
+        "成都周边",
+        "川西山地",
+        "川北山水"
+      ]
+    },
+    {
+      "id": "two-level",
+      "name": "双层分类",
+      "categories": [
+        "先选成都／四川，再按旅行体验筛选"
+      ]
+    }
+  ],
+  "currentSitePhotosChanged": false,
+  "confirmedChoices": {
+    "twins": "B",
+    "dongjiao": "A",
+    "jinli": "A"
+  },
+  "rejectedDestinations": [
+    "kuanzhai",
+    "chunxi"
+  ],
+  "confirmedClassification": "experience"
+}

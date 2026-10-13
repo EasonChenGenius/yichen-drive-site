@@ -1,0 +1,149 @@
+{
+  "coordinateReference": "DataV municipality administrative centres; city overview only",
+  "cities": [
+    {
+      "id": "chengdu",
+      "name": "成都",
+      "nameEn": "Chengdu",
+      "region": "成都市",
+      "summary": "双流/天府机场 · 市区全覆盖",
+      "summaryEn": "Shuangliu/Tianfu airports · Citywide service",
+      "mapCentre": [
+        104.065735,
+        30.659462
+      ]
+    },
+    {
+      "id": "mianyang",
+      "name": "绵阳",
+      "nameEn": "Mianyang",
+      "region": "绵阳市",
+      "summary": "科技城 · 高铁站取车",
+      "summaryEn": "Science City · High-speed rail pickup",
+      "mapCentre": [
+        104.741722,
+        31.46402
+      ]
+    },
+    {
+      "id": "deyang",
+      "name": "德阳",
+      "nameEn": "Deyang",
+      "region": "德阳市",
+      "summary": "城市出行 · 商务用车",
+      "summaryEn": "City and business journeys",
+      "mapCentre": [
+        104.398651,
+        31.127991
+      ]
+    },
+    {
+      "id": "leshan",
+      "name": "乐山",
+      "nameEn": "Leshan",
+      "region": "乐山市",
+      "summary": "大佛景区 · 峨眉山专线",
+      "summaryEn": "Giant Buddha · Mount Emei service",
+      "mapCentre": [
+        103.761263,
+        29.582024
+      ]
+    },
+    {
+      "id": "yibin",
+      "name": "宜宾",
+      "nameEn": "Yibin",
+      "region": "宜宾市",
+      "summary": "蜀南竹海 · 五粮液产区",
+      "summaryEn": "Shunan Bamboo Sea · Wuliangye district",
+      "mapCentre": [
+        104.630825,
+        28.760189
+      ]
+    },
+    {
+      "id": "luzhou",
+      "name": "泸州",
+      "nameEn": "Luzhou",
+      "region": "泸州市",
+      "summary": "城市出行 · 商务用车",
+      "summaryEn": "City and business journeys",
+      "mapCentre": [
+        105.443348,
+        28.889138
+      ]
+    },
+    {
+      "id": "yaan",
+      "name": "雅安",
+      "nameEn": "Ya'an",
+      "region": "雅安市",
+      "summary": "城市出行 · 旅行用车",
+      "summaryEn": "City journeys and leisure trips",
+      "mapCentre": [
+        103.001033,
+        29.987722
+      ]
+    },
+    {
+      "id": "xichang",
+      "name": "西昌",
+      "nameEn": "Xichang",
+      "region": "凉山彝族自治州",
+      "summary": "城市出行 · 旅行用车",
+      "summaryEn": "City journeys and leisure trips",
+      "mapCentre": [
+        102.258746,
+        27.886762
+      ]
+    },
+    {
+      "id": "kangding",
+      "name": "康定",
+      "nameEn": "Kangding",
+      "region": "甘孜藏族自治州",
+      "summary": "城市出行 · 旅行用车",
+      "summaryEn": "City journeys and leisure trips",
+      "mapCentre": [
+        101.963815,
+        30.050663
+      ]
+    },
+    {
+      "id": "nanchong",
+      "name": "南充",
+      "nameEn": "Nanchong",
+      "region": "南充市",
+      "summary": "城市出行 · 商务用车",
+      "summaryEn": "City and business journeys",
+      "mapCentre": [
+        106.082974,
+        30.795281
+      ]
+    },
+    {
+      "id": "dazhou",
+      "name": "达州",
+      "nameEn": "Dazhou",
+      "region": "达州市",
+      "summary": "城市出行 · 商务用车",
+      "summaryEn": "City and business journeys",
+      "mapCentre": [
+        107.502262,
+        31.209484
+      ]
+    },
+    {
+      "id": "zigong",
+      "name": "自贡",
+      "nameEn": "Zigong",
+      "region": "自贡市",
+      "summary": "城市出行 · 商务用车",
+      "summaryEn": "City and business journeys",
+      "mapCentre": [
+        104.773447,
+        29.352765
+      ]
+    }
+  ]
+}

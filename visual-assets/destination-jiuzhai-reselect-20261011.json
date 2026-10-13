@@ -1,0 +1,197 @@
+{
+  "status": "user-confirmed-applied",
+  "groups": [
+    {
+      "id": "jiuzhai",
+      "name": "九寨沟",
+      "existing": true,
+      "photos": [
+        {
+          "id": "S01",
+          "src": "./images/destinations/jiuzhai.jpg",
+          "label": "保留当前原图",
+          "source": "https://en.jiuzhai.com/index.php/about/more-about-jiuzhai/83-five-flower-lake",
+          "credit": "原图来源见主站摄影说明"
+        },
+        {
+          "key": "6359599",
+          "page": "https://lenschengdu.com/assets/6359599",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/810e5a48577b41e995e71e4c430568ae.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359599.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359599.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N01",
+          "label": "蓝天与五花海全景",
+          "source": "https://lenschengdu.com/assets/6359599",
+          "rightsStatus": "reference-only-permission-unverified"
+        },
+        {
+          "key": "6359603",
+          "page": "https://lenschengdu.com/assets/6359603",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/80e0aaada60346a7aa7dff796c80e2c2.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359603.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359603.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N02",
+          "label": "群山彩林与清澈倒影",
+          "source": "https://lenschengdu.com/assets/6359603",
+          "rightsStatus": "reference-only-permission-unverified"
+        },
+        {
+          "key": "6359604",
+          "page": "https://lenschengdu.com/assets/6359604",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/c1234d98cee1474992ffd17304d06e73.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359604.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359604.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N03",
+          "label": "晴日湖面与深蓝天空",
+          "source": "https://lenschengdu.com/assets/6359604",
+          "rightsStatus": "reference-only-permission-unverified"
+        },
+        {
+          "key": "6359623",
+          "page": "https://lenschengdu.com/assets/6359623",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/e002669cb5c3478d8db8dd998faeb214.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359623.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359623.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N04",
+          "label": "碧水彩林与山峰倒影",
+          "source": "https://lenschengdu.com/assets/6359623",
+          "rightsStatus": "reference-only-permission-unverified"
+        },
+        {
+          "key": "6359597",
+          "page": "https://lenschengdu.com/assets/6359597",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/2ece91cc8c1144ad8614318157bcf6a3.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359597.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359597.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N05",
+          "label": "秋日山谷与彩色湖水",
+          "source": "https://lenschengdu.com/assets/6359597",
+          "rightsStatus": "reference-only-permission-unverified"
+        },
+        {
+          "key": "6359600",
+          "page": "https://lenschengdu.com/assets/6359600",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/d380b225e2f84061a147d0e473dd21e5.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359600.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359600.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N06",
+          "label": "水下沉木与翡翠湖水",
+          "source": "https://lenschengdu.com/assets/6359600",
+          "rightsStatus": "reference-only-permission-unverified"
+        },
+        {
+          "key": "6359605",
+          "page": "https://lenschengdu.com/assets/6359605",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/3826ba7a7c3842f4930e454419734414.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359605.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359605.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N07",
+          "label": "彩林岸线与通透浅滩",
+          "source": "https://lenschengdu.com/assets/6359605",
+          "rightsStatus": "reference-only-permission-unverified"
+        },
+        {
+          "key": "6359608",
+          "page": "https://lenschengdu.com/assets/6359608",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/de22298695ac4463a122de1dea68a475.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359608.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359608.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N08",
+          "label": "暖阳与金色倒影",
+          "source": "https://lenschengdu.com/assets/6359608",
+          "rightsStatus": "reference-only-permission-unverified"
+        },
+        {
+          "key": "6359609",
+          "page": "https://lenschengdu.com/assets/6359609",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/acc70ec14425421faa664e1e9e8e9de3.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359609.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359609.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N09",
+          "label": "山峰白云与湖岸芦苇",
+          "source": "https://lenschengdu.com/assets/6359609",
+          "rightsStatus": "reference-only-permission-unverified"
+        },
+        {
+          "key": "6359610",
+          "page": "https://lenschengdu.com/assets/6359610",
+          "url": "https://sjcd-feiyuantu.oss-cn-hangzhou.aliyuncs.com/vdam-php/test/editorial/vdam/800/new/200043/7195fab2497440be981fd6906f150a96.jpg",
+          "src": "./images/destination-options/20261011-jiuzhai/6359610.jpg",
+          "file": "/Users/eason/Documents/Codex/2026-10-04/xia/work/jiuzhai-reselect-20261011/6359610.jpg",
+          "dimensions": [
+            800,
+            533
+          ],
+          "credit": "李佳 / 李子衿 · 视觉成都",
+          "date": "2024-10-28",
+          "id": "N10",
+          "label": "晴日群峰与蓝色海子",
+          "source": "https://lenschengdu.com/assets/6359610",
+          "rightsStatus": "reference-only-permission-unverified"
+        }
+      ],
+      "confirmedSelected": [
+        "S01"
+      ]
+    }
+  ],
+  "selected": [
+    "N01",
+    "N04"
+  ],
+  "cover": "N01"
+}

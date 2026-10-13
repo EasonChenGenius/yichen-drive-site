@@ -1,0 +1,26 @@
+[Unit]
+Description=YICHEN Drive website and enquiry inbox
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=yichen
+Group=yichen
+WorkingDirectory=/opt/yichen-drive/current
+Environment=YICHEN_CONFIG_FILE=/etc/yichen-drive/app.env
+Environment=YICHEN_DATA_DIR=/var/lib/yichen-drive
+Environment=YICHEN_TRUST_PROXY=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/yichen-drive/venv/bin/gunicorn --config deploy/gunicorn.conf.py wsgi:app
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/yichen-drive /etc/yichen-drive
+
+[Install]
+WantedBy=multi-user.target

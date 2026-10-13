@@ -1,0 +1,22 @@
+{
+  "blenderVersion": "4.5.9 LTS",
+  "mode": "OBJECT",
+  "collections": [
+    "Reference",
+    "Body",
+    "Glass",
+    "Wheels",
+    "Lights",
+    "Grille_Trim",
+    "Studio"
+  ],
+  "actualVehicleMeshCount": 0,
+  "referenceEnvelopeMetres": [
+    5.219,
+    1.878,
+    1.799
+  ],
+  "wheelbaseDistanceMetres": 3.088,
+  "geometryStatus": "reference-guides-only",
+  "lux3dTasksSubmitted": 0
+}

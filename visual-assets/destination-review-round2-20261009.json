@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-09",
+  "round": 2,
+  "status": "partially-confirmed",
+  "destinations": [
+    {
+      "id": "kuanzhai",
+      "name": "宽窄巷子",
+      "candidates": [
+        {
+          "url": "http://image.nbd.com.cn/uploads/articles/images/899649/1.jpg",
+          "alt": "",
+          "context": " 近日，在商务部举行的“步行街改造提升工作专题新闻发布会”上，首批5条“全国示范步行街”名单“出炉”，成都宽窄巷子步行街位列其中。成都也将于近期举行以“品质新消费宽窄最成都”为主题的全国示范步行街揭牌仪式。那么，宽窄巷子究竟是凭何乘风破浪，最终C位出道？ 城市的“文化原点” 升级改造换新颜 商业步行街是一座城市文化的缩影，集中体现着城市的传统文化和商业文化。",
+          "page": "https://www.nbd.com.cn/articles/2020-08-06/1475873.html",
+          "artist": "每经网原来源",
+          "date": "2020-08-06 发布；拍摄日期未确认",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "A",
+          "key": "kuanzhai-nbd-0",
+          "label": "蓝调航拍与暖金灯火",
+          "note": "青瓦院落、城市天际线与暖色灯光同框。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009-round2/kuanzhai-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round2-20261009/kuanzhai-nbd-0.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://img.jiemian.com/jiemian/original/20250715/175254397540308100.jpg",
+          "alt": "",
+          "context": " 图源：宽窄巷子最成都 自2008年完成首次改造后，宽窄巷子从传统街巷转型为文化商业地标，保留清末民初建筑肌理，融合购物、餐饮、文化体验等功能，成为全国文旅街区典范，成功入选国家文化产业示范基地和全国首批示范步行街。 此后，宽窄巷子一直没有停止焕新生长。 在业态多元化升级上，2017年后引入%Arabica、好利来·壹玖玖贰全国首家景区概念店、喜茶古风主题店",
+          "page": "https://www.jiemian.com/article/13033833.html",
+          "artist": "宽窄巷子最成都／成都发布，经界面新闻刊载",
+          "date": "2025-07-15 发布；拍摄日期未确认",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "B",
+          "key": "kuanzhai-2025-0",
+          "label": "青瓦街巷与蜿蜒灯火",
+          "note": "屋顶层层错落，灯光串起街巷；来自 2025 年报道。",
+          "focal": "50% 48%",
+          "preview": "./images/destination-options/20261009-round2/kuanzhai-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round2-20261009/kuanzhai-2025-0.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "http://image.nbd.com.cn/uploads/articles/images/899650/2.jpg",
+          "alt": "",
+          "context": " 成都历来重视城市风貌的保护与传承，宽窄巷子步行街便是其中的“集大成者”。而保护和利用好历史文化遗产是改造提升宽窄巷子过程中最重要的使命和责任。 2018年，商务部确定将成都宽窄巷子步行街作为全国首批步行街改造提升试点，成都按照试点工作要求，形成了上下联动、统筹协调、共建共享的工作机制。 在两年多的改造提升过程中，成都先后共编制完成36个专项规划和专题研究报",
+          "page": "https://www.nbd.com.cn/articles/2020-08-06/1475873.html",
+          "artist": "每经网原来源",
+          "date": "2020-08-06 发布；拍摄日期未确认",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "C",
+          "key": "kuanzhai-nbd-1",
+          "label": "日间院落屋顶全景",
+          "note": "近距离看屋顶与院落层次，保留自然日间色调。",
+          "focal": "50% 54%",
+          "preview": "./images/destination-options/20261009-round2/kuanzhai-C.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round2-20261009/kuanzhai-nbd-1.jpg",
+          "imageEdited": false
+        }
+      ]
+    },
+    {
+      "id": "chunxi",
+      "name": "春熙路 · 太古里",
+      "candidates": [
+        {
+          "url": "https://imgcdn.scol.com.cn/media/2025/12/03/214120294560.jpg",
+          "alt": "",
+          "context": " 11月30日，夕阳下的大慈寺与太古里一道，绘就出初冬“成都封面”。 慕名而来的游客络绎不绝，或在银杏树下驻足留影，或步入寺内茶社，在袅袅茶香中品味成都独有的市井烟火。动与静的相映、古与今的碰撞，让这片地标成为诠释成都“休闲之都”气质的绝佳窗口。 12月2日，俯瞰大慈寺禅茶堂，在这里喝茶既能感受市井休闲气息，还能体会古寺特有的禅意。 ",
+          "page": "https://aerial.scol.com.cn/xy/202512/83166385.html",
+          "artist": "王瑞林 / C视觉、四川在线",
+          "date": "2025-11-30 拍摄；2025-12-03 发布",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "A",
+          "key": "taikoo-autumn-1",
+          "label": "夕阳银杏与太古里全景",
+          "note": "大慈寺、太古里与城市天际线同框，暖色夕阳。",
+          "focal": "50% 34%",
+          "preview": "./images/destination-options/20261009-round2/chunxi-A.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round2-20261009/taikoo-autumn-1.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://imgcdn.scol.com.cn/media/2025/12/03/214123373136.jpg",
+          "alt": "",
+          "context": " 11月30日，大慈寺内两株古银杏已换上“金衣”，满枝黄叶在暖阳下熠熠生辉。 11月30日，俯瞰错落有致的大慈寺。 11月30日，大慈寺两株古银杏在阳光下熠熠生辉，游客纷纷前来赏景拍照。 <p align=\"ce",
+          "page": "https://aerial.scol.com.cn/xy/202512/83166385.html",
+          "artist": "王瑞林 / C视觉、四川在线",
+          "date": "2025-11-30 拍摄；2025-12-03 发布",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "B",
+          "key": "taikoo-autumn-3",
+          "label": "银杏古寺庭院俯拍",
+          "note": "金黄银杏与灰瓦院落，构图清晰、层次简洁。",
+          "focal": "50% 50%",
+          "preview": "./images/destination-options/20261009-round2/chunxi-B.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round2-20261009/taikoo-autumn-3.jpg",
+          "imageEdited": false
+        },
+        {
+          "url": "https://thecityateyelevel.com/app/uploads/2020/10/CDTKL-4-1200x800.jpg",
+          "context": "Taikoo Li Chengdu historic public realm",
+          "page": "https://thecityateyelevel.com/stories/placemaking-in-the-historic-heart-of-chengdu/",
+          "artist": "The City at Eye Level 项目原来源",
+          "date": "2020年刊载；拍摄日期未确认",
+          "license": "来源网页参考图；公开发布许可尚未确认",
+          "rightsStatus": "reference-only-permission-unverified",
+          "id": "C",
+          "key": "taikoo-street-design",
+          "label": "暮色石塔与街区灯光",
+          "note": "石塔、树木与店面灯光，呈现蓝调时刻的街区氛围。",
+          "focal": "47% 50%",
+          "preview": "./images/destination-options/20261009-round2/chunxi-C.jpg",
+          "sourceFile": "/Users/eason/Documents/Codex/2026-10-04/xia/work/destination-review-round2-20261009/taikoo-street-design.jpg",
+          "imageEdited": false
+        }
+      ]
+    }
+  ],
+  "confirmedChoices": {
+    "twins": "B",
+    "dongjiao": "A",
+    "jinli": "A"
+  },
+  "confirmedClassification": "experience-6",
+  "pendingMainImages": [
+    "kuanzhai",
+    "chunxi"
+  ],
+  "selectedInRound2": {
+    "kuanzhai": "C"
+  },
+  "moreChoicesRequested": [
+    "kuanzhai",
+    "chunxi"
+  ]
+}
