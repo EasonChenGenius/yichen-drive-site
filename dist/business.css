@@ -9,3 +9,5 @@
 .password-toggle{border:0;background:transparent;color:#78644b;padding:6px 0;font-size:14px;cursor:pointer}.password-toggle:focus-visible{outline:2px solid #a38d6b;outline-offset:2px}
 
 .enquiry-duration{padding:18px 20px;border:1px solid #dedbd3;border-radius:18px;background:#f4f2ec}.enquiry-duration output{display:block;font-size:1.25rem;margin:8px 0}.enquiry-duration p{font-size:.9rem;margin:0}.enquiry-form label input[list]{min-width:0;width:100%}
+
+.insurance-guide details{margin-top:18px;padding:14px 18px;border:1px solid #e1ddd3;border-radius:16px;background:#f5f3ed}.insurance-guide summary{cursor:pointer;font-size:14px}.insurance-sources{display:flex;flex-wrap:wrap;gap:12px;font-size:13px}.insurance-sources a{text-decoration:underline;text-underline-offset:4px}
