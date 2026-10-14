@@ -1,7 +1,9 @@
 """Authenticated operator inbox; role grants are available only through local CLI."""
 import json,sqlite3,time,inquiry_mail,secrets
 from pathlib import Path
-STATUSES={'pending':'待联系','quoted':'已报价','reserved':'已预约'}
+from datetime import date,datetime,timedelta,timezone
+import calendar,re
+STATUSES={'pending':'待联系','quoted':'已报价','reserved':'已预约','completed':'已完成','cancelled':'已取消'}
 def initialize(path):
     with sqlite3.connect(path) as db:
         db.executescript('''
@@ -19,10 +21,64 @@ def authorize(h,path):
 def item(row):
     value=json.loads(row[0]);value.update(status=row[1] or 'pending',note=row[2] or '',revision=row[3] or 0,updated=row[4] or value.get('created',0),unread=not bool(row[5]));return value
 SELECT='SELECT i.body,f.status,f.note,f.revision,f.updated,r.inquiry_id FROM inquiries i LEFT JOIN inquiry_followup f ON f.id=i.id LEFT JOIN inquiry_reads r ON r.inquiry_id=i.id AND r.user_id=? '
+START="COALESCE(NULLIF(json_extract(i.body,'$.startDate'),''),NULLIF(json_extract(i.body,'$.date'),''),NULLIF(substr(json_extract(i.body,'$.startAt'),1,10),''))"
+END="COALESCE(NULLIF(json_extract(i.body,'$.endDate'),''),NULLIF(substr(json_extract(i.body,'$.endAt'),1,10),''),"+START+")"
+SUBMITTED="date(i.created,'unixepoch','+8 hours')"
+FROM="FROM inquiries i LEFT JOIN inquiry_followup f ON f.id=i.id "
+def date_value(raw):
+    if not raw:return None
+    if not re.fullmatch(r'\d{4}-\d{2}-\d{2}',raw):raise ValueError('日期格式不正确。')
+    try:return date.fromisoformat(raw)
+    except ValueError:raise ValueError('日期不正确。')
+def filters(query,*,overview=False):
+    status=query.get('status','');completion=query.get('completion','');basis=query.get('dateBasis','trip')
+    if status and status not in STATUSES:raise ValueError('状态不正确。')
+    if completion not in ('','open','completed','cancelled'):raise ValueError('完成筛选不正确。')
+    if basis not in ('trip','submitted'):raise ValueError('日期类型不正确。')
+    start=date_value(query.get('from',''));end=date_value(query.get('to',''))
+    if start and end and end<start:raise ValueError('结束日期不能早于开始日期。')
+    where='WHERE 1=1';params=[]
+    if not overview:
+        if status:where+=" AND COALESCE(f.status,'pending')=?";params.append(status)
+        if completion=='open':where+=" AND COALESCE(f.status,'pending') NOT IN ('completed','cancelled')"
+        elif completion:where+=" AND COALESCE(f.status,'pending')=?";params.append(completion)
+    q=query.get('q','').strip()[:100]
+    if q:
+        q=q.replace('\\','\\\\').replace('%','\\%').replace('_','\\_')
+        where+=" AND (i.body LIKE ? ESCAPE '\\' OR COALESCE(f.note,'') LIKE ? ESCAPE '\\')";params.extend(['%'+q+'%']*2)
+    if basis=='submitted':
+        if start:where+=' AND '+SUBMITTED+'>=?';params.append(start.isoformat())
+        if end:where+=' AND '+SUBMITTED+'<=?';params.append(end.isoformat())
+    else:
+        if start:where+=' AND '+END+'>=?';params.append(start.isoformat())
+        if end:where+=' AND '+START+'<=?';params.append(end.isoformat())
+    return where,params
+
+def counts(db,query):
+    where,params=filters(query,overview=True)
+    result=dict(db.execute("SELECT COALESCE(f.status,'pending'),COUNT(*) "+FROM+where+" GROUP BY COALESCE(f.status,'pending')",params))
+    return {key:result.get(key,0) for key in STATUSES}
+
+def summary(db,query):
+    today=datetime.now(timezone(timedelta(hours=8))).date()
+    raw=query.get('month',today.strftime('%Y-%m'))
+    if not re.fullmatch(r'\d{4}-\d{2}',raw):raise ValueError('月份格式不正确。')
+    first=date_value(raw+'-01');last=first.replace(day=calendar.monthrange(first.year,first.month)[1])
+    where,params=filters(query)
+    # Aggregate all matching records, without the list's 50-row pagination limit.
+    clip='';args=[first.isoformat(),last.isoformat(),*params]
+    if query.get('dateBasis','trip')=='trip':
+        for key,op in [('from','>='),('to','<=')]:
+            if query.get(key):clip+=' AND days.day'+op+'?';args.append(query[key])
+    rows=db.execute("WITH RECURSIVE days(day) AS (SELECT ? UNION ALL SELECT date(day,'+1 day') FROM days WHERE day<?) SELECT days.day,COUNT(events.id) FROM days LEFT JOIN (SELECT i.id,"+START+" AS start,"+END+" AS finish "+FROM+where+") events ON events.start<=days.day AND events.finish>=days.day"+clip+" GROUP BY days.day ORDER BY days.day",args).fetchall()
+    undated=db.execute('SELECT COUNT(*) '+FROM+where+' AND ('+START+' IS NULL OR '+END+' IS NULL)',params).fetchone()[0]
+    return {'counts':counts(db,query),'calendar':[{'date':r[0],'count':r[1]} for r in rows],'month':raw,'undated':undated,'updatedAt':int(time.time()),'today':today.isoformat()}
+
 def get(h,path,route,query):
     user=authorize(h,path)
     if not user:return
     with sqlite3.connect(path) as db:
+        db.execute('BEGIN')
         if route=='/api/operator/me':return h.reply(200,{'user':user})
         if route=='/api/operator/notifications':
             count=db.execute('SELECT COUNT(*) FROM inquiries i WHERE NOT EXISTS(SELECT 1 FROM inquiry_reads r WHERE r.inquiry_id=i.id AND r.user_id=?)',(user['id'],)).fetchone()[0]
@@ -33,18 +89,18 @@ def get(h,path,route,query):
             if not row:return h.error(404,'没有找到这条需求。')
             history=[dict(zip(['status','note','created'],r)) for r in db.execute('SELECT status,note,created FROM inquiry_history WHERE inquiry_id=? ORDER BY seq DESC',(identity,))]
             return h.reply(200,{'inquiry':item(row),'history':history})
-        if route=='/api/operator/inquiries':
-            try:offset=max(0,int(query.get('offset','0')))
-            except ValueError:return h.error(400,'页码不正确。')
-            status=query.get('status','');q=query.get('q','').strip()[:100]
-            if status and status not in STATUSES:return h.error(400,'状态不正确。')
-            where='WHERE 1=1';params=[]
-            if status:where+=" AND COALESCE(f.status,'pending')=?";params.append(status)
-            if q:where+=' AND i.body LIKE ?';params.append('%'+q+'%')
-            total=db.execute('SELECT COUNT(*) FROM inquiries i LEFT JOIN inquiry_followup f ON f.id=i.id '+where,params).fetchone()[0]
-            rows=db.execute(SELECT+where+' ORDER BY i.created DESC,i.id DESC LIMIT 50 OFFSET ?',[user['id'],*params,offset]).fetchall()
-            counts=dict(db.execute("SELECT COALESCE(f.status,'pending'),COUNT(*) FROM inquiries i LEFT JOIN inquiry_followup f ON f.id=i.id GROUP BY COALESCE(f.status,'pending')"))
-            return h.reply(200,{'inquiries':[item(r) for r in rows],'total':total,'counts':counts,'offset':offset})
+        if route in ('/api/operator/inquiries','/api/operator/summary'):
+            try:
+                if route.endswith('/summary'):return h.reply(200,summary(db,query))
+                offset=max(0,int(query.get('offset','0')))
+                where,params=filters(query)
+                sorting=query.get('sort','newest')
+                if sorting not in ('newest','tripAsc','tripDesc'):raise ValueError('排序不正确。')
+                order='i.created DESC,i.id DESC' if sorting=='newest' else 'CASE WHEN '+START+' IS NULL THEN 1 ELSE 0 END,'+START+(' ASC' if sorting=='tripAsc' else ' DESC')+',i.created DESC,i.id DESC'
+                total=db.execute('SELECT COUNT(*) '+FROM+where,params).fetchone()[0]
+                rows=db.execute(SELECT+where+' ORDER BY '+order+' LIMIT 50 OFFSET ?',[user['id'],*params,offset]).fetchall()
+                return h.reply(200,{'inquiries':[item(r) for r in rows],'total':total,'counts':counts(db,query),'offset':offset,'updatedAt':int(time.time())})
+            except ValueError as e:return h.error(400,str(e))
     return h.error(404,'没有找到此操作。')
 def post(h,path,route,body):
     user=authorize(h,path)
