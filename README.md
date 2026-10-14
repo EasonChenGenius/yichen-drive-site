@@ -111,3 +111,7 @@ GSAP 与 ScrollTrigger 已在本地打包，支持减少动态效果设置。源
 运行前安装 `requirements-production.txt`；双击 `启动网站.command` 会优先使用本项目既有生产虚拟环境，否则创建本地 `.venv` 并安装依赖。部署更新后需重新安装依赖并重启服务。
 
 验收：`python tests/test_enquiry_v51.py`（使用有依赖的隔离环境），`node tests/test_enquiry_ui_v51.cjs`。详见 `design/enquiry-v51/verification.md`。
+
+## v52 · 注册账号查看
+
+登录 `operator.html` 后点击“注册账号”，可搜索称呼/手机号/邮箱，筛选注册日期，分页查看并进入关联用车需求。普通账号无权读取此接口；不显示密码，不提供网页授权管理员功能。测试：`python tests/test_accounts_v52.py`、`node tests/test_auth_feedback_v52.cjs`。

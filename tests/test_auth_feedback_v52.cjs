@@ -1,0 +1,6 @@
+const vm=require('node:vm'),fs=require('node:fs'),assert=require('node:assert/strict');
+const source=fs.readFileSync(require('node:path').join(__dirname,'../dist/integrations.js'),'utf8');
+const fields={'auth-submit':{disabled:false},'auth-email':{value:'qa-feedback@example.com'},'auth-name':{value:'QA'},'auth-password':{value:'fixture-only-password'},'auth-confirm':{value:'fixture-only-password'},'auth-error':{textContent:''}};
+const c={state:{authMode:'register'},q:id=>fields[id],localStorage:{getItem:()=>null},render:()=>{c.rendered=true},toast:s=>{c.message=s},t:s=>s,accountRequest:async p=>{if(p==='/api/orders')throw Error('historical service unavailable');return {user:{id:'qa-only'}}}};
+vm.createContext(c);for(const name of ['loadAccountOrders','submitAccount'])vm.runInContext(source.split('\n').find(l=>l.startsWith('async function '+name)),c);
+(async()=>{await c.submitAccount({preventDefault(){}});assert.equal(c.state.account.id,'qa-only');assert.equal(c.state.authError,'');assert.equal(c.rendered,true);assert.match(c.message,/注册成功/);assert.match(c.message,/历史旅程/);console.log('PASS v52: successful registration stays successful even when historical-order loading fails.');})().catch(e=>{console.error(e);process.exitCode=1});

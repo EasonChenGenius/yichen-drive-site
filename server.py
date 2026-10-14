@@ -116,7 +116,6 @@ class Handler(SimpleHTTPRequestHandler):
             with sqlite3.connect(DB) as db:rows=db.execute('SELECT body FROM inquiries WHERE user_id=? ORDER BY created DESC LIMIT 50',(user['id'],)).fetchall()
             return self.reply(200,{'inquiries':[json.loads(r[0]) for r in rows]})
         if path=='/api/orders':
-            return self.error(410,'演示预订已停用，请提交用车咨询。')
             user=self.session()
             if not user:return self.error(401,'请先登录。')
             with sqlite3.connect(DB) as db:rows=db.execute('SELECT body FROM orders WHERE user_id=? ORDER BY created DESC',(user['id'],)).fetchall()

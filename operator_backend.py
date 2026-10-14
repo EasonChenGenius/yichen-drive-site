@@ -38,6 +38,7 @@ def filters(query,*,overview=False):
     start=date_value(query.get('from',''));end=date_value(query.get('to',''))
     if start and end and end<start:raise ValueError('结束日期不能早于开始日期。')
     where='WHERE 1=1';params=[]
+    if query.get('userId'):where+=' AND i.user_id=?';params.append(query['userId'][:64])
     if not overview:
         if status:where+=" AND COALESCE(f.status,'pending')=?";params.append(status)
         if completion=='open':where+=" AND COALESCE(f.status,'pending') NOT IN ('completed','cancelled')"
@@ -79,6 +80,24 @@ def get(h,path,route,query):
     if not user:return
     with sqlite3.connect(path) as db:
         db.execute('BEGIN')
+        if route=='/api/operator/users':
+            try:
+                start=date_value(query.get('from',''));end=date_value(query.get('to',''))
+                if start and end and end<start:raise ValueError('结束日期不能早于开始日期。')
+                offset=max(0,int(query.get('offset','0')))
+            except ValueError as e:return h.error(400,str(e))
+            where='WHERE 1=1';params=[]
+            term=query.get('q','').strip()[:100]
+            if term:
+                term=term.replace('\\','\\\\').replace('%','\\%').replace('_','\\_')
+                where+=" AND (u.name LIKE ? ESCAPE '\\' OR u.email LIKE ? ESCAPE '\\' OR p.phone LIKE ? ESCAPE '\\')";params+=['%'+term+'%']*3
+            if start:where+=" AND date(u.created,'unixepoch','+8 hours')>=?";params.append(start.isoformat())
+            if end:where+=" AND date(u.created,'unixepoch','+8 hours')<=?";params.append(end.isoformat())
+            joined=' FROM users u LEFT JOIN user_phones p ON p.user_id=u.id '
+            total=db.execute('SELECT COUNT(*)'+joined+where,params).fetchone()[0]
+            rows=db.execute("SELECT u.id,u.name,u.email,p.phone,u.created,EXISTS(SELECT 1 FROM operators o WHERE o.user_id=u.id),(SELECT COUNT(*) FROM inquiries i WHERE i.user_id=u.id)"+joined+where+' ORDER BY u.created DESC,u.id DESC LIMIT 50 OFFSET ?',params+[offset]).fetchall()
+            users=[{'id':r[0],'name':r[1],'email':None if r[3] else r[2],'phone':r[3],'created':r[4],'isOperator':bool(r[5]),'inquiryCount':r[6],'contactVerified':False} for r in rows]
+            return h.reply(200,{'users':users,'total':total,'offset':offset})
         if route=='/api/operator/me':return h.reply(200,{'user':user})
         if route=='/api/operator/notifications':
             count=db.execute('SELECT COUNT(*) FROM inquiries i WHERE NOT EXISTS(SELECT 1 FROM inquiry_reads r WHERE r.inquiry_id=i.id AND r.user_id=?)',(user['id'],)).fetchone()[0]
