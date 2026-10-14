@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""YICHEN local account service and same-origin AMap proxy. Python 3.10+, no packages."""
+"""YICHEN local account service and same-origin AMap proxy. Python 3.10+, dependencies in requirements-production.txt."""
 import argparse, base64, hashlib, hmac, json, math, os, re, secrets, sqlite3, threading, time
 from datetime import datetime
 from http import cookies
@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parent
 import sys
 sys.path.insert(0,str(ROOT))
 import operator_backend,inquiry_mail
+import phonenumbers
 CONFIG_FILE=Path(os.environ.get('YICHEN_CONFIG_FILE') or ROOT/'.env').resolve()
 if CONFIG_FILE==ROOT/'dist' or ROOT/'dist' in CONFIG_FILE.parents:raise RuntimeError('Private configuration cannot be inside dist/.')
 for line in CONFIG_FILE.read_text().splitlines() if CONFIG_FILE.exists() else []:
@@ -115,6 +116,7 @@ class Handler(SimpleHTTPRequestHandler):
             with sqlite3.connect(DB) as db:rows=db.execute('SELECT body FROM inquiries WHERE user_id=? ORDER BY created DESC LIMIT 50',(user['id'],)).fetchall()
             return self.reply(200,{'inquiries':[json.loads(r[0]) for r in rows]})
         if path=='/api/orders':
+            return self.error(410,'演示预订已停用，请提交用车咨询。')
             user=self.session()
             if not user:return self.error(401,'请先登录。')
             with sqlite3.connect(DB) as db:rows=db.execute('SELECT body FROM orders WHERE user_id=? ORDER BY created DESC',(user['id'],)).fetchall()
@@ -190,7 +192,15 @@ class Handler(SimpleHTTPRequestHandler):
                 cities={'成都','绵阳','德阳','乐山','宜宾','泸州','雅安','西昌','康定','南充','达州','自贡'}
                 if clean['service'] not in {'自驾租车','机场接送','带司机包车','商务接待'} or clean['city'] not in cities or clean['car'] and clean['car'] not in cars:raise ValueError()
                 if not 1<=len(clean['name'])<=50:raise ValueError()
-                if not re.fullmatch(r'[0-9]{11}',clean['phone']):return self.error(400,'请输入11位数字的联系电话。')
+                region=str(body.get('phoneRegion','CN')).upper()
+                if region not in phonenumbers.SUPPORTED_REGIONS:return self.error(400,'请选择有效的电话国家或地区。')
+                try:
+                    if len(clean['phone'])>40:raise ValueError()
+                    number=phonenumbers.parse(clean['phone'],region)
+                    if not phonenumbers.is_valid_number_for_region(number,region) or len(set(str(number.national_number)))==1:raise ValueError()
+                    clean['phone']=phonenumbers.format_number(number,phonenumbers.PhoneNumberFormat.E164)
+                    clean['phoneRegion']=region
+                except (ValueError,phonenumbers.NumberParseException):return self.error(400,'请输入所选国家或地区的有效联系电话。')
                 if not 2<=len(clean['wechat'])<=60:return self.error(400,'请填写微信号，至少2个字符。')
                 for key in ('pickupId','returnId','destinationId'):
                     if clean[key] not in ENQUIRY_PLACES:return self.error(400,'请从选项中选择真实地点。')
@@ -203,13 +213,12 @@ class Handler(SimpleHTTPRequestHandler):
                 today=datetime.now(timezone(timedelta(hours=8))).date()
                 start_day=datetime.strptime(clean['startDate'],'%Y-%m-%d').date()
                 end_day=datetime.strptime(clean['endDate'],'%Y-%m-%d').date()
-                duration=(end_day-start_day).days+1
-                if start_day<today or (start_day-today).days>730 or not 1<=duration<=30:raise ValueError()
+                if start_day<today or (start_day-today).days>730:raise ValueError()
                 start_at=datetime.fromisoformat(clean['startDate']+'T'+clean['startTime'])
                 end_at=datetime.fromisoformat(clean['endDate']+'T'+clean['endTime'])
                 if end_at<=start_at:return self.error(400,'结束时间须晚于开始时间。')
-                requested=body.get('durationDays')
-                if str(requested)!=str(duration):return self.error(400,'用车天数与开始结束日期不一致。')
+                duration=math.ceil((end_at-start_at).total_seconds()/86400)
+                if not 1<=duration<=30:return self.error(400,'估算租期应为1至30天。')
                 clean.update(durationDays=duration,startAt=start_at.isoformat(timespec='minutes'),endAt=end_at.isoformat(timespec='minutes'))
                 people=body.get('people');bags=body.get('bags')
                 if type(people) is not int or not 1<=people<=60 or type(bags) is not int or not 0<=bags<=60:raise ValueError()
@@ -219,27 +228,9 @@ class Handler(SimpleHTTPRequestHandler):
             with sqlite3.connect(DB) as db:
                 db.execute('INSERT INTO inquiries VALUES(?,?,?,?)',(identity,user['id'] if user else None,json.dumps(clean,ensure_ascii=False),int(time.time())))
                 inquiry_mail.enqueue(db,identity)
-            return self.reply(201,{'inquiry':{'id':identity,'status':'pending'}})
+            return self.reply(201,{'inquiry':{'id':identity,'status':'pending','durationDays':duration}})
         if path=='/api/orders':
-            user=self.session()
-            if not user:return self.error(401,'请先登录。')
-            try:
-                car=body['car'];prices={'718':1280,'x5':1080,'my':680,'e':880,'gl8':680,'magotan':420,'passat':480,'jetta':260,'coaster':1500,'h7':680}
-                if car not in prices:raise ValueError()
-                start=datetime.fromisoformat(body['start']);end=datetime.fromisoformat(body['end'])
-                seconds=(end-start).total_seconds()
-                if seconds<=0 or seconds>90*86400 or 'T' not in body['start'] or 'T' not in body['end']:raise ValueError()
-                if not body.get('pickup') or not body.get('name') or not body.get('phone') or not body.get('email'):raise ValueError()
-                days=max(1,math.ceil(seconds/86400));base=prices[car]*days
-                protection=body.get('protection','基础保障');extras=body.get('extras',[])
-                allowed_extras={'额外驾驶员','儿童座椅','额外里程','提前加油','雪地装备'}
-                if not isinstance(extras,list) or any(x not in allowed_extras for x in extras):raise ValueError()
-                cover={'基础保障':0,'标准保障':80,'尊享保障':150}[protection]*days
-                clean={k:str(body.get(k,''))[:300] for k in ('car','pickup','pickupId','pickupDetail','start','end','returnAt','name','phone','email')}
-                clean.update({'accountId':user['id'],'order':'YC-DEMO-'+secrets.token_hex(6).upper(),'timeConfirmed':True,'days':days,'protection':protection,'extras':list(set(extras)),'total':base+120+int((base+120)*.09+.5)+cover+len(set(extras))*60*days})
-            except (KeyError,ValueError,TypeError):return self.error(400,'订单数据不完整。')
-            with sqlite3.connect(DB) as db:db.execute('INSERT INTO orders VALUES(?,?,?,?)',(clean['order'],user['id'],json.dumps(clean,ensure_ascii=False),int(time.time())))
-            return self.reply(201,{'order':clean})
+            return self.error(410,'演示预订已停用，请提交用车咨询。')
         self.error(404,'操作失败，请稍后重试。')
     def list_directory(self,path):self.error(404,'操作失败，请稍后重试。');return None
     def log_message(self,format,*args):

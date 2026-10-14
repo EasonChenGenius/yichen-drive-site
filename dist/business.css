@@ -7,3 +7,5 @@
 .enquiry-itinerary{border:0;padding:0;margin:14px 0 24px;min-width:0}.enquiry-itinerary legend{font-size:22px;font-family:var(--serif,serif);padding:0;margin-bottom:22px}.enquiry-flight[hidden]{display:none!important}.enquiry-itinerary>p{font-size:14px;line-height:1.8;margin:0 0 24px}
 
 .password-toggle{border:0;background:transparent;color:#78644b;padding:6px 0;font-size:14px;cursor:pointer}.password-toggle:focus-visible{outline:2px solid #a38d6b;outline-offset:2px}
+
+.enquiry-duration{padding:18px 20px;border:1px solid #dedbd3;border-radius:18px;background:#f4f2ec}.enquiry-duration output{display:block;font-size:1.25rem;margin:8px 0}.enquiry-duration p{font-size:.9rem;margin:0}.enquiry-form label input[list]{min-width:0;width:100%}
