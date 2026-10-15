@@ -33,6 +33,9 @@ backups/
 *.bak
 
 # ---------- 4. 归档与大体积临时资源 ----------
+# 自动化测试产物：Playwright 截图与运行日志，每次跑测试都会重新生成
+output/
+.playwright-cli/
 # 发布副本：由 dist 复制而来，仅供 WorkBuddy 一键发布使用
 # （发布工具会把 dist 当作构建输出目录排除，所以需要这份副本）
 webroot/

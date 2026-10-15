@@ -20,3 +20,8 @@
 .skip-link{position:fixed;top:8px;left:16px;z-index:10000;padding:12px 20px;background:#171715;color:#fff;border-radius:12px;transform:translateY(-160%)}
 .skip-link:focus{transform:none}
 :focus-visible{outline:3px solid #80683d;outline-offset:3px}
+/* AA contrast on the existing warm neutral palette. */
+.field label,.section-head .eyebrow,.rental-step p,.configuration-note,.price-filter-caption label,.price-filter-limits,.catalog-name-price p,.catalog-price small,.catalog-actions small a,.showroom-bar .eyebrow,.showroom-note,.configuration-list .pending,.enquiry-duration .muted{color:#696252}
+.rental-step-number{color:#756b58}
+.required-label{color:#645038}
+.footer-bottom a{text-decoration:underline;text-underline-offset:3px}
