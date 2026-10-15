@@ -1,3 +1,5 @@
+let enquiryPhoneLibrary;
+function loadEnquiryPhoneLibrary(){if(window.libphonenumber)return Promise.resolve();if(enquiryPhoneLibrary)return enquiryPhoneLibrary;enquiryPhoneLibrary=new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='./vendor/libphonenumber-max-1.13.15.js';script.onload=()=>window.libphonenumber?resolve():reject(new Error('电话校验未能加载'));script.onerror=()=>{enquiryPhoneLibrary=null;script.remove();reject(new Error('电话校验未能加载'))};document.head.append(script)});return enquiryPhoneLibrary}
 /* v51: real enquiry handoff, session-only drafts and local international phone metadata. */
 function enquiryRegions(){
  const names=new Intl.DisplayNames([state.lang==='en'?'en':'zh-CN'],{type:'region'});

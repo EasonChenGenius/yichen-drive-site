@@ -8,6 +8,7 @@ os.environ['YICHEN_DATA_DIR']=str(qa);os.environ['YICHEN_CONFIG_FILE']=str(qa/'n
 sys.path.insert(0,str(ROOT))
 from webapp import create_app,service
 app=create_app(start_mail=False);guest=app.test_client();a=app.test_client();b=app.test_client()
+original_rate_limited=service.Handler.rate_limited
 service.Handler.rate_limited=lambda *args,**kwargs:False
 start=datetime.now(timezone(timedelta(hours=8))).date()+timedelta(days=2)
 base=dict(service='自驾租车',car='gl8',city='成都',startDate=str(start),endDate=str(start+timedelta(days=5)),startTime='10:00',endTime='10:00',people=5,bags=3,name='<img src=x onerror=alert(1)> QA',phone='13800138000',phoneRegion='CN',wechat='qa_only',pickupId='place-tianfu',returnId='place-tianfu',destinationId='city-chengdu',consent=True)
@@ -61,6 +62,30 @@ subprocess.run([sys.executable,str(ROOT/'backup-data.py'),'--data-dir',str(qa),'
 backup=next((qa/'backup').glob('*.sqlite3'))
 with sqlite3.connect(service.DB) as src,sqlite3.connect(backup) as restored:
  assert restored.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
- for table in ['users','inquiries','inquiry_mail','inquiry_followup','reviews']:assert src.execute('SELECT COUNT(*) FROM '+table).fetchone()==restored.execute('SELECT COUNT(*) FROM '+table).fetchone()
+ for table in ['users','inquiries','inquiry_mail','inquiry_followup','inquiry_requests','reviews']:assert src.execute('SELECT COUNT(*) FROM '+table).fetchone()==restored.execute('SELECT COUNT(*) FROM '+table).fetchone()
 assert backup.stat().st_mode&0o777==0o600
+import gzip
+plain=guest.get('/app.js');compressed=guest.get('/app.js',headers={'Accept-Encoding':'gzip'})
+assert compressed.headers['Content-Encoding']=='gzip'
+assert gzip.decompress(compressed.data)==plain.data
+assert 'Accept-Encoding' in compressed.headers['Vary']
+assert compressed.headers['X-Frame-Options']=='DENY'
+assert 'object-src' in compressed.headers['Content-Security-Policy']
+assert guest.get('/does-not-exist').status_code==404
+assert '页面未找到' in guest.get('/does-not-exist').text
+for private in ['/.env','/server.py','/accounts.sqlite3','/../server.py']:
+ assert guest.get(private).status_code==404
+service.AMAP_KEY='QA_PUBLIC_KEY';service.AMAP_SECURITY='QA_SECRET_NEVER_PUBLIC'
+assert guest.get('/api/config').json['cloudSyncEnabled'] is False
+assert 'workbuddy-cloud-sdk@dev' not in guest.get('/').text
+assert 'QA_SECRET_NEVER_PUBLIC' not in guest.get('/api/config').text
+assert guest.get('/api/config').json['amapKey']=='QA_PUBLIC_KEY'
+with sqlite3.connect(service.DB) as db:db.execute('UPDATE sessions SET expires=0')
+assert b.get('/api/inquiries').status_code==401
+service.PUBLIC_ORIGIN='https://qa.yichen.test'
+secure=app.test_client().post('/api/auth/login',base_url=service.PUBLIC_ORIGIN,json=dict(email='qa-b@example.com',password='QA-test-password-only'))
+assert 'Secure' in secure.headers['Set-Cookie'] and 'HttpOnly' in secure.headers['Set-Cookie'] and 'SameSite=Lax' in secure.headers['Set-Cookie']
+service.PUBLIC_ORIGIN='';service.RATE.clear();service.Handler.rate_limited=original_rate_limited
+attempts=[guest.post('/api/auth/login',json=dict(email='missing@example.com',password='QA-wrong-password')).status_code for _ in range(13)]
+assert attempts==[401]*12+[429],attempts
 print('PASS v54: duration/region/phone boundaries; concurrent idempotent retries; ownership and CSRF; malformed input; moderated reviews; session logout; fake mail delivery; persistence; backup restore integrity.')

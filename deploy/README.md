@@ -69,3 +69,11 @@ nginx 直接提供119MB左右的本地前端图片和静态文件。后台权限
 官方运行说明：
 - https://flask.palletsprojects.com/en/stable/deploying/gunicorn/
 - https://flask.palletsprojects.com/en/stable/deploying/proxy_fix/
+
+## 2026-10-15 QA补充
+
+- 当前验收基线：持久磁盘上的SQLite＋同源后端；不要把只读容器的临时目录当作持久数据目录。
+- 云同步未独立验收，默认关闭。若后续启用，需验证远端权限、后端可靠同步、幂等、数据告知及恢复；浏览器尽力双写不等于持久备份。
+- 静态资源新增压缩发布副本，源图保留；nginx模板含gzip、HTTPS服务器HSTS及基础CSP。WSGI直接访问也压缩文本响应。基础CSP并非严格script-src策略。
+- 启动服务会自动创建inquiry_requests幂等表；升级前先备份私有库，重启后验收响应丢失重试只有一条需求和一封提醒。
+- 正式域名、证书、备案、SMTP实际送达、日志监控、定时备份与异机恢复仍需在真实服务器验收。本地Lighthouse和模拟邮件不替代这些项目。

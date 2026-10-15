@@ -115,3 +115,12 @@ GSAP 与 ScrollTrigger 已在本地打包，支持减少动态效果设置。源
 ## v52 · 注册账号查看
 
 登录 `operator.html` 后点击“注册账号”，可搜索称呼/手机号/邮箱，筛选注册日期，分页查看并进入关联用车需求。普通账号无权读取此接口；不显示密码，不提供网页授权管理员功能。测试：`python tests/test_accounts_v52.py`、`node tests/test_auth_feedback_v52.cjs`。
+
+## QA v55 · 上线前验收
+
+本轮报告：`business/上线前QA报告-20261015.md`；证据与重跑说明：`design/qa-20261015/verification.md`。
+咨询版采用本地后端和持久SQLite。`GET /api/config` 默认 `cloudSyncEnabled:false`，未经独立权限、持久性及隐私验收不向云端自动双写。保留云同步代码供后续审核，当前不依赖其保存需求。
+
+新增 `requestId` 支持网络响应丢失后安全重试；旧客户端可省略，仍需升级至新前端才能获得相同重试保护。数据库启动时自动增加 `inquiry_requests` 表，不修改历史需求。客户需求查询只返回所属账号的咨询与跟进状态，不含管理员备注。
+
+运行 `python tests/serve_qa.py` 启动8767隔离验收服务：自动创建临时数据库和虚构后台账号，不加载真实配置、不启动SMTP。绝不能将该测试账号部署到正式库。真实收费资料、公开账户验证找回、隐私与合同文档及生产部署仍须完成。

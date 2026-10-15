@@ -3,7 +3,7 @@
 HTTP transport is provided by Gunicorn; static assets are served by nginx.
 No socket server or SMTP thread starts simply by importing this module.
 """
-import io,os,sqlite3
+import io,os,sqlite3,gzip
 from types import SimpleNamespace
 from urllib.parse import urlsplit
 from flask import Flask,request,Response
@@ -49,6 +49,19 @@ def create_app(*,start_mail=True):
         response.headers['Content-Security-Policy']="base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'"
         if request.path=='/operator.html' or request.path.startswith('/api/'):
             response.headers['Cache-Control']='no-store'
+        # nginx also compresses public assets; keep direct WSGI/staging responses equivalent.
+        if response.mimetype in ('text/html','text/css','text/javascript','application/javascript','application/json','image/svg+xml'):
+            response.vary.add('Accept-Encoding')
+            if response.status_code==200 and request.method!='HEAD' and request.accept_encodings['gzip']>0 and not response.headers.get('Content-Encoding'):
+                response.direct_passthrough=False
+                raw=response.get_data()
+                if len(raw)>=1024:
+                    compressed=gzip.compress(raw,compresslevel=6,mtime=0)
+                    if len(compressed)<len(raw):
+                        response.set_data(compressed)
+                        response.headers['Content-Encoding']='gzip'
+                        etag=response.get_etag()[0]
+                        if etag:response.set_etag(etag,weak=True)
         return response
     @app.get('/healthz')
     def health():

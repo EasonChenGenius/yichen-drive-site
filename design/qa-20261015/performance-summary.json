@@ -1,0 +1,68 @@
+[
+  {
+    "case": "mobile-home",
+    "url": "http://127.0.0.1:8767/",
+    "lighthouseVersion": "12.8.2",
+    "fetchTime": "2026-10-15T08:24:29.035Z",
+    "scores": {
+      "performance": 85,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 4297.7968500000015,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 63,
+      "total-byte-weight": 857038
+    },
+    "config": {
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate"
+    }
+  },
+  {
+    "case": "desktop-home",
+    "url": "http://127.0.0.1:8767/",
+    "lighthouseVersion": "12.8.2",
+    "fetchTime": "2026-10-15T08:24:41.483Z",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 835.5745000000001,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 0,
+      "total-byte-weight": 2404367
+    },
+    "config": {
+      "formFactor": "desktop",
+      "throttlingMethod": "simulate"
+    }
+  },
+  {
+    "case": "mobile-enquiry",
+    "url": "http://127.0.0.1:8767/#/enquiry?car=gl8",
+    "lighthouseVersion": "12.8.2",
+    "fetchTime": "2026-10-15T08:24:52.823Z",
+    "scores": {
+      "performance": 88,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 3941.1547000000005,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 1.5,
+      "total-byte-weight": 443504
+    },
+    "config": {
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate"
+    }
+  }
+]

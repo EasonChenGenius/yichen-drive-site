@@ -28,3 +28,6 @@
 
 .rental-step-grid p{color:#696252}
 body .search-box .field label,body .filters .configuration-note,body .filters .price-filter-caption label,body .vehicle-facts .configuration-list dd.pending,body .home-destinations .section-head p,body .destination-card-copy .destination-kind,body .destination-card-copy [data-count]{color:#696252}
+body .journey-card-body .eyebrow{color:#696252}
+
+.service-footer .footer-heading{font-family:var(--sans);font-size:1rem;font-weight:600;margin:0 0 24px;color:#d5dacd}

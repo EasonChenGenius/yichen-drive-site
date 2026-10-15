@@ -104,7 +104,7 @@ class Handler(SimpleHTTPRequestHandler):
         path=urlsplit(self.path).path
         if path.startswith('/api/operator/'):
             return operator_backend.get(self,DB,path,dict(parse_qsl(urlsplit(self.path).query)))
-        if path=='/api/config':return self.reply(200,{'amapKey':AMAP_KEY if AMAP_SECURITY else '', 'amapServiceHost':'/_AMapService','authEnabled':True,'amapConfigured':bool(AMAP_KEY and AMAP_SECURITY)})
+        if path=='/api/config':return self.reply(200,{'amapKey':AMAP_KEY if AMAP_SECURITY else '', 'amapServiceHost':'/_AMapService','authEnabled':True,'cloudSyncEnabled':False,'amapConfigured':bool(AMAP_KEY and AMAP_SECURITY)})
         if path=='/api/auth/me':return self.reply(200,{'user':self.session()})
         if path=='/api/reviews':
             car=dict(parse_qsl(urlsplit(self.path).query)).get('car','')
