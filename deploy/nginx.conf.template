@@ -15,7 +15,13 @@ server {
     root /opt/yichen-drive/current/dist;
     index index.html;
     client_max_body_size 16k;
+    gzip on;
+    gzip_types text/css application/javascript application/json image/svg+xml;
+    gzip_vary on;
+    error_page 404 /404.html;
     access_log off;
+    add_header Strict-Transport-Security "max-age=31536000" always;
+    add_header Content-Security-Policy "base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'" always;
     add_header X-Content-Type-Options nosniff always;
     add_header X-Frame-Options DENY always;
     add_header Referrer-Policy strict-origin-when-cross-origin always;
@@ -27,6 +33,7 @@ server {
         proxy_set_header X-Forwarded-For $remote_addr;
         proxy_set_header Sec-Fetch-Site $http_sec_fetch_site;
         proxy_read_timeout 45s;
+        add_header Strict-Transport-Security "max-age=31536000" always;
         add_header Cache-Control "no-store" always;
     }
     location ^~ /_AMapService/ {
