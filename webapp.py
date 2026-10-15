@@ -43,6 +43,10 @@ def create_app(*,start_mail=True):
     def index():return app.send_static_file('index.html')
     @app.after_request
     def cache_policy(response):
+        response.headers['X-Content-Type-Options']='nosniff'
+        response.headers['X-Frame-Options']='DENY'
+        response.headers['Referrer-Policy']='strict-origin-when-cross-origin'
+        response.headers['Content-Security-Policy']="base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'"
         if request.path=='/operator.html' or request.path.startswith('/api/'):
             response.headers['Cache-Control']='no-store'
         return response
@@ -53,6 +57,9 @@ def create_app(*,start_mail=True):
         except sqlite3.Error:return {'status':'unavailable'},503
         return {'status':'ok'}
     @app.errorhandler(HTTPException)
-    def http_error(error):return {'error':'请求无法处理，请检查提交信息。'},error.code
+    def http_error(error):
+        if error.code==404 and not request.path.startswith('/api/'):
+            return app.send_static_file('404.html'),404
+        return {'error':'请求无法处理，请检查提交信息。'},error.code
     if start_mail:service.inquiry_mail.start(service.DB)
     return app
