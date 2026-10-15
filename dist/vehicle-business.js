@@ -30,6 +30,7 @@ async function submitEnquiry(event){
  if(f.dataset.requestBody!==serialized){f.dataset.requestBody=serialized;f.dataset.requestId=crypto.randomUUID()}
  saveEnquiryDraft(f);
  const result=await accountRequest('/api/inquiries',{method:'POST',body:JSON.stringify({...payload,requestId:f.dataset.requestId})});
+ if(typeof cloudSaveInquiry==='function')cloudSaveInquiry({...payload,requestId:f.dataset.requestId}).then(cloudSyncStatus);
  sessionStorage.removeItem('yichen-enquiry-draft-v51');f.dataset.submitted='true';
  out.textContent='需求已保存，咨询编号：'+result.inquiry.id+'。估算租期 '+result.inquiry.durationDays+' 天。尚未确认车辆或报价，不收款、不锁车。';
  const receipt={id:result.inquiry.id,car:v.car,startAt:v.startDate+'T'+v.startTime,endAt:v.endDate+'T'+v.endTime,durationDays:result.inquiry.durationDays,status:'pending'};
