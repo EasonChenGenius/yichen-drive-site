@@ -13,11 +13,11 @@ function validateEnquiryPhone(f){
  phone.setCustomValidity(valid?'':'请输入所选国家或地区的有效联系电话。');return valid?parsed.number:'';
 }
 function enquiryContext(){const query=new URLSearchParams(state.route.split('?')[1]||'');return JSON.stringify([query.get('car')||'',query.get('service')||'自驾租车',state.booking?.start,state.booking?.end,state.booking?.pickupId,state.booking?.returnAt])}
-function saveEnquiryDraft(f){if(f.dataset.submitted==='true')return;const values=Object.fromEntries(new FormData(f));delete values.consent;sessionStorage.setItem('yichen-enquiry-draft-v51',JSON.stringify({context:f.dataset.context,values}))}
+function saveEnquiryDraft(f){if(f.dataset.submitted==='true')return;const values=Object.fromEntries(new FormData(f));delete values.consent;sessionStorage.setItem('yichen-enquiry-draft-v51',JSON.stringify({context:f.dataset.context,values,request:f.dataset.requestBody?{body:f.dataset.requestBody,id:f.dataset.requestId}:null}))}
 function enquiryPlace(value){const places=matchPlaces();return places.find(p=>p.id===value)||places.find(p=>p.id==='place-'+value)||places.find(p=>p.name===value)}
 function initEnquiryForm(f){
  f.dataset.context=enquiryContext();let draft;
- try{const saved=JSON.parse(sessionStorage.getItem('yichen-enquiry-draft-v51'));if(saved?.context===f.dataset.context)draft=saved.values}catch{}
+ try{const saved=JSON.parse(sessionStorage.getItem('yichen-enquiry-draft-v51'));if(saved?.context===f.dataset.context){draft=saved.values;if(saved.request){f.dataset.requestBody=saved.request.body;f.dataset.requestId=saved.request.id}}}catch{}
  const b=state.booking||{},m=state.matchRequest||{};const place=enquiryPlace(b.pickupId)||enquiryPlace(b.pickup)||enquiryPlace(m.start);
  const city=SERVICE_CITIES.find(c=>c.id===place?.cityKey)?.name||'成都';
  const values=draft||{city,pickupId:place?.id,returnId:(enquiryPlace(b.returnAt)?.id)||(b.same!==false?place?.id:''),destinationId:enquiryPlace(m.destination)?.id||'city-chengdu',people:m.people||2,bags:m.bags??2,startDate:b.start?.slice(0,10),endDate:b.end?.slice(0,10),startTime:b.timeConfirmed?b.start?.slice(11,16):'10:00',endTime:b.timeConfirmed?b.end?.slice(11,16):(b.start?.slice(0,10)===b.end?.slice(0,10)?'18:00':'10:00')};

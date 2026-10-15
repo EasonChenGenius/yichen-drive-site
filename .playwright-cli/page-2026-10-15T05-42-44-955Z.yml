@@ -1,0 +1,142 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "YICHEN Drive 首页" [ref=e5] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=e7]:
+          - strong [ref=e8]: YICHEN
+          - generic [ref=e9]: DRIVE
+      - navigation "主导航" [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: "#/"
+        - link "租车" [ref=e12] [cursor=pointer]:
+          - /url: "#/search"
+        - link "目的地" [ref=e13] [cursor=pointer]:
+          - /url: "#/destinations"
+        - link "路线灵感" [ref=e14] [cursor=pointer]:
+          - /url: "#/inspiration"
+        - link "服务地区" [ref=e15] [cursor=pointer]:
+          - /url: "#/services"
+        - link "关于我们" [ref=e16] [cursor=pointer]:
+          - /url: "#/about"
+      - generic [ref=e17]:
+        - button "搜索" [ref=e18] [cursor=pointer]
+        - button "我的车库" [ref=e22] [cursor=pointer]
+        - button "EN" [ref=e23] [cursor=pointer]
+        - button "登录 / 注册" [ref=e24] [cursor=pointer]
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - img "GT 跑车行驶在公路上" [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: YICHEN DRIVE · CURATED JOURNEYS
+          - heading "去更远的地方， 遇见更好的自己。" [level=1] [ref=e31]: 去更远的地方，遇见更好的自己。
+          - paragraph [ref=e32]: 精选高品质自驾车型，让每一次出发，都成为难忘的旅程。
+          - generic [ref=e33]:
+            - button "开始旅程 ↗" [ref=e34] [cursor=pointer]
+            - button "探索路线" [ref=e35] [cursor=pointer]
+        - generic [ref=e36]: DRIVE EASY.ROAM FREE.
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]: 取车地点
+          - combobox "取车地点" [ref=e41]: 成都天府国际机场
+        - generic [ref=e42]:
+          - generic [ref=e43]: 取车日期
+          - textbox "取车日期" [ref=e44]: 2026-10-23
+        - generic [ref=e45]:
+          - generic [ref=e46]: 还车日期
+          - textbox "还车日期" [ref=e47]: 2026-10-26
+        - button "搜索车辆 ↗" [ref=e48] [cursor=pointer]:
+          - text: 搜索车辆
+          - generic [ref=e49]: ↗
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - checkbox "同一地点还车" [checked] [ref=e52]
+          - text: 同一地点还车
+        - generic [ref=e53]: 先选地点与日期，确认行程时选择具体时刻
+    - generic [ref=e55]:
+      - article [ref=e56]:
+        - generic [ref=e57]: "01"
+        - heading "选择地点与日期" [level=3] [ref=e59]
+        - paragraph [ref=e60]: 先确定城市、具体取车地点和出发日期。
+      - article [ref=e61]:
+        - generic [ref=e62]: "02"
+        - heading "挑选合适的车型" [level=3] [ref=e64]
+        - paragraph [ref=e65]: 按预算与旅行方式选车，再核对座位、行李与具体版本。
+      - article [ref=e66]:
+        - generic [ref=e67]: "03"
+        - heading "确认用车安排" [level=3] [ref=e69]
+        - paragraph [ref=e70]: 通过邮件确认实际报价、取还车点与服务方式，再安排出发。
+  - contentinfo [ref=e79]:
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - link "YICHEN Drive 首页" [ref=e83] [cursor=pointer]:
+            - /url: "#/"
+            - generic [ref=e85]:
+              - strong [ref=e86]: YICHEN
+              - generic [ref=e87]: DRIVE
+          - paragraph [ref=e88]: 立足成都，连接四川 12 座服务城市。为城市出行与山水旅程，找到更合适的座驾。
+        - generic [ref=e89]:
+          - heading "服务城市" [level=4] [ref=e90]
+          - generic [ref=e91]:
+            - link "成都" [ref=e92] [cursor=pointer]:
+              - /url: "#/services?city=chengdu"
+            - link "绵阳" [ref=e93] [cursor=pointer]:
+              - /url: "#/services?city=mianyang"
+            - link "德阳" [ref=e94] [cursor=pointer]:
+              - /url: "#/services?city=deyang"
+            - link "乐山" [ref=e95] [cursor=pointer]:
+              - /url: "#/services?city=leshan"
+            - link "宜宾" [ref=e96] [cursor=pointer]:
+              - /url: "#/services?city=yibin"
+            - link "泸州" [ref=e97] [cursor=pointer]:
+              - /url: "#/services?city=luzhou"
+            - link "雅安" [ref=e98] [cursor=pointer]:
+              - /url: "#/services?city=yaan"
+            - link "西昌" [ref=e99] [cursor=pointer]:
+              - /url: "#/services?city=xichang"
+            - link "康定" [ref=e100] [cursor=pointer]:
+              - /url: "#/services?city=kangding"
+            - link "南充" [ref=e101] [cursor=pointer]:
+              - /url: "#/services?city=nanchong"
+            - link "达州" [ref=e102] [cursor=pointer]:
+              - /url: "#/services?city=dazhou"
+            - link "自贡" [ref=e103] [cursor=pointer]:
+              - /url: "#/services?city=zigong"
+        - generic [ref=e104]:
+          - heading "快速链接" [level=4] [ref=e105]
+          - link "车型库" [ref=e106] [cursor=pointer]:
+            - /url: "#/search"
+          - link "租车流程" [ref=e107] [cursor=pointer]:
+            - /url: "#/services?section=process"
+          - link "服务地区" [ref=e108] [cursor=pointer]:
+            - /url: "#/services"
+          - link "选车推荐" [ref=e109] [cursor=pointer]:
+            - /url: "#/match"
+          - link "立即选车" [ref=e110] [cursor=pointer]:
+            - /url: "#/search"
+        - generic [ref=e111]:
+          - heading "联系我们" [level=4] [ref=e112]
+          - generic [ref=e113]:
+            - generic [ref=e115]: 电话联系
+            - generic "暂未填写" [ref=e116]
+          - generic [ref=e117]:
+            - generic [ref=e119]: 微信联系
+            - generic "暂未填写" [ref=e120]
+          - link "2712723487@qq.com" [ref=e121] [cursor=pointer]:
+            - /url: mailto:2712723487@qq.com
+          - link "成都市高新区天府大道" [ref=e124] [cursor=pointer]:
+            - /url: https://uri.amap.com/search?keyword=%E6%88%90%E9%83%BD%E5%B8%82%E9%AB%98%E6%96%B0%E5%8C%BA%E5%A4%A9%E5%BA%9C%E5%A4%A7%E9%81%93&city=%E6%88%90%E9%83%BD&view=map&callnative=0
+          - link "邮件咨询用车" [ref=e127] [cursor=pointer]:
+            - /url: mailto:2712723487@qq.com?subject=YICHEN%20Drive%20%C2%B7%20%E7%A7%9F%E8%BD%A6%E5%92%A8%E8%AF%A2
+      - generic [ref=e129]:
+        - generic [ref=e130]: © 2026 YICHEN Drive.
+        - generic [ref=e131]:
+          - text: 车辆价格与订单为演示数据 ·
+          - link "摄影来源与许可" [ref=e132] [cursor=pointer]:
+            - /url: ./photo-credits.html
+          - text: ·
+          - link "地图来源" [ref=e133] [cursor=pointer]:
+            - /url: ./service-map-sources.html

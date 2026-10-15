@@ -26,9 +26,16 @@ async function submitEnquiry(event){
  syncEnquiryDates(f);validateEnquiryPhone(f);if(!f.reportValidity())return;
  f.dataset.submitting='true';b.disabled=true;out.textContent='正在保存需求…';
  try{const v=Object.fromEntries(new FormData(f)),phone=validateEnquiryPhone(f);
- const result=await accountRequest('/api/inquiries',{method:'POST',body:JSON.stringify({...v,phone,people:Number(v.people),bags:Number(v.bags),consent:v.consent==='on'})});
+ const payload={...v,phone,people:Number(v.people),bags:Number(v.bags),consent:v.consent==='on'},serialized=JSON.stringify(payload);
+ if(f.dataset.requestBody!==serialized){f.dataset.requestBody=serialized;f.dataset.requestId=crypto.randomUUID()}
+ saveEnquiryDraft(f);
+ const result=await accountRequest('/api/inquiries',{method:'POST',body:JSON.stringify({...payload,requestId:f.dataset.requestId})});
  sessionStorage.removeItem('yichen-enquiry-draft-v51');f.dataset.submitted='true';
  out.textContent='需求已保存，咨询编号：'+result.inquiry.id+'。估算租期 '+result.inquiry.durationDays+' 天。尚未确认车辆或报价，不收款、不锁车。';
+ const receipt={id:result.inquiry.id,car:v.car,startAt:v.startDate+'T'+v.startTime,endAt:v.endDate+'T'+v.endTime,durationDays:result.inquiry.durationDays,status:'pending'};
+ sessionStorage.setItem('yichen-enquiry-receipt',JSON.stringify(receipt));
+ if(state.account)await loadAccountInquiries();
+ const link=document.createElement('a');link.href='#/trips';link.className='link';link.textContent=' 查看我的需求 ↗';out.append(link);
  b.textContent='需求已提交';
  }catch(e){out.textContent=e.message;f.dataset.submitting='false';b.disabled=false;saveEnquiryDraft(f)}
 }

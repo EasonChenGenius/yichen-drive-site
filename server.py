@@ -35,6 +35,7 @@ with sqlite3.connect(DB) as db:
     CREATE TABLE IF NOT EXISTS orders(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,body TEXT NOT NULL,created INTEGER NOT NULL);
     CREATE INDEX IF NOT EXISTS orders_user ON orders(user_id);
     CREATE TABLE IF NOT EXISTS inquiries(id TEXT PRIMARY KEY,user_id TEXT,body TEXT NOT NULL,created INTEGER NOT NULL);
+    CREATE TABLE IF NOT EXISTS inquiry_requests(request_id TEXT PRIMARY KEY,fingerprint TEXT NOT NULL,inquiry_id TEXT NOT NULL);
     CREATE TABLE IF NOT EXISTS reviews(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,car TEXT NOT NULL,rating INTEGER NOT NULL,content TEXT NOT NULL,status TEXT NOT NULL DEFAULT 'pending',created INTEGER NOT NULL);
     CREATE INDEX IF NOT EXISTS reviews_car ON reviews(car,status);''')
 os.chmod(DB,0o600)
@@ -113,8 +114,8 @@ class Handler(SimpleHTTPRequestHandler):
         if path=='/api/inquiries':
             user=self.session()
             if not user:return self.error(401,'请先登录。')
-            with sqlite3.connect(DB) as db:rows=db.execute('SELECT body FROM inquiries WHERE user_id=? ORDER BY created DESC LIMIT 50',(user['id'],)).fetchall()
-            return self.reply(200,{'inquiries':[json.loads(r[0]) for r in rows]})
+            with sqlite3.connect(DB) as db:rows=db.execute('SELECT i.body,f.status FROM inquiries i LEFT JOIN inquiry_followup f ON f.id=i.id WHERE i.user_id=? ORDER BY i.created DESC LIMIT 50',(user['id'],)).fetchall()
+            return self.reply(200,{'inquiries':[{**json.loads(r[0]),'status':r[1] or 'pending'} for r in rows]})
         if path=='/api/orders':
             user=self.session()
             if not user:return self.error(401,'请先登录。')
@@ -182,7 +183,7 @@ class Handler(SimpleHTTPRequestHandler):
             if path=='/api/reviews':
                 if not user:return self.error(401,'请先登录后提交评价。')
                 content=body.get('content','');rating=body.get('rating');car=body.get('car')
-                if car not in cars or type(rating) is not int or not 1<=rating<=5 or not isinstance(content,str) or not 10<=len(content.strip())<=1000:return self.error(400,'请填写10至1000字的评价及有效评分。')
+                if not isinstance(car,str) or car not in cars or type(rating) is not int or not 1<=rating<=5 or not isinstance(content,str) or not 10<=len(content.strip())<=1000:return self.error(400,'请填写10至1000字的评价及有效评分。')
                 identity='REV-'+secrets.token_hex(8).upper()
                 with sqlite3.connect(DB) as db:db.execute('INSERT INTO reviews(id,user_id,car,rating,content,created) VALUES(?,?,?,?,?,?)',(identity,user['id'],car,rating,content.strip(),int(time.time())))
                 return self.reply(201,{'review':{'id':identity,'status':'pending'}})
@@ -224,9 +225,18 @@ class Handler(SimpleHTTPRequestHandler):
                 for key,label in [('pickupId','pickup'),('returnId','returnAt'),('destinationId','destination')]:clean[label]=ENQUIRY_PLACES[clean[key]]['name']
                 identity='YC-INQ-'+secrets.token_hex(6).upper();clean.update(id=identity,people=people,bags=bags,status='pending',created=int(time.time()))
             except (ValueError,TypeError):return self.error(400,'请核对城市、日期、联系人、人数及行程信息。')
+            request_id=body.get('requestId','')
+            if not isinstance(request_id,str) or request_id and not re.fullmatch(r'[A-Za-z0-9-]{16,80}',request_id):return self.error(400,'提交标识无效，请刷新表单后重试。')
+            fingerprint=hashlib.sha256(json.dumps({k:v for k,v in clean.items() if k not in ('id','created','status')},sort_keys=True,ensure_ascii=False).encode()+str(user['id'] if user else 'guest').encode()).hexdigest()
             with sqlite3.connect(DB) as db:
+                db.execute('BEGIN IMMEDIATE')
+                previous=db.execute('SELECT fingerprint,inquiry_id FROM inquiry_requests WHERE request_id=?',(request_id,)).fetchone() if request_id else None
+                if previous:
+                    if not hmac.compare_digest(previous[0],fingerprint):return self.error(409,'提交标识已用于其他内容，请重新提交。')
+                    return self.reply(200,{'inquiry':{'id':previous[1],'status':'pending','durationDays':duration},'replayed':True})
                 db.execute('INSERT INTO inquiries VALUES(?,?,?,?)',(identity,user['id'] if user else None,json.dumps(clean,ensure_ascii=False),int(time.time())))
                 inquiry_mail.enqueue(db,identity)
+                if request_id:db.execute('INSERT INTO inquiry_requests VALUES(?,?,?)',(request_id,fingerprint,identity))
             return self.reply(201,{'inquiry':{'id':identity,'status':'pending','durationDays':duration}})
         if path=='/api/orders':
             return self.error(410,'演示预订已停用，请提交用车咨询。')
