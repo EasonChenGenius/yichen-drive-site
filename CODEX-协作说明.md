@@ -11,7 +11,7 @@
 这个项目已经纳入 Git 版本管理，请你在修改代码时遵守以下约定。
 
 项目目录：/Users/eason/Documents/Codex/2026-10-04/xia/outputs/yichen-drive-site
-（dist/ 就是源码，没有 src/、没有 package.json、没有构建步骤，改完刷新页面即生效）
+（dist/ 保留源码，没有 src/、没有 package.json。v56起修改JS、公共CSS或首屏模板后，必须运行 python3 scripts/build-first-paint.py 更新发布入口；使用 --check 验证一致，再刷新页面。）
 
 【版本留痕 —— 每次改完必须做】
 这个目录是 Git 仓库，远端私有仓库：git@github.com:EasonChenGenius/yichen-drive-site
@@ -131,3 +131,9 @@ ssh -T git@github.com           # 验证 SSH 是否配好
 ```
 
 ⚠️ **GitHub 不等于上线。** 仓库只做版本留痕与备份，客户看不到、也跑不了 Flask 后端。真正上线仍需域名 + 云服务器 + ICP 备案。
+
+## 六、v56 发布副本约定（2026-10-16）
+
+首屏HTML与公共样式提前显示，应用脚本由 `scripts/first-paint-sources.json` 指定顺序并生成 `dist/application-v56.js`。修改源文件后必须运行 `python3 scripts/build-first-paint.py`；`python3 scripts/build-first-paint.py --check` 用于校验生成文件未落后。首屏模板与运行时同一段文案需同步修改。原始照片与Logo保留；WebP为发布副本。
+
+本轮仅本地提交，不推送、不打标签；以当前用户授权为准。

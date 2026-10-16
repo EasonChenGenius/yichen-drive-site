@@ -1,0 +1,7 @@
+{
+  "fixture": "isolated QA database only",
+  "inquiryId": "YC-INQ-01F63B6F6B3C",
+  "mailStatus": "pending",
+  "attempts": 0,
+  "smtpDisabled": true
+}

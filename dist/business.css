@@ -31,3 +31,6 @@ body .search-box .field label,body .filters .configuration-note,body .filters .p
 body .journey-card-body .eyebrow{color:#696252}
 
 .service-footer .footer-heading{font-family:var(--sans);font-size:1rem;font-weight:600;margin:0 0 24px;color:#d5dacd}
+
+/* Consistent country search in Safari and other browsers; no native datalist dependency. */
+.phone-region-picker{position:relative;min-width:0;margin-bottom:20px}.enquiry-form .phone-region-picker>label{margin-bottom:0}.phone-region-picker [role=listbox]{position:absolute;top:100%;left:0;right:0;z-index:30;max-height:260px;overflow:auto;background:#fff;border:1px solid #d7d1c7;border-radius:14px;box-shadow:0 12px 30px #25252220;padding:6px}.phone-region-picker [role=listbox][hidden]{display:none}.phone-region-picker [role=option]{display:block;width:100%;border:0;border-radius:9px;padding:12px;text-align:left;background:transparent;color:#38352f;font:inherit}.phone-region-picker [role=option]:hover,.phone-region-picker [role=option]:focus-visible,.phone-region-picker [role=option][aria-selected=true]{background:#eee8dd}.phone-region-picker [role=listbox] p{padding:10px;font-size:14px;margin:0}

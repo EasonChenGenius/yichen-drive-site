@@ -1,0 +1,20 @@
+[
+  "./first-paint.js?v=20261015-perf-v56",
+  "./cloud-sync.js?v=20261015-perf-v56",
+  "./image-delivery.js?v=20261015-perf-v56",
+  "./i18n.js?v=20261015-perf-v56",
+  "./integrations.js?v=20261015-perf-v56",
+  "./vehicle-facts.js?v=20261015-perf-v56",
+  "./vehicle-configs.js?v=20261015-perf-v56",
+  "./vehicle-references.js?v=20261015-perf-v56",
+  "./vehicle-photo-data.js?v=20261015-perf-v56",
+  "./vehicle-ui.js?v=20261015-perf-v56",
+  "./destination-gallery.js?v=20261015-perf-v56",
+  "./tour-content.js?v=20261015-perf-v56",
+  "./service-content.js?v=20261015-perf-v56",
+  "./match-places.js?v=20261015-perf-v56",
+  "./enquiry-flow.js?v=20261015-perf-v56",
+  "./insurance-guide.js?v=20261015-perf-v56",
+  "./vehicle-business.js?v=20261015-perf-v56",
+  "./app.js?v=20261015-perf-v56"
+]

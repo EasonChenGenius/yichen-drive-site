@@ -1,0 +1,332 @@
+{
+  "checks": [
+    {
+      "name": "phone metadata failure blocks submission safely",
+      "pass": true
+    },
+    {
+      "name": "phone metadata retry recovers form",
+      "pass": true
+    },
+    {
+      "name": "four people and four bags route match",
+      "pass": true
+    },
+    {
+      "name": "six bags excludes Jetta and Model Y",
+      "pass": true
+    },
+    {
+      "name": "北京 cannot be selected for pickup",
+      "pass": true
+    },
+    {
+      "name": "上海 cannot be selected for pickup",
+      "pass": true
+    },
+    {
+      "name": "重庆 cannot be selected for pickup",
+      "pass": true
+    },
+    {
+      "name": "西安 cannot be selected for pickup",
+      "pass": true
+    },
+    {
+      "name": "广州 cannot be selected for pickup",
+      "pass": true
+    },
+    {
+      "name": "keyboard can select pickup",
+      "pass": true
+    },
+    {
+      "name": "unpriced car can enquire",
+      "pass": true
+    },
+    {
+      "name": "503 retains draft",
+      "pass": true
+    },
+    {
+      "name": "mobile Hong Kong phone accepted",
+      "pass": true
+    },
+    {
+      "name": "gallery next and source follow photo",
+      "pass": true
+    },
+    {
+      "name": "failed image does not block enquiry",
+      "pass": true
+    },
+    {
+      "name": "all vehicle/destination/route pages render one H1",
+      "pass": true
+    },
+    {
+      "name": "unknown car is not replaced with a different model",
+      "pass": true
+    },
+    {
+      "name": "unknown route shows 404",
+      "pass": true
+    },
+    {
+      "name": "operator can save completion and history",
+      "pass": true
+    },
+    {
+      "name": "operator logout clears private detail",
+      "pass": true
+    }
+  ],
+  "smoke": [
+    {
+      "route": "#/car/718",
+      "h1": 1,
+      "title": "保时捷 718 Boxster · YICHEN Drive"
+    },
+    {
+      "route": "#/car/x5",
+      "h1": 1,
+      "title": "宝马 X5 · YICHEN Drive"
+    },
+    {
+      "route": "#/car/my",
+      "h1": 1,
+      "title": "特斯拉 Model Y · YICHEN Drive"
+    },
+    {
+      "route": "#/car/e",
+      "h1": 1,
+      "title": "奔驰 E 级 · YICHEN Drive"
+    },
+    {
+      "route": "#/car/gl8",
+      "h1": 1,
+      "title": "别克 GL8 陆尊（棕色） · YICHEN Drive"
+    },
+    {
+      "route": "#/car/gl8-653",
+      "h1": 1,
+      "title": "别克 GL8 653T（棕色） · YICHEN Drive"
+    },
+    {
+      "route": "#/car/denza-d9",
+      "h1": 1,
+      "title": "腾势 D9（车型参考） · YICHEN Drive"
+    },
+    {
+      "route": "#/car/magotan",
+      "h1": 1,
+      "title": "大众迈腾 · YICHEN Drive"
+    },
+    {
+      "route": "#/car/passat",
+      "h1": 1,
+      "title": "大众帕萨特 2014款（黑色） · YICHEN Drive"
+    },
+    {
+      "route": "#/car/jetta",
+      "h1": 1,
+      "title": "大众捷达（白色） · YICHEN Drive"
+    },
+    {
+      "route": "#/car/coaster",
+      "h1": 1,
+      "title": "丰田考斯特（浅香槟棕） · YICHEN Drive"
+    },
+    {
+      "route": "#/car/h7",
+      "h1": 1,
+      "title": "红旗 H7（黑色，2022年） · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/kuanzhai",
+      "h1": 1,
+      "title": "宽窄巷子 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/chunxi",
+      "h1": 1,
+      "title": "春熙路 · 太古里 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/twins",
+      "h1": 1,
+      "title": "金融城双子塔 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/tianfu",
+      "h1": 1,
+      "title": "天府广场 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/luhu-cpi",
+      "h1": 1,
+      "title": "麓湖 · CPI · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/dujiangyan",
+      "h1": 1,
+      "title": "都江堰 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/siguniang",
+      "h1": 1,
+      "title": "四姑娘山 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/jiuzhai",
+      "h1": 1,
+      "title": "九寨沟 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/qingcheng",
+      "h1": 1,
+      "title": "青城山 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/panda",
+      "h1": 1,
+      "title": "大熊猫繁育研究基地 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/jinli",
+      "h1": 1,
+      "title": "锦里 · 武侯祠 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/wenshu",
+      "h1": 1,
+      "title": "文殊院 · 文殊坊 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/dongjiao",
+      "h1": 1,
+      "title": "东郊记忆 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/jiaozi-ring",
+      "h1": 1,
+      "title": "交子之环 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/global",
+      "h1": 1,
+      "title": "环球中心 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/tower339",
+      "h1": 1,
+      "title": "339 电视塔 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/tianfu-art",
+      "h1": 1,
+      "title": "天府艺术公园 · 美术馆 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/renmin",
+      "h1": 1,
+      "title": "人民公园 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/wangjiang",
+      "h1": 1,
+      "title": "望江楼公园 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/luodai",
+      "h1": 1,
+      "title": "洛带古镇 · 客家土楼 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/daci",
+      "h1": 1,
+      "title": "大慈寺 · YICHEN Drive"
+    },
+    {
+      "route": "#/destination/leshan-buddha",
+      "h1": 1,
+      "title": "乐山大佛 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/old-chengdu",
+      "h1": 1,
+      "title": "老成都慢游 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/fashion-walk",
+      "h1": 1,
+      "title": "城市时髦漫步 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/city-night",
+      "h1": 1,
+      "title": "交子城市夜色 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/panda-courtyards",
+      "h1": 1,
+      "title": "熊猫与老城 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/jinli-evening",
+      "h1": 1,
+      "title": "蜀地古街一日 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/creative-day",
+      "h1": 1,
+      "title": "红砖创意日 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/river-forest",
+      "h1": 1,
+      "title": "山水周末 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/qingcheng-reset",
+      "h1": 1,
+      "title": "青城慢生活 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/alpine-valley",
+      "h1": 1,
+      "title": "川西雪山与山谷 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/jiuzhai-colours",
+      "h1": 1,
+      "title": "九寨山水长线 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/family-chengdu",
+      "h1": 1,
+      "title": "成都家庭轻旅行 · YICHEN Drive"
+    },
+    {
+      "route": "#/route/chengdu-highlights",
+      "h1": 1,
+      "title": "成都城市精选 · YICHEN Drive"
+    },
+    {
+      "route": "#/services",
+      "h1": 1,
+      "title": "从成都出发，连接四川。 · YICHEN Drive"
+    },
+    {
+      "route": "#/about",
+      "h1": 1,
+      "title": "从成都出发，走进更好的旅程。 · YICHEN Drive"
+    },
+    {
+      "route": "#/garage",
+      "h1": 1,
+      "title": "我的车库 · YICHEN Drive"
+    }
+  ],
+  "errors": []
+}

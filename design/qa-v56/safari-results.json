@@ -1,0 +1,94 @@
+{
+  "dates": "2026-10-15—16 Asia/Shanghai",
+  "browser": "Safari 27.0.1 (22625.1.29.11.28)",
+  "os": "macOS 27.0.1",
+  "method": "Actual system Safari, native UI via CUA; no WebKit substitution",
+  "webdriver": "Remote automation enabled by user; session creation timed out; not counted as passed",
+  "checks": [
+    {
+      "name": "首页",
+      "observed": "原生Safari显示主视觉、文案及搜索控件",
+      "passed": true
+    },
+    {
+      "name": "搜索日期",
+      "observed": "键盘将10月23—26日改为16—21日，结果显示5天",
+      "passed": true
+    },
+    {
+      "name": "车型筛选",
+      "observed": "MPV筛选显示3个候选，刷新及返回保留条件",
+      "passed": true
+    },
+    {
+      "name": "车型详情",
+      "observed": "从搜索进入GL8，主按钮进入咨询",
+      "passed": true
+    },
+    {
+      "name": "行程带入",
+      "observed": "天府机场取还，10月16—21日，10:00，显示估算5天",
+      "passed": true
+    },
+    {
+      "name": "草稿刷新",
+      "observed": "5人、3件行李、虚构称呼及微信刷新后保留",
+      "passed": true
+    },
+    {
+      "name": "国际地区",
+      "observed": "键盘搜索852，向下键和回车选择香港",
+      "passed": true
+    },
+    {
+      "name": "无效电话",
+      "observed": "00000000被原生表单提示拒绝，没有提交",
+      "passed": true
+    },
+    {
+      "name": "有效电话",
+      "observed": "香港61234567提交成功，后台保存+85261234567",
+      "passed": true
+    },
+    {
+      "name": "提交回执",
+      "observed": "YC-INQ-01F63B6F6B3C，明确不收款、不锁车，未确认车辆或报价",
+      "passed": true
+    },
+    {
+      "name": "回执刷新",
+      "observed": "我的需求显示待联系和估算5天，刷新保留",
+      "passed": true
+    },
+    {
+      "name": "账户",
+      "observed": "既有隔离管理员账号登录成功，账户页正确显示虚构姓名",
+      "passed": true
+    },
+    {
+      "name": "后台",
+      "observed": "原生Safari进入运营后台并打开同一编号详情，姓名、电话、微信、人数与行程一致",
+      "passed": true
+    },
+    {
+      "name": "轮播",
+      "observed": "乐山大佛1/4→2/4→1/4，来源同步，暂停变为继续轮播",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Desktop Safari only",
+    "No iPhone device",
+    "No 5-person user test",
+    "Not a complete accessibility certification"
+  ],
+  "evidence": [
+    "safari-home.jpg",
+    "safari-invalid-phone.jpg",
+    "safari-inquiry-success.jpg",
+    "safari-receipt.jpg",
+    "safari-account.jpg",
+    "safari-operator.jpg",
+    "safari-gallery.jpg"
+  ]
+}

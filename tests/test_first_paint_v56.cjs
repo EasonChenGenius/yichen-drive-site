@@ -1,0 +1,36 @@
+/* Isolated browser regression for early HTML, boot failures, and Safari-compatible region UI. */
+const {chromium}=require(process.env.YICHEN_PLAYWRIGHT_MODULE||'playwright');
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true}),checks=[],errors=[];
+ const check=(name,pass)=>{assert(pass,name);checks.push(name)};
+ const context=await browser.newContext({viewport:{width:390,height:853},deviceScaleFactor:1.75});
+ await context.route('**/*',r=>new URL(r.request().url()).hostname==='127.0.0.1'?r.continue():r.abort());
+ const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
+ let release;const gate=new Promise(r=>release=r),images=[];page.on('request',r=>{if(r.resourceType()==='image')images.push(r.url())});
+ await page.route('**/application-v56.js*',async r=>{await gate;await r.continue()});
+ await page.goto('http://127.0.0.1:8767/',{waitUntil:'commit'});await page.locator('.hero h1').waitFor();
+ check('hero is visible before application downloads',await page.locator('.hero').isVisible()&&await page.locator('#pickup').count()===0);
+ await page.evaluate(()=>window.qaHero=document.querySelector('.hero'));
+ await page.getByRole('button',{name:'打开菜单'}).click();check('early mobile menu works',await page.locator('.mobile-menu').getAttribute('aria-expanded')==='true');
+ await page.getByRole('button',{name:'开始旅程'}).click();release();await page.locator('#pickup').waitFor();await page.waitForFunction(()=>typeof regionalConfig!=='undefined'&&document.querySelector('footer'));
+ check('startup preserves hero node',await page.evaluate(()=>window.qaHero===document.querySelector('.hero')));
+ check('one responsive hero download',images.filter(x=>/hero-(mobile|v2)/.test(x)).length===1&&images.some(x=>x.includes('hero-mobile-v56')));
+ await page.setViewportSize({width:1440,height:1000});await page.getByRole('button',{name:'EN',exact:true}).click();check('English toggle updates static hero',await page.locator('html').getAttribute('lang')==='en');await page.getByRole('button',{name:'中文',exact:true}).click();
+ await page.setViewportSize({width:390,height:853});await page.screenshot({path:path.resolve(__dirname,'../output/playwright/perf-v56/mobile-home.png'),fullPage:false});
+ const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));let releaseEnquiry;const gateEnquiry=new Promise(r=>releaseEnquiry=r);
+ await p.route('**/application-v56.js*',async r=>{await gateEnquiry;await r.continue()});
+ await p.goto('http://127.0.0.1:8767/#/enquiry?car=gl8',{waitUntil:'commit'});await p.getByRole('heading',{name:'告诉我们你的用车安排。'}).waitFor();
+ check('enquiry introduction paints before application',await p.locator('.enquiry-form').count()===0);
+ await p.evaluate(()=>window.qaIntro=document.querySelector('.subhero'));releaseEnquiry();await p.locator('.enquiry-form').waitFor();
+ check('phone library handoff preserves intro',await p.evaluate(()=>window.qaIntro===document.querySelector('.subhero')));
+ const country=p.locator('[name=phoneRegionChoice]');await country.fill('852');await country.press('ArrowDown');await p.keyboard.press('Enter');
+ check('country keyboard selection accepts HK',(await country.inputValue()).endsWith('· HK')&&await country.getAttribute('aria-expanded')==='false');
+ await p.locator('[name=phone]').fill('00000000');check('invalid HK phone rejected',!await p.locator('[name=phone]').evaluate(e=>e.checkValidity()));
+ await p.locator('[name=phone]').fill('61234567');check('valid HK phone accepted',await p.locator('[name=phone]').evaluate(e=>e.checkValidity()));
+ await country.focus();await country.press('Escape');check('Escape closes country panel',await country.getAttribute('aria-expanded')==='false');
+ await p.screenshot({path:path.resolve(__dirname,'../output/playwright/perf-v56/mobile-enquiry.png'),fullPage:false});
+ let blocked=true;await p.route('**/match.css*',r=>blocked?r.abort():r.continue());await p.goto('http://127.0.0.1:8767/#/match');await p.getByRole('heading',{name:'页面暂时无法加载'}).waitFor();check('route CSS failure has recovery',await p.getByRole('button',{name:'重新加载'}).isVisible());blocked=false;await p.getByRole('button',{name:'重新加载'}).click();await p.locator('#m-start').waitFor();check('route CSS retry recovers',await p.locator('#m-start').isVisible());
+ check('no JavaScript errors',errors.length===0);
+ const out=path.resolve(__dirname,'../output/playwright/perf-v56/first-paint-results.json');fs.writeFileSync(out,JSON.stringify({checks,errors},null,2));console.log(JSON.stringify({checks:checks.length,errors}));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

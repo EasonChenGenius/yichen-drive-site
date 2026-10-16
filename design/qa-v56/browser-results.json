@@ -1,0 +1,678 @@
+{
+  "checks": [
+    {
+      "name": "filter and sort survive reload",
+      "pass": true
+    },
+    {
+      "name": "Back preserves SUV and AWD",
+      "pass": true
+    },
+    {
+      "name": "legacy GL8 link preserves vehicle",
+      "pass": true
+    },
+    {
+      "name": "all-zero phone rejected",
+      "pass": true
+    },
+    {
+      "name": "draft survives reload",
+      "pass": true
+    },
+    {
+      "name": "search dates and location prefilled",
+      "pass": true
+    },
+    {
+      "name": "5-day duration",
+      "pass": true
+    },
+    {
+      "name": "failure retains form",
+      "pass": true
+    },
+    {
+      "name": "submit success has 5 days and disclaimer",
+      "pass": true
+    },
+    {
+      "name": "guest receipt visible",
+      "pass": true
+    },
+    {
+      "name": "guest receipt survives reload",
+      "pass": true
+    },
+    {
+      "name": "password visibility toggle",
+      "pass": true
+    },
+    {
+      "name": "signed-in inquiry visible",
+      "pass": true
+    },
+    {
+      "name": "signed-in inquiry persisted",
+      "pass": true
+    },
+    {
+      "name": "empty state has recovery",
+      "pass": true
+    },
+    {
+      "name": "clear filters returns results",
+      "pass": true
+    },
+    {
+      "name": "mobile navigation opens",
+      "pass": true
+    },
+    {
+      "name": "map fallback opens without provider",
+      "pass": true
+    },
+    {
+      "name": "dialog retains focus",
+      "pass": true
+    },
+    {
+      "name": "Escape closes dialog",
+      "pass": true
+    }
+  ],
+  "layouts": [
+    {
+      "width": 375,
+      "route": "#/",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 375,
+      "route": "#/search",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 375,
+      "route": "#/car/gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 375,
+      "route": "#/enquiry?car=gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 375,
+      "route": "#/match",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 375,
+      "route": "#/destinations",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 375,
+      "route": "#/trips",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 375,
+      "route": "#/account",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "#/",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "#/search",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "#/car/gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "#/enquiry?car=gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "#/match",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "#/destinations",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "#/trips",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "#/account",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 393,
+      "route": "#/",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 393,
+      "route": "#/search",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 393,
+      "route": "#/car/gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 393,
+      "route": "#/enquiry?car=gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 393,
+      "route": "#/match",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 393,
+      "route": "#/destinations",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 393,
+      "route": "#/trips",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 393,
+      "route": "#/account",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 430,
+      "route": "#/",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 430,
+      "route": "#/search",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 430,
+      "route": "#/car/gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 430,
+      "route": "#/enquiry?car=gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 430,
+      "route": "#/match",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 430,
+      "route": "#/destinations",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 430,
+      "route": "#/trips",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 430,
+      "route": "#/account",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "route": "#/",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "route": "#/search",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "route": "#/car/gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "route": "#/enquiry?car=gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "route": "#/match",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "route": "#/destinations",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "route": "#/trips",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "route": "#/account",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "route": "#/",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "route": "#/search",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "route": "#/car/gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "route": "#/enquiry?car=gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "route": "#/match",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "route": "#/destinations",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "route": "#/trips",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "route": "#/account",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "#/",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "#/search",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "#/car/gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "#/enquiry?car=gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "#/match",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "#/destinations",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "#/trips",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "#/account",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "route": "#/",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "route": "#/search",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "route": "#/car/gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "route": "#/enquiry?car=gl8",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "route": "#/match",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "route": "#/destinations",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "route": "#/trips",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "route": "#/account",
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": []
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 390,
+      "route": "#/",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "#/search",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".price-filter-limits > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.09 (foreground color: #999283, background color: #ffffff, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".price-filter-limits > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.09 (foreground color: #999283, background color: #ffffff, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "#/car/gl8",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".showroom-bar > div > .eyebrow"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #8b7761, background color: #f8f7f2, font size: 6.1pt (8.16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".showroom-note"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.19 (foreground color: #918a7d, background color: #f8f7f2, font size: 8.0pt (10.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "#/enquiry?car=gl8",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "#/match",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "#/trips",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "#/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "#/search",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".price-filter-limits > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.09 (foreground color: #999283, background color: #ffffff, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".price-filter-limits > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.09 (foreground color: #999283, background color: #ffffff, font size: 7.4pt (9.92px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "#/car/gl8",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".showroom-bar > div > .eyebrow"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #8b7761, background color: #f8f7f2, font size: 7.6pt (10.08px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".showroom-note"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.19 (foreground color: #918a7d, background color: #f8f7f2, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "#/enquiry?car=gl8",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "#/match",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "#/trips",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

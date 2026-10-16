@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="preload" as="image" href="./images/optimized/hero-v2-cbe4ebc8.webp" fetchpriority="high">
+  <script>
+    if(!location.hash || ["#","#/"].includes(location.hash.split("?")[0]))document.write('<link rel="preload" as="image" href="./images/optimized/hero-v2-cbe4ebc8.webp" imagesrcset="./images/optimized/hero-mobile-v56.webp 768w, ./images/optimized/hero-v2-cbe4ebc8.webp 1536w" imagesizes="100vw" fetchpriority="high">');
+    if(location.hash.startsWith('#/enquiry') || location.hash.startsWith('#/booking'))document.write('<link rel="preload" as="script" href="./vendor/libphonenumber-max-1.13.15.js">');
+  </script>
   <meta name="theme-color" content="#fbfaf7" />
   <link rel="icon" href="./images/brand/yichen-mark.png" type="image/png">
   <meta property="og:type" content="website">
@@ -94,36 +97,285 @@
     @media(max-width:750px){.hero,.hero-inner{min-height:525px}.hero-image{object-position:63% center}.hero:after{background:linear-gradient(180deg,#f8f7f3f2 0%,#f8f7f3dd 42%,#f8f7f322 100%)}.hero-copy{padding:48px 0 125px}.hero-copy h1{font-size:clamp(2.35rem,8.5vw,3.3rem);line-height:1.22;margin-top:20px}.hero-copy p{max-width:310px;line-height:1.7}.hero-side{bottom:83px}.search-wrap{margin-top:-71px}.search-box{padding:11px}.section{padding-top:68px;padding-bottom:68px}.section-head{margin-bottom:27px}.journey-grid{gap:10px}.journey-card{min-height:195px;padding:16px}.fleet-image{height:135px}.fleet-body{padding:13px}.fleet-body h3{font-size:1.08rem}.destination-card{height:205px}.match-band{min-height:0}.subhero{padding-top:38px;padding-bottom:25px}.navlinks a:after{display:none}}
     @media(prefers-reduced-motion:reduce){.navlinks a:after,.btn,.journey-card img,.destination-card img,.fleet-card,.result-card,.mini-card,.fleet-image img,.journey-icon,.option{transition:none!important}}
   </style>
-  <link rel="stylesheet" href="./regional.css?v=20261015-qa-v55" />
-  <link rel="stylesheet" href="./tour.css?v=20261015-qa-v55"/>
-  <link rel="stylesheet" href="./vehicle.css?v=20261015-qa-v55" />
-  <link rel="stylesheet" href="./brand.css?v=20261015-qa-v55" />
-  <link rel="stylesheet" href="./home.css?v=20261015-qa-v55" />
-  <link rel="stylesheet" href="./match.css?v=20261015-qa-v55" />
-  <link rel="stylesheet" href="./service.css?v=20261015-qa-v55" />
-<link rel="stylesheet" href="./business.css?v=20261015-qa-v55">
+  <!-- BEGIN GENERATED FIRST PAINT CSS -->
+<style>
+/* regional.css */
+.account-shell{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;padding-top:74px;padding-bottom:100px;max-width:1120px;align-items:start}.account-intro h1{font-size:clamp(2.9rem,5vw,4.8rem);line-height:1.18;margin:16px 0 22px}.account-intro>p{max-width:360px}.account-scene{position:relative;height:265px;overflow:hidden;border-radius:20px;margin-top:33px}.account-scene img{width:100%;height:100%;object-fit:cover}.account-scene:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#151b17aa,transparent 60%)}.account-scene>span{position:absolute;bottom:24px;left:24px;z-index:1;color:#fff;font-size:.66rem;letter-spacing:.2em}.auth-card{padding:32px}.auth-card .tabs{margin:0 0 27px}.auth-card .formfield{margin:14px 0}.auth-card .btn[type=submit]{width:100%}.auth-card h2{font-size:2.15rem}.auth-card>p{font-size:.85rem}.auth-error{color:#9b3f36;font-size:.83rem;min-height:1.4em;margin:12px 0}.auth-notice{background:#f2eee4;border:1px solid #ded5c0;border-radius:12px;padding:14px;color:#726347;font-size:.82rem}.auth-footnote{font-size:.74rem!important;line-height:1.8;margin:22px 0 0}.regional-map{height:540px;min-width:0;background:#efeee7;border:1px solid var(--line);border-radius:20px;overflow:hidden}.chengdu-overview{padding:30px;height:100%;overflow:auto;background:radial-gradient(ellipse at 100% 0,#dae1d8,transparent 65%),#f1f0e9}.map-caption h3{font-family:var(--serif);font-size:2rem;font-weight:500;margin:8px 0}.map-caption p{font-size:.8rem}.landmark-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:26px}.landmark{display:flex;gap:12px;padding:15px;background:#ffffffa6;border:1px solid #ffffff;border-radius:13px}.landmark>span{color:#8c7b62;font-size:1.4rem}.landmark b{font-size:.84rem;font-weight:550}.landmark small{display:block;font-size:.71rem;letter-spacing:0;margin-top:5px;color:var(--muted)}.map-note{font-size:.75rem;line-height:1.7;margin:12px 4px}.map-loading{height:100%;display:grid;place-items:center;color:var(--muted);font-size:.9rem}.map-info{max-width:250px;padding:8px;color:#171715}.map-info p{font-size:.8rem}.location-dialog{width:min(940px,calc(100vw - 32px));max-height:90vh;overflow:auto;padding:28px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:22px;box-shadow:0 35px 100px #17171538}.location-dialog::backdrop{background:#17171575;backdrop-filter:blur(8px)}.dialog-heading{display:flex;justify-content:space-between;align-items:start;gap:20px}.dialog-heading h2{font-size:2.3rem;margin:7px 0 22px}.picker-map{height:340px;overflow:hidden;background:#efede6;border-radius:15px}.picker-map>p{padding:22px}.picker-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}#picker-selection{margin-top:18px;font-size:.88rem}#picker-selection p{margin:7px 0}.scene-credit{position:absolute;top:16px;left:16px;font-size:.63rem;letter-spacing:.06em;background:#17171539;border:1px solid #ffffff44;border-radius:99px;padding:4px 8px;backdrop-filter:blur(5px)}[lang=en] .hero-copy h1{font-size:clamp(3rem,5.2vw,5.4rem);letter-spacing:-.045em}[lang=en] .hero-copy{max-width:590px}[lang=en] .navlinks{gap:20px}[lang=en] .field input{font-size:.83rem}[lang=en] .fleet-body h3{font-size:1.2rem}[lang=en] .subhero h1{max-width:1040px}
+@media(max-width:1050px){.account-shell{gap:36px}.landmark-grid{grid-template-columns:1fr}.regional-map{height:590px}}
+@media(max-width:750px){.account-shell{display:block;padding-top:34px;padding-bottom:65px}.account-intro h1{font-size:2.85rem}.account-scene{height:190px;margin:24px 0}.auth-card{padding:23px}.location-dialog{padding:20px}.dialog-heading h2{font-size:1.95rem}.picker-map{height:280px}.landmark-grid{grid-template-columns:1fr}.chengdu-overview{padding:23px}.regional-map{height:560px}[lang=en] .hero-copy h1{font-size:clamp(2.55rem,8.5vw,3.4rem)}[lang=en] .fleet-body h3{font-size:1rem;min-height:2.6em}}
+
+/* tour.css */
+.tour-filters{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0 32px}.tour-dest-grid{grid-template-columns:repeat(3,minmax(0,1fr));padding-bottom:85px}.destination-card{height:auto;aspect-ratio:4/3;min-height:260px}.destination-card img,.tour-route-image img,.destination-detail-hero>img{filter:saturate(.83) contrast(1.04) sepia(.07);object-fit:cover}.destination-kind{font-size:.64rem;color:#e4e3d9;letter-spacing:.08em;display:block;margin-bottom:7px}.destination-card h3{font-size:clamp(1.25rem,2.1vw,1.8rem)}.destination-card p{font-size:.77rem}.scene-credit{background:#1e262638!important;border:1px solid #ffffff35!important;backdrop-filter:blur(8px);font-weight:400;font-size:.6rem!important}.destination-detail-hero{position:relative;margin:35px 0 0;border-radius:25px;overflow:hidden;height:480px;color:#fff;isolation:isolate}.destination-detail-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#132222c2,#13222220 55%,transparent);z-index:-1}.destination-detail-hero>img{position:absolute;inset:0;width:100%;height:100%;z-index:-2}.destination-detail-caption{position:absolute;left:40px;right:35px;bottom:34px}.destination-detail-caption .eyebrow{color:#eeeee0}.destination-detail-caption h1{font-size:clamp(2.6rem,5vw,4.8rem);margin:13px 0 13px}.destination-detail-caption p{font-size:1rem;color:#eeeede;margin:0}.destination-detail-grid{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:50px;padding:45px 0 65px}.tour-info h2{font-size:clamp(2rem,3.2vw,3.2rem);margin:12px 0 25px}.tour-info dl{margin:0 0 25px}.tour-info dl>div{display:grid;grid-template-columns:125px 1fr;gap:20px;border-bottom:1px solid var(--line);padding:17px 0;font-size:.86rem}.tour-info dt{color:#7e786c}.tour-info dd{margin:0;color:#4e5148;line-height:1.8}.tour-info .link{font-size:.78rem}.tour-side{padding:28px;border:1px solid var(--line);border-radius:19px;align-self:start;background:#f0eee6}.tour-side h3{font-family:var(--serif);font-weight:500;font-size:1.65rem;line-height:1.4}.tour-side p{font-size:.82rem;color:#777366;line-height:1.85}.tour-side .btn{font-size:.82rem;margin:8px 0 22px}.tour-side .link{display:block;font-size:.77rem}.tour-route-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.tour-route-card{display:block;background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:transform .2s,box-shadow .2s}.tour-route-card:hover{transform:translateY(-3px);box-shadow:0 15px 35px #25252210}.tour-route-image{position:relative;aspect-ratio:3/2;overflow:hidden}.tour-route-image img{width:100%;height:100%;transition:transform .5s}.tour-route-card:hover img{transform:scale(1.025)}.tour-duration{position:absolute;left:16px;top:15px;background:#ffffffdc;border:1px solid #ffffff8a;border-radius:99px;padding:5px 11px;font-size:.72rem;color:#4a4e43;backdrop-filter:blur(8px)}.tour-route-copy{padding:23px}.tour-route-copy .eyebrow{font-size:.62rem}.tour-route-copy h3{font-family:var(--serif);font-size:1.75rem;font-weight:500;margin:10px 0 11px}.tour-route-copy p{font-size:.8rem;color:#7b766a;margin:0 0 17px;line-height:1.75}.tour-stops{padding-top:17px;border-top:1px solid var(--line);font-size:.74rem;line-height:1.9;color:#616558;min-height:61px}.tour-route-link{font-size:.75rem;display:block;margin-top:17px;font-weight:500}.tour-related{padding:0 0 75px}.tour-related h2{font-size:2.6rem}.tour-route-footnote{font-size:.75rem;line-height:1.8;color:#827d70;max-width:790px;margin:28px 0 75px}.tour-route-timeline{list-style:none;padding:0;margin:0 0 28px}.tour-route-timeline li{display:flex;gap:20px;position:relative;padding:0 0 24px}.tour-route-timeline li:before{content:'';position:absolute;left:17px;top:39px;bottom:8px;width:1px;background:#c9c4b8}.tour-route-timeline li:last-child:before{display:none}.tour-route-timeline li>span{border:1px solid #c9c4b8;width:36px;height:36px;display:grid;place-items:center;border-radius:50%;font-size:.7rem;flex-shrink:0;color:#8a765c}.tour-route-timeline h3{font-size:1.35rem;font-family:var(--serif);font-weight:500;margin:3px 0 5px}.tour-route-timeline small{font-size:.7rem;letter-spacing:0;color:#8b8578}.tour-route-note{font-size:.85rem;line-height:1.85;color:#746e61;padding:20px;background:#eeece4;border-radius:12px}.home-dest-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.photo-credit-link{font-size:.72rem;text-decoration:underline;text-underline-offset:4px;color:#878171;display:inline-block;margin-top:20px}
+@media(max-width:1050px){.tour-route-grid,.tour-dest-grid,.home-dest-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.destination-detail-grid{grid-template-columns:minmax(0,1fr) 285px;gap:27px}.destination-detail-hero{height:420px}}
+@media(max-width:750px){.tour-route-grid,.tour-dest-grid,.home-dest-grid{grid-template-columns:1fr;gap:17px}.destination-card{aspect-ratio:4/3;min-height:0}.tour-dest-grid{padding-bottom:50px}.destination-detail-hero{height:390px;border-radius:18px;margin-top:24px}.destination-detail-caption{left:23px;right:20px;bottom:25px}.destination-detail-caption h1{font-size:2.85rem}.destination-detail-caption p{font-size:.88rem}.destination-detail-grid{grid-template-columns:1fr;gap:25px;padding:30px 0 48px}.tour-info dl>div{grid-template-columns:94px 1fr;gap:15px;font-size:.79rem}.tour-side{padding:23px}.tour-related h2{font-size:2rem}.tour-route-copy{padding:21px}.tour-route-copy h3{font-size:1.6rem}.tour-route-footnote{margin-bottom:50px}.tour-filters{gap:6px}.tour-filters .chip{font-size:.74rem;min-height:42px}.scene-credit{font-size:.64rem!important}.destination-card h3{font-size:1.9rem}}
+@media(prefers-reduced-motion:reduce){.tour-route-card,.tour-route-image img{transition:none}}
+
+/* Preserve the real landmark colours in the five refreshed photographs. */
+.destination-card[data-destination="twins"] img,.destination-card[data-destination="wenshu"] img,.destination-card[data-destination="dongjiao"] img,.destination-card[data-destination="tianfu"] img,.destination-card[data-destination="luhu-cpi"] img{filter:none}
+.destination-card[data-destination="twins"]:before{background:linear-gradient(0deg,#090e20bd 0%,#090e2020 43%,transparent 68%)}
+
+.tour-filters .category-count{display:inline-block;margin-left:7px;font-size:.67rem;opacity:.58}.destination-card[data-destination="jinli"] img{filter:none}
+
+.destination-card[data-destination="kuanzhai"] img,.destination-card[data-destination="chunxi"] img{filter:none}
+
+[data-destination-gallery] img[hidden]{display:none!important}.destination-gallery-controls{position:absolute;z-index:3;right:24px;top:24px;display:flex;align-items:center;gap:8px;color:#fff;background:#20231ed9;border-radius:30px;padding:8px 12px;font-size:13px}.destination-gallery-controls button{color:inherit;border:1px solid #ffffff60;background:transparent;border-radius:20px;padding:8px 12px;cursor:pointer}.destination-gallery-controls button:focus-visible{outline:2px solid white;outline-offset:3px}@media(max-width:600px){.destination-gallery-controls{right:12px;top:12px;padding:6px;gap:5px;font-size:12px}.destination-gallery-controls button{padding:6px 9px}}
+.gallery-source-links{display:flex;flex-wrap:wrap;gap:12px;padding-top:18px;font-size:12px;color:#777568}
+
+/* Full landscape photographs with captions below, preserving every edge. */
+.destination-card,.home-destinations .destination-card,.home-destinations .destination-card:nth-child(-n+2){height:auto;aspect-ratio:auto;min-height:0;display:block;padding:0;background:#faf9f5;color:#24221d;border:1px solid #ded9cf}.destination-card:before{display:none}.destination-card-media{position:relative;aspect-ratio:3/2;background:#ece9e1;overflow:hidden}.destination-card .destination-card-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;filter:none;z-index:0;transform:none}.destination-card:hover img{transform:none}.destination-card-copy{padding:21px 24px 25px}.destination-card .destination-kind{color:#837b6c;font-size:.72rem;margin-bottom:9px}.destination-card h3{font-size:clamp(1.5rem,2.1vw,2rem)}.destination-card p{color:#6e685d;font-size:.86rem;margin-top:8px}.destination-card .scene-credit{z-index:1}.destination-card-media .scene-credit{left:16px;top:16px}@media(max-width:750px){.destination-card-copy{padding:18px 20px 22px}.destination-card h3{font-size:1.7rem}}
+
+/* Quiet gallery controls and edge-to-edge scenic cards. */
+.destination-card .destination-card-media img{object-fit:cover}.destination-card-controls{position:absolute;right:13px;bottom:13px;display:flex;align-items:center;gap:8px;padding:5px;border-radius:99px;background:#faf9f5ed;color:#36332e;z-index:4;box-shadow:0 3px 15px #00000012;font-size:12px}.destination-card-controls button{width:30px;height:30px;border:0;background:transparent;border-radius:50%;font-size:22px;cursor:pointer;color:inherit}.destination-card-controls button:hover{background:#ddd7cb}.destination-gallery-controls{background:#faf9f5ee;color:#35312b;box-shadow:0 4px 20px #00000016;padding:5px 8px;border:1px solid #ffffff60;gap:7px}.destination-gallery-controls button{border:0;background:transparent;color:inherit;min-width:34px;border-radius:99px;padding:9px 10px}.destination-gallery-controls button:hover{background:#e3ded3}.destination-gallery-controls button:focus-visible,.destination-card-controls button:focus-visible{outline:2px solid #9a8467;outline-offset:2px}.gallery-source-links a[hidden]{display:none!important}.gallery-source-links{min-height:25px}
+
+[data-destination-gallery] img.gallery-leaving[hidden]{display:block!important;pointer-events:none}.destination-card-media img.gallery-current{z-index:2}.destination-card-media img.gallery-leaving{z-index:1}.destination-detail-hero>img.gallery-current{z-index:-2}.destination-detail-hero>img.gallery-leaving{z-index:-3}
+
+/* Slideshow controls sit below the photograph, inside the caption. */
+.destination-card-copy{position:relative;padding-top:23px}.destination-card-controls{position:static;float:right;margin:-5px -6px 7px 12px;padding:0;gap:9px;background:transparent;box-shadow:none;border-radius:0;color:#827869;font-size:12px;font-variant-numeric:tabular-nums}.destination-card-controls button{width:32px;height:32px;display:grid;place-items:center;font-family:Arial,sans-serif;font-size:21px;border:1px solid #e0d9cd;background:transparent;color:#61584c;line-height:1}.destination-card-controls button:hover{background:#ece7de;border-color:#c8bdaa}.destination-card .destination-kind{min-height:32px;display:flex;align-items:center;margin-bottom:8px}.destination-card-copy h3{clear:both}
+
+/* brand.css */
+/* Supplied logo, kept in its original proportions. */
+.brand.brand-lockup{display:flex;flex-direction:row;align-items:center;gap:11px;min-width:172px;line-height:1;width:max-content}
+.brand.brand-lockup .brand-mark{display:block;flex-shrink:0;width:48px;height:48px;letter-spacing:0;margin:0;mix-blend-mode:multiply}
+.brand-mark img{width:100%;height:100%;object-fit:contain}
+.brand.brand-lockup .brand-wordmark{font-family:"Times New Roman",Times,serif;display:flex;flex-direction:column;letter-spacing:normal;margin:0}
+.brand.brand-lockup strong{font-size:1.5rem;letter-spacing:.13em;font-weight:400}
+.brand.brand-lockup .brand-wordmark>span{font-size:.6rem;letter-spacing:.43em;margin:7px 0 0}
+.footer-grid a.brand-lockup{display:flex;margin:0;color:#fff;font-size:inherit}
+footer .brand.brand-lockup .brand-mark{width:57px;height:57px;filter:invert(1);mix-blend-mode:screen}
+footer .brand.brand-lockup strong{font-size:1.65rem}
+@media(max-width:1050px){.nav{gap:22px}.nav .brand.brand-lockup{min-width:155px;gap:9px}.nav .brand.brand-lockup .brand-mark{width:43px;height:43px}.nav .brand.brand-lockup strong{font-size:1.36rem}}
+@media(max-width:750px){.nav{gap:14px}.nav .brand.brand-lockup{min-width:0;gap:9px}.nav .brand.brand-lockup .brand-mark{width:40px;height:40px}.nav .brand.brand-lockup strong{font-size:1.24rem;letter-spacing:.11em}.nav .brand.brand-lockup .brand-wordmark>span{font-size:.54rem;letter-spacing:.38em;margin-top:6px}}
+
+/* Larger editorial navigation matching the page headings. */
+.nav{height:88px;gap:24px}.navlinks{gap:24px}.navlinks a{font-family:var(--serif);font-size:1.12rem;font-weight:500;letter-spacing:.04em;white-space:nowrap;line-height:1.5;padding:12px 0}.navright{gap:12px}.navright button{font-family:var(--sans);font-size:1rem;font-weight:400;color:#3b3730}.navright .login{padding:10px 18px;border-color:#d6cfc2}.mobile-panel a{font-family:var(--serif);font-size:1.18rem;line-height:1.8}@media(max-width:1150px) and (min-width:901px){.nav{gap:16px}.navlinks{gap:16px}.navlinks a{font-size:1.12rem;letter-spacing:.02em}.navright{gap:8px}.navright button{font-size:1rem}.nav .brand.brand-lockup{min-width:150px}.navright .login{padding:9px 12px}}@media(max-width:900px){.nav{height:76px}}
+
+@media(max-width:900px){.navlinks,.navright .textnav,.navright .login{display:none}.navright{margin-left:auto}.mobile-menu{display:block!important;font-size:1.3rem!important}.mobile-panel.open{display:grid;gap:4px;padding:14px 17px 20px;border-top:1px solid var(--line);background:#faf9f5}}
+
+/* Rounded navigation feedback and a clear search target. */
+.navlinks a:after{display:none}.navlinks a{border-radius:99px;padding:9px 10px;transition:background .2s,color .2s}.navlinks a:hover,.navlinks a:focus-visible{background:#eae6dd;color:#211e19}.navlinks a:focus-visible{outline:2px solid #9b8b75;outline-offset:3px}.navlinks{gap:4px}.navright .nav-search{display:grid;place-items:center;width:46px;height:46px;flex-shrink:0;padding:0;border:1px solid #d9d3c8;border-radius:50%;background:#f0ede6}.nav-search svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}.navright .nav-search:hover{background:#e4ded3}@media(max-width:1150px) and (min-width:901px){.navlinks{gap:2px}.navlinks a{padding:9px 7px}}
+
+.navright button{white-space:nowrap}@media(max-width:1150px) and (min-width:901px){.nav{gap:10px}.nav .brand.brand-lockup{min-width:140px}.navlinks a{padding:9px 5px;letter-spacing:0}.navright{gap:5px}.navright .login{padding:9px 10px}.navright .nav-search{width:44px;height:44px}}
+
+.filter-heading .filter-reset{border:1px solid #d8d2c7;border-radius:99px;padding:8px 17px;background:#f6f3ed;color:#665d50;font:inherit;font-size:.83rem;cursor:pointer}.filter-reset:hover{background:#eae4d9}.contact-placeholder{display:flex;align-items:center;gap:12px;color:#abae9e;margin:15px 0;font-size:.86rem}.contact-placeholder svg{width:19px;height:19px}.contact-blank{min-width:70px;min-height:20px}.about-story{max-width:850px}.about-story p{line-height:1.95;color:#736e63;max-width:750px}.about-values{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.about-values article{background:#eeeae2;border:1px solid #ded8cc;border-radius:22px;padding:30px}.about-values article>span{font-size:.7rem;letter-spacing:.12em;color:#9b8c74}.about-values h2{font-size:1.9rem;margin:25px 0 17px}.about-values p{color:#726b5e;font-size:.93rem;line-height:1.9}@media(max-width:750px){.about-values{grid-template-columns:1fr}.about-values article{padding:25px}}
+
+.match-luggage-note{padding:15px 20px;border-radius:14px;background:#f0ece3;color:#746958;font-size:.9rem;line-height:1.8;margin:18px 0 25px}
+
+/* home.css */
+/* More open space below the copy, with a larger trip selector. */
+.hero-copy{position:relative;top:-48px}
+.search-wrap{max-width:1440px;padding-left:28px;padding-right:28px;margin-top:-100px}
+.search-box{padding:32px;border-radius:30px;min-height:164px;grid-template-columns:1.35fr 1fr 1fr auto}
+.search-box .field{padding:16px 28px}
+.search-box .field label{font-size:.82rem;margin-bottom:13px}
+.search-box .field input{font-size:1.04rem;min-height:44px}
+.search-box .field:nth-child(3){border-right:0}
+.search-box .search-cta{align-self:center;height:64px;min-height:64px;min-width:190px;margin-left:22px;border-radius:16px;font-size:.98rem;line-height:1.4;padding:14px 25px;gap:15px;box-shadow:none}
+.search-box .search-cta:hover{box-shadow:0 5px 14px #17171514}
+[lang=en] .search-box .field input{font-size:.94rem}
+@media(max-width:1050px) and (min-width:751px){.search-box{grid-template-columns:repeat(3,minmax(0,1fr));padding:26px;min-height:0}.search-box .field{padding:10px 16px}.search-box .search-cta{grid-column:1/-1;height:58px;min-height:58px;width:100%;margin:16px 0 0;border-radius:14px}}
+@media(max-width:750px){.hero-copy{top:-22px}.search-wrap{margin-top:-82px;padding-left:17px;padding-right:17px}.search-box{grid-template-columns:1fr;padding:20px;border-radius:24px;min-height:0}.search-box .field{padding:15px 14px}.search-box .field:nth-child(3){border-bottom:0}.search-box .field label{font-size:.77rem;margin-bottom:8px}.search-box .field input{min-height:44px;font-size:1rem}.search-box .search-cta{grid-column:auto;height:58px;min-height:58px;min-width:0;width:100%;padding:12px 20px;margin:14px 0 0;border-radius:14px;font-size:.94rem}}
+
+.home-rental-process{padding-top:65px;padding-bottom:64px}
+.home-rental-process .rental-step-grid{gap:23px}
+.home-rental-process .rental-step-grid>article{min-height:200px;padding:28px}
+.home-destinations{padding-top:36px;padding-bottom:65px;background:#f1efe7;border-radius:28px;margin-bottom:24px}
+.home-destinations .section-head{margin-bottom:30px}
+.home-destinations .section-head h2{font-size:clamp(2.7rem,5vw,4.5rem)}
+.home-destinations .home-dest-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.home-destinations .destination-card{aspect-ratio:4/5;min-height:280px}
+.home-destinations .destination-card:nth-child(-n+2){grid-column:span 2;aspect-ratio:16/9;min-height:300px}
+.home-destinations .destination-card h3{font-size:clamp(1.35rem,2.4vw,2.3rem)}
+@media(max-width:1050px){.home-destinations .home-dest-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-destinations .destination-card{aspect-ratio:4/3}.home-destinations .destination-card:nth-child(-n+2){grid-column:auto;aspect-ratio:4/3;min-height:0}}
+@media(max-width:750px){.home-rental-process{padding-top:45px;padding-bottom:42px}.home-rental-process .rental-step-grid>article{min-height:0;padding:23px}.home-destinations{padding-top:29px;padding-bottom:35px;border-radius:20px}.home-destinations .section-head>a{display:inline-flex;font-size:.72rem;padding:8px 13px;min-height:42px}.home-destinations .section-head{display:block}.home-destinations .section-head>a{margin-top:15px}.home-destinations .home-dest-grid{grid-template-columns:1fr}.home-destinations .destination-card,.home-destinations .destination-card:nth-child(-n+2){min-height:0;aspect-ratio:4/3}}
+
+.section.wrap,.rental-process.home-rental-process{padding-left:36px;padding-right:36px}
+.rental-process.home-rental-process{padding-top:65px;padding-bottom:64px}
+@media(max-width:750px){.section.wrap,.rental-process.home-rental-process{padding-left:17px;padding-right:17px}.rental-process.home-rental-process{padding-top:45px;padding-bottom:42px}}
+
+@media(max-width:750px){.home-rental-process .section-head{display:block}.home-rental-process .section-head>a{display:inline-flex;margin-top:16px}}
+
+.home-destinations .home-dest-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+.home-destinations .destination-card{grid-column:span 2;aspect-ratio:4/3}
+.home-destinations .destination-card:nth-child(-n+2){grid-column:span 3;aspect-ratio:16/9}
+@media(max-width:1050px){.home-destinations .home-dest-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-destinations .destination-card,.home-destinations .destination-card:nth-child(-n+2){grid-column:auto;aspect-ratio:4/3}}
+@media(max-width:750px){.home-destinations .home-dest-grid{grid-template-columns:1fr}}
+
+.search-box .field input{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;font-size:1rem;font-weight:400;letter-spacing:.015em;color:#38352f}.search-box .field label{font-weight:500;color:#8a8174;letter-spacing:.08em}.search-box .search-cta{font-weight:500}
+
+/* Cards now include a separate caption: never constrain the entire card to an image ratio. */
+.home-destinations .home-dest-grid{gap:24px;align-items:stretch}
+.home-destinations .destination-card,.home-destinations .destination-card:nth-child(-n+2){aspect-ratio:auto;height:auto;min-height:0;min-width:0;align-self:stretch}
+.home-destinations .destination-card-media{width:100%;aspect-ratio:3/2}
+.home-destinations .destination-card:nth-child(-n+2) .destination-card-media{aspect-ratio:16/9}
+.home-destinations .destination-card-copy{min-height:145px;padding:23px 24px 25px}
+@media(max-width:1050px){.home-destinations .destination-card:nth-child(-n+2) .destination-card-media{aspect-ratio:3/2}}
+@media(max-width:750px){.home-destinations .home-dest-grid{gap:18px}.home-destinations .destination-card-copy{min-height:0;padding:19px 20px 23px}}
+
+/* service.css */
+/* Reference-inspired catalogue, four-column footer and Sichuan service map. */
+.ui-icon{display:inline-block;width:19px;height:19px;flex-shrink:0;background:currentColor;-webkit-mask:var(--icon) center/contain no-repeat;mask:var(--icon) center/contain no-repeat;vertical-align:middle}
+.wrap.search-layout{padding-left:36px;padding-right:36px}
+.catalog-grid,.fleet-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:23px}
+.catalog-grid>.result-card,.fleet-grid>.fleet-card{display:block;margin:0;min-height:0;min-width:0;border:1px solid #30332e;border-radius:19px;overflow:hidden;background:#191c18;box-shadow:none;color:#f5f4ee}
+.catalog-media{position:relative;aspect-ratio:3/2;background:#eeece6;overflow:hidden}
+.catalog-media>a{display:block;width:100%;height:100%}
+.catalog-media img{display:block;width:100%;height:100%;object-fit:contain;padding:11px;transition:transform .35s ease}
+.fleet-card:hover .catalog-media img,.result-card:hover .catalog-media img{transform:scale(1.025)}
+.catalog-type{position:absolute;left:15px;top:15px;background:#22271de8;color:#c1d2ab;border:1px solid #57654155;border-radius:99px;padding:6px 12px;font-size:.68rem;line-height:1.3;pointer-events:none}
+.catalog-media .heart{right:15px;top:13px;width:34px;height:34px;display:grid;place-items:center;background:#ffffffe8;color:#6a6d60;z-index:2;box-shadow:0 3px 10px #1717150c}
+.catalog-media .heart .ui-icon{width:17px;height:17px}
+.catalog-media .heart.active{color:#b95545}
+.catalog-media .vehicle-reference-badge{font-size:.52rem;bottom:10px;left:12px;max-width:calc(100% - 24px);border-radius:6px}
+.catalog-body{padding:22px 21px 18px}
+.catalog-name-price{display:flex;justify-content:space-between;align-items:start;gap:15px}
+.catalog-name-price>div:first-child{min-width:0;flex:1}
+.catalog-name-price h3{font-family:var(--sans);font-weight:550;font-size:1.04rem;line-height:1.45;margin:0 0 5px;letter-spacing:0}
+.catalog-name-price p{font-size:.76rem;line-height:1.6;margin:0;color:#a3a797}
+.catalog-price{text-align:right;flex-shrink:0;padding-top:1px}
+.catalog-price strong{display:block;color:#96c3a8;font-size:1.34rem;font-weight:650;line-height:1.35}
+.catalog-price small{display:block;margin-top:6px;letter-spacing:0;text-transform:none;color:#9a9f90;font-size:.65rem}
+.catalog-specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 11px;padding-top:16px;margin-top:19px;border-top:1px solid #343930}
+.catalog-spec{display:flex;gap:6px;align-items:center;min-width:0;color:#a2a797;font-size:.66rem;line-height:1.45}
+.catalog-spec>.ui-icon{width:15px;height:15px;color:#858d7a}
+.catalog-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:19px}
+.catalog-actions small{font-size:.59rem;letter-spacing:0;text-transform:none;color:#828b78}
+.catalog-actions>a{font-size:.7rem;color:#c4d5b4;display:flex;align-items:center;gap:4px;min-height:30px}
+.catalog-actions .ui-icon{width:14px;height:14px}
+.service-footer{background:#10120f;padding:72px 0 29px;margin-top:0;color:#f2f2ea}
+.service-footer .footer-grid{grid-template-columns:1.15fr 1fr .8fr 1.25fr;gap:45px}
+.service-footer .footer-intro p{color:#919a88;max-width:275px;font-size:.85rem;line-height:1.95;margin:23px 0 0}
+.service-footer .footer-grid h4{margin:4px 0 22px;font-size:.9rem;font-weight:550;color:#e3e7dc}
+.service-footer .footer-grid a{color:#9ba393;font-size:.82rem;margin:0;line-height:1.6;transition:color .2s}
+.service-footer .footer-grid a:hover{color:#dce5d2}
+.service-footer .footer-city-grid{display:grid;grid-template-columns:repeat(3,max-content);gap:13px 14px}
+.service-footer .footer-quick>a{display:block;margin-bottom:11px}
+.service-footer .footer-contact>a{display:flex;align-items:start;gap:11px;margin-bottom:16px;overflow-wrap:anywhere}
+.service-footer .footer-contact .ui-icon{color:#8fc7a4;width:18px;height:18px;margin-top:3px}
+.service-footer .footer-contact .footer-contact-cta{font-size:.75rem;color:#b7c9a6;align-items:center;gap:6px;margin-top:23px}
+.service-footer .footer-contact-cta .ui-icon{width:15px;height:15px;margin:0}
+.service-footer .footer-bottom{margin-top:52px;padding-top:22px;color:#78846c;font-size:.65rem;border-color:#333b2c}
+.service-footer .footer-bottom a{color:#9ba990}
+.service-page .subhero{padding-bottom:34px}
+.service-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:34px;padding:31px;background:#11150f;color:#ebeee4;border:1px solid #30392b;border-radius:26px;margin:34px 0 0;align-items:start}
+.service-map-card{border:1px solid #2a3625;border-radius:18px;background:#11150f;overflow:hidden;min-width:0;align-self:stretch}
+.service-map-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:21px 22px 0}
+.service-map-heading>span{font-size:.6rem;letter-spacing:.14em;color:#718260}
+.service-map-heading>b{font-size:.76rem;color:#a5b894;font-weight:500}
+.service-map-card>img{display:block;width:100%;height:auto;aspect-ratio:11/10;object-fit:contain;background:#11150f}
+.service-map-legend{display:grid;gap:8px;padding:4px 22px 24px;color:#a4b893}
+.service-map-legend>span{display:flex;align-items:center;gap:7px;font-size:.73rem}
+.service-map-legend .ui-icon{width:15px;height:15px}
+.service-map-legend small{color:#728266;font-size:.64rem;letter-spacing:0;text-transform:none;line-height:1.7}
+.service-city-heading{padding:5px 0 17px}
+.service-city-heading .eyebrow{font-size:.62rem;letter-spacing:.15em;color:#788b67}
+.service-city-heading h2{font-size:1.9rem;line-height:1.35;margin:10px 0 0;color:#f0f4e9}
+.service-city-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.service-city-card{display:block;text-align:left;padding:14px 15px;border:1px solid #313a2a;background:#1a2016;color:#e3ebd9;border-radius:12px;min-height:80px;transition:background .2s,border-color .2s}
+.service-city-card>strong{display:flex;align-items:center;gap:8px;font-size:.89rem;font-weight:550}
+.service-city-card .ui-icon{color:#7ca78b;width:17px;height:17px}
+.service-city-card>span{display:block;color:#86957b;font-size:.66rem;line-height:1.7;margin-top:7px}
+.service-city-card:hover,.service-city-card.active{border-color:#6d8963;background:#24311d}
+.service-city-card.active>strong{color:#cae5b8}
+.service-selected{padding:21px 0 0}
+.service-selected>span{font-size:.62rem;color:#819370}
+.service-selected h3{font-family:var(--serif);font-size:1.4rem;font-weight:500;margin:5px 0 10px;color:#e3ecd8}
+.service-selected p{font-size:.74rem;line-height:1.8;color:#91a17f;margin:0 0 15px}
+.service-selected>div{display:flex;flex-wrap:wrap;align-items:center;gap:18px}
+.service-selected .btn{background:#bbd4a3;color:#1a2713;border-color:#bbd4a3;min-height:40px;font-size:.75rem;padding:9px 18px}
+.service-selected .btn .ui-icon{width:15px;height:15px}
+.service-selected>div>a:not(.btn){font-size:.69rem;color:#9eb488;text-decoration:underline;text-underline-offset:4px}
+.rental-process{padding:70px 0 80px;scroll-margin-top:96px}
+.rental-process .section-head h2{font-size:2.55rem}
+.rental-step-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.rental-step-grid>article{padding:25px;background:#f2f0e9;border:1px solid var(--line);border-radius:16px;position:relative}
+.rental-step-grid .ui-icon{width:23px;height:23px;color:#8b9878;margin:0 0 20px}
+.rental-step-number{position:absolute;right:24px;top:20px;font:1.5rem var(--serif);color:#c1baaa}
+.rental-step-grid h3{font-family:var(--serif);font-weight:500;font-size:1.48rem;margin:0 0 10px}
+.rental-step-grid p{font-size:.8rem;line-height:1.85;color:#837c6d;margin:0}
+@media(max-width:1150px){.catalog-grid,.fleet-grid{gap:17px}.catalog-body{padding:18px 16px}.catalog-name-price h3{font-size:.94rem}.catalog-price strong{font-size:1.18rem}.service-footer .footer-grid{gap:24px;grid-template-columns:1fr 1fr .8fr 1.2fr}.service-footer .footer-grid a{font-size:.76rem}.service-footer .footer-city-grid{gap:11px 10px}.service-layout{gap:22px;padding:22px}.service-city-card{padding:12px}.service-city-card>span{font-size:.61rem}}
+@media(max-width:1000px){.catalog-grid,.fleet-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.service-footer .footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:37px 45px}.service-footer .footer-city-grid{gap:13px 20px}.service-layout{grid-template-columns:1fr}.service-map-card{max-width:660px;width:100%;margin:auto}.service-city-heading{padding-top:8px}.service-city-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.service-city-card>span{font-size:.68rem}}
+@media(max-width:750px){.catalog-grid,.fleet-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.catalog-media{aspect-ratio:3/2}.catalog-media img{padding:7px}.catalog-type{font-size:.55rem;left:9px;top:9px;padding:5px 8px}.catalog-media .heart{width:28px;height:28px;right:9px;top:9px}.catalog-media .heart .ui-icon{width:14px;height:14px}.catalog-media .vehicle-reference-badge{font-size:.47rem;left:7px;bottom:6px;max-width:calc(100% - 14px)}.catalog-body{padding:15px 12px}.catalog-name-price{display:block}.catalog-name-price h3{font-size:.93rem}.catalog-name-price p{font-size:.68rem}.catalog-price{text-align:left;margin-top:12px}.catalog-price strong{font-size:1.17rem;display:inline}.catalog-price small{font-size:.58rem;margin:4px 0 0}.catalog-specs{gap:8px 6px;margin-top:14px;padding-top:12px;grid-template-columns:1fr}.catalog-spec{font-size:.6rem}.catalog-spec>.ui-icon{width:13px;height:13px}.catalog-actions{display:block;margin-top:12px}.catalog-actions small{font-size:.52rem}.catalog-actions>a{min-height:44px;font-size:.69rem}.service-footer{padding:47px 0 27px}.service-footer .footer-grid{gap:31px 25px}.service-footer .footer-grid>div:first-child{grid-column:1/-1}.service-footer .footer-contact{grid-column:1/-1}.service-footer .footer-grid h4{margin-bottom:16px;font-size:.85rem}.service-footer .footer-grid a{font-size:.78rem}.service-footer .footer-intro p{max-width:360px;margin-top:17px;font-size:.79rem}.service-footer .footer-city-grid{gap:11px 17px}.service-footer .footer-bottom{margin-top:34px;font-size:.62rem;line-height:1.9}.service-footer .footer-bottom>span{display:block;margin-bottom:6px}.service-page .subhero h1{font-size:2.7rem}.service-layout{padding:15px;gap:19px;border-radius:20px;margin-top:24px}.service-map-heading{padding:17px 15px 0}.service-map-heading>span{font-size:.49rem}.service-map-heading>b{font-size:.66rem}.service-map-legend{padding:0 15px 20px}.service-city-heading h2{font-size:1.65rem}.service-city-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.service-city-card{min-height:82px;padding:12px 11px}.service-city-card>strong{font-size:.83rem;gap:6px}.service-city-card>span{font-size:.6rem}.service-selected p{font-size:.73rem}.rental-process{padding:47px 0 58px;scroll-margin-top:80px}.rental-process .section-head h2{font-size:2rem}.rental-step-grid{grid-template-columns:1fr;gap:12px}.rental-step-grid>article{padding:23px}.rental-step-grid .ui-icon{margin-bottom:15px}}
+@media(max-width:420px){.catalog-grid{grid-template-columns:1fr}.catalog-grid .catalog-name-price{display:flex}.catalog-grid .catalog-price{margin:0;text-align:right}.catalog-grid .catalog-specs{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-grid .catalog-actions{display:flex}.fleet-grid{grid-template-columns:1fr}.fleet-grid .catalog-name-price{display:flex}.fleet-grid .catalog-price{text-align:right;margin:0}.fleet-grid .catalog-specs{grid-template-columns:repeat(2,minmax(0,1fr))}.fleet-grid .catalog-actions{display:flex}}
+@media(prefers-reduced-motion:reduce){.catalog-media img,.service-city-card,.service-footer a{transition:none}}
+@media(max-width:750px){.wrap.search-layout{padding-left:17px;padding-right:17px}}
+
+/* Warm ivory catalogue, matching the editorial homepage. */
+.catalog-grid>.result-card,.fleet-grid>.fleet-card{background:#fff;color:#282622;border-color:#e0dcd4;border-radius:22px;box-shadow:0 6px 22px #332b1f04}
+.catalog-media{background:#f1eeE8;aspect-ratio:3/2}
+.catalog-media img{padding:0;object-fit:contain}
+.catalog-type{background:#fffffff0;color:#625b50;border-color:#e2ddd2;font-weight:500}
+.catalog-body{padding:25px 24px 22px}
+.catalog-name-price{gap:14px}
+.catalog-name-price h3{font-family:var(--serif);font-size:1.22rem;font-weight:500;line-height:1.45;color:#262420}
+.catalog-name-price p{color:#8a8175;font-family:Georgia,serif;font-size:.75rem;letter-spacing:.015em}
+.catalog-price strong{font-family:"Times New Roman",Times,serif;color:#3e352a;font-size:1.65rem;font-weight:400;font-variant-numeric:lining-nums;letter-spacing:-.03em}
+.catalog-price small{color:#938b80;font-size:.62rem}
+.catalog-specs{border-color:#eee9e0;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px;padding-top:18px}
+.catalog-spec{color:#746d62;font-size:.72rem}
+.catalog-spec>.ui-icon{color:#a69a87}
+.catalog-actions{margin-top:23px}
+.catalog-actions small{color:#a1988b}
+.catalog-actions>a{color:#4d4436;font-size:.76rem}
+@media(max-width:1150px){.catalog-name-price{display:block}.catalog-name-price h3{font-size:1.17rem}.catalog-price{text-align:left;margin-top:14px}.catalog-price strong{display:inline;font-size:1.6rem}.catalog-price small{display:inline;margin-left:8px}.catalog-body{padding:22px}}
+@media(max-width:750px){.catalog-name-price h3{font-size:1.05rem}.catalog-body{padding:18px}.catalog-specs{grid-template-columns:1fr}.catalog-price strong{font-size:1.45rem}}
+
+.catalog-media img{padding:12px}
+
+/* business.css */
+.service-points{list-style:none;padding:0;margin:20px 0}.service-points li{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid #ddd8ce}.service-points strong{font-weight:600}.service-points span{line-height:1.8;color:#777065}.business-service-grid,.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.business-service-grid article,.enquiry-form,.review-form-panel{border:1px solid #ded9d0;border-radius:24px;padding:28px;background:#faf9f5}.business-service-grid h3{font-size:26px;margin:0 0 16px}.business-service-grid p{font-size:16px;line-height:1.8}.review-form-panel summary{cursor:pointer;font-size:20px}.enquiry-form label,.review-form-panel label{display:flex;flex-direction:column;gap:10px;margin:0 0 20px;font-size:16px}.enquiry-form input,.enquiry-form select,.enquiry-form textarea,.review-form-panel select,.review-form-panel textarea{width:100%;border:1px solid #d7d1c7;border-radius:12px;background:white;padding:14px;font:inherit;color:#28251f}.enquiry-form textarea,.review-form-panel textarea{min-height:120px;resize:vertical}.enquiry-form .form-consent,.review-form-panel .form-consent{display:flex;flex-direction:row;align-items:flex-start;line-height:1.7}.form-consent input{width:20px;height:20px;flex:none;margin-top:4px}.form-result{font-size:16px;line-height:1.7}.journey-review{padding:22px 0;border-bottom:1px solid #ddd8ce}.journey-review small{display:block;color:#83796b;margin-top:8px}.official-interior-photo{max-width:100%;border-radius:18px;margin:18px 0}.enquiry-page .subhero{margin-bottom:36px}@media(max-width:650px){.business-service-grid,.form-grid{grid-template-columns:1fr}.service-points li{grid-template-columns:1fr;gap:7px}.enquiry-form,.review-form-panel{padding:22px}}
+.configuration-list>div{display:grid;grid-template-columns:100px minmax(0,1fr);gap:16px;align-items:start}.configuration-list dt,.configuration-list dd{font-size:16px;line-height:1.7}.configuration-list dd{overflow-wrap:anywhere}.configuration-note,.configuration-source{font-size:14px!important}@media(max-width:750px){.configuration-list{grid-template-columns:1fr}.configuration-list>div{grid-template-columns:90px minmax(0,1fr)}}
+
+/* Enquiry service selection: native radio behaviour with rounded option cards. */
+.service-choice{border:0;padding:0;margin:0 0 30px;min-width:0}.service-choice legend{padding:0;margin-bottom:14px;font-size:16px;font-weight:600}.service-choice-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.enquiry-form .service-choice-option{position:relative;margin:0;display:block;cursor:pointer}.service-choice-option input{position:absolute;opacity:0;width:1px;height:1px;padding:0}.service-choice-option span{display:flex;align-items:center;justify-content:center;gap:12px;min-height:58px;padding:12px 10px;border:1px solid #ded7cb;border-radius:17px;background:#fff;color:#655e52;font-size:16px;transition:background .18s,border-color .18s,color .18s}.service-choice-option span:before{content:"";width:14px;height:14px;border:1px solid #b9b0a0;border-radius:50%;box-sizing:border-box;flex:none}.service-choice-option input:checked+span{background:#eee7dc;border-color:#9a8567;color:#352c21}.service-choice-option input:checked+span:before{border:4px solid #887252;background:#fff}.service-choice-option input:focus-visible+span{outline:2px solid #887252;outline-offset:3px}.service-choice-option:hover span{border-color:#ac987a;background:#f5f1e9}.enquiry-form select{appearance:none;-webkit-appearance:none;padding-right:44px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='m5 8 5 5 5-5' stroke='%23827869' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 16px center;border-radius:16px;min-height:56px}.enquiry-form input:focus-visible,.enquiry-form select:focus-visible,.enquiry-form textarea:focus-visible{outline:2px solid #a18b6a;outline-offset:2px;border-color:#a18b6a}.enquiry-form .form-grid>label{position:relative}.required-label{position:absolute;right:0;top:0;font-size:12px;color:#8b7a62;background:#eee8dd;border-radius:6px;padding:2px 7px}@media(max-width:750px){.service-choice-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(prefers-reduced-motion:reduce){.service-choice-option span{transition:none}}
+
+.enquiry-itinerary{border:0;padding:0;margin:14px 0 24px;min-width:0}.enquiry-itinerary legend{font-size:22px;font-family:var(--serif,serif);padding:0;margin-bottom:22px}.enquiry-flight[hidden]{display:none!important}.enquiry-itinerary>p{font-size:14px;line-height:1.8;margin:0 0 24px}
+
+.password-toggle{border:0;background:transparent;color:#78644b;padding:6px 0;font-size:14px;cursor:pointer}.password-toggle:focus-visible{outline:2px solid #a38d6b;outline-offset:2px}
+
+.enquiry-duration{padding:18px 20px;border:1px solid #dedbd3;border-radius:18px;background:#f4f2ec}.enquiry-duration output{display:block;font-size:1.25rem;margin:8px 0}.enquiry-duration p{font-size:.9rem;margin:0}.enquiry-form label input[list]{min-width:0;width:100%}
+
+.insurance-guide details{margin-top:18px;padding:14px 18px;border:1px solid #e1ddd3;border-radius:16px;background:#f5f3ed}.insurance-guide summary{cursor:pointer;font-size:14px}.insurance-sources{display:flex;flex-wrap:wrap;gap:12px;font-size:13px}.insurance-sources a{text-decoration:underline;text-underline-offset:4px}
+/* QA v54: durable enquiry receipts, distinct from historic demo bookings. */
+.inquiry-receipt{margin:20px 0;padding:24px;border:1px solid var(--line);border-radius:20px;background:#fff;overflow-wrap:anywhere}
+.inquiry-receipt-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.inquiry-receipt-heading h2{margin:0;font-size:1.5rem}.inquiry-receipt-heading>span{background:#f0eee6;color:#34382e;padding:7px 14px;border-radius:999px}
+.inquiry-receipt p{margin:12px 0}.inquiry-receipt+.inquiry-receipt{margin-top:14px}
+
+.skip-link{position:fixed;top:8px;left:16px;z-index:10000;padding:12px 20px;background:#171715;color:#fff;border-radius:12px;transform:translateY(-160%)}
+.skip-link:focus{transform:none}
+:focus-visible{outline:3px solid #80683d;outline-offset:3px}
+/* AA contrast on the existing warm neutral palette. */
+.field label,.section-head .eyebrow,.rental-step p,.configuration-note,.price-filter-caption label,.price-filter-limits,.catalog-name-price p,.catalog-price small,.catalog-actions small a,.showroom-bar .eyebrow,.showroom-note,.configuration-list .pending,.enquiry-duration .muted{color:#696252}
+.rental-step-number{color:#756b58}
+.required-label{color:#645038}
+.footer-bottom a{text-decoration:underline;text-underline-offset:3px}
+
+.rental-step-grid p{color:#696252}
+body .search-box .field label,body .filters .configuration-note,body .filters .price-filter-caption label,body .vehicle-facts .configuration-list dd.pending,body .home-destinations .section-head p,body .destination-card-copy .destination-kind,body .destination-card-copy [data-count]{color:#696252}
+body .journey-card-body .eyebrow{color:#696252}
+
+.service-footer .footer-heading{font-family:var(--sans);font-size:1rem;font-weight:600;margin:0 0 24px;color:#d5dacd}
+
+/* Consistent country search in Safari and other browsers; no native datalist dependency. */
+.phone-region-picker{position:relative;min-width:0;margin-bottom:20px}.enquiry-form .phone-region-picker>label{margin-bottom:0}.phone-region-picker [role=listbox]{position:absolute;top:100%;left:0;right:0;z-index:30;max-height:260px;overflow:auto;background:#fff;border:1px solid #d7d1c7;border-radius:14px;box-shadow:0 12px 30px #25252220;padding:6px}.phone-region-picker [role=listbox][hidden]{display:none}.phone-region-picker [role=option]{display:block;width:100%;border:0;border-radius:9px;padding:12px;text-align:left;background:transparent;color:#38352f;font:inherit}.phone-region-picker [role=option]:hover,.phone-region-picker [role=option]:focus-visible,.phone-region-picker [role=option][aria-selected=true]{background:#eee8dd}.phone-region-picker [role=listbox] p{padding:10px;font-size:14px;margin:0}
+
+.page{animation:none}
+</style>
+<!-- END GENERATED FIRST PAINT CSS -->
 </head>
 <body>
   <a class="skip-link" href="#main-content" onclick="event.preventDefault();document.querySelector('main')?.focus()">跳到主要内容</a>
-  <div id="app"></div>
-  <script defer src="./cloud-sync.js?v=20261015-qa-v55"></script>
-  <script defer src="./image-delivery.js?v=20261015-qa-v55"></script>
-  <script defer src="./gsap.min.js"></script>
-  <script defer src="./ScrollTrigger.min.js"></script>
-  <script defer src="./i18n.js?v=20261015-qa-v55"></script>
-  <script defer src="./integrations.js?v=20261015-qa-v55"></script>
-  <script defer src="./vehicle-facts.js?v=20261015-qa-v55"></script>
-  <script defer src="./vehicle-configs.js?v=20261015-qa-v55"></script>
-  <script defer src="./vehicle-references.js?v=20261015-qa-v55"></script>
-  <script defer src="./vehicle-photo-data.js?v=20261015-qa-v55"></script>
-  <script defer src="./vehicle-ui.js?v=20261015-qa-v55"></script>
-  <script defer src="./destination-gallery.js?v=20261015-qa-v55"></script>
-  <script defer src="./tour-content.js?v=20261015-qa-v55"></script>
-  <script defer src="./service-content.js?v=20261015-qa-v55"></script>
-  <script defer src="./match-places.js?v=20261015-qa-v55"></script>
-  <script defer src="./enquiry-flow.js?v=20261015-qa-v55"></script>
-  <script defer src="./insurance-guide.js?v=20261015-qa-v55"></script>
-  <script defer src="./vehicle-business.js?v=20261015-qa-v55"></script>
-  <script defer src="./app.js?v=20261015-qa-v55"></script>
+  <div id="app" data-first-paint><header><div class="wrap nav"><a href="#/" class="brand brand-lockup"><span class="brand-mark" aria-hidden="true"><img src="./images/brand/yichen-mark.webp?v=perf-v56" width="48" height="48" alt=""></span><span class="brand-wordmark"><strong>YICHEN</strong><span>DRIVE</span></span></a><nav class="navlinks" aria-label="主导航"><a href="#/">首页</a><a href="#/search">租车</a><a href="#/destinations">目的地</a><a href="#/inspiration">路线灵感</a><a href="#/services">服务地区</a><a href="#/about">关于我们</a></nav><div class="navright"><button class="nav-search" onclick="location.hash=\'#/search\'" aria-label="搜索"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 5 5"></path></svg></button><button class="textnav" onclick="location.hash=\'#/garage\'">我的车库</button><button class="textnav" onclick="localStorage.setItem('yichen-lang','en');location.reload()">EN</button><button class="login" onclick="location.hash='#/account'">登录 / 注册</button><button class="mobile-menu" onclick="const open=document.getElementById('mobile-panel').classList.toggle('open');this.setAttribute('aria-expanded',String(open))" aria-label="打开菜单" aria-expanded="false" aria-controls="mobile-panel">☰</button></div></div><div id="mobile-panel" class="mobile-panel"><a href="#/">首页</a><a href="#/search">租车</a><a href="#/destinations">目的地</a><a href="#/inspiration">路线灵感</a><a href="#/garage">我的车库</a><a href="#/trips">我的旅程</a><a href="#" onclick="location.hash='#/account';return false">登录 / 注册</a><a href="#/match">YICHEN Match</a><a href="#/services">服务地区</a><a href="#/about">关于我们</a><a href="#" onclick="localStorage.setItem('yichen-lang','en');location.reload();return false">中文 / EN</a></div></header><main id="main-content" class="page" tabindex="-1" data-hero-lang="zh"><section class="hero"><img class="hero-image" width="1536" height="1024" srcset="./images/optimized/hero-mobile-v56.webp 768w, ./images/optimized/hero-v2-cbe4ebc8.webp 1536w" sizes="100vw" fetchpriority="high" decoding="async" src="./images/optimized/hero-v2-cbe4ebc8.webp" alt="GT 跑车行驶在公路上" onerror="this.onerror=null;this.src='./images/optimized/718-studio-85f782c3.webp'"><div class="wrap hero-inner"><div class="hero-copy"><span class="eyebrow">YICHEN DRIVE · CURATED JOURNEYS</span><h1>去更远的地方，<br>遇见更好的自己。</h1><p>精选高品质自驾车型，让每一次出发，都成为难忘的旅程。</p><div class="hero-actions"><button class="btn" onclick="document.querySelector('#pickup')?document.querySelector('#pickup').focus():window.yichenPendingPickup=true">开始旅程 ↗</button><button class="btn ghost" onclick="location.hash=\'#/destinations\'">探索路线</button></div></div><div class="hero-side">DRIVE EASY.<br>ROAM FREE.</div></div></section></main>
+</div>
+  <template id="enquiry-first-paint"><header><div class="wrap nav"><a href="#/" class="brand brand-lockup"><span class="brand-mark" aria-hidden="true"><img src="./images/brand/yichen-mark.webp?v=perf-v56" width="48" height="48" alt=""></span><span class="brand-wordmark"><strong>YICHEN</strong><span>DRIVE</span></span></a><nav class="navlinks" aria-label="主导航"><a href="#/">首页</a><a href="#/search">租车</a><a href="#/destinations">目的地</a><a href="#/inspiration">路线灵感</a><a href="#/services">服务地区</a><a href="#/about">关于我们</a></nav><div class="navright"><button class="nav-search" onclick="location.hash=\'#/search\'" aria-label="搜索"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 5 5"></path></svg></button><button class="textnav" onclick="location.hash=\'#/garage\'">我的车库</button><button class="textnav" onclick="localStorage.setItem('yichen-lang','en');location.reload()">EN</button><button class="login" onclick="location.hash='#/account'">登录 / 注册</button><button class="mobile-menu" onclick="const open=document.getElementById('mobile-panel').classList.toggle('open');this.setAttribute('aria-expanded',String(open))" aria-label="打开菜单" aria-expanded="false" aria-controls="mobile-panel">☰</button></div></div><div id="mobile-panel" class="mobile-panel"><a href="#/">首页</a><a href="#/search">租车</a><a href="#/destinations">目的地</a><a href="#/inspiration">路线灵感</a><a href="#/garage">我的车库</a><a href="#/trips">我的旅程</a><a href="#" onclick="location.hash='#/account';return false">登录 / 注册</a><a href="#/match">YICHEN Match</a><a href="#/services">服务地区</a><a href="#/about">关于我们</a><a href="#" onclick="localStorage.setItem('yichen-lang','en');location.reload();return false">中文 / EN</a></div></header><main id="main-content" class="page wrap enquiry-page" tabindex="-1" data-intro-lang="zh"><div class="subhero"><span class="eyebrow">LET US PLAN YOUR DRIVE</span><h1>告诉我们你的用车安排。</h1><p>提交需求后，我们核对车辆、行程与报价。提交咨询不锁定库存，也不收取费用。</p></div><p class="phone-loading" role="status">正在准备咨询表…</p></main>
+</template>
+<script>const entry=location.hash.split("?")[0];if(entry==="#/enquiry"||entry==="#/booking")document.getElementById("app").replaceChildren(document.getElementById("enquiry-first-paint").content.cloneNode(true));else if(entry&&!["#","#/"].includes(entry))document.getElementById("app").replaceChildren();if(localStorage.getItem("yichen-lang")==="en")document.getElementById("app").replaceChildren();</script>
+  <script>
+    // Paint the useful home shell before evaluating the application dependency chain.
+    (function(){const sources=["./application-v56.js?v=20261015-perf-v56"];
+      const start=()=>{for(const src of sources){const script=document.createElement('script');script.src=src;script.async=false;script.onerror=()=>{const app=document.getElementById('app');if(!app.querySelector('[data-startup-error]')){const p=document.createElement('p');p.dataset.startupError='';p.setAttribute('role','alert');p.textContent='页面功能未能加载，请检查网络后刷新重试。';app.prepend(p)}};document.body.append(script)}};
+      if(document.getElementById('app').childElementCount)requestAnimationFrame(()=>requestAnimationFrame(start));else start();
+    })();
+  </script>
 </body>
 </html>

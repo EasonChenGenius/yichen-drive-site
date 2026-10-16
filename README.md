@@ -1,5 +1,12 @@
 # YICHEN Drive · 成都 / 四川版
 
+## v56 首屏与 Safari 补充验收
+
+- 首屏静态HTML先显示，再加载应用；车型／推荐专属样式按路由加载，动效延后初始化。
+- `dist/` 保留可编辑源码；发布入口使用生成的 `application-v56.js` 与内联公共样式。修改JS、公共CSS或首屏模板后，运行 `python3 scripts/build-first-paint.py`；用 `--check` 检查发布包与源码一致。无需npm构建或额外依赖。
+- 首屏内容来源为 `dist/home-shell.html`、`dist/enquiry-shell.html`；修改文案时同步对应运行时模板，更新缓存戳后重新生成发布包。不要直接修改生成的应用包。
+- Safari实测、性能统计和限制见 `business/移动性能与Safari补充验收-v56.md`；真人测试包已准备，当前0/5位，不宣称真人验收通过。
+
 ## 启动网站与账户服务
 
 macOS 双击 `启动网站.command`，保持终端窗口开启，再手动访问 **http://127.0.0.1:8766/**。
