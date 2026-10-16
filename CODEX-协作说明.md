@@ -93,7 +93,53 @@ dist/index.html 里形如 ?v=20261013-facts-v49 的版本号（当前 21 处）�
 
 ---
 
-## 三、给 Codex 的硬性约定（速查）
+## 三、云服务（2026-10-15 已开通）
+
+WorkBuddy Cloud Service 已为应用 `wbapp_zfQOMDHL31IfhqEiCsWPcI` 开通，状态正常（计费 normal、资源 assigned）。
+它只做一件事：**把客户提交的租车咨询持久保存下来**。托管环境的项目目录只读、数据落 `/tmp`，容器重启即丢，云库就是为了解决这个。
+
+### 数据表
+
+`inquiries`（RLS 已开启）：`request_id / service / car / city / people / bags / duration_days /
+start_at / end_at / nickname / phone / wechat / payload(JSONB) / created_at`
+
+### 安全设计 —— 不要改
+
+- **只授予了 `INSERT`**（给 `anon` 与 `authenticated`），**没有任何 SELECT/UPDATE/DELETE 策略**
+- 浏览器端只能写、读不回来（实测读回为空数组）
+- 目的：客户的手机号、微信号不会从前端泄露
+- **不要为了让前端能读而加 SELECT 策略**，也不要给客户发任何可以查到他人记录的链接
+- 经营者查看数据只能通过管理端工具，不通过前端页面
+
+### 代码位置
+
+- `dist/cloud-sync.js`：SDK 初始化 + `cloudSaveInquiry()`
+  - 用 CDN 形式加载 `@tencent-ai/workbuddy-cloud-sdk@dev`（项目无构建步骤，不要用 npm 形式）
+  - `endpoint` / `publishableKey` / `oauthRelayBaseUrl` 三个值必须来自 `publicConfig`，禁止硬编码其他地址
+  - `cloudSaveInquiry()` 永不抛错，失败只记录状态 —— **不要让它阻塞或打断原有提交流程**
+- `dist/vehicle-business.js` 的 `submitEnquiry()`：后端写库成功后追加一次云端写入
+- `dist/index.html`：引入 SDK 与 `cloud-sync.js`
+
+### 部署时必做
+
+v56 起应用脚本合并为 `dist/application-v56.js`（清单见 `scripts/first-paint-sources.json`），
+改完源文件必须**先构建、再同步**：
+
+```bash
+python3 scripts/build-first-paint.py          # 重新生成 application-v56.js
+python3 scripts/build-first-paint.py --check  # 校验产物未落后
+rsync -a --delete dist/ webroot/              # 发布用的是 webroot/ 副本，不是 dist/
+```
+
+⚠️ **跳过构建会让改动静默失效** —— 产物里没有新代码，页面也不报错，很难发现。
+
+另外：SDK 由 `cloud-sync.js` 内部**按需动态加载**（`ensureCloudSdk()`），
+不依赖 index.html 里的 script 标签。**不要把 SDK 的 `<script>` 加回 index.html**，
+那会拖慢首屏。
+
+---
+
+## 四、给 Codex 的硬性约定（速查）
 
 1. **改完就提交**，写清楚"改了什么、为什么改"
 2. **推送走 SSH**，HTTPS 443 在本机不通
@@ -105,7 +151,7 @@ dist/index.html 里形如 ?v=20261013-facts-v49 的版本号（当前 21 处）�
 
 ---
 
-## 四、当前待办（按优先级）
+## 五、当前待办（按优先级）
 
 1. **填写 12 辆车的真实资料** —— 年款、具体版本、核定座位、行李件数、驱动、能源、变速箱、CarPlay、日租价、押金。清单见 `business/车辆资料核对表-待填写.md`，建议从考斯特、GL8 开始
 2. **填写 `RENTAL_TERMS` 的 15 项合同规则** —— 最短租期、免费里程、超公里单价、取消时限、油电政策、事故自负额等，都在 `dist/vehicle-facts.js`
@@ -115,7 +161,7 @@ dist/index.html 里形如 ?v=20261013-facts-v49 的版本号（当前 21 处）�
 
 ---
 
-## 五、常用命令速查
+## 六、常用命令速查
 
 ```bash
 cd /Users/eason/Documents/Codex/2026-10-04/xia/outputs/yichen-drive-site
@@ -132,7 +178,7 @@ ssh -T git@github.com           # 验证 SSH 是否配好
 
 ⚠️ **GitHub 不等于上线。** 仓库只做版本留痕与备份，客户看不到、也跑不了 Flask 后端。真正上线仍需域名 + 云服务器 + ICP 备案。
 
-## 六、v56 发布副本约定（2026-10-16）
+## 七、v56 发布副本约定（2026-10-16）
 
 首屏HTML与公共样式提前显示，应用脚本由 `scripts/first-paint-sources.json` 指定顺序并生成 `dist/application-v56.js`。修改源文件后必须运行 `python3 scripts/build-first-paint.py`；`python3 scripts/build-first-paint.py --check` 用于校验生成文件未落后。首屏模板与运行时同一段文案需同步修改。原始照片与Logo保留；WebP为发布副本。
 

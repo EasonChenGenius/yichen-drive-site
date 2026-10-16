@@ -19,12 +19,32 @@ const CLOUD_PUBLIC_CONFIG = {
 };
 
 let cloudClientCache = null;
+let cloudSdkPromise = null;
 
-function cloudClient() {
+/* 按需加载 SDK：v56 起所有脚本合并成一个 application-v56.js，
+   这里不再依赖 index.html 里的 script 标签，而是在真正要写数据时才拉 CDN，
+   首屏性能不受影响；加载失败返回 null，调用方静默跳过。 */
+function ensureCloudSdk() {
+  if (typeof window === 'undefined') return Promise.resolve(null);
+  if (window.WorkBuddyCloud) return Promise.resolve(window.WorkBuddyCloud);
+  if (cloudSdkPromise) return cloudSdkPromise;
+  cloudSdkPromise = new Promise(resolve => {
+    const s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js';
+    s.async = true;
+    s.onload = () => resolve(window.WorkBuddyCloud || null);
+    s.onerror = () => { cloudSdkPromise = null; resolve(null); };
+    document.head.append(s);
+  });
+  return cloudSdkPromise;
+}
+
+async function cloudClient() {
   if (cloudClientCache) return cloudClientCache;
-  if (typeof window === 'undefined' || !window.WorkBuddyCloud) return null;
+  const sdk = await ensureCloudSdk();
+  if (!sdk) return null;
   try {
-    cloudClientCache = window.WorkBuddyCloud.createWorkBuddyCloud({
+    cloudClientCache = sdk.createWorkBuddyCloud({
       endpoint: CLOUD_PUBLIC_CONFIG.endpoint,
       oauthRelayBaseUrl: CLOUD_PUBLIC_CONFIG.oauthRelayBaseUrl,
       publishableKey: CLOUD_PUBLIC_CONFIG.publishableKey
@@ -37,7 +57,7 @@ function cloudClient() {
 
 /* 把咨询写入云数据库。返回 {ok, reason, message}，永不抛出。 */
 async function cloudSaveInquiry(payload) {
-  const cloud = cloudClient();
+  const cloud = await cloudClient();
   if (!cloud) return { ok: false, reason: 'sdk-missing', message: '云服务 SDK 未加载' };
   try {
     const row = {
