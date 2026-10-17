@@ -66,7 +66,7 @@ async function loadUsers(){
  $('users-result').textContent='正在读取账号…';
  try{const data=await api('/api/operator/users?'+query);if(version!==usersVersion)return;usersTotal=data.total;
  $('users-result').textContent='找到 '+data.total+' 个注册账号';
- $('users-list').innerHTML=data.users.length?data.users.map(u=>`<article class="user-card"><div><h3>${escape(u.name)}</h3><p>${escape(u.phone||u.email)}</p><p class="muted small">注册 ${escape(date(u.created))} · ${u.isOperator?'管理员':'普通账号'} · 联系方式未验证</p></div><button type="button" data-user="${escape(u.id)}">查看关联需求 · ${u.inquiryCount}</button></article>`).join(''):'<p class="muted">没有符合条件的账号。</p>';
+ $('users-list').innerHTML=data.users.length?data.users.map(u=>`<article class="user-card"><div><h3>${escape(u.name)}</h3><p>${escape(u.phone||u.email)}</p><p class="muted small">注册 ${escape(date(u.created))} · ${u.isOperator?'管理员':'普通账号'} · ${u.contactVerified?'邮箱已验证':'联系方式未验证'}</p></div><button type="button" data-user="${escape(u.id)}">查看关联需求 · ${u.inquiryCount}</button></article>`).join(''):'<p class="muted">没有符合条件的账号。</p>';
  $('users-prev').disabled=usersOffset===0;$('users-next').disabled=usersOffset+50>=usersTotal;$('users-page').textContent=data.total?(usersOffset+1)+'–'+Math.min(usersOffset+50,data.total)+' / '+data.total:'0 个账号';
  $('users-list').querySelectorAll('[data-user]').forEach(button=>button.onclick=()=>{applyFilters(f=>{f.reset();f.elements.userId.value=button.dataset.user});$('records').scrollIntoView({block:'start',behavior:'smooth'})});
  }catch(e){if(version!==usersVersion)return;if(e.status===401||e.status===403)lock(e.message);else{$('users-list').replaceChildren();$('users-result').textContent=e.message;$('users-prev').disabled=true;$('users-next').disabled=true}}

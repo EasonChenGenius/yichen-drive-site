@@ -11,7 +11,7 @@ from urllib.error import HTTPError, URLError
 ROOT = Path(__file__).resolve().parent
 import sys
 sys.path.insert(0,str(ROOT))
-import operator_backend,inquiry_mail
+import operator_backend,inquiry_mail,account_email
 import phonenumbers
 CONFIG_FILE=Path(os.environ.get('YICHEN_CONFIG_FILE') or ROOT/'.env').resolve()
 if CONFIG_FILE==ROOT/'dist' or ROOT/'dist' in CONFIG_FILE.parents:raise RuntimeError('Private configuration cannot be inside dist/.')
@@ -41,6 +41,7 @@ with sqlite3.connect(DB) as db:
 os.chmod(DB,0o600)
 operator_backend.initialize(DB)
 inquiry_mail.initialize(DB)
+account_email.initialize(DB)
 RATE={};RATE_LOCK=threading.Lock()
 def password_hash(password):
     salt=secrets.token_bytes(24)
@@ -75,6 +76,8 @@ class Handler(SimpleHTTPRequestHandler):
         with sqlite3.connect(DB) as db:
             phone=db.execute('SELECT phone FROM user_phones WHERE user_id=?',(user['id'],)).fetchone()
             user['isOperator']=bool(db.execute('SELECT 1 FROM operators WHERE user_id=?',(user['id'],)).fetchone())
+        with sqlite3.connect(DB) as db:user['emailVerified']=bool(db.execute('SELECT 1 FROM verified_emails WHERE user_id=? AND email=?',(user['id'],user['email'])).fetchone())
+        user['phoneVerified']=False
         user['phone']=phone[0] if phone else None
         if phone:user['email']=None;user['phoneVerified']=False
         return user
@@ -100,11 +103,49 @@ class Handler(SimpleHTTPRequestHandler):
             if not limited:hits.append(now)
             RATE[key]=hits
         return limited
+    def account_email_action(self,path,body):
+        try:
+            if self.rate_limited(('email-action',self.client_address[0]),60):return self.error(429,'尝试次数过多，请稍后再试。')
+            if path.endswith('send-code'):
+                purpose=body.get('purpose');email=account_email.normalize_email(body.get('email'))
+                user=None
+                if purpose=='verify':
+                    user=self.session()
+                    if not user:return self.error(401,'请先登录后验证邮箱。')
+                    if user.get('phone') or user.get('email')!=email:return self.error(400,'请验证当前账号的邮箱。')
+                    with sqlite3.connect(DB) as db:encoded=db.execute('SELECT password FROM users WHERE id=?',(user['id'],)).fetchone()[0]
+                    password=body.get('password')
+                    if not isinstance(password,str) or len(password)>128 or not password_valid(password,encoded):return self.error(401,'当前密码不正确。')
+                return self.reply(200,account_email.request_code(DB,email,purpose,self.client_address[0],user_id=user['id'] if user else None))
+            if path.endswith('/verify'):
+                user=self.session()
+                if not user:return self.error(401,'请先登录后验证邮箱。')
+                if user.get('phone'):return self.error(400,'手机号账号的短信验证尚未开通。')
+                email=user['email']
+                with sqlite3.connect(DB) as db:
+                    db.execute('BEGIN IMMEDIATE')
+                    failure=account_email.consume(db,DB,body.get('challengeId'),body.get('code'),email,'verify',user_id=user['id'])
+                    if failure:db.commit();return self.error(400,failure)
+                    db.execute('INSERT OR REPLACE INTO verified_emails VALUES(?,?,?)',(user['id'],email,int(time.time())))
+                return self.reply(200,{'user':self.public_user(user),'message':'邮箱已验证，可用于找回密码。'})
+            email=account_email.normalize_email(body.get('email'));password=body.get('password')
+            if not isinstance(password,str) or not 10<=len(password)<=128:return self.error(400,'密码需为10至128位字符。')
+            encoded=password_hash(password)
+            with sqlite3.connect(DB) as db:
+                db.execute('BEGIN IMMEDIATE')
+                row=db.execute('SELECT u.id FROM users u JOIN verified_emails v ON v.user_id=u.id AND v.email=u.email WHERE u.email=?',(email,)).fetchone()
+                failure=account_email.consume(db,DB,body.get('challengeId'),body.get('code'),email,'reset',user_id=row[0] if row else '__no_user__')
+                if failure or not row:db.commit();return self.error(400,failure or '无法重设密码，请重新验证。')
+                db.execute('UPDATE users SET password=? WHERE id=?',(encoded,row[0]));db.execute('DELETE FROM sessions WHERE user_id=?',(row[0],))
+                db.execute("UPDATE email_challenges SET status='superseded' WHERE user_id=? AND status IN ('sent','pending')",(row[0],))
+            return self.reply(200,{'ok':True,'message':'密码已更新，请使用新密码重新登录。'},self.cookie('',0))
+        except account_email.ChallengeError as error:return self.error(error.status,error.message)
+
     def do_GET(self):
         path=urlsplit(self.path).path
         if path.startswith('/api/operator/'):
             return operator_backend.get(self,DB,path,dict(parse_qsl(urlsplit(self.path).query)))
-        if path=='/api/config':return self.reply(200,{'amapKey':AMAP_KEY if AMAP_SECURITY else '', 'amapServiceHost':'/_AMapService','authEnabled':True,'cloudSyncEnabled':False,'amapConfigured':bool(AMAP_KEY and AMAP_SECURITY)})
+        if path=='/api/config':return self.reply(200,{'amapKey':AMAP_KEY if AMAP_SECURITY else '', 'amapServiceHost':'/_AMapService','authEnabled':True,'emailVerificationRequired':True,'emailVerificationAvailable':account_email.mail_ready(),'phoneRegistrationEnabled':False,'cloudSyncEnabled':False,'amapConfigured':bool(AMAP_KEY and AMAP_SECURITY)})
         if path=='/api/auth/me':return self.reply(200,{'user':self.session()})
         if path=='/api/reviews':
             car=dict(parse_qsl(urlsplit(self.path).query)).get('car','')
@@ -149,6 +190,8 @@ class Handler(SimpleHTTPRequestHandler):
         path=urlsplit(self.path).path
         if path.startswith('/api/operator/'):
             return operator_backend.post(self,DB,path,body)
+        if path in ('/api/auth/email/send-code','/api/auth/email/verify','/api/auth/password/reset'):
+            return self.account_email_action(path,body)
         if path in ('/api/auth/register','/api/auth/login'):
             account=str(body.get('account') or body.get('phone') or body.get('email') or '').strip().lower();password=body.get('password','');phone=account if re.fullmatch(r'1[3-9][0-9]{9}',account) else None;email='phone:'+phone if phone else account
             if self.rate_limited(('auth',self.client_address[0])):return self.error(429,'尝试次数过多，请稍后再试。')
@@ -157,13 +200,19 @@ class Handler(SimpleHTTPRequestHandler):
             with sqlite3.connect(DB) as db:
                 row=db.execute('SELECT id,email,name,password FROM users WHERE email=?',(email,)).fetchone()
                 if path.endswith('register'):
+                    if phone:return self.error(503,'短信验证尚未开通，请使用邮箱注册；已有手机号账号仍可登录。')
+                    if not body.get('challengeId') or not body.get('code'):return self.error(400,'请刷新注册页面，获取邮箱验证码后再创建账户。')
                     name=str(body.get('name','')).strip()
                     if not name or len(name)>50:return self.error(400,'请填写称呼。')
+                    db.execute('BEGIN IMMEDIATE')
+                    failure=account_email.consume(db,DB,body.get('challengeId'),body.get('code'),email,'register')
+                    if failure:
+                        db.commit();return self.error(400,failure)
                     if row:return self.error(409,'此账号已注册，请直接登录。')
                     user={'id':secrets.token_hex(16),'email':email,'name':name}
                     try:db.execute('INSERT INTO users VALUES(?,?,?,?,?)',(user['id'],email,name,password_hash(password),int(time.time())))
                     except sqlite3.IntegrityError:return self.error(409,'此账号已注册，请直接登录。')
-                    if phone:db.execute('INSERT INTO user_phones VALUES(?,?)',(phone,user['id']))
+                    db.execute('INSERT INTO verified_emails VALUES(?,?,?)',(user['id'],email,int(time.time())))
                 else:
                     valid=password_valid(password,row[3] if row else DUMMY_PASSWORD)
                     if not row or not valid:return self.error(401,'账号或密码不正确。')

@@ -63,3 +63,6 @@ Thumbs.db
 # ---------- 6. 日志 ----------
 *.log
 nohup.out
+
+# Server-only email challenge HMAC key (never publish or commit).
+auth-challenge.key

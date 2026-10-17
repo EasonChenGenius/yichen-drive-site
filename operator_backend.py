@@ -96,7 +96,7 @@ def get(h,path,route,query):
             joined=' FROM users u LEFT JOIN user_phones p ON p.user_id=u.id '
             total=db.execute('SELECT COUNT(*)'+joined+where,params).fetchone()[0]
             rows=db.execute("SELECT u.id,u.name,u.email,p.phone,u.created,EXISTS(SELECT 1 FROM operators o WHERE o.user_id=u.id),(SELECT COUNT(*) FROM inquiries i WHERE i.user_id=u.id)"+joined+where+' ORDER BY u.created DESC,u.id DESC LIMIT 50 OFFSET ?',params+[offset]).fetchall()
-            users=[{'id':r[0],'name':r[1],'email':None if r[3] else r[2],'phone':r[3],'created':r[4],'isOperator':bool(r[5]),'inquiryCount':r[6],'contactVerified':False} for r in rows]
+            users=[{'id':r[0],'name':r[1],'email':None if r[3] else r[2],'phone':r[3],'created':r[4],'isOperator':bool(r[5]),'inquiryCount':r[6],'contactVerified':bool(not r[3] and db.execute('SELECT 1 FROM verified_emails WHERE user_id=? AND email=?',(r[0],r[2])).fetchone())} for r in rows]
             return h.reply(200,{'users':users,'total':total,'offset':offset})
         if route=='/api/operator/me':return h.reply(200,{'user':user})
         if route=='/api/operator/notifications':

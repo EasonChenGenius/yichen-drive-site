@@ -7,7 +7,7 @@ function ensureRouteStyles(route,resume){
  const pending=sheets.filter(name=>routeStyleJobs.get(name)!=='ready');
  if(!pending.length)return true;
  for(const name of pending)if(!routeStyleJobs.has(name)){
-  const link=document.createElement('link');link.rel='stylesheet';link.href='./'+name+'.css?v=20261015-perf-v56';
+  const link=document.createElement('link');link.rel='stylesheet';link.href='./'+name+'.css?v=20261017-auth-v57';
   const job=new Promise((resolve,reject)=>{link.onload=()=>{routeStyleJobs.set(name,'ready');resolve()};link.onerror=()=>{routeStyleJobs.delete(name);link.remove();reject(new Error('页面样式加载失败'))}});
   routeStyleJobs.set(name,job);document.head.append(link);
  }

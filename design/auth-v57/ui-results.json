@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "code required before registration",
+    "send button cooldown",
+    "wrong code retains password",
+    "registration shows verified email",
+    "mismatched reset passwords blocked",
+    "reset returns to login without auto login",
+    "other session revoked",
+    "new password login works",
+    "legacy account not auto verified",
+    "legacy email verified after proof",
+    "operator directory reflects verification",
+    "unknown account receives generic response",
+    "mobile no overflow",
+    "network failure keeps email and allows retry",
+    "auth screens have no axe violations",
+    "no password or code persisted to browser storage",
+    "no JavaScript errors"
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "mode": "register",
+      "violations": []
+    },
+    {
+      "mode": "forgot",
+      "violations": []
+    }
+  ]
+}

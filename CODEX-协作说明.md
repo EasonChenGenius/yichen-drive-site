@@ -183,3 +183,11 @@ ssh -T git@github.com           # 验证 SSH 是否配好
 首屏HTML与公共样式提前显示，应用脚本由 `scripts/first-paint-sources.json` 指定顺序并生成 `dist/application-v56.js`。修改源文件后必须运行 `python3 scripts/build-first-paint.py`；`python3 scripts/build-first-paint.py --check` 用于校验生成文件未落后。首屏模板与运行时同一段文案需同步修改。原始照片与Logo保留；WebP为发布副本。
 
 本轮仅本地提交，不推送、不打标签；以当前用户授权为准。
+
+## v57 邮箱验证与密码找回（2026-10-17）
+
+- `account_email.py`为服务端验证码：用途／邮箱／账号绑定，HMAC摘要、异步SMTP及SQLite限流；不得改为前端生成或直接信任verified字段。
+- `dist/account-security.js`为账户UI。修改后运行生成脚本并校验；发布包名仍为application-v56.js，缓存20261017-auth-v57。
+- 旧用户不自动验证；新邮箱注册必须验证码，新手机号注册待短信开通，旧手机号可登录。
+- 账号库和邮箱验证记录必须持久化，云端inquiries备份不能替代它们；不要将假邮件测试服务部署到公网。
+- 本轮仅本地提交，SMTP真实配置、云端账号保存与真实送达需先确认再发布；未授权自动推送或部署。

@@ -6,6 +6,7 @@ os.environ['YICHEN_DATA_DIR']=tempfile.mkdtemp(prefix='yc-v51-test-')
 os.environ['YICHEN_CONFIG_FILE']=str(Path(tempfile.mkdtemp())/'empty.env')
 sys.path.insert(0,str(ROOT))
 from webapp import create_app,service
+from email_fixture import register_email
 service.Handler.rate_limited=lambda *a,**k:False
 app=create_app(start_mail=False);guest=app.test_client();admin=app.test_client()
 def post(v):
@@ -26,7 +27,7 @@ for region,phone,normalized in [('HK','61234567','+85261234567'),('US','20255501
 old=dict(base);old.pop('phoneRegion');assert post(old)[0]==201
 assert guest.post('/api/orders',json={}).status_code==410
 assert guest.get('/api/operator/inquiries').status_code==401
-r=admin.post('/api/auth/register',json=dict(email='v51@example.com',name='QA',password='fixture-only-password'));assert r.status_code==200
+r=register_email(admin,service,'v51@example.com');assert r.status_code==200
 with sqlite3.connect(service.DB) as db:db.execute('INSERT INTO operators VALUES(?,0)',(r.get_json()['user']['id'],))
 d=admin.get('/api/operator/detail?id='+identity).get_json()['inquiry'];assert d['people']==5 and d['bags']==3 and d['startAt']=='2026-10-16T10:00'
 cal=admin.get('/api/operator/summary?month=2026-10').get_json()['calendar'];assert all(next(x['count'] for x in cal if x['date']==f'2026-10-{i:02}')>0 for i in range(16,22))

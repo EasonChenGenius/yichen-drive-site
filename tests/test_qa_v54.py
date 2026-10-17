@@ -7,6 +7,7 @@ qa=Path(tempfile.mkdtemp(prefix='yc-v54-test-'))
 os.environ['YICHEN_DATA_DIR']=str(qa);os.environ['YICHEN_CONFIG_FILE']=str(qa/'none.env')
 sys.path.insert(0,str(ROOT))
 from webapp import create_app,service
+from email_fixture import register_email
 app=create_app(start_mail=False);guest=app.test_client();a=app.test_client();b=app.test_client()
 original_rate_limited=service.Handler.rate_limited
 service.Handler.rate_limited=lambda *args,**kwargs:False
@@ -24,7 +25,7 @@ assert guest.post('/api/inquiries',data='[]',content_type='application/json').st
 assert guest.post('/api/inquiries',data='x'*17000,content_type='application/json').status_code==413
 assert guest.post('/api/inquiries',json=base,headers={'Origin':'https://evil.example','Sec-Fetch-Site':'cross-site'}).status_code==403
 assert guest.post('/api/orders',json={}).status_code==410
-for c,email in [(a,'qa-a@example.com'),(b,'qa-b@example.com')]:assert c.post('/api/auth/register',json=dict(email=email,name='QA',password='QA-test-password-only')).status_code==200
+for c,email in [(a,'qa-a@example.com'),(b,'qa-b@example.com')]:assert register_email(c,service,email,password='QA-test-password-only').status_code==200
 r=post(a,requestId='qa-v54-unique-key-01');identity=r.json['inquiry']['id'];assert r.status_code==201
 assert post(a,requestId='qa-v54-unique-key-01').json['inquiry']['id']==identity
 assert post(a,requestId='qa-v54-unique-key-01',bags=4).status_code==409
@@ -62,7 +63,7 @@ subprocess.run([sys.executable,str(ROOT/'backup-data.py'),'--data-dir',str(qa),'
 backup=next((qa/'backup').glob('*.sqlite3'))
 with sqlite3.connect(service.DB) as src,sqlite3.connect(backup) as restored:
  assert restored.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
- for table in ['users','inquiries','inquiry_mail','inquiry_followup','inquiry_requests','reviews']:assert src.execute('SELECT COUNT(*) FROM '+table).fetchone()==restored.execute('SELECT COUNT(*) FROM '+table).fetchone()
+ for table in ['users','inquiries','inquiry_mail','inquiry_followup','inquiry_requests','reviews','verified_emails','email_challenges']:assert src.execute('SELECT COUNT(*) FROM '+table).fetchone()==restored.execute('SELECT COUNT(*) FROM '+table).fetchone()
 assert backup.stat().st_mode&0o777==0o600
 import gzip
 plain=guest.get('/app.js');compressed=guest.get('/app.js',headers={'Accept-Encoding':'gzip'})

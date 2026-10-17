@@ -1,17 +1,21 @@
-import os,sys,tempfile,sqlite3,json
+import os,sys,tempfile,sqlite3,json,time
 from pathlib import Path
 os.environ['YICHEN_DATA_DIR']=tempfile.mkdtemp(prefix='yc-accounts-test-')
 os.environ['YICHEN_CONFIG_FILE']=str(Path(tempfile.mkdtemp())/'empty.env')
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from webapp import create_app,service
+from email_fixture import register_email
 service.Handler.rate_limited=lambda *a,**k:False
 app=create_app(start_mail=False);guest=app.test_client();admin=app.test_client();customer=app.test_client()
 assert guest.get('/api/operator/users').status_code==401
-r=customer.post('/api/auth/register',json=dict(email='qa-customer@example.com',name='QA Customer',password='fixture-only-password'));assert r.status_code==200
+r=register_email(customer,service,'qa-customer@example.com',name='QA Customer');assert r.status_code==200
 uid=r.get_json()['user']['id']
 assert customer.get('/api/orders').status_code==200 and customer.get('/api/orders').get_json()=={'orders':[]}
 assert customer.get('/api/operator/users').status_code==403
-r=admin.post('/api/auth/register',json=dict(phone='13900000000',name='QA Admin',password='fixture-only-password'));aid=r.get_json()['user']['id']
+with sqlite3.connect(service.DB) as db:
+ db.execute('INSERT INTO users VALUES(?,?,?,?,?)',('legacy-phone','phone:13900000000','QA Admin',service.password_hash('fixture-only-password'),int(time.time())))
+ db.execute('INSERT INTO user_phones VALUES(?,?)',('13900000000','legacy-phone'))
+r=admin.post('/api/auth/login',json=dict(phone='13900000000',password='fixture-only-password'));aid=r.get_json()['user']['id']
 with sqlite3.connect(service.DB) as db:
  db.execute('INSERT INTO operators VALUES(?,0)',(aid,))
  db.execute('INSERT INTO orders VALUES(?,?,?,?)',('DEMO-OLD',uid,json.dumps({'order':'DEMO-OLD','car':'gl8'}),0))
@@ -20,7 +24,7 @@ assert customer.get('/api/orders').get_json()['orders'][0]['order']=='DEMO-OLD'
 assert customer.post('/api/orders',json={}).status_code==410
 users=admin.get('/api/operator/users').get_json();assert users['total']==2
 assert all(set(u)=={'id','name','email','phone','created','isOperator','inquiryCount','contactVerified'} for u in users['users'])
-u=next(u for u in users['users'] if u['id']==uid);assert u['inquiryCount']==1 and not u['isOperator'] and not u['contactVerified']
+u=next(u for u in users['users'] if u['id']==uid);assert u['inquiryCount']==1 and not u['isOperator'] and u['contactVerified']
 a=next(u for u in users['users'] if u['id']==aid);assert a['phone']=='13900000000' and a['email'] is None
 assert admin.get('/api/operator/users?q=qa-customer').get_json()['total']==1
 assert admin.get('/api/operator/users?q=%25').get_json()['total']==0

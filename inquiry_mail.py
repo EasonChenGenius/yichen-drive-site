@@ -19,6 +19,8 @@ def send(identity):
     origin=os.environ.get('YICHEN_PUBLIC_ORIGIN','').rstrip('/');parts=urlsplit(origin)
     link=origin+'/operator.html' if parts.scheme=='https' and parts.netloc else '登录管理后台查看详情。'
     msg.set_content(('这是一封邮件提醒测试，不是客户需求。编号：' if identity.startswith('YC-MAIL-TEST-') else '有一条新的用车需求，编号：')+identity+'\n\n'+link+'\n\n请在后台核对客户联系方式、行程和车辆。此邮件不表示预约已成立。')
+    deliver_message(msg)
+def deliver_message(msg):
     port=int(os.environ.get('YICHEN_SMTP_PORT','465'));host=os.environ['YICHEN_SMTP_HOST'];context=ssl.create_default_context()
     if port==465:
         with smtplib.SMTP_SSL(host,port,timeout=15,context=context) as smtp:

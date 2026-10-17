@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "hero is visible before application downloads",
+    "early mobile menu works",
+    "startup preserves hero node",
+    "one responsive hero download",
+    "English toggle updates static hero",
+    "enquiry introduction paints before application",
+    "phone library handoff preserves intro",
+    "country keyboard selection accepts HK",
+    "invalid HK phone rejected",
+    "valid HK phone accepted",
+    "Escape closes country panel",
+    "route CSS failure has recovery",
+    "route CSS retry recovers",
+    "no JavaScript errors"
+  ],
+  "errors": []
+}
