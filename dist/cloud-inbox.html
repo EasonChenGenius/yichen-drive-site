@@ -80,8 +80,10 @@ function esc(v){return String(v==null?'':v).replace(/[&<>"]/g,function(c){
 function renderSession(user){
   var bar=document.getElementById('session-bar');
   if(!user){bar.innerHTML='';return}
-  bar.innerHTML='<div style="display:flex;gap:10px;align-items:center">'
+  window.__me=String(user.id||user.uid||user.sub||'未知');
+  bar.innerHTML='<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">'
     +'<span class="small muted">'+esc(user.name||'已登录')+'</span>'
+    +'<span class="small muted" title="把这个 ID 交给网站维护者加入白名单">ID: '+esc(user.id||user.uid||'未知')+'</span>'
     +'<button class="btn ghost" id="btn-out">退出</button></div>';
   document.getElementById('btn-out').onclick=function(){
     cloud.auth.signOut().then(function(){location.reload()});
@@ -165,12 +167,21 @@ function load(){
   cloud.database.from('inquiries').select('*').order('id',{ascending:false}).limit(200)
     .then(function(res){
       if(res.error){
+        var e=res.error;
+        var detail=[e.message,e.code,e.details,e.hint].filter(Boolean).join(' ｜ ');
         v.innerHTML='<div class="card"><p class="status err">读取失败：'
-          +esc(res.error.message||'')+'</p>'
-          +'<p class="note">如果提示权限不足，说明当前账号还没被加入管理员白名单。</p></div>';
+          +esc(detail||'未知错误')+'</p>'
+          +'<p class="note">如果提示权限不足，说明当前账号（ID: '
+          +esc(window.__me||'见右上角')+'）还没被加入管理员白名单，把这个 ID 交给网站维护者。</p></div>';
         return;
       }
       rows=res.data||[];
+      if(!rows.length){
+        v.append(el('<div class="card empty">读取成功，但没有返回任何记录。'
+          +'如果云端确实有数据，说明当前账号（ID: '+esc(window.__me||'未知')
+          +'）没有行级读取权限，把这个 ID 交给网站维护者。</div>'));
+        return;
+      }
       renderList();
     });
 }
