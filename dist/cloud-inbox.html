@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>云端咨询收件箱 · YICHEN Drive</title>
+<style>
+:root{--bg:#fbfaf7;--ink:#343028;--muted:#8b8579;--line:#e3ddd0;--accent:#7a6a52}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.75 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB",sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:40px 24px 72px}
+h1{font-family:"Songti SC",Georgia,serif;font-weight:500;font-size:26px;margin:0 0 6px}
+.sub{color:var(--muted);font-size:14px;margin:0 0 28px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:20px}
+.btn{display:inline-block;background:var(--accent);color:#fff;border:0;border-radius:8px;
+  padding:11px 20px;font-size:15px;cursor:pointer;font-family:inherit}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--line)}
+input{padding:10px 12px;border:1px solid var(--line);border-radius:8px;
+  font-size:15px;font-family:inherit;background:#fff;color:var(--ink)}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:12px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:500;font-size:13px;white-space:nowrap}
+td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+.mask{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}
+.empty{padding:32px;text-align:center;color:var(--muted)}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:12px;
+  margin-bottom:20px;flex-wrap:wrap}
+.note{font-size:13px;color:var(--muted);margin:14px 0 0;line-height:1.7}
+.status{margin:12px 0 0;font-size:14px;min-height:22px}
+.status.err{color:#a32d2d}
+.small{font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar">
+    <div>
+      <h1>云端咨询收件箱</h1>
+      <p class="sub">客户在网站提交的需求，保存在云数据库里的那一份</p>
+    </div>
+    <div id="session-bar"></div>
+  </div>
+
+  <div id="view"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+<script>
+var ENDPOINT='https://yichen-drive.app.workbuddy.host';
+var CONFIG={
+  endpoint:ENDPOINT,
+  oauthRelayBaseUrl:'https://www.workbuddy.cn/v2/as/genie-baas/oauth',
+  publishableKey:'wbpk_zfQOMDHL31IfhqEiCsWPcI_QnmCX6MwM4PtGysjUktqebFHfQczBlZO'
+};
+var cloud=null;
+var rows=[];
+var revealed={};
+
+function el(html){var d=document.createElement('div');d.innerHTML=html;return d.firstElementChild}
+
+function maskPhone(v){
+  if(!v)return '—';
+  var s=String(v);
+  if(s.length<=4)return s;
+  return s.slice(0,3)+'****'+s.slice(-4);
+}
+function fmtTime(v){
+  if(!v)return '—';
+  var d=new Date(v);
+  if(isNaN(d))return String(v);
+  return d.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false});
+}
+function esc(v){return String(v==null?'':v).replace(/[&<>"]/g,function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+
+function renderSession(user){
+  var bar=document.getElementById('session-bar');
+  if(!user){bar.innerHTML='';return}
+  bar.innerHTML='<div style="display:flex;gap:10px;align-items:center">'
+    +'<span class="small muted">'+esc(user.name||'已登录')+'</span>'
+    +'<button class="btn ghost" id="btn-out">退出</button></div>';
+  document.getElementById('btn-out').onclick=function(){
+    cloud.auth.signOut().then(function(){location.reload()});
+  };
+}
+
+function renderLogin(msg){
+  var v=document.getElementById('view');
+  v.innerHTML='';
+  var card=el('<div class="card">'
+    +'<h1 style="font-size:19px;margin-bottom:8px">先登录</h1>'
+    +'<p class="muted" style="margin:0 0 18px">这个页面只有被授权的账号才能看到客户咨询。请用你的 WorkBuddy 账号登录。</p>'
+    +'<button class="btn" id="btn-wb">使用 WorkBuddy 登录</button>'
+    +'<div class="status err" id="st"></div>'
+    +'<p class="note">登录后如果仍然看不到数据，说明这个账号还没被设为管理员，'
+    +'需要把登录后的账号 ID 交给网站维护者加入白名单。</p>'
+    +'</div>');
+  v.append(card);
+  if(msg)document.getElementById('st').textContent=msg;
+  document.getElementById('btn-wb').onclick=function(){
+    var b=this;b.disabled=true;b.textContent='正在跳转…';
+    cloud.auth.signInWithOAuth({provider:'workbuddy',redirectTo:ENDPOINT+'/cloud-inbox.html'})
+      .then(function(r){
+        if(r.error){b.disabled=false;b.textContent='使用 WorkBuddy 登录';
+          document.getElementById('st').textContent=r.error.message||'登录失败';return}
+        location.assign(r.data.url);
+      });
+  };
+}
+
+function renderList(){
+  var v=document.getElementById('view');
+  v.innerHTML='';
+  var head=el('<div class="card"><div style="display:flex;justify-content:space-between;align-items:center">'
+    +'<strong>共 '+rows.length+' 条</strong>'
+    +'<button class="btn ghost" id="btn-reload">刷新</button></div>'
+    +'<p class="note">手机号默认隐藏中间四位，点「显示」查看完整号码。请妥善保管，不要截图外传。</p></div>');
+  v.append(head);
+  document.getElementById('btn-reload').onclick=load;
+
+  if(!rows.length){
+    v.append(el('<div class="card empty">还没有云端咨询记录。</div>'));
+    return;
+  }
+
+  var t=el('<div class="card" style="overflow-x:auto"><table><thead><tr>'
+    +'<th>编号</th><th>提交时间</th><th>称呼</th><th>服务</th><th>车型</th>'
+    +'<th>城市</th><th>人数</th><th>租期</th><th>电话</th><th>微信</th>'
+    +'</tr></thead><tbody></tbody></table></div>');
+  var tb=t.querySelector('tbody');
+  rows.forEach(function(r){
+    var shown=revealed[r.id];
+    var tr=document.createElement('tr');
+    tr.innerHTML='<td class="num">'+esc(r.id)+'</td>'
+      +'<td class="num">'+esc(fmtTime(r.created_at))+'</td>'
+      +'<td>'+esc(r.nickname||'—')+'</td>'
+      +'<td>'+esc(r.service||'—')+'</td>'
+      +'<td>'+esc(r.car||'—')+'</td>'
+      +'<td>'+esc(r.city||'—')+'</td>'
+      +'<td class="num">'+esc(r.people==null?'—':r.people)+'</td>'
+      +'<td class="num">'+esc(r.duration_days==null?'—':r.duration_days+' 天')+'</td>'
+      +'<td class="mask">'+esc(shown?(r.phone||'—'):maskPhone(r.phone))
+        +' <button class="btn ghost" style="padding:2px 8px;font-size:12px" data-id="'+esc(r.id)+'">'
+        +esc(shown?'隐藏':'显示')+'</button></td>'
+      +'<td class="mask">'+esc(r.wechat||'—')+'</td>';
+    tb.append(tr);
+  });
+  tb.addEventListener('click',function(e){
+    var b=e.target.closest('button[data-id]');
+    if(!b)return;
+    var id=b.getAttribute('data-id');
+    revealed[id]=!revealed[id];
+    renderList();
+  });
+  v.append(t);
+}
+
+function load(){
+  var v=document.getElementById('view');
+  v.innerHTML='<div class="card empty">正在读取…</div>';
+  cloud.database.from('inquiries').select('*').order('id',{ascending:false}).limit(200)
+    .then(function(res){
+      if(res.error){
+        v.innerHTML='<div class="card"><p class="status err">读取失败：'
+          +esc(res.error.message||'')+'</p>'
+          +'<p class="note">如果提示权限不足，说明当前账号还没被加入管理员白名单。</p></div>';
+        return;
+      }
+      rows=res.data||[];
+      renderList();
+    });
+}
+
+(async function init(){
+  if(!window.WorkBuddyCloud){
+    document.getElementById('view').innerHTML=
+      '<div class="card"><p class="status err">云服务组件未能加载，请检查网络后刷新。</p></div>';
+    return;
+  }
+  cloud=window.WorkBuddyCloud.createWorkBuddyCloud(CONFIG);
+
+  var url=new URL(location.href);
+  var hasCb=url.searchParams.has('code')||url.searchParams.has('error');
+
+  if(hasCb){
+    var provider=url.searchParams.get('provider');
+    if(provider==='workbuddy'&&typeof cloud.auth.handleWorkBuddyCallback==='function'){
+      var cb=await cloud.auth.handleWorkBuddyCallback();
+      if(!cb.error&&cb.data){
+        ['code','state','provider'].forEach(function(k){url.searchParams.delete(k)});
+        history.replaceState(null,'',url.pathname+url.search+url.hash);
+        renderSession(cb.data.user);load();return;
+      }
+      if(cb.error){renderLogin(cb.error.message||'登录失败');return}
+    }
+  }
+
+  var s=await cloud.auth.getSession();
+  if(s.error||!s.data){renderLogin();return}
+  renderSession(s.data.user);
+  load();
+})();
+</script>
+</body>
+</html>
