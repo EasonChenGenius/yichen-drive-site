@@ -103,13 +103,38 @@ WorkBuddy Cloud Service 已为应用 `wbapp_zfQOMDHL31IfhqEiCsWPcI` 开通，状
 `inquiries`（RLS 已开启）：`request_id / service / car / city / people / bags / duration_days /
 start_at / end_at / nickname / phone / wechat / payload(JSONB) / created_at`
 
-### 安全设计 —— 不要改
+### 安全设计 —— 改动前先读
 
-- **只授予了 `INSERT`**（给 `anon` 与 `authenticated`），**没有任何 SELECT/UPDATE/DELETE 策略**
-- 浏览器端只能写、读不回来（实测读回为空数组）
+- **写**：`INSERT` 授予 `anon` 与 `authenticated`，策略 `inquiries_insert_any`（`WITH CHECK true`）
+- **读**：`SELECT` **只对管理员放行**，策略 `admin_read_inquiries`：
+  ```sql
+  GRANT SELECT ON TABLE public.inquiries TO authenticated;
+  CREATE POLICY admin_read_inquiries ON public.inquiries FOR SELECT TO authenticated
+    USING (auth.uid() = 'wb:RNOM7qt18H4BwjyLSggTu2XzO6f_');
+  ```
+  ⚠️ **这个 uid 是经营者的账号标识**，换人/换号必须同步改策略，否则收件箱会变空列表。
+- **没有 UPDATE / DELETE 策略**：浏览器端改不了、删不掉任何记录
 - 目的：客户的手机号、微信号不会从前端泄露
-- **不要为了让前端能读而加 SELECT 策略**，也不要给客户发任何可以查到他人记录的链接
-- 经营者查看数据只能通过管理端工具，不通过前端页面
+
+#### 踩过的坑：uid 不是数据库主键
+
+`auth.users.id`（自增数字，例如 `1`）**不等于** `auth.uid()` 的返回值。
+`auth.uid()` 来自 JWT，格式是 `wb:` 前缀的 WorkBuddy 用户标识。
+
+- 查 `auth.users` 拿到的数字 id → **不能用**，写成 `auth.uid()='1'` 会静默返回空列表
+- `workbuddy_cloudservice_user_list_end_users` 返回的 `UID` 字段**可能是空串**，也拿不到
+- 可靠办法：在页面上把 `user.id` 渲染出来（见 `dist/cloud-inbox.html` 的 `window.__me`），
+  登录后直接看页面右上角
+- 改完策略建议执行 `NOTIFY pgrst, 'reload schema';` 刷新 PostgREST 缓存
+
+### 云端收件箱（经营者自用）
+
+`dist/cloud-inbox.html`，线上地址 `https://yichen-drive.app.workbuddy.host/cloud-inbox.html`
+
+- 用 WorkBuddy 账号 OAuth 登录，登录态与主线程在同一个标签页（PKCE verifier 存 sessionStorage）
+- `redirectTo` 必须是站点根路径下的**真实文件**，不能是 SPA 子路由，否则回调 404
+- 手机号默认隐藏中间四位，点「显示」才展开
+- 右上角会显示当前登录账号 ID，用于维护白名单
 
 ### 代码位置
 
